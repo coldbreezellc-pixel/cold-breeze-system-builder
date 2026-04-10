@@ -1800,18 +1800,6 @@
     "p": 1050.54
   },
   {
-    "n": "Guardian Single-Stage Multi-Position Natural Gas Residential Furnace",
-    "m": "Single-Stage Multi-Position Natural Gas Residential Furnace",
-    "b": "Guardian",
-    "ton": 3,
-    "btu": 70,
-    "afue": 80,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 1,
-    "p": 1278.98
-  },
-  {
     "n": "Gas Furnace 135K BTU 97% 5 Ton Up/Horizontal Flow 2 Stage R454B B",
     "m": "NF97U135T5DR",
     "b": "GE",
