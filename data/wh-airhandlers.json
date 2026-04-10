@@ -798,5 +798,16 @@
     "v": "208/230",
     "stg": 1,
     "p": 1203.53
+  },
+  {
+    "n": "Rheem Air Handler 36K BTU 3 Ton R-454B Standard Efficiency Multi-Position 2 Stage 115 Volt ECM ",
+    "m": "RH2TY3617STANNA",
+    "b": "Rheem",
+    "p": 1355.57,
+    "ton": 3,
+    "btu": 36,
+    "stg": 2,
+    "v": "115",
+    "seer": 0
   }
 ]
