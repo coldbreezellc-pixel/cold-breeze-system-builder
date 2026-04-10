@@ -210,16 +210,6 @@
     "p": 1499.14
   },
   {
-    "n": "Air Handler 24/30 R-454B/R-32 Horizontal",
-    "m": "45ESP2430KHZA",
-    "b": "Spacepak",
-    "ton": 2.2,
-    "btu": 26400,
-    "v": "208/230",
-    "stg": 1,
-    "p": 3363.83
-  },
-  {
     "n": "Air Handler 5 Ton R-454B 1 Piece Thermal Expansion Valve 60K BTU ECM",
     "m": "NAM60E1TA5S",
     "b": "GE",
@@ -358,16 +348,6 @@
     "v": "208/230",
     "stg": 2,
     "p": 2209.25
-  },
-  {
-    "n": "Air Handler 36/42 R-454B/R-32 Vertical",
-    "m": "45ESP3642KVZA",
-    "b": "Spacepak",
-    "ton": 3.2,
-    "btu": 38400,
-    "v": "208/230",
-    "stg": 1,
-    "p": 4032.42
   },
   {
     "n": "Air Handler 24/30 R-454B/R-32 Vertical",
