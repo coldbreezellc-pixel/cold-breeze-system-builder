@@ -2052,18 +2052,6 @@
     "p": 1242.85
   },
   {
-    "n": "Gas Furnace M7 Without Cabinet 72K BTU 95% Downflow R-454B MG2R-B072T1AAM1 for Manufactured Houses",
-    "m": "Furnace 1048436",
-    "b": "Miller",
-    "ton": 3,
-    "btu": 72,
-    "afue": 95,
-    "cab": "N/A",
-    "w": "17.5",
-    "stg": 1,
-    "p": 2018.04
-  },
-  {
     "n": "Gas Furnace M7 with Cabinet 72K BTU 95% Downflow R-454B MG2R-B072T1ACM1 for Manufactured Houses",
     "m": "Furnace 1048435",
     "b": "Miller",
