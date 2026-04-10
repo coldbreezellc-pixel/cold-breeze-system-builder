@@ -816,18 +816,6 @@
     "p": 1443.42
   },
   {
-    "n": "Gas Furnace Natural Gas 50K BTU 95% 1 Stage 3 Ton PSC Downflow 76-1/8x18-3/4x25-3/4 Inch Cabinet",
-    "m": "CMC1-50D36N",
-    "b": "Thermo Pride",
-    "ton": 3,
-    "btu": 50,
-    "afue": 95,
-    "cab": "D",
-    "w": "18.75",
-    "stg": 1,
-    "p": 2726.14
-  },
-  {
     "n": "Gas Furnace 110K BTU 97% 5 Ton Upflow/Horizontal 2 Stage R-454B C Cabinet",
     "m": "NF97U110V5CR",
     "b": "GE",
@@ -982,30 +970,6 @@
     "w": "17.5",
     "stg": 1,
     "p": 1278.98
-  },
-  {
-    "n": "Gas Furnace CLQS1 Natural Gas 125K BTU 95% 1 Stage 5 Ton ECM Multi 34-1/2x24x28-1/2 Inch Cabinet",
-    "m": "CLQS1-125T60N",
-    "b": "Thermo Pride",
-    "ton": 5,
-    "btu": 125,
-    "afue": 95,
-    "cab": "D",
-    "w": "28.5",
-    "stg": 1,
-    "p": 3224.06
-  },
-  {
-    "n": "Gas Furnace CLQS1 Natural Gas 100K BTU 95% 1 Stage 4 Ton ECM Multi 34-1/2x21x28-1/2 Inch Cabinet",
-    "m": "CLQS1-100T48N",
-    "b": "Thermo Pride",
-    "ton": 4,
-    "btu": 100,
-    "afue": 95,
-    "cab": "D",
-    "w": "28.5",
-    "stg": 1,
-    "p": 3146.77
   },
   {
     "n": "Gas Furnace CLQS1 Natural Gas 75K BTU 95% 1 Stage 3.5 Ton ECM Multi 34-1/2x21x28-1/2 Inch Cabinet",
