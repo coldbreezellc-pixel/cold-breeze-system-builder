@@ -1056,30 +1056,6 @@
     "p": 2286.74
   },
   {
-    "n": "Gas Furnace M7 Without Cabinet 60K BTU 95% Downflow R-454B MG2R-B060F1AAM1 for Manufactured Houses",
-    "m": "Furnace 1048442",
-    "b": "Miller",
-    "ton": 5,
-    "btu": 60,
-    "afue": 95,
-    "cab": "N/A",
-    "w": "24.5",
-    "stg": 1,
-    "p": 2046.75
-  },
-  {
-    "n": "Gas Furnace M7 Without Cabinet 72K BTU 95% Downflow R-454B MG2R-B072F1AAM1 for Manufactured Houses",
-    "m": "Furnace 1048438",
-    "b": "Miller",
-    "ton": 3,
-    "btu": 72,
-    "afue": 95,
-    "cab": "N/A",
-    "w": "17.5",
-    "stg": 1,
-    "p": 2022.02
-  },
-  {
     "n": "Gas Furnace Modulating 90K BTU 98% 3 Ton Upflow/Horizontal R-454B C Cabinet",
     "m": "NF98U090M3CR",
     "b": "GE",
