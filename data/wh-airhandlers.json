@@ -470,16 +470,6 @@
     "p": 1334.57
   },
   {
-    "n": "Air Handler VMB-3HW 1 to 2 Ton 4 Pipe Upflow 120/208/230 Volt Variable Speed",
-    "m": "8VMB-3HW",
-    "b": "First Co",
-    "ton": 2,
-    "btu": 24,
-    "v": "208/230",
-    "stg": 3,
-    "p": 3294.59
-  },
-  {
     "n": "Air Handler 4 Ton R-454B Variable Speed 1 Piece Thermal Expansion Valve",
     "m": "NAM48V1TA5S",
     "b": "GE",
@@ -498,16 +488,6 @@
     "v": "208/230",
     "stg": 1,
     "p": 2498.48
-  },
-  {
-    "n": "Air Handler VMB-3HW 2.5 to 3 Ton 4 Pipe Upflow 120/208/230 Volt Variable Speed",
-    "m": "12VMB-3HW",
-    "b": "First Co",
-    "ton": 3,
-    "btu": 36,
-    "v": "208/230",
-    "stg": 3,
-    "p": 3604.89
   },
   {
     "n": "Air Handler 3.5 Ton R-454B 1 Piece Thermal Expansion Valve ECM",
