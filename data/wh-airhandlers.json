@@ -930,16 +930,6 @@
     "p": 1895.64
   },
   {
-    "n": "Air Handler VMB-4HW 4 Ton 4 Pipe Upflow 120/208/230 Volt Variable Speed",
-    "m": "16VMB-4HW",
-    "b": "First Co",
-    "ton": 4,
-    "btu": 48,
-    "v": "208/230",
-    "stg": 3,
-    "p": 4753
-  },
-  {
     "n": "Air Handler 3.5 Ton R-454B 1 Piece Thermal Expansion Valve PSC",
     "m": "NAM42P1TA5S",
     "b": "GE",
