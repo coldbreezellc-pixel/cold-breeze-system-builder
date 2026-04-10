@@ -936,18 +936,6 @@
     "p": 785.7
   },
   {
-    "n": "5-Ton 110K BTU 97% AFUE Modulating Variable Speed Downflow C Cabinet Natural Gas Furnace",
-    "m": "NF97D110M5C",
-    "b": "GE",
-    "ton": 5,
-    "btu": 110,
-    "afue": 97,
-    "cab": "C",
-    "w": "21",
-    "stg": 3,
-    "p": 4056.03
-  },
-  {
     "n": "3-Ton 70K BTU 97% AFUE Modulating Variable Speed Downflow B Cabinet Natural Gas Furnace",
     "m": "NF97D070M3B",
     "b": "GE",
