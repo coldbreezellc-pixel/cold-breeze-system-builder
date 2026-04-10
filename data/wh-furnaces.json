@@ -1308,18 +1308,6 @@
     "p": 1050.54
   },
   {
-    "n": "Gas Furnace 90K BTU 97% 4 Ton Up/Horizontal Flow 2 Stage R454B B",
-    "m": "NF97U090T4CR",
-    "b": "GE",
-    "ton": 4,
-    "btu": 90,
-    "afue": 97,
-    "cab": "C",
-    "w": "21",
-    "stg": 2,
-    "p": 1445.27
-  },
-  {
     "n": "Gas Furnace 70K BTU 97% 3 Ton Up/Horizontal Flow 2 Stage R454B B",
     "m": "NF97U070T3BR",
     "b": "GE",
