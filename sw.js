@@ -1,6 +1,6 @@
 // Cold Breeze HVAC System Builder - Service Worker
 // Caches the app shell for offline use; data still requires network for sync
-const CACHE_NAME = 'coldbreeze-v4';
+const CACHE_NAME = 'coldbreeze-v5';
 const APP_SHELL = [
   './',
   './index.html',
