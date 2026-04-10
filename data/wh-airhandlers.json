@@ -120,16 +120,6 @@
     "p": 2102.31
   },
   {
-    "n": "Air Handler 3 Ton R-454B Multi-Position Less Pump with Thermal Expansion Valve with RDS 120 Volt 36K BTU",
-    "m": "BCRMB7A36S3N3R",
-    "b": "ADP",
-    "ton": 3,
-    "btu": 36,
-    "v": "120",
-    "stg": 1,
-    "p": 1368.79
-  },
-  {
     "n": "Air Handler IDS Light 4 Ton AHU Permanent Split Capacitor R454B",
     "m": "BIVA-48RXB-M15X",
     "b": "Bosch",
@@ -138,16 +128,6 @@
     "v": "208/230",
     "stg": 1,
     "p": 1690.8
-  },
-  {
-    "n": "Air Handler 2 Ton R-454B Multi-Position Less Pump with Thermal Expansion Valve with RDS 120 Volt",
-    "m": "BCRMA4A24S3N3R",
-    "b": "ADP",
-    "ton": 2,
-    "btu": 24,
-    "v": "120",
-    "stg": 1,
-    "p": 1207.46
   },
   {
     "n": "Air Handler IDS Light 5 Ton AHU Permanent Split Capacitor R454B",
