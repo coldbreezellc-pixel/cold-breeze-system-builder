@@ -1,0 +1,1994 @@
+[
+  {
+    "n": "Samsung Air Handler Remote",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR-CH01U",
+    "cat": "Controls",
+    "p": 58.24
+  },
+  {
+    "n": "Samsung AHU Thermostat Adapter 24v",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMMIM-A60UN",
+    "cat": "Controls",
+    "p": 174
+  },
+  {
+    "n": "Samsung Wall Thermostat",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMMWR-WG00UN",
+    "cat": "Controls",
+    "p": 144.95
+  },
+  {
+    "n": "Lineset 3/8x3/4x1/2\" 50' - whole house AC",
+    "d": "",
+    "b": "",
+    "m": "L/S612250",
+    "cat": "Line Sets",
+    "p": 230.97
+  },
+  {
+    "n": "Line set 1/4X3/8X1/2X25 - 7k BTU - 12k BTU",
+    "d": "",
+    "b": "",
+    "m": "L/S4062250700",
+    "cat": "Line Sets",
+    "p": 135.44
+  },
+  {
+    "n": "Line set 1/4X3/8X1/2X50 - 7k BTU - 12k BTU",
+    "d": "",
+    "b": "",
+    "m": "L/S4062500700",
+    "cat": "Line Sets",
+    "p": 207.04
+  },
+  {
+    "n": "Line set 1/4X1/2X1/2X25 - 15k BTU - 18k BTU",
+    "d": "",
+    "b": "",
+    "m": "L/S4082250700",
+    "cat": "Line Sets",
+    "p": 236.34
+  },
+  {
+    "n": "Line set 1/4X1/2X1/2X50 - 15k BTU - 18k BTU",
+    "d": "",
+    "b": "",
+    "m": "L/S4082500700",
+    "cat": "Line Sets",
+    "p": 215.27
+  },
+  {
+    "n": "Line set 1/4X5/8X1/2X25 - 24k BTU",
+    "d": "",
+    "b": "",
+    "m": "L/S4102250700",
+    "cat": "Line Sets",
+    "p": 119.95
+  },
+  {
+    "n": "Line set 1/4X5/8X1/2X50 - 24k BTU",
+    "d": "",
+    "b": "",
+    "m": "L/S41020500700",
+    "cat": "Line Sets",
+    "p": 213.32
+  },
+  {
+    "n": "Line set 1/4X1/2X100 - SUCTION ONLY",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Line Sets",
+    "p": 210.36
+  },
+  {
+    "n": "Line set 1/4X1/2X164 Black - SUCTION ONLY",
+    "d": "",
+    "b": "PDM",
+    "m": "PF100GUS1416412B",
+    "cat": "Line Sets",
+    "p": 194
+  },
+  {
+    "n": "Line set 3/8X1/2X100 - 7k BTU - 12k BTU - SUCTION ONLY",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Line Sets",
+    "p": 305.56
+  },
+  {
+    "n": "Line set 3/8X1/2X164 - 7k BTU - 12k BTU - SUCTION ONLY",
+    "d": "",
+    "b": "",
+    "m": "L/SWLS3812164",
+    "cat": "Line Sets",
+    "p": 336.92
+  },
+  {
+    "n": "Line set 1/2X1/2X100 - 15k BTU - 18 BTU - SUCTION ONLY",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Line Sets",
+    "p": 370.98
+  },
+  {
+    "n": "Line set 1/2X1/2X164 - 15k BTU - 18 BTU - SUCTION ONLY",
+    "d": "",
+    "b": "",
+    "m": "L/SBLS1212164",
+    "cat": "Line Sets",
+    "p": 385.7
+  },
+  {
+    "n": "Line set 5/8X1/2X100 - 24k BTU - SUCTION ONLY",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Line Sets",
+    "p": 469.61
+  },
+  {
+    "n": "Line set 5/8X1/2X164 - 24k BTU - SUCTION ONLY",
+    "d": "",
+    "b": "PDM",
+    "m": "PF100GUS5816412B",
+    "cat": "Line Sets",
+    "p": 522
+  },
+  {
+    "n": "Lineset 3/8x3/4x1/2\" 35' - whole house AC",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Line Sets",
+    "p": 207.84
+  },
+  {
+    "n": "Lineset 3/8x7/8x1/2\" 25' - whole house AC",
+    "d": "",
+    "b": "",
+    "m": "L/S614225",
+    "cat": "Line Sets",
+    "p": 188.63
+  },
+  {
+    "n": "Lineset 3/8x7/8x1/2\" 35' - whole house AC",
+    "d": "",
+    "b": "",
+    "m": "L/S614235",
+    "cat": "Line Sets",
+    "p": 262.96
+  },
+  {
+    "n": "Line set 3/8X1/2X25 - 30k BTU - SUCTION ONLY",
+    "d": "",
+    "b": "",
+    "m": "L/SBLS381225",
+    "cat": "Line Sets",
+    "p": 59.82
+  },
+  {
+    "n": "Line set 5/8X1/2X25 - 30k BTU - SUCTION ONLY",
+    "d": "",
+    "b": "",
+    "m": "L/SBLS581225",
+    "cat": "Line Sets",
+    "p": 94.42
+  },
+  {
+    "n": "Line set 3/8X5/8X1/2X50 - 36k BTU",
+    "d": "",
+    "b": "",
+    "m": "L/S610205007009",
+    "cat": "Line Sets",
+    "p": 210.39
+  },
+  {
+    "n": "Line set 1/4 x 3/8 x 1/2 x 50 FT",
+    "d": "50 ft lineset 1/4x3/8 with 1/2 insulation",
+    "b": "MUELLER INDUSTRIES",
+    "m": "40620500B6",
+    "cat": "Line Sets",
+    "p": 238.24
+  },
+  {
+    "n": "Lineset 3/8x7/8x1/2\" 50' - whole house AC",
+    "d": "",
+    "b": "",
+    "m": "L/S614250",
+    "cat": "Line Sets",
+    "p": 318.96
+  },
+  {
+    "n": "Lineset 3/8 x 1 1/8x1/2\" 50' - whole house AC",
+    "d": "",
+    "b": "",
+    "m": "L/S618250",
+    "cat": "Line Sets",
+    "p": 370.6
+  },
+  {
+    "n": "Lineset 3/8x3/4x1/2\" 35' - whole house AC",
+    "d": "",
+    "b": "",
+    "m": "L/S612235",
+    "cat": "Line Sets",
+    "p": 182.72
+  },
+  {
+    "n": "Line set 5/8X1/2X164 - 24k BTU - SUCTION ONLY",
+    "d": "",
+    "b": "",
+    "m": "L/SBLS5812164",
+    "cat": "Line Sets",
+    "p": 480.36
+  },
+  {
+    "n": "Line set 1/4X1/2X164 Black - SUCTION ONLY",
+    "d": "",
+    "b": "",
+    "m": "L/SWLS1412164",
+    "cat": "Line Sets",
+    "p": 236.25
+  },
+  {
+    "n": "3\" 45 Degree Elbow White",
+    "d": "",
+    "b": "",
+    "m": "C/G3CG45",
+    "cat": "Line Sets",
+    "p": 9.09
+  },
+  {
+    "n": "3\" Wall Inlet White",
+    "d": "",
+    "b": "",
+    "m": "C/G3CGINLT",
+    "cat": "Line Hide",
+    "p": 11.66
+  },
+  {
+    "n": "3\" Wall Inlet Brown",
+    "d": "",
+    "b": "",
+    "m": "C/G3CGINLTB",
+    "cat": "Line Hide",
+    "p": 18.31
+  },
+  {
+    "n": "3\" Wall Inlet Grey",
+    "d": "",
+    "b": "",
+    "m": "C/G3CGINLTG",
+    "cat": "Line Hide",
+    "p": 14.98
+  },
+  {
+    "n": "3\" 90 Degree Elbow White",
+    "d": "",
+    "b": "",
+    "m": "C/G3CG90",
+    "cat": "Line Hide",
+    "p": 9.94
+  },
+  {
+    "n": "3\" 90 Degree Elbow Brown",
+    "d": "",
+    "b": "",
+    "m": "C/G3CG90B",
+    "cat": "Line Hide",
+    "p": 17
+  },
+  {
+    "n": "3\" Coupling White",
+    "d": "",
+    "b": "",
+    "m": "C/G3CGCUP",
+    "cat": "Line Hide",
+    "p": 5.27
+  },
+  {
+    "n": "3\" Coupling Brown",
+    "d": "",
+    "b": "",
+    "m": "C/G3CGCUPB",
+    "cat": "Line Hide",
+    "p": 8
+  },
+  {
+    "n": "3\" Coupling Grey",
+    "d": "",
+    "b": "",
+    "m": "C/G3CGCUPG",
+    "cat": "Line Hide",
+    "p": 6.24
+  },
+  {
+    "n": "3\" Flex fitting White",
+    "d": "",
+    "b": "",
+    "m": "C/G3CGFLXSM",
+    "cat": "Line Hide",
+    "p": 18.59
+  },
+  {
+    "n": "3\" Flex fitting Brown",
+    "d": "",
+    "b": "",
+    "m": "C/G3CGFLXSMB",
+    "cat": "Line Hide",
+    "p": 29
+  },
+  {
+    "n": "3\" End Cap White",
+    "d": "",
+    "b": "",
+    "m": "C/G3CGEND",
+    "cat": "Line Hide",
+    "p": 6.02
+  },
+  {
+    "n": "3\" End Cap Brown",
+    "d": "",
+    "b": "",
+    "m": "C/G3CGENDB",
+    "cat": "Line Hide",
+    "p": 9
+  },
+  {
+    "n": "3\" End Cap Grey",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Line Hide",
+    "p": 7.25
+  },
+  {
+    "n": "3\" Soffit Inlet White",
+    "d": "",
+    "b": "",
+    "m": "C/G3CGSTI",
+    "cat": "Line Hide",
+    "p": 12.24
+  },
+  {
+    "n": "3\" Line Hide White",
+    "d": "",
+    "b": "",
+    "m": "C/G3CGDUC78",
+    "cat": "Line Hide",
+    "p": 28.65
+  },
+  {
+    "n": "3\" Line Hide Brown",
+    "d": "",
+    "b": "",
+    "m": "C/G3CGDUC78B",
+    "cat": "Line Hide",
+    "p": 42
+  },
+  {
+    "n": "3\" Line Hide Grey",
+    "d": "",
+    "b": "",
+    "m": "C/G3CGDUC78G",
+    "cat": "Line Hide",
+    "p": 34.28
+  },
+  {
+    "n": "4\" Wall Inlet White",
+    "d": "",
+    "b": "",
+    "m": "C/GCGINLT",
+    "cat": "Line Hide",
+    "p": 15.92
+  },
+  {
+    "n": "4\" Wall Inlet Brown",
+    "d": "",
+    "b": "",
+    "m": "C/GCGINLTB",
+    "cat": "Line Hide",
+    "p": 19.95
+  },
+  {
+    "n": "4\" 90 Degree Elbow White",
+    "d": "",
+    "b": "",
+    "m": "C/GCG90",
+    "cat": "Line Hide",
+    "p": 12.44
+  },
+  {
+    "n": "4\" 90 Degree Elbow Brown",
+    "d": "",
+    "b": "",
+    "m": "C/GCG90B",
+    "cat": "Line Hide",
+    "p": 17.89
+  },
+  {
+    "n": "4\" 45 Degree Elbow White",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Line Hide",
+    "p": 11.19
+  },
+  {
+    "n": "4\" Line Hide White",
+    "d": "",
+    "b": "",
+    "m": "C/GCGDUC78",
+    "cat": "Line Hide",
+    "p": 38.65
+  },
+  {
+    "n": "4\" Line Hide Brown",
+    "d": "",
+    "b": "",
+    "m": "C/GCGDUC78B",
+    "cat": "Line Hide",
+    "p": 45.46
+  },
+  {
+    "n": "4\" Flex fitting White",
+    "d": "",
+    "b": "",
+    "m": "C/GCGFLXSM",
+    "cat": "Line Hide",
+    "p": 20.22
+  },
+  {
+    "n": "4\" Flex fitting Brown",
+    "d": "",
+    "b": "",
+    "m": "C/GCGFLXSMB",
+    "cat": "Line Hide",
+    "p": 28.76
+  },
+  {
+    "n": "4\" Coupling White",
+    "d": "",
+    "b": "",
+    "m": "C/GCGCUP",
+    "cat": "Line Hide",
+    "p": 6.63
+  },
+  {
+    "n": "4\" Coupling Brown",
+    "d": "",
+    "b": "",
+    "m": "C/GCGCUPB",
+    "cat": "Line Hide",
+    "p": 8.39
+  },
+  {
+    "n": "4\" End Cap White",
+    "d": "",
+    "b": "",
+    "m": "C/GCGEND",
+    "cat": "Line Hide",
+    "p": 7.73
+  },
+  {
+    "n": "4\" End Cap Brown",
+    "d": "",
+    "b": "",
+    "m": "C/GCGENDB",
+    "cat": "Line Hide",
+    "p": 10.35
+  },
+  {
+    "n": "4\" Tee White",
+    "d": "",
+    "b": "",
+    "m": "C/GCGTEE",
+    "cat": "Line Hide",
+    "p": 25.59
+  },
+  {
+    "n": "4\" Tee Brown",
+    "d": "",
+    "b": "",
+    "m": "C/GCGTEEB",
+    "cat": "Line Hide",
+    "p": 33.9
+  },
+  {
+    "n": "4\" Soffit Inlet White",
+    "d": "",
+    "b": "",
+    "m": "C/GCGSTI",
+    "cat": "Line Hide",
+    "p": 15.98
+  },
+  {
+    "n": "4\" Wall Inlet Grey",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Line Hide",
+    "p": 19.66
+  },
+  {
+    "n": "3\" 90 Degree Elbow Grey",
+    "d": "",
+    "b": "",
+    "m": "C/G3CG90G",
+    "cat": "Line Hide",
+    "p": 13.2
+  },
+  {
+    "n": "4\" End Cap Grey",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Line Hide",
+    "p": 10.08
+  },
+  {
+    "n": "4\" Line Hide Grey",
+    "d": "",
+    "b": "",
+    "m": "C/GCGDUC78G",
+    "cat": "Line Hide",
+    "p": 44.81
+  },
+  {
+    "n": "4\" Coupling Grey",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Line Hide",
+    "p": 8.16
+  },
+  {
+    "n": "4\" Flex fitting Grey",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Line Hide",
+    "p": 28.34
+  },
+  {
+    "n": "3\" Flex fitting Grey",
+    "d": "",
+    "b": "",
+    "m": "C/G3CGFLXSMG",
+    "cat": "Line Hide",
+    "p": 23.69
+  },
+  {
+    "n": "3\" Soffit Inlet Brown",
+    "d": "",
+    "b": "",
+    "m": "C/G3CGSTIB",
+    "cat": "Line Hide",
+    "p": 18.72
+  },
+  {
+    "n": "4\" Soffit Inlet Brown",
+    "d": "",
+    "b": "",
+    "m": "C/GCGSTIB",
+    "cat": "Line Hide",
+    "p": 21.1
+  },
+  {
+    "n": "1\" PVC 90 Radius Grey",
+    "d": "https://www.homedepot.com/p/Carlon-1-in-90-Schedule-40-Standard-Radius-Electrical-Belled-End-Elbow-UA9AFB-25-HD-UA9AFB-2",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 5
+  },
+  {
+    "n": "1\" PVC conduit grey",
+    "d": "https://www.homedepot.com/p/Cantex-1-in-x-10-ft-Gray-Non-Metallic-PVC-Schedule-40-Conduit-A52BA12H/202352537?MERCH=REC-_",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 11
+  },
+  {
+    "n": "1\" PVC Coupling center stop",
+    "d": "https://www.homedepot.com/p/Cantex-1-in-Schedule-40-Standard-Center-Stop-PVC-Coupling-R6141625/202043236?MERCH=REC-_-bra",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 1
+  },
+  {
+    "n": "18x20x1 Merv 10 Filter",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 10
+  },
+  {
+    "n": "2\" PVC x 10' s40",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 7.5
+  },
+  {
+    "n": "20x20x1 - 12 pack",
+    "d": "",
+    "b": "Brookaire",
+    "m": "",
+    "cat": "Materials",
+    "p": 85
+  },
+  {
+    "n": "3 Zone Honeywell Control Board",
+    "d": "",
+    "b": "Honeywell",
+    "m": "HZ322",
+    "cat": "Materials",
+    "p": 257
+  },
+  {
+    "n": "3\" PVC Coupling",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 10
+  },
+  {
+    "n": "3/4 Pex A Full port Ball valve",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 20
+  },
+  {
+    "n": "3/4 Pex A Ring with stop",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 1
+  },
+  {
+    "n": "3/4 PVC Body LB",
+    "d": "https://www.homedepot.com/p/Carlon-3-4-in-Sch-40-and-80-Electrical-PVC-Type-LB-Conduit-Body-E986E-12-HD-E986E-12-HD/1004",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 6.43
+  },
+  {
+    "n": "3/4 PVC Conduit - 10ft",
+    "d": "https://www.homedepot.com/p/Cantex-3-4-in-x-10-ft-Sch-40-PVC-Conduit-A52AG12H/202352534",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 7.32
+  },
+  {
+    "n": "3/4 PVC Conduit 90 Elbow",
+    "d": "https://www.homedepot.com/p/Carlon-3-4-in-90-Degree-Schedule-40-Standard-Radius-Belled-End-Elbow-UA9AEB-CTN/202304074",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 1.9
+  },
+  {
+    "n": "3/4 PVC Conduit Clamp - 20 Pack",
+    "d": "https://www.homedepot.com/p/Carlon-3-4-in-PVC-Conduit-Clamp-20-Pack-E977EC20-UPC/203701808",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 6.98
+  },
+  {
+    "n": "3/4 PVC Couplings - 1 piece",
+    "d": "https://www.homedepot.com/p/Cantex-3-4-in-Coupling-R6141624/202303522?source=shoppingads&locale=en-US&fp=ggl",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 0.5
+  },
+  {
+    "n": "35 AMP Breaker - Square D Home",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 20
+  },
+  {
+    "n": "60 AMP breaker Square D Home",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 20
+  },
+  {
+    "n": "60A Fused A/C Disconnect w/ Top Open (240V)",
+    "d": "",
+    "b": "MARS",
+    "m": "",
+    "cat": "Materials",
+    "p": 59
+  },
+  {
+    "n": "Acetylene",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 33.41
+  },
+  {
+    "n": "Air Conditioning Plastic Equipment Pad 30\" x 30\" x 3\"",
+    "d": "",
+    "b": "",
+    "m": "DTCEL3030-3",
+    "cat": "Materials",
+    "p": 38.12
+  },
+  {
+    "n": "Air Conditioning Plastic Equipment Pad 32\" x 32\" x 3\"",
+    "d": "",
+    "b": "Diversitech",
+    "m": "EL3232-3",
+    "cat": "Materials",
+    "p": 40.12
+  },
+  {
+    "n": "Air Conditioning Plastic Equipment Pad 36\" x 36\" x 3\"",
+    "d": "",
+    "b": "Diversitech",
+    "m": "DTCEL3636-3",
+    "cat": "Materials",
+    "p": 47.82
+  },
+  {
+    "n": "Air Filter 15x20x1 - 6 Pack",
+    "d": "",
+    "b": "Filterbuy",
+    "m": "",
+    "cat": "Materials",
+    "p": 43.66
+  },
+  {
+    "n": "Air Filters for Quarterly Maintnenance",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 300
+  },
+  {
+    "n": "Blower Motor - 1/5 - 3/4hp - 115 - 48frame - 1075 PRM",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 205.79
+  },
+  {
+    "n": "Blower Motor - 1/5 - 3/4hp - 208/230 - 48frame - 1075 PRM",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 159.99
+  },
+  {
+    "n": "Blower Motor - 3/4hp - 208/230 - 48frame - 1075 PRM",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 266.99
+  },
+  {
+    "n": "Bosch Air Handler Heat Strips 10kW",
+    "d": "",
+    "b": "",
+    "m": "BCHEHK-10B",
+    "cat": "Materials",
+    "p": 169.09
+  },
+  {
+    "n": "Bosch Air Handler Heat Strips 15kW",
+    "d": "",
+    "b": "Bosch",
+    "m": "BCH8733977742",
+    "cat": "Materials",
+    "p": 268.18
+  },
+  {
+    "n": "Bosch Air Handler Heat Strips 8kW",
+    "d": "",
+    "b": "",
+    "m": "BCHEHK-8B",
+    "cat": "Materials",
+    "p": 153.32
+  },
+  {
+    "n": "Breaker 20 amp single pole",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 10
+  },
+  {
+    "n": "Breaker 25 AMP 2-pole",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 50
+  },
+  {
+    "n": "Breaker 25 AMP QP Siemens",
+    "d": "https://www.homedepot.com/p/Siemens-25-Space-Amp-Double-Pole-Type-QP-Circuit-Breaker-Q225U/100183751",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 19
+  },
+  {
+    "n": "Breaker 45 amp 2 pole",
+    "d": "Square D Homeline 45 Amp 2-Pole Circuit Breaker",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 20
+  },
+  {
+    "n": "Breaker Eaton BD2020 TYPE BRD HVAC TYPE 2x20amp SLIM",
+    "d": "https://www.homedepot.com/p/Eaton-BD-2-20-Amp-Single-Pole-Tandem-CTL-Circuit-Breaker-BD2020/100124683?mtc=SEM-BF-CDP-GGL",
+    "b": "Eaton",
+    "m": "BD2020",
+    "cat": "Materials",
+    "p": 16
+  },
+  {
+    "n": "Breaker QO 15 Amp 2 pole",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 40
+  },
+  {
+    "n": "Breaker QO 2-20 Amp Single Pole Tandem",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 35
+  },
+  {
+    "n": "Breaker QO 30 AMP 2 pole",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 40
+  },
+  {
+    "n": "Breaker QP 30 AMP 2 Pole",
+    "d": "https://www.homedepot.com/p/Siemens-30-Amp-Double-Pole-Type-QP-Circuit-Breaker-Q230U/100002289?mtc=SEM-BF-CDP-GGL-D27E-0",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 19
+  },
+  {
+    "n": "Breaker QP 40 AMP 2-pole",
+    "d": "https://www.homedepot.com/p/Siemens-40-Amp-Double-Pole-Type-QP-Circuit-Breaker-Q240U/100059673",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 20
+  },
+  {
+    "n": "Bubble wrap insulation 48\"x100'",
+    "d": "",
+    "b": "Reflectix, Inc",
+    "m": "R94-247",
+    "cat": "Materials",
+    "p": 158.33
+  },
+  {
+    "n": "Bubble wrap insulation SPACER 2\"x25'",
+    "d": "",
+    "b": "Reflectix, Inc",
+    "m": "R55-710",
+    "cat": "Materials",
+    "p": 2.62
+  },
+  {
+    "n": "Capacitor - 10",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 5.55
+  },
+  {
+    "n": "Capacitor - 15",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 6.83
+  },
+  {
+    "n": "Capacitor - 20",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 7.22
+  },
+  {
+    "n": "Capacitor - 35/5",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 12.72
+  },
+  {
+    "n": "Capacitor - 35/7.5",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 16.7
+  },
+  {
+    "n": "Capacitor - 45/5",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 15.9
+  },
+  {
+    "n": "Capacitor - 45/7.5",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 18.55
+  },
+  {
+    "n": "Capacitor - 5",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 3.63
+  },
+  {
+    "n": "capacitor - 55/5 440V",
+    "d": "",
+    "b": "Titan Pro",
+    "m": "",
+    "cat": "Materials",
+    "p": 9.78
+  },
+  {
+    "n": "Capacitor - 60/5",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 24.12
+  },
+  {
+    "n": "Capacitor - 60/7.5",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 24.65
+  },
+  {
+    "n": "Capacitor - 7.5",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 4.69
+  },
+  {
+    "n": "Capacitor - Turbo 200 -2.5 to 67.5",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 60
+  },
+  {
+    "n": "Capacitor - Turbo 200x - 70 to 97.5",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 80
+  },
+  {
+    "n": "Chip Brush 3\"",
+    "d": "",
+    "b": "Supco",
+    "m": "H26-101",
+    "cat": "Materials",
+    "p": 1.43
+  },
+  {
+    "n": "Cleaner for Semi-Annual Maintnenace",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 50
+  },
+  {
+    "n": "Concentric venting - 2\"",
+    "d": "",
+    "b": "Source 1",
+    "m": "SORS1-1CT0302",
+    "cat": "Materials",
+    "p": 47.26
+  },
+  {
+    "n": "Condensate pump - 115v",
+    "d": "https://www.johnstonesupply.com/product-view?pID=B87-640",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 60
+  },
+  {
+    "n": "Condensate Pump - 115V",
+    "d": "",
+    "b": "Little Giant",
+    "m": "L/G554405",
+    "cat": "Materials",
+    "p": 50.18
+  },
+  {
+    "n": "Condensate Pump Tubing 3/8 ID x 1/2 OD - 50ft",
+    "d": "",
+    "b": "",
+    "m": "WAL0819506",
+    "cat": "Materials",
+    "p": 17.83
+  },
+  {
+    "n": "Condensate Trap Kit EZT 113b Econ Crs W/brsh 3/4\"",
+    "d": "",
+    "b": "",
+    "m": "REC83114",
+    "cat": "Materials",
+    "p": 15.16
+  },
+  {
+    "n": "Condensate Trap Kit EZT210 with Switch 1 Inch Deep",
+    "d": "",
+    "b": "Rectorseal",
+    "m": "REC83210",
+    "cat": "Materials",
+    "p": 43
+  },
+  {
+    "n": "Condenser Fan Motor - 1/3 - 1/6hp - 208/230 - 48frame - 1075 PRM",
+    "d": "https://www.johnstonesupply.com/product-view?pID=S89-577",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 153.09
+  },
+  {
+    "n": "Condenser Fan Motor - 1/3 - 1/6hp - 208/230 - 48frame - 825 PRM",
+    "d": "https://www.johnstonesupply.com/product-view?pID=S89-408",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 232.78
+  },
+  {
+    "n": "Contactor - 2 Pole - 40A - 24v coil",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 13
+  },
+  {
+    "n": "Contactor - 3 Pole - 40A - 24v coil",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 38
+  },
+  {
+    "n": "CPVC Elbow 90 Degree 2\" Socket Corzan CPVC Schedule 80 for Plastic Piping Systems",
+    "d": "",
+    "b": "",
+    "m": "CPV2S90",
+    "cat": "Materials",
+    "p": 13.11
+  },
+  {
+    "n": "Disconnect 60 AMP Non-Fused 1 Phase",
+    "d": "",
+    "b": "Mars",
+    "m": "MRC83315",
+    "cat": "Materials",
+    "p": 15
+  },
+  {
+    "n": "Drain Pan Goliath AGG3062 Water Sensor",
+    "d": "",
+    "b": "Goliath",
+    "m": "GLT96143",
+    "cat": "Materials",
+    "p": 28.48
+  },
+  {
+    "n": "Drain Pan Goliath AGG3062 without Water Sensor 30 x 62 x 4-1/4 Inch",
+    "d": "",
+    "b": "Goliath",
+    "m": "GLT96208",
+    "cat": "Materials",
+    "p": 124.82
+  },
+  {
+    "n": "Ecobee 3 Lite Pro 2h/2c",
+    "d": "",
+    "b": "Ecobee",
+    "m": "ECBEB-STATE7P-01",
+    "cat": "Materials",
+    "p": 143
+  },
+  {
+    "n": "Emerson Sure Switch",
+    "d": "",
+    "b": "",
+    "m": "49M11-843",
+    "cat": "Materials",
+    "p": 56.57
+  },
+  {
+    "n": "EXTRA",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 500
+  },
+  {
+    "n": "Filter Drier 3/8 - 16 CU",
+    "d": "",
+    "b": "Sporlan",
+    "m": "SPOC163S",
+    "cat": "Materials",
+    "p": 40
+  },
+  {
+    "n": "Filter Drier 3/8 - 8 CU",
+    "d": "",
+    "b": "Sporlan",
+    "m": "SPOC083S",
+    "cat": "Materials",
+    "p": 40
+  },
+  {
+    "n": "Filter Drier 3/8 RLS press",
+    "d": "",
+    "b": "RLS",
+    "m": "",
+    "cat": "Materials",
+    "p": 40
+  },
+  {
+    "n": "Flush Kit - Canister only",
+    "d": "",
+    "b": "Calgon",
+    "m": "CAL4300-09",
+    "cat": "Materials",
+    "p": 60.63
+  },
+  {
+    "n": "Fujitsu Cassette Remote",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 90
+  },
+  {
+    "n": "GE Air Handler Heat Strips 7.5kW",
+    "d": "",
+    "b": "GE",
+    "m": "G/E16Y37",
+    "cat": "Materials",
+    "p": 118.39
+  },
+  {
+    "n": "GE Q-Line 25-Space Amp 1 in. Double-Pole Circuit Breaker",
+    "d": "",
+    "b": "GE",
+    "m": "",
+    "cat": "Materials",
+    "p": 16.31
+  },
+  {
+    "n": "Goodman Thermostat Connected for Horizontal Discharge HP system",
+    "d": "",
+    "b": "Goodman",
+    "m": "L51-762",
+    "cat": "Materials",
+    "p": 176.17
+  },
+  {
+    "n": "Hanger Flange Plate Copper Gard 3/8 Inch",
+    "d": "",
+    "b": "",
+    "m": "HGR38COPFMPLATE",
+    "cat": "Materials",
+    "p": 1.33
+  },
+  {
+    "n": "Hanger Side Beam Connector 3/8 Inch Plain",
+    "d": "",
+    "b": "",
+    "m": "HGR38SIDEBEAM",
+    "cat": "Materials",
+    "p": 0.99
+  },
+  {
+    "n": "Hanger Split Ring 1-1/4 Inch Copper",
+    "d": "",
+    "b": "",
+    "m": "HGR114COPFM",
+    "cat": "Materials",
+    "p": 1.72
+  },
+  {
+    "n": "Hard Start Kit 5-2-1 - 1-3 Tons",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 54.05
+  },
+  {
+    "n": "Hard Start Kit 5-2-1 - 3.5-5 Tons",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 65.6
+  },
+  {
+    "n": "Heat Pump Riser Pad 36\" x 36\" x 8\"",
+    "d": "",
+    "b": "Diversitech",
+    "m": "DTCHP3636-8",
+    "cat": "Materials",
+    "p": 79.63
+  },
+  {
+    "n": "Honeywell T6 Pro TH6210U2001",
+    "d": "",
+    "b": "",
+    "m": "TH6210U2001",
+    "cat": "Materials",
+    "p": 74.08
+  },
+  {
+    "n": "Honeywell Zone Valve Replacement Head",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 110
+  },
+  {
+    "n": "Hot Surface Igniter - Glowfly Universal",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 51
+  },
+  {
+    "n": "Hot Surface Igniter - Norton",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 54
+  },
+  {
+    "n": "Johnstone Cart",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 1800
+  },
+  {
+    "n": "Johnstone Cart for this Job",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 1279.92
+  },
+  {
+    "n": "Mini Split Communication 14/4 Fujitsu - 250 FT",
+    "d": "https://www.supplyhouse.com/Southwire-58225703-250-ft-14-4-Stranded-Bare-Copper-Mini-Split-Cable-Black",
+    "b": "Southwire",
+    "m": "58225703",
+    "cat": "Materials",
+    "p": 281.14
+  },
+  {
+    "n": "Nashua 3\" Foil Mastic Tape",
+    "d": "https://www.johnstonesupply.com/product-view?pID=G80-557",
+    "b": "Nashua",
+    "m": "G80-557",
+    "cat": "Materials",
+    "p": 40
+  },
+  {
+    "n": "Nitrogen",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 60
+  },
+  {
+    "n": "Pump Condensate Neutralizer Tank with Pump 500K BTU",
+    "d": "",
+    "b": "PurePro",
+    "m": "PROPP-PUMP",
+    "cat": "Materials",
+    "p": 142.55
+  },
+  {
+    "n": "R22",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 180
+  },
+  {
+    "n": "R32 Jug",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 500
+  },
+  {
+    "n": "R404A",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 50
+  },
+  {
+    "n": "R410A",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 120
+  },
+  {
+    "n": "R454B per LBS",
+    "d": "",
+    "b": "Opteon",
+    "m": "B66-856",
+    "cat": "Materials",
+    "p": 60
+  },
+  {
+    "n": "Recovery Tank #50",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 205
+  },
+  {
+    "n": "RLS Press fitting 1 1/8 x 7/8",
+    "d": "",
+    "b": "RLS",
+    "m": "RPFREDCPLG118-78",
+    "cat": "Materials",
+    "p": 30.83
+  },
+  {
+    "n": "Rollout Thermal Fuse Element",
+    "d": "",
+    "b": "Weil-McLain",
+    "m": "512-050-230",
+    "cat": "Materials",
+    "p": 42
+  },
+  {
+    "n": "RV Power Outlet Box Indoor/Outdoor 50 Amp 125-Volt/250-Volt Receptacle Panel NEMA 14-50R Single Outlet for RV Camper Car",
+    "d": "",
+    "b": "Vevor",
+    "m": "DGNRV50A1450RJD0NV0",
+    "cat": "Materials",
+    "p": 40
+  },
+  {
+    "n": "RX11 Flush Kit",
+    "d": "",
+    "b": "Calgon",
+    "m": "CAL4300-08",
+    "cat": "Materials",
+    "p": 146.24
+  },
+  {
+    "n": "Sil-Fos 15% Brazing Rods",
+    "d": "https://www.johnstonesupply.com/product-view?pID=R56-199",
+    "b": "Lucas-Milhaupt",
+    "m": "R56-199",
+    "cat": "Materials",
+    "p": 194
+  },
+  {
+    "n": "Single Stage Universal Funrace Board",
+    "d": "",
+    "b": "White Rodgers",
+    "m": "50M56X-843",
+    "cat": "Materials",
+    "p": 200
+  },
+  {
+    "n": "Surge Protector Single Split Phase 120/240V",
+    "d": "",
+    "b": "Grasslin",
+    "m": "GRSAG3000",
+    "cat": "Materials",
+    "p": 58.83
+  },
+  {
+    "n": "TACO ECM Circulating Pump",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 220
+  },
+  {
+    "n": "Thermostat Honeywell T6",
+    "d": "",
+    "b": "",
+    "m": "TH6220U2000",
+    "cat": "Materials",
+    "p": 102
+  },
+  {
+    "n": "Thermostat Wire 18-8 - 250ft",
+    "d": "",
+    "b": "Electrical",
+    "m": "ELETW18/8-250",
+    "cat": "Materials",
+    "p": 97.79
+  },
+  {
+    "n": "Threaded Rod All 3/8 Inch - PER FOOT",
+    "d": "https://www.fwwebb.com/wosn/?query=ATR38ZN",
+    "b": "",
+    "m": "ATR38ZN",
+    "cat": "Materials",
+    "p": 0.48
+  },
+  {
+    "n": "TQHP 230 - Q-Line 30 Amp 1 in. Double-Pole Circuit Breaker - 30 AMP 2 POLE slim GE breaker",
+    "d": "https://www.homedepot.com/p/GE-Q-Line-30-Amp-1-in-Double-Pole-Circuit-Breaker-THQP230-THQP230/100356518",
+    "b": "GE",
+    "m": "THQP230",
+    "cat": "Materials",
+    "p": 18.48
+  },
+  {
+    "n": "Transformer - 120/208/240 - 24v - 40VA",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 24.52
+  },
+  {
+    "n": "Unistrut Channel Unistrut Slotted 13/16 Inch x 10 Foot 14 Gauge Pre-Galvanized",
+    "d": "",
+    "b": "",
+    "m": "STR1316X10",
+    "cat": "Materials",
+    "p": 25
+  },
+  {
+    "n": "Universal HP Defrost Board",
+    "d": "https://www.johnstonesupply.com/product-view?pID=L47-933",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 90
+  },
+  {
+    "n": "Universal Pressure switch ESP",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 40.66
+  },
+  {
+    "n": "Universal Single Stage HSI Integrated Furnace Control Kit",
+    "d": "",
+    "b": "",
+    "m": "50M56X-843",
+    "cat": "Materials",
+    "p": 205.54
+  },
+  {
+    "n": "UV Light",
+    "d": "",
+    "b": "RGF REME-LED",
+    "m": "RGFREME-LED",
+    "cat": "Materials",
+    "p": 500
+  },
+  {
+    "n": "UV Sealer - 2 to 7.5 Tons",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 60
+  },
+  {
+    "n": "Wall Bracket Air Conditioner Mount",
+    "d": "",
+    "b": "",
+    "m": "HVCGSIGG-2K-2.0",
+    "cat": "Materials",
+    "p": 32.35
+  },
+  {
+    "n": "Wet Rag",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 29.6
+  },
+  {
+    "n": "Whip - <18k BTU",
+    "d": "Cndt Whip Nmtlc 1/2\"x6' 10ga Thhn",
+    "b": "Mars",
+    "m": "MRC84135",
+    "cat": "Materials",
+    "p": 15.78
+  },
+  {
+    "n": "Whip - >18k BTU",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 22.98
+  },
+  {
+    "n": "Whip 3/4 Inch x 6 Feet 8 Gauge THHN",
+    "d": "",
+    "b": "Mars",
+    "m": "MRC84137",
+    "cat": "Materials",
+    "p": 21.21
+  },
+  {
+    "n": "Wire 10-2 100",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 176
+  },
+  {
+    "n": "Wire 10-2 25ft",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 100
+  },
+  {
+    "n": "Wire 10-2 50",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 173
+  },
+  {
+    "n": "Wire 12-2 100ft",
+    "d": "",
+    "b": "Southwire",
+    "m": "",
+    "cat": "Materials",
+    "p": 91
+  },
+  {
+    "n": "Wire 14-2 100ft",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 80
+  },
+  {
+    "n": "Wire 6-2 50ft",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 214
+  },
+  {
+    "n": "Wire 8-2 125ft",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 230
+  },
+  {
+    "n": "Wire 8-2 25ft",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Materials",
+    "p": 80
+  },
+  {
+    "n": "Wire 8-2 75ft",
+    "d": "",
+    "b": "Southwire",
+    "m": "",
+    "cat": "Materials",
+    "p": 180
+  },
+  {
+    "n": "Wire Extender for HP",
+    "d": "",
+    "b": "Fast-Stat",
+    "m": "7000",
+    "cat": "Materials",
+    "p": 150
+  },
+  {
+    "n": "Labor - 1h",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Labor",
+    "p": 0
+  },
+  {
+    "n": "Labor Belle Reve - 1h",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Labor",
+    "p": 165
+  },
+  {
+    "n": "Labor Belle Reve - 30min",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Labor",
+    "p": 82.5
+  },
+  {
+    "n": "Labor - 30min",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Labor",
+    "p": 92.5
+  },
+  {
+    "n": "Mini Split - 1 head cleaning",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Labor",
+    "p": 0
+  },
+  {
+    "n": "System Maintenance - AC only - with coil washing",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Labor",
+    "p": 0
+  },
+  {
+    "n": "System Maintenance - AC + Furnace + Combustion",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Labor",
+    "p": 0
+  },
+  {
+    "n": "Mini Split installation - 1 Zone",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Labor",
+    "p": 2750
+  },
+  {
+    "n": "Mini Split installation - 5 Zone",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Labor",
+    "p": 5000
+  },
+  {
+    "n": "Mini Split installation - 1 Zone - Customer Supplied system",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Labor",
+    "p": 775
+  },
+  {
+    "n": "System Installation - AC only",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Labor",
+    "p": 0
+  },
+  {
+    "n": "System Maintenance - Boiler",
+    "d": "",
+    "b": "",
+    "m": "",
+    "cat": "Labor",
+    "p": 0
+  },
+  {
+    "n": "Condenser 4 Zone XLTH R32 - Low Temp",
+    "d": "",
+    "b": "Fujitsu",
+    "m": "AOUH36KWAH4",
+    "cat": "Fujitsu Mini Split",
+    "p": 3559.49
+  },
+  {
+    "n": "Indoor 7k BTU Wall Mount",
+    "d": "",
+    "b": "Fujitsu",
+    "m": "ASUH07KPAS",
+    "cat": "Fujitsu Mini Split",
+    "p": 483.06
+  },
+  {
+    "n": "Indoor 12k BTU 120V Single Zone R32",
+    "d": "",
+    "b": "Fujitsu",
+    "m": "ASLH12KNAS",
+    "cat": "Fujitsu Mini Split",
+    "p": 388.09
+  },
+  {
+    "n": "Condenser Single Zone 36k BTU",
+    "d": "",
+    "b": "Fujitsu",
+    "m": "AOUH36KPAS1",
+    "cat": "Fujitsu Mini Split",
+    "p": 2149.35
+  },
+  {
+    "n": "Indoor 36k BTU R32",
+    "d": "",
+    "b": "Fujitsu",
+    "m": "ASUH36KPAS",
+    "cat": "Fujitsu Mini Split",
+    "p": 1433.24
+  },
+  {
+    "n": "Outdoor 9k BTU 120V Single Zone R32",
+    "d": "",
+    "b": "Fujitsu",
+    "m": "AOLH09KNAS1",
+    "cat": "Fujitsu Mini Split",
+    "p": 540.03
+  },
+  {
+    "n": "Indoor 9k BTU 120V Single Zone R32",
+    "d": "",
+    "b": "Fujitsu",
+    "m": "ASLH09KNAS",
+    "cat": "Fujitsu Mini Split",
+    "p": 360.36
+  },
+  {
+    "n": "Outdoor 12k BTU 120V Single Zone R32",
+    "d": "",
+    "b": "Fujitsu",
+    "m": "AOLH12KNAS1",
+    "cat": "Fujitsu Mini Split",
+    "p": 581.1
+  },
+  {
+    "n": "Communication wire 14/4 - 50 FT",
+    "d": "",
+    "b": "Southwire",
+    "m": "58340803",
+    "cat": "Fujitsu Mini Split",
+    "p": 106.92
+  },
+  {
+    "n": "Communication MC Straight connector 1/2",
+    "d": "",
+    "b": "Southwire",
+    "m": "64235201",
+    "cat": "Fujitsu Mini Split",
+    "p": 15.64
+  },
+  {
+    "n": "Bosch 100k 96% 2 stage Furnace 24 1/2\" - 5 Ton",
+    "d": "",
+    "b": "Bosch",
+    "m": "BCHBGH96M100D5B",
+    "cat": "Fujitsu Mini Split",
+    "p": 2206.08
+  },
+  {
+    "n": "Rheem R951T0603A17M4SNAS 60k BTU Zero Clearance Kit",
+    "d": "",
+    "b": "",
+    "m": "RHERXGY-ZK",
+    "cat": "Fujitsu Mini Split",
+    "p": 63.57
+  },
+  {
+    "n": "Flare Nut - 1/4",
+    "d": "https://www.supplyhouse.com/Bluefin-FLFN025-1-4-Brass-Short-Forged-Flare-Nut",
+    "b": "Samsung",
+    "m": "",
+    "cat": "Fittings",
+    "p": 0.99
+  },
+  {
+    "n": "Flare Nut - 3/8",
+    "d": "https://www.supplyhouse.com/Bluefin-FLFN038-3-8-Brass-Short-Forged-Flare-Nut",
+    "b": "Samsung",
+    "m": "",
+    "cat": "Fittings",
+    "p": 1.46
+  },
+  {
+    "n": "Flare Nut - 1/2",
+    "d": "https://www.supplyhouse.com/Bluefin-FLFN050-1-2-Brass-Short-Forged-Flare-Nut",
+    "b": "Samsung",
+    "m": "",
+    "cat": "Fittings",
+    "p": 2.26
+  },
+  {
+    "n": "Flare Nut - 5/8",
+    "d": "https://www.supplyhouse.com/Bluefin-FLFN058-5-8-Brass-Short-Forged-Flare-Nut",
+    "b": "Samsung",
+    "m": "",
+    "cat": "Fittings",
+    "p": 2.98
+  },
+  {
+    "n": "Union - 1/4",
+    "d": "https://www.supplyhouse.com/Bluefin-FLU025-1-4-Brass-Flare-Union",
+    "b": "Samsung",
+    "m": "",
+    "cat": "Fittings",
+    "p": 1.08
+  },
+  {
+    "n": "Union - 3/8",
+    "d": "https://www.supplyhouse.com/Bluefin-FLU038-3-8-Brass-Flare-Union",
+    "b": "Samsung",
+    "m": "",
+    "cat": "Fittings",
+    "p": 1.5
+  },
+  {
+    "n": "Union - 1/2",
+    "d": "https://www.supplyhouse.com/Bluefin-FLU050-1-2-Brass-Flare-Union",
+    "b": "Samsung",
+    "m": "",
+    "cat": "Fittings",
+    "p": 2.74
+  },
+  {
+    "n": "Union - 5/8",
+    "d": "https://www.supplyhouse.com/Bluefin-FLU058-5-8-Brass-Flare-Union",
+    "b": "Samsung",
+    "m": "",
+    "cat": "Fittings",
+    "p": 3.84
+  },
+  {
+    "n": "Communication Wire - 100 Ft",
+    "d": "Wire F/mini-split 16/2-14/3 Samsung 100'",
+    "b": "Samsung",
+    "m": "ELEDUCKT-STRIPUNV100",
+    "cat": "Fittings",
+    "p": 197.33
+  },
+  {
+    "n": "Communication Wire - 250 Ft",
+    "d": "",
+    "b": "Samsung",
+    "m": "ELEDUCKT-STRIPUNV250",
+    "cat": "Fittings",
+    "p": 494
+  },
+  {
+    "n": "Drain hose - 5/8 ID - 164'",
+    "d": "",
+    "b": "Samsung",
+    "m": "APC83002",
+    "cat": "Fittings",
+    "p": 83.44
+  },
+  {
+    "n": "3/8 threaded rod nuts - per 100",
+    "d": "https://www.fwwebb.com/product/Hangers/Hex-Nut/FHXN038CZ/69045",
+    "b": "Samsung",
+    "m": "",
+    "cat": "Fittings",
+    "p": 15
+  },
+  {
+    "n": "Stand mini split",
+    "d": "",
+    "b": "Samsung",
+    "m": "HVCGSI2024002",
+    "cat": "Fittings",
+    "p": 125
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "n": "GE 1.5T 15 SEER2 1-Stg",
+    "m": "NS15A18SA5",
+    "b": "GE",
+    "ton": 1.5,
+    "seer": 15,
+    "stg": 1,
+    "p": 1385.95
+  },
+  {
+    "n": "GE 2T 15 SEER2 1-Stg",
+    "m": "NS15A24SA5",
+    "b": "GE",
+    "ton": 2,
+    "seer": 15,
+    "stg": 1,
+    "p": 1450.06
+  },
+  {
+    "n": "GE 2.5T 15 SEER2 1-Stg",
+    "m": "NS15A30SA5",
+    "b": "GE",
+    "ton": 2.5,
+    "seer": 15,
+    "stg": 1,
+    "p": 1606.47
+  },
+  {
+    "n": "GE 3T 15 SEER2 1-Stg",
+    "m": "NS15A36SA5",
+    "b": "GE",
+    "ton": 3,
+    "seer": 15,
+    "stg": 1,
+    "p": 1756.48
+  },
+  {
+    "n": "GE 3.5T 15 SEER2 1-Stg",
+    "m": "NS15A42SA5",
+    "b": "GE",
+    "ton": 3.5,
+    "seer": 15,
+    "stg": 1,
+    "p": 1955.2
+  },
+  {
+    "n": "GE 4T 15 SEER2 1-Stg",
+    "m": "NS15A48SA5",
+    "b": "GE",
+    "ton": 4,
+    "seer": 15,
+    "stg": 1,
+    "p": 2215.47
+  },
+  {
+    "n": "GE 5T 15 SEER2 1-Stg",
+    "m": "NS15A60SA5",
+    "b": "GE",
+    "ton": 5,
+    "seer": 15,
+    "stg": 1,
+    "p": 2547.53
+  },
+  {
+    "n": "GE 1.5T 16 SEER2 1-Stg",
+    "m": "NS16A18SA5",
+    "b": "GE",
+    "ton": 1.5,
+    "seer": 16,
+    "stg": 1,
+    "p": 1980.26
+  },
+  {
+    "n": "GE 2T 16 SEER2 1-Stg",
+    "m": "NS16A24SA5",
+    "b": "GE",
+    "ton": 2,
+    "seer": 16,
+    "stg": 1,
+    "p": 2105.26
+  },
+  {
+    "n": "GE 2.5T 16 SEER2 1-Stg",
+    "m": "NS16A30SA5",
+    "b": "GE",
+    "ton": 2.5,
+    "seer": 16,
+    "stg": 1,
+    "p": 2272.37
+  },
+  {
+    "n": "GE 3T 16 SEER2 1-Stg",
+    "m": "NS16A36SA5",
+    "b": "GE",
+    "ton": 3,
+    "seer": 16,
+    "stg": 1,
+    "p": 2493.42
+  },
+  {
+    "n": "GE 3.5T 16 SEER2 1-Stg",
+    "m": "NS16A42SA5",
+    "b": "GE",
+    "ton": 3.5,
+    "seer": 16,
+    "stg": 1,
+    "p": 2664.47
+  },
+  {
+    "n": "GE 4T 16 SEER2 1-Stg",
+    "m": "NS16A48SA5",
+    "b": "GE",
+    "ton": 4,
+    "seer": 16,
+    "stg": 1,
+    "p": 2977.63
+  },
+  {
+    "n": "GE 5T 16 SEER2 1-Stg",
+    "m": "NS16A60SA5",
+    "b": "GE",
+    "ton": 5,
+    "seer": 16,
+    "stg": 1,
+    "p": 3628.95
+  },
+  {
+    "n": "GE 2T 17 SEER2 2-Stg",
+    "m": "NS17A24TA5",
+    "b": "GE",
+    "ton": 2,
+    "seer": 17,
+    "stg": 2,
+    "p": 3092.11
+  },
+  {
+    "n": "GE 3T 17 SEER2 2-Stg",
+    "m": "NS17A36TA5",
+    "b": "GE",
+    "ton": 3,
+    "seer": 17,
+    "stg": 2,
+    "p": 3827.63
+  },
+  {
+    "n": "GE 4T 17 SEER2 2-Stg",
+    "m": "NS17A48TA5",
+    "b": "GE",
+    "ton": 4,
+    "seer": 17,
+    "stg": 2,
+    "p": 4471.05
+  },
+  {
+    "n": "GE 5T 17 SEER2 2-Stg",
+    "m": "NS17A60TA5",
+    "b": "GE",
+    "ton": 5,
+    "seer": 17,
+    "stg": 2,
+    "p": 4934.21
+  },
+  {
+    "n": "GE 2T 22 SEER2 Inv 2-Stg",
+    "m": "NS22A24MA5",
+    "b": "GE",
+    "ton": 2,
+    "seer": 22,
+    "stg": 2,
+    "p": 6456.58
+  },
+  {
+    "n": "GE 3T 22 SEER2 Inv 2-Stg",
+    "m": "NS22A36MA5",
+    "b": "GE",
+    "ton": 3,
+    "seer": 22,
+    "stg": 2,
+    "p": 7150
+  },
+  {
+    "n": "GE 4T 22 SEER2 Inv 2-Stg",
+    "m": "NS22A48MA5",
+    "b": "GE",
+    "ton": 4,
+    "seer": 22,
+    "stg": 2,
+    "p": 7703.95
+  },
+  {
+    "n": "GE 5T 22 SEER2 Inv 2-Stg",
+    "m": "NS22A60MA5",
+    "b": "GE",
+    "ton": 5,
+    "seer": 22,
+    "stg": 2,
+    "p": 8344.74
+  }
+]

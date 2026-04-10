@@ -1,0 +1,414 @@
+[
+  {
+    "n": "Outdoor 20k BTU 3 Zone FJM R-32 - MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAJ020DXS3CG/AA",
+    "btu": 20,
+    "p": 2223.35,
+    "z": "FJM",
+    "ports": 3
+  },
+  {
+    "n": "3 Zone 25k BTU NON-MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMJXH24J3B",
+    "btu": 25,
+    "p": 1681.64,
+    "z": "FJM",
+    "ports": 3
+  },
+  {
+    "n": "4 Zone - 24k BTU MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "",
+    "btu": 24,
+    "p": 2516.8,
+    "z": "FJM",
+    "ports": 4
+  },
+  {
+    "n": "4 Zone - 30k BTU MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "",
+    "btu": 30,
+    "p": 2658.58,
+    "z": "FJM",
+    "ports": 4
+  },
+  {
+    "n": "4 Zone - 36k BTU MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMJXH36S4B",
+    "btu": 36,
+    "p": 3138.72,
+    "z": "FJM",
+    "ports": 4
+  },
+  {
+    "n": "4 Zone - 36k BTU NON-MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMJXH36J4B",
+    "btu": 36,
+    "p": 2674.42,
+    "z": "FJM",
+    "ports": 4
+  },
+  {
+    "n": "5 Zone - 48k BTU NON-MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMJXH48J5B",
+    "btu": 48,
+    "p": 3257.16,
+    "z": "FJM",
+    "ports": 5
+  },
+  {
+    "n": "Outdoor 12k BTU RAC R-32 - SINGLE MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR12DXDACWKXCV",
+    "btu": 12,
+    "p": 1072.49,
+    "z": "Single"
+  },
+  {
+    "n": "Outdoor 15k BTU RAC R-32 - SINGLE MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR15DXDACWKXCV",
+    "btu": 15,
+    "p": 1397.15,
+    "z": "Single"
+  },
+  {
+    "n": "Outdoor 15k BTU RAC R-32 - SINGLE NON MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR15DXFAMWKXCV",
+    "btu": 15,
+    "p": 685.58,
+    "z": "Single"
+  },
+  {
+    "n": "Outdoor 18k BTU RAC R-32 - SINGLE MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR18DXDACWKXCV",
+    "btu": 18,
+    "p": 1467.91,
+    "z": "Single"
+  },
+  {
+    "n": "Outdoor 24k BTU 3 port FJM R-32",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAJ024DXJ3CG/AA",
+    "btu": 24,
+    "p": 1911.96,
+    "z": "FJM",
+    "ports": 3
+  },
+  {
+    "n": "Outdoor 24k BTU MAX HEAT R-32 Single Zone",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMRXX24ACD",
+    "btu": 24,
+    "p": 1800.56,
+    "z": "Single"
+  },
+  {
+    "n": "Outdoor 24k BTU RAC R-32 - SINGLE MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR24DXDACWKXCV",
+    "btu": 24,
+    "p": 1608.96,
+    "z": "Single"
+  },
+  {
+    "n": "Outdoor 30k BTU MAX HEAT 4 port R-32",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMJXG30S4D",
+    "btu": 30,
+    "p": 3029.17,
+    "z": "FJM",
+    "ports": 4
+  },
+  {
+    "n": "Outdoor 36k BTU FJM 4 port R-32",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMJXG36J4D",
+    "btu": 36,
+    "p": 2987.07,
+    "z": "FJM",
+    "ports": 4
+  },
+  {
+    "n": "Outdoor 36k BTU FJM R-32",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAJ036DXJ4CG/AA",
+    "btu": 36,
+    "p": 2549.98,
+    "z": "FJM"
+  },
+  {
+    "n": "Outdoor 9k BTU RAC MAX HEAT R-32",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMRXX09ACD",
+    "btu": 9,
+    "p": 1120.74,
+    "z": "Single"
+  },
+  {
+    "n": "Outdoor 9k BTU RAC R-32",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMRXX09ABD",
+    "btu": 9,
+    "p": 920.27,
+    "z": "Single"
+  },
+  {
+    "n": "Outdoor 9k BTU RAC R-32 - SINGLE MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR09DXDACWKXCV",
+    "btu": 9,
+    "p": 1001.74,
+    "z": "Single"
+  },
+  {
+    "n": "Outdoor FJM 2 Port 20K BTU 208/230 Volt R-32",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAJ020DXJ2CG/AA",
+    "btu": 20,
+    "p": 1446.74,
+    "z": "FJM",
+    "ports": 2
+  },
+  {
+    "n": "Outdoor FJM 4 port MAX HEAT 24k BTU R-32",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMJXG24S4D",
+    "btu": 24,
+    "p": 2866.58,
+    "z": "FJM",
+    "ports": 4
+  },
+  {
+    "n": "Outdoor Single Zone 18k BTU RAC R-32 - SINGLE NON MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR18DXFAMWKXCV",
+    "btu": 18,
+    "p": 765.07,
+    "z": "Single"
+  },
+  {
+    "n": "Outdoor Single Zone 9k BTU Single Zone NON-MAX HEAT R-32",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMRXX09AMD",
+    "btu": 9,
+    "p": 575.11,
+    "z": "Single"
+  },
+  {
+    "n": "Outdoor Unit FJM 2 Port 20K BTU 208/230 Volt R-32",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMJXG20J2D",
+    "btu": 20,
+    "p": 1602.92,
+    "z": "FJM",
+    "ports": 2
+  },
+  {
+    "n": "Outdoor Unit FJM 4 Port Max Heat 30k Btu R-32",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAJ030DXS4CG/AA",
+    "btu": 30,
+    "p": 2611.44,
+    "z": "FJM",
+    "ports": 4
+  },
+  {
+    "n": "Outdoor Unit FJM 5 Port 48K BTU 208/230 Volt R-32",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAJ048DXJ5CG/AA",
+    "btu": 48,
+    "p": 3183.52,
+    "z": "FJM",
+    "ports": 5
+  },
+  {
+    "n": "Outdoor Unit RAC Standard 12K BTU R32 - SINGLE NON MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR12DXFAMWKXCV",
+    "btu": 12,
+    "p": 537.84,
+    "z": "Single"
+  },
+  {
+    "n": "Outdoor Unit RAC Standard 9K BTU R32 - SINGLE ZONE NON MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR09DXFAMWKXCV",
+    "btu": 9,
+    "p": 514.08,
+    "z": "Single"
+  },
+  {
+    "n": "Samsung 15k BTU Single Zone Condenser NON-MAX heat",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMRXS15CMC",
+    "btu": 15,
+    "p": 720,
+    "z": "Single"
+  },
+  {
+    "n": "Samsung 20k BTU Single Zone Condenser NON-MAX heat",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMJXH20S3C",
+    "btu": 20,
+    "p": 2173.61,
+    "z": "Single"
+  },
+  {
+    "n": "Samsung 30k BTU Single Zone Condenser NON-MAX heat",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMCXH30ADB",
+    "btu": 30,
+    "p": 1884.8,
+    "z": "Single"
+  },
+  {
+    "n": "Samsung 30k BTU Single Zone NON-MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMCNH30TDB",
+    "btu": 30,
+    "p": 874.77,
+    "z": "Single"
+  },
+  {
+    "n": "Samsung 36k BTU Single Zone RAC R-32 - SINGLE NON MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR36DXFUMGMXCV",
+    "btu": 36,
+    "p": 1983.88,
+    "z": "Single"
+  },
+  {
+    "n": "Samsung Outdoor 24k BTU FJM R-32 3 port",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMJXG24J3D",
+    "btu": 24,
+    "p": 1925.26,
+    "z": "FJM",
+    "ports": 3
+  },
+  {
+    "n": "Samsung Outdoor 24k BTU RAC R-32 - SINGLE NON MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR24DXFAMWKXCV",
+    "btu": 24,
+    "p": 913.25,
+    "z": "Single"
+  },
+  {
+    "n": "Samsung Outdoor 24k BTU RAC R-32 SINGLE ZONE",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMRXX24AMD",
+    "btu": 24,
+    "p": 1059.18,
+    "z": "Single"
+  },
+  {
+    "n": "Samsung Outdoor 24k BTU RAC R-32 SINGLE ZONE MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR24DXDACWKXCV",
+    "btu": 24,
+    "p": 1823.81,
+    "z": "Single"
+  },
+  {
+    "n": "Single Zone 12k BTU NON-MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "",
+    "btu": 12,
+    "p": 558.43,
+    "z": "Single"
+  },
+  {
+    "n": "Single Zone 24k BTU MAX HEAT 3.0 Condenser",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMRXS24AEC",
+    "btu": 24,
+    "p": 1572.81,
+    "z": "Single"
+  },
+  {
+    "n": "Single Zone 24k BTU NON-MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMRXS24CMC",
+    "btu": 24,
+    "p": 844.83,
+    "z": "Single"
+  },
+  {
+    "n": "Single Zone 9k BTU NON-MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMRXS09CMC",
+    "btu": 9,
+    "p": 520.98,
+    "z": "Single"
+  },
+  {
+    "n": "Single Zone Condenser 9k BTU",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMCXH09ADB",
+    "btu": 9,
+    "p": 874.7,
+    "z": "Single"
+  },
+  {
+    "n": "Single Zone NON-MAX HEAT 20k BTU",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMCXH18ADB",
+    "btu": 20,
+    "p": 1386,
+    "z": "Single"
+  }
+]

@@ -1,0 +1,682 @@
+[
+  {
+    "n": "Endeavor 18K 1.5T Std",
+    "m": "RH1PY1817STANNJ",
+    "b": "Rheem",
+    "ton": 1.5,
+    "btu": 18,
+    "stg": 1,
+    "v": "208/230",
+    "p": 844
+  },
+  {
+    "n": "Endeavor 24K 2T Std",
+    "m": "RH1PY2417STANNJ",
+    "b": "Rheem",
+    "ton": 2,
+    "btu": 24,
+    "stg": 1,
+    "v": "208/230",
+    "p": 874.14
+  },
+  {
+    "n": "Endeavor 30K 2.5T Std",
+    "m": "RH1PY3017STANNJ",
+    "b": "Rheem",
+    "ton": 2.5,
+    "btu": 30,
+    "stg": 1,
+    "v": "208/230",
+    "p": 932.47
+  },
+  {
+    "n": "Endeavor 36K 3T 17.5\" Std",
+    "m": "RH1PY3617STANNJ",
+    "b": "Rheem",
+    "ton": 3,
+    "btu": 36,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1044.34
+  },
+  {
+    "n": "Endeavor 36K 3T 21\" Std",
+    "m": "RH1PY3621STANNJ",
+    "b": "Rheem",
+    "ton": 3,
+    "btu": 36,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1076.04
+  },
+  {
+    "n": "Endeavor 42K 3.5T Std",
+    "m": "RH1PY4221STANNJ",
+    "b": "Rheem",
+    "ton": 3.5,
+    "btu": 42,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1221.61
+  },
+  {
+    "n": "Endeavor 48K 4T 21\" Std",
+    "m": "RH1PY4821STANNJ",
+    "b": "Rheem",
+    "ton": 4,
+    "btu": 48,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1307.04
+  },
+  {
+    "n": "Endeavor 48K 4T 24\" Std",
+    "m": "RH1PY4824STANNJ",
+    "b": "Rheem",
+    "ton": 4,
+    "btu": 48,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1354.3
+  },
+  {
+    "n": "Endeavor 60K 5T 24\" Std",
+    "m": "RH1PY6024STANNJ",
+    "b": "Rheem",
+    "ton": 5,
+    "btu": 60,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1768.13
+  },
+  {
+    "n": "24K 2T 2-Stg 208/230V",
+    "m": "RH2TY2417STANNJ",
+    "b": "Rheem",
+    "ton": 2,
+    "btu": 24,
+    "stg": 2,
+    "v": "208/230",
+    "p": 1194.33
+  },
+  {
+    "n": "36K 3T 17.5\" 2-Stg",
+    "m": "RH2TY3617STANNJ",
+    "b": "Rheem",
+    "ton": 3,
+    "btu": 36,
+    "stg": 2,
+    "v": "208/230",
+    "p": 1323.06
+  },
+  {
+    "n": "36K 3T 21\" 2-Stg",
+    "m": "RH2TY3621STANNJ",
+    "b": "Rheem",
+    "ton": 3,
+    "btu": 36,
+    "stg": 2,
+    "v": "208/230",
+    "p": 1499.14
+  },
+  {
+    "n": "48K 4T 21\" 2-Stg",
+    "m": "RH2TY4821STANNJ",
+    "b": "Rheem",
+    "ton": 4,
+    "btu": 48,
+    "stg": 2,
+    "v": "208/230",
+    "p": 1546.93
+  },
+  {
+    "n": "48K 4T 24\" 2-Stg",
+    "m": "RH2TY4824STANNJ",
+    "b": "Rheem",
+    "ton": 4,
+    "btu": 48,
+    "stg": 2,
+    "v": "208/230",
+    "p": 1613.09
+  },
+  {
+    "n": "60K 5T 21\" 2-Stg",
+    "m": "RH2TY6021STANAJ",
+    "b": "Rheem",
+    "ton": 5,
+    "btu": 60,
+    "stg": 2,
+    "v": "208/230",
+    "p": 1723.2
+  },
+  {
+    "n": "60K 5T 24\" 2-Stg",
+    "m": "RH2TY6024STANNJ",
+    "b": "Rheem",
+    "ton": 5,
+    "btu": 60,
+    "stg": 2,
+    "v": "208/230",
+    "p": 1785.7
+  },
+  {
+    "n": "4T Lowboy 115V",
+    "m": "RB2TY4824STANMAN00",
+    "b": "Rheem",
+    "ton": 4,
+    "btu": 48,
+    "stg": 2,
+    "v": "115",
+    "p": 2492.36
+  },
+  {
+    "n": "3T Lowboy 115V",
+    "m": "RB2TY3621STANMAN00",
+    "b": "Rheem",
+    "ton": 3,
+    "btu": 36,
+    "stg": 2,
+    "v": "115",
+    "p": 2088.45
+  },
+  {
+    "n": "2T Lowboy 115V",
+    "m": "RB2TY2417STANMAN00",
+    "b": "Rheem",
+    "ton": 2,
+    "btu": 24,
+    "stg": 2,
+    "v": "115",
+    "p": 1843.11
+  },
+  {
+    "n": "5T Lowboy 115V",
+    "m": "RB2TY6024STANMAN00",
+    "b": "Rheem",
+    "ton": 5,
+    "btu": 60,
+    "stg": 2,
+    "v": "115",
+    "p": 2615.01
+  },
+  {
+    "n": "Endeavor 18K 1.5T Std 115V",
+    "m": "RH1PY1817STANNA",
+    "b": "Rheem",
+    "ton": 1.5,
+    "btu": 18,
+    "stg": 1,
+    "v": "115",
+    "p": 1268.03
+  },
+  {
+    "n": "Endeavor 36K 3T 21\" Std 115V",
+    "m": "RH1PY3621STANNA",
+    "b": "Rheem",
+    "ton": 3,
+    "btu": 36,
+    "stg": 1,
+    "v": "115",
+    "p": 1499.09
+  },
+  {
+    "n": "60K 5T 24\" 2-Stg 115V",
+    "m": "RH2TY6024STANNA",
+    "b": "Rheem",
+    "ton": 5,
+    "btu": 60,
+    "stg": 2,
+    "v": "115",
+    "p": 1785.39
+  },
+  {
+    "n": "GE 1.5T 1-Pc PSC",
+    "m": "NAM18P1TA5S",
+    "b": "GE",
+    "ton": 1.5,
+    "btu": 18,
+    "stg": 1,
+    "v": "208/230",
+    "p": 901.17
+  },
+  {
+    "n": "GE 2T 1-Pc ECM",
+    "m": "NAM24E1TA5S",
+    "b": "GE",
+    "ton": 2,
+    "btu": 24,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1104.66
+  },
+  {
+    "n": "GE 2T 1-Pc PSC",
+    "m": "NAM24P1TA5S",
+    "b": "GE",
+    "ton": 2,
+    "btu": 24,
+    "stg": 1,
+    "v": "208/230",
+    "p": 909.31
+  },
+  {
+    "n": "GE 2.5T 1-Pc ECM",
+    "m": "NAM30E1TA5S",
+    "b": "GE",
+    "ton": 2.5,
+    "btu": 30,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1327.92
+  },
+  {
+    "n": "GE 2.5T 1-Pc PSC",
+    "m": "NAM30P1TA5S",
+    "b": "GE",
+    "ton": 2.5,
+    "btu": 30,
+    "stg": 1,
+    "v": "208/230",
+    "p": 975.59
+  },
+  {
+    "n": "GE 3T 1-Pc ECM",
+    "m": "NAM36E1TA5S",
+    "b": "GE",
+    "ton": 3,
+    "btu": 36,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1317.45
+  },
+  {
+    "n": "GE 3T 1-Pc PSC",
+    "m": "NAM36P1TA5S",
+    "b": "GE",
+    "ton": 3,
+    "btu": 36,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1111.64
+  },
+  {
+    "n": "GE 3T 1-Pc Conv PSC",
+    "m": "NAM36P1TA5D",
+    "b": "GE",
+    "ton": 3,
+    "btu": 36,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1060.47
+  },
+  {
+    "n": "GE 3.5T 1-Pc ECM",
+    "m": "NAM42E1TA5S",
+    "b": "GE",
+    "ton": 3.5,
+    "btu": 42,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1495.36
+  },
+  {
+    "n": "GE 3.5T 1-Pc PSC",
+    "m": "NAM42P1TA5S",
+    "b": "GE",
+    "ton": 3.5,
+    "btu": 42,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1234.89
+  },
+  {
+    "n": "GE 4T 1-Pc ECM",
+    "m": "NAM48E1TA5S",
+    "b": "GE",
+    "ton": 4,
+    "btu": 48,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1495.36
+  },
+  {
+    "n": "GE 5T 1-Pc ECM",
+    "m": "NAM60E1TA5S",
+    "b": "GE",
+    "ton": 5,
+    "btu": 60,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1602.34
+  },
+  {
+    "n": "GE 1.5T 1-Pc VS",
+    "m": "NAM18V1TA5S",
+    "b": "GE",
+    "ton": 1.5,
+    "btu": 18,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1303.5
+  },
+  {
+    "n": "GE 2T 1-Pc VS",
+    "m": "NAM24V1TA5S",
+    "b": "GE",
+    "ton": 2,
+    "btu": 24,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1486.06
+  },
+  {
+    "n": "GE 2.5T 1-Pc VS",
+    "m": "NAM30V1TA5S",
+    "b": "GE",
+    "ton": 2.5,
+    "btu": 30,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1602.34
+  },
+  {
+    "n": "GE 3T 1-Pc VS",
+    "m": "NAM36V1TA5S",
+    "b": "GE",
+    "ton": 3,
+    "btu": 36,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1638.39
+  },
+  {
+    "n": "GE 3.5T 1-Pc VS",
+    "m": "NAM42V1TA5S",
+    "b": "GE",
+    "ton": 3.5,
+    "btu": 42,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1745.36
+  },
+  {
+    "n": "GE 4T 1-Pc VS",
+    "m": "NAM48V1TA5S",
+    "b": "GE",
+    "ton": 4,
+    "btu": 48,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1858.15
+  },
+  {
+    "n": "GE 5T 1-Pc VS",
+    "m": "NAM60V1TA5S",
+    "b": "GE",
+    "ton": 5,
+    "btu": 60,
+    "stg": 1,
+    "v": "208/230",
+    "p": 2022.11
+  },
+  {
+    "n": "GE 2T 2-Pc VS",
+    "m": "NAM24V2TA5S",
+    "b": "GE",
+    "ton": 2,
+    "btu": 24,
+    "stg": 2,
+    "v": "208/230",
+    "p": 1875.6
+  },
+  {
+    "n": "GE 2.5T 2-Pc VS",
+    "m": "NAM30V2TA5S",
+    "b": "GE",
+    "ton": 2.5,
+    "btu": 30,
+    "stg": 2,
+    "v": "208/230",
+    "p": 2213.97
+  },
+  {
+    "n": "GE 3T 2-Pc VS",
+    "m": "NAM36V2TA5S",
+    "b": "GE",
+    "ton": 3,
+    "btu": 36,
+    "stg": 2,
+    "v": "208/230",
+    "p": 2368.62
+  },
+  {
+    "n": "GE 3.5T 2-Pc VS",
+    "m": "NAM42V2TA5S",
+    "b": "GE",
+    "ton": 3.5,
+    "btu": 42,
+    "stg": 2,
+    "v": "208/230",
+    "p": 2484.9
+  },
+  {
+    "n": "GE 4T 2-Pc VS",
+    "m": "NAM48V2TA5S",
+    "b": "GE",
+    "ton": 4,
+    "btu": 48,
+    "stg": 2,
+    "v": "208/230",
+    "p": 2554.67
+  },
+  {
+    "n": "GE 5T 2-Pc VS",
+    "m": "NAM60V2TA5S",
+    "b": "GE",
+    "ton": 5,
+    "btu": 60,
+    "stg": 2,
+    "v": "208/230",
+    "p": 2723.28
+  },
+  {
+    "n": "GE 2T 2-Pc VS R-410A",
+    "m": "NAM24V2TA4",
+    "b": "GE",
+    "ton": 2,
+    "btu": 24,
+    "stg": 2,
+    "v": "208/230",
+    "p": 1623.27
+  },
+  {
+    "n": "GE 3T 2-Pc VS R-410A",
+    "m": "NAM36V2TA4",
+    "b": "GE",
+    "ton": 3,
+    "btu": 36,
+    "stg": 2,
+    "v": "208/230",
+    "p": 2051.18
+  },
+  {
+    "n": "GE 3.5T 2-Pc VS R-410A",
+    "m": "NAM42V2TA4",
+    "b": "GE",
+    "ton": 3.5,
+    "btu": 42,
+    "stg": 2,
+    "v": "208/230",
+    "p": 2151.18
+  },
+  {
+    "n": "GE 4T Legacy",
+    "m": "UUY48ZGDAB",
+    "b": "GE",
+    "ton": 4,
+    "btu": 48,
+    "stg": 1,
+    "v": "208/230",
+    "p": 2631.88
+  },
+  {
+    "n": "GE 5T Legacy",
+    "m": "UUY60ZGDAB",
+    "b": "GE",
+    "ton": 5,
+    "btu": 60,
+    "stg": 1,
+    "v": "208/230",
+    "p": 2693.46
+  },
+  {
+    "n": "Bosch Biva 2T R-454B 20 SEER Premium",
+    "m": "BIVA-24RCB-M20X",
+    "b": "Bosch",
+    "ton": 2,
+    "btu": 24,
+    "stg": 2,
+    "v": "220",
+    "p": 2234.28
+  },
+  {
+    "n": "Bosch Biva 3T 36K R-454B 20 SEER Premium",
+    "m": "BIVA-36RCB-M20X",
+    "b": "Bosch",
+    "ton": 3,
+    "btu": 36,
+    "stg": 2,
+    "v": "220",
+    "p": 2638.49
+  },
+  {
+    "n": "Bosch Biva 4T R-454B 20 SEER Premium",
+    "m": "BIVA-48RCB-M20X",
+    "b": "Bosch",
+    "ton": 4,
+    "btu": 48,
+    "stg": 2,
+    "v": "220",
+    "p": 2857.59
+  },
+  {
+    "n": "Bosch Biva 5T R-454B 20 SEER Premium 220V",
+    "m": "BIVA-60RCB-M20X",
+    "b": "Bosch",
+    "ton": 5,
+    "btu": 60,
+    "stg": 2,
+    "v": "220",
+    "p": 3974.94
+  },
+  {
+    "n": "Bosch Biva 4T 48K IDS 3.0 R-454B 220V",
+    "m": "BIVA-48MCB-M19X",
+    "b": "Bosch",
+    "ton": 4,
+    "btu": 48,
+    "stg": 2,
+    "v": "220",
+    "p": 2914.26
+  },
+  {
+    "n": "Bosch Biva 5T 60K IDS 3.0 R-454B 220V",
+    "m": "BIVA-60MCB-M19X",
+    "b": "Bosch",
+    "ton": 5,
+    "btu": 60,
+    "stg": 2,
+    "v": "220",
+    "p": 4054.27
+  },
+  {
+    "n": "Bosch IDS Light 2T PSC R-454B",
+    "m": "BIVA-24RXB-M15X",
+    "b": "Bosch",
+    "ton": 2,
+    "btu": 24,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1134.14
+  },
+  {
+    "n": "Bosch IDS Light 3T PSC R-454B",
+    "m": "BIVA-36RXB-M15X",
+    "b": "Bosch",
+    "ton": 3,
+    "btu": 36,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1373.81
+  },
+  {
+    "n": "Bosch IDS Light 4T PSC R-454B",
+    "m": "BIVA-48RXB-M15X",
+    "b": "Bosch",
+    "ton": 4,
+    "btu": 48,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1642.02
+  },
+  {
+    "n": "Bosch IDS Light 5T PSC R-454B",
+    "m": "BIVA-60RXB-M15X",
+    "b": "Bosch",
+    "ton": 5,
+    "btu": 60,
+    "stg": 1,
+    "v": "208/230",
+    "p": 2033.64
+  },
+  {
+    "n": "Bosch BVA 3T R-410A Multi ECM Inv 2.0",
+    "m": "BVA-36WN1-M20",
+    "b": "Bosch",
+    "ton": 3,
+    "btu": 36,
+    "stg": 2,
+    "v": "208/230",
+    "p": 2360.25
+  },
+  {
+    "n": "Bosch BVA 4T R-410A Multi ECM",
+    "m": "BVA-48WN1-M15",
+    "b": "Bosch",
+    "ton": 4,
+    "btu": 48,
+    "stg": 1,
+    "v": "208/230",
+    "p": 1350.53
+  },
+  {
+    "n": "Bosch IDS Edge 3T Multi-Pos",
+    "m": "BIVA-36VCB-M18X",
+    "b": "Bosch",
+    "ton": 3,
+    "btu": 36,
+    "stg": 2,
+    "v": "208/230",
+    "p": 2526.34
+  },
+  {
+    "n": "Bosch IDS Edge 4T Multi-Pos",
+    "m": "BIVA-48VCB-M18X",
+    "b": "Bosch",
+    "ton": 4,
+    "btu": 48,
+    "stg": 2,
+    "v": "208/230",
+    "p": 2752.41
+  },
+  {
+    "n": "Bosch 4T R-454B 208/230V",
+    "m": "BIVA-48VCB-M18X-2",
+    "b": "Bosch",
+    "ton": 4,
+    "btu": 48,
+    "stg": 2,
+    "v": "208/230",
+    "p": 1350.53
+  }
+]

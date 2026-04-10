@@ -1,0 +1,154 @@
+[
+  {
+    "n": "Rheem N 2T 17.5\" (Cab B) Std",
+    "m": "RCFY2417STANMC",
+    "b": "Rheem",
+    "ton": 2,
+    "w": "17.5",
+    "p": 536.19
+  },
+  {
+    "n": "Rheem N 3T 17.5\" (Cab B) Std",
+    "m": "RCFY3617STANMC",
+    "b": "Rheem",
+    "ton": 3,
+    "w": "17.5",
+    "p": 575.46
+  },
+  {
+    "n": "Rheem N 3T 21\" (Cab C) Std",
+    "m": "RCFY3621STANMC",
+    "b": "Rheem",
+    "ton": 3,
+    "w": "21",
+    "p": 608.27
+  },
+  {
+    "n": "Rheem N 4T 21\" (Cab C) Std",
+    "m": "RCFY4821STANMC",
+    "b": "Rheem",
+    "ton": 4,
+    "w": "21",
+    "p": 756.46
+  },
+  {
+    "n": "Rheem N 4T 24\" (Cab D) Std",
+    "m": "RCFY4824STANMC",
+    "b": "Rheem",
+    "ton": 4,
+    "w": "24",
+    "p": 828.34
+  },
+  {
+    "n": "Rheem N 5T 24\" (Cab D) Std",
+    "m": "RCFY6024STANMC",
+    "b": "Rheem",
+    "ton": 5,
+    "w": "24",
+    "p": 1017.23
+  },
+  {
+    "n": "Rheem A 2T 14\" Std",
+    "m": "RCFY2414STAAMC",
+    "b": "Rheem",
+    "ton": 2,
+    "w": "14",
+    "p": 501.37
+  },
+  {
+    "n": "Rheem A 5T 21\" (Cab C) Std",
+    "m": "RCFY6021STAAMC",
+    "b": "Rheem",
+    "ton": 5,
+    "w": "21",
+    "p": 941.96
+  },
+  {
+    "n": "Rheem A 4T 21\" (Cab C) Std",
+    "m": "RCFY4821STAAMC",
+    "b": "Rheem",
+    "ton": 4,
+    "w": "21",
+    "p": 942.4
+  },
+  {
+    "n": "Rheem N 5T 24\" (Cab D) High",
+    "m": "RCFY6024HTANMC",
+    "b": "Rheem",
+    "ton": 5,
+    "w": "24",
+    "p": 1150.54
+  },
+  {
+    "n": "Rheem A 3.5T 21\" (Cab C) High",
+    "m": "RCFY4221HTAAMC",
+    "b": "Rheem",
+    "ton": 3.5,
+    "w": "21",
+    "p": 867.19
+  },
+  {
+    "n": "Rheem A 3T 21\" (Cab C) High",
+    "m": "RCFY3621HTAAMC",
+    "b": "Rheem",
+    "ton": 3,
+    "w": "21",
+    "p": 909.54
+  },
+  {
+    "n": "Bosch 17.5\" (Cab B) 2-2.5T",
+    "m": "BMAC2430BBTA",
+    "b": "Bosch",
+    "ton": 2.5,
+    "w": "17.5",
+    "p": 803.8
+  },
+  {
+    "n": "Bosch 17.5\" (Cab B) 2.5-3T",
+    "m": "BMAC3036BBTA",
+    "b": "Bosch",
+    "ton": 3,
+    "w": "17.5",
+    "p": 826.47
+  },
+  {
+    "n": "Bosch 21\" (Cab C) 2.5-3T",
+    "m": "BMAC3036CBTA",
+    "b": "Bosch",
+    "ton": 3,
+    "w": "21",
+    "p": 945.26
+  },
+  {
+    "n": "Bosch 17.5\" (Cab B) 3.5-4T",
+    "m": "BMAC4248BBTA",
+    "b": "Bosch",
+    "ton": 4,
+    "w": "17.5",
+    "p": 1009.48
+  },
+  {
+    "n": "Bosch 21\" (Cab C) 3.5-4T",
+    "m": "BMAC4248CBTA",
+    "b": "Bosch",
+    "ton": 4,
+    "w": "21",
+    "p": 1111.47
+  },
+  {
+    "n": "Bosch 21\" (Cab C) 4-5T",
+    "m": "BMAC4860CBTA",
+    "b": "Bosch",
+    "ton": 5,
+    "w": "21",
+    "p": 1265.94
+  },
+  {
+    "n": "Bosch 24.5\" (Cab D) 4-5T",
+    "m": "BMAC4860DBTA",
+    "b": "Bosch",
+    "ton": 5,
+    "w": "24.5",
+    "p": 1274.75
+  }
+]

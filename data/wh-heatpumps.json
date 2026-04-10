@@ -1,0 +1,353 @@
+[
+  {
+    "n": "HP 1.5T 14.3 SEER 1-Stg",
+    "m": "RP14AY18AJ1NA",
+    "b": "Rheem",
+    "ton": 1.5,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 1662.36
+  },
+  {
+    "n": "HP 2T 14.3 SEER 2-Stg",
+    "m": "RP14AY24AJ2NA",
+    "b": "Rheem",
+    "ton": 2,
+    "seer": 14.3,
+    "stg": 2,
+    "p": 1876.23
+  },
+  {
+    "n": "HP 2.5T 14.3 SEER 2-Stg",
+    "m": "RP14AY30AJ2NA",
+    "b": "Rheem",
+    "ton": 2.5,
+    "seer": 14.3,
+    "stg": 2,
+    "p": 2096.13
+  },
+  {
+    "n": "HP 3T 14.3 SEER 2-Stg",
+    "m": "RP14AY36AJ2NA",
+    "b": "Rheem",
+    "ton": 3,
+    "seer": 14.3,
+    "stg": 2,
+    "p": 2328.34
+  },
+  {
+    "n": "HP 3.5T 14.3 SEER 2-Stg",
+    "m": "RP14AY42AJ2NA",
+    "b": "Rheem",
+    "ton": 3.5,
+    "seer": 14.3,
+    "stg": 2,
+    "p": 2645.56
+  },
+  {
+    "n": "HP 4T 14.3 SEER 2-Stg",
+    "m": "RP14AY48AJ2NA",
+    "b": "Rheem",
+    "ton": 4,
+    "seer": 14.3,
+    "stg": 2,
+    "p": 2860.01
+  },
+  {
+    "n": "HP 5T 14.3 SEER 2-Stg",
+    "m": "RP14AY60AJ2NA",
+    "b": "Rheem",
+    "ton": 5,
+    "seer": 14.3,
+    "stg": 2,
+    "p": 3256.09
+  },
+  {
+    "n": "HP 1.5T 15.2 SEER 2-Stg",
+    "m": "RP15AY18AJ2NA",
+    "b": "Rheem",
+    "ton": 1.5,
+    "seer": 15.2,
+    "stg": 2,
+    "p": 2354.5
+  },
+  {
+    "n": "HP 2T 15.2 SEER 2-Stg",
+    "m": "RP15AY24AJ2NA",
+    "b": "Rheem",
+    "ton": 2,
+    "seer": 15.2,
+    "stg": 2,
+    "p": 2499.19
+  },
+  {
+    "n": "HP 2.5T 15.2 SEER 2-Stg",
+    "m": "RP15AY30AJ2NA",
+    "b": "Rheem",
+    "ton": 2.5,
+    "seer": 15.2,
+    "stg": 2,
+    "p": 2865.91
+  },
+  {
+    "n": "HP 3T 15.2 SEER 2-Stg",
+    "m": "RP15AY36AJ2NA",
+    "b": "Rheem",
+    "ton": 3,
+    "seer": 15.2,
+    "stg": 2,
+    "p": 3193.44
+  },
+  {
+    "n": "HP 3.5T 15.2 SEER 2-Stg",
+    "m": "RP15AY42AJ2NA",
+    "b": "Rheem",
+    "ton": 3.5,
+    "seer": 15.2,
+    "stg": 2,
+    "p": 3592
+  },
+  {
+    "n": "HP 4T 15.2 SEER 2-Stg",
+    "m": "RP15AY48AJ2NA",
+    "b": "Rheem",
+    "ton": 4,
+    "seer": 15.2,
+    "stg": 2,
+    "p": 3600.17
+  },
+  {
+    "n": "HP 5T 15.2 SEER 2-Stg",
+    "m": "RP15AY60AJ2NA",
+    "b": "Rheem",
+    "ton": 5,
+    "seer": 15.2,
+    "stg": 2,
+    "p": 4124.56
+  },
+  {
+    "n": "HP Endeavor 2T 16 SEER Side",
+    "m": "RD16AY24AJVCA",
+    "b": "Rheem",
+    "ton": 2,
+    "seer": 16,
+    "stg": 2,
+    "p": 2273.34
+  },
+  {
+    "n": "HP Endeavor 3T 16 SEER Side",
+    "m": "RD16AY36AJVCA",
+    "b": "Rheem",
+    "ton": 3,
+    "seer": 16,
+    "stg": 2,
+    "p": 2392.99
+  },
+  {
+    "n": "HP Endeavor 4T 16 SEER Side",
+    "m": "RD16AY48AJVCA",
+    "b": "Rheem",
+    "ton": 4,
+    "seer": 16,
+    "stg": 2,
+    "p": 2826.03
+  },
+  {
+    "n": "HP Endeavor 5T 16 SEER Side",
+    "m": "RD16AY60AJVCA",
+    "b": "Rheem",
+    "ton": 5,
+    "seer": 16,
+    "stg": 2,
+    "p": 2974.75
+  },
+  {
+    "n": "HP 2T 19 SEER Side",
+    "m": "RD18AY24AJVCA",
+    "b": "Rheem",
+    "ton": 2,
+    "seer": 19,
+    "stg": 2,
+    "p": 2625.72
+  },
+  {
+    "n": "HP 3T 19 SEER Side",
+    "m": "RD18AY36AJVCA",
+    "b": "Rheem",
+    "ton": 3,
+    "seer": 19,
+    "stg": 2,
+    "p": 2763.92
+  },
+  {
+    "n": "HP 4T 19 SEER Side",
+    "m": "RD18AY48AJVCA",
+    "b": "Rheem",
+    "ton": 4,
+    "seer": 19,
+    "stg": 2,
+    "p": 3264.06
+  },
+  {
+    "n": "HP 5T 19 SEER Side",
+    "m": "RD18AY60AJVCA",
+    "b": "Rheem",
+    "ton": 5,
+    "seer": 19,
+    "stg": 2,
+    "p": 3435.86
+  },
+  {
+    "n": "HP 2T 19S VS Comm",
+    "m": "RP19AY24AJVCA",
+    "b": "Rheem",
+    "ton": 2,
+    "seer": 19,
+    "stg": 2,
+    "p": 4053.99
+  },
+  {
+    "n": "HP 3T 19S VS Comm",
+    "m": "RP19AY36AJVCA",
+    "b": "Rheem",
+    "ton": 3,
+    "seer": 19,
+    "stg": 2,
+    "p": 4412.6
+  },
+  {
+    "n": "HP 4T 19S VS Comm",
+    "m": "RP19AY48AJVCA",
+    "b": "Rheem",
+    "ton": 4,
+    "seer": 19,
+    "stg": 2,
+    "p": 4860.31
+  },
+  {
+    "n": "HP 5T 19S VS Comm",
+    "m": "RP19AY60AJVCA",
+    "b": "Rheem",
+    "ton": 5,
+    "seer": 19,
+    "stg": 2,
+    "p": 5357.09
+  },
+  {
+    "n": "Bosch IDS Premium 3T 20 SEER",
+    "m": "BOVA-36RTB-M20S",
+    "b": "Bosch",
+    "ton": 3,
+    "seer": 20,
+    "stg": 2,
+    "p": 4215.45
+  },
+  {
+    "n": "Bosch IDS Premium 5T 20 SEER",
+    "m": "BOVA-60RTB-M20S",
+    "b": "Bosch",
+    "ton": 5,
+    "seer": 20,
+    "stg": 2,
+    "p": 5437.32
+  },
+  {
+    "n": "Bosch IDS Ultra 5T 19 SEER Inv",
+    "m": "BOVA-60MTB-M19E",
+    "b": "Bosch",
+    "ton": 5,
+    "seer": 19,
+    "stg": 2,
+    "p": 6192.43
+  },
+  {
+    "n": "Bosch IDS Light 2T 15 SEER",
+    "m": "BOVA-24RXB-M15S",
+    "b": "Bosch",
+    "ton": 2,
+    "seer": 15,
+    "stg": 2,
+    "p": 2586.86
+  },
+  {
+    "n": "Bosch IDS Light 3T 15 SEER",
+    "m": "BOVA-36RXB-M15S",
+    "b": "Bosch",
+    "ton": 3,
+    "seer": 15,
+    "stg": 2,
+    "p": 2928.53
+  },
+  {
+    "n": "Bosch IDS Light 5T 15 SEER",
+    "m": "BOVA-60RXB-M15S",
+    "b": "Bosch",
+    "ton": 5,
+    "seer": 15,
+    "stg": 2,
+    "p": 3659.72
+  },
+  {
+    "n": "Bosch IDS Ultra 3T 19 SEER2",
+    "m": "BOVB-36MTB-M19E",
+    "b": "Bosch",
+    "ton": 3,
+    "seer": 19,
+    "stg": 2,
+    "p": 5106.14
+  },
+  {
+    "n": "Bosch IDS Edge 2T Max",
+    "m": "BOHA-24MTB-M18S",
+    "b": "Bosch",
+    "ton": 2,
+    "seer": 18,
+    "stg": 2,
+    "p": 2563.74
+  },
+  {
+    "n": "Bosch IDS Edge 2T Reg",
+    "m": "BOHA-24RTB-M18S",
+    "b": "Bosch",
+    "ton": 2,
+    "seer": 18,
+    "stg": 2,
+    "p": 2439.06
+  },
+  {
+    "n": "Bosch IDS Edge 3T Reg",
+    "m": "BOHA-36RTB-M18S",
+    "b": "Bosch",
+    "ton": 3,
+    "seer": 18,
+    "stg": 2,
+    "p": 2761.14
+  },
+  {
+    "n": "Bosch IDS Edge 3T Max",
+    "m": "BOHA-36MTB-M18S",
+    "b": "Bosch",
+    "ton": 3,
+    "seer": 18,
+    "stg": 2,
+    "p": 3067.43
+  },
+  {
+    "n": "Bosch IDS Edge 5T Max",
+    "m": "BOHA-60MTB-M18S",
+    "b": "Bosch",
+    "ton": 5,
+    "seer": 18,
+    "stg": 2,
+    "p": 3980.46
+  },
+  {
+    "n": "Bosch IDS Edge 5T Reg",
+    "m": "BOHA-60RTB-M18S",
+    "b": "Bosch",
+    "ton": 5,
+    "seer": 18,
+    "stg": 2,
+    "p": 3450.59
+  }
+]

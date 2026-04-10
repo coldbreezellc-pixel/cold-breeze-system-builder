@@ -1,0 +1,128 @@
+[
+  {
+    "n": "Indoor 12k BTU Windfree 3.0e R-32 - SINGLE/FJM NON MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR12DXFAMWKNCV",
+    "btu": 12,
+    "p": 386.64,
+    "z": "Both"
+  },
+  {
+    "n": "Indoor 15k BTU Standard R-32 - SINGLE/FJM NON MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR15DXFAMWKNCV",
+    "btu": 15,
+    "p": 434.16,
+    "z": "Both"
+  },
+  {
+    "n": "Indoor 18K BTU WindFree 3.0 R-32 - SINGLE/FJM NON MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR18DXFAMWKNCV",
+    "btu": 18,
+    "p": 504.14,
+    "z": "Both"
+  },
+  {
+    "n": "Indoor 24k BTU R-32 - SINGLE/FJM NON MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR24DXFAMWKNCV",
+    "btu": 24,
+    "p": 600.48,
+    "z": "Both"
+  },
+  {
+    "n": "Indoor 24k BTU RAC R-32 SINGLE ZONE",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMRNX24AMD",
+    "btu": 24,
+    "p": 696.65,
+    "z": "Single"
+  },
+  {
+    "n": "Indoor 36k BTU Windfree 3.0e RAC R-32 - SINGLE NON MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR36DXFUMGMNCV",
+    "btu": 36,
+    "p": 1205.73,
+    "z": "Single"
+  },
+  {
+    "n": "Indoor 7k BTU FJM R-32 - MULTI NON MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR07DXFAMWKNCV",
+    "btu": 7,
+    "p": 404.64,
+    "z": "FJM"
+  },
+  {
+    "n": "Indoor 9k BTU R-32 - SINGLE/FJM NON MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR09DXFAMWKNCV",
+    "btu": 9,
+    "p": 370.22,
+    "z": "Both"
+  },
+  {
+    "n": "Indoor Console 9k BTU CAC R-32",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMCNG09JDD",
+    "btu": 9,
+    "p": 525.12,
+    "z": "Single"
+  },
+  {
+    "n": "Indoor 9k BTU R-32 - SINGLE MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR09DXDABWKNCV",
+    "btu": 9,
+    "p": 484.52,
+    "z": "Single"
+  },
+  {
+    "n": "Indoor 12k BTU RAC R-32 - SINGLE MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR12DXDABWKNCV",
+    "btu": 12,
+    "p": 565.13,
+    "z": "Single"
+  },
+  {
+    "n": "Indoor 15k BTU RAC R-32 - SINGLE MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR15DXDABWKNCV",
+    "btu": 15,
+    "p": 635.44,
+    "z": "Single"
+  },
+  {
+    "n": "Indoor 18k BTU RAC R-32 - SINGLE MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR18DXDABWKNCV",
+    "btu": 18,
+    "p": 807.39,
+    "z": "Single"
+  },
+  {
+    "n": "Indoor 24k BTU RAC R-32 - SINGLE MAX HEAT",
+    "d": "",
+    "b": "Samsung",
+    "m": "SAMAR24DXDABWKNCV",
+    "btu": 24,
+    "p": 913.97,
+    "z": "Single"
+  }
+]
