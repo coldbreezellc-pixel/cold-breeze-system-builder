@@ -82,8 +82,8 @@
   },
   {
     "n": "Heat Pump 36K BTU 3 Ton GE Connect Side Discharge 18 SEER R-454B 33.4 K BTU 208/230 Volt 2000-3500 Watt 1 P...",
-    "m": "General Electric NS18H36HA5",
-    "b": "General",
+    "m": "NS18H36HA5",
+    "b": "GE",
     "ton": 3,
     "seer": 18,
     "stg": 1,
@@ -109,8 +109,8 @@
   },
   {
     "n": "Heat Pump 60K BTU 4 to 5 Ton GE Connect Side Discharge 18 SEER R-454B 208/230 Volt 6000-7500 Watt 1 Phase F...",
-    "m": "General Electric NS18H60HA5",
-    "b": "General",
+    "m": "NS18H60HA5",
+    "b": "GE",
     "ton": 5,
     "seer": 18,
     "stg": 1,
@@ -118,8 +118,8 @@
   },
   {
     "n": "Heat Pump 24K BTU 2 Ton GE Connect Side Discharge 18 SEER R-454B 17.9 To 24 K BTU 208/230 Volt 2000 Watt 1 ...",
-    "m": "General Electric NS18H24HA5",
-    "b": "General",
+    "m": "NS18H24HA5",
+    "b": "GE",
     "ton": 2,
     "seer": 18,
     "stg": 1,
@@ -173,7 +173,7 @@
   {
     "n": "Heat Pump TDI Pro 2 3 Ton Top Discharge R-454B",
     "m": "",
-    "b": "",
+    "b": "Bosch",
     "ton": 3,
     "seer": 0,
     "stg": 1,
@@ -263,7 +263,7 @@
   {
     "n": "Heat Pump TDI Pro 2 5 Ton Top Discharge R-454B",
     "m": "",
-    "b": "",
+    "b": "Bosch",
     "ton": 5,
     "seer": 0,
     "stg": 1,
@@ -289,8 +289,8 @@
   },
   {
     "n": "5-Ton 17 SEER 208/230-Volt Single-Stage Single-Phase Heat Pump",
-    "m": "General Electric NS17H60SA4",
-    "b": "General",
+    "m": "NS17H60SA4",
+    "b": "GE",
     "ton": 0,
     "seer": 17,
     "stg": 1,
@@ -308,7 +308,7 @@
   {
     "n": "Thermostat SDI Series",
     "m": "",
-    "b": "",
+    "b": "Bosch",
     "ton": 0,
     "seer": 0,
     "stg": 1,
@@ -317,7 +317,7 @@
   {
     "n": "Electric Heater Resitance 8 KW SDI Series",
     "m": "",
-    "b": "",
+    "b": "Bosch",
     "ton": 0,
     "seer": 0,
     "stg": 1,
@@ -388,8 +388,8 @@
   },
   {
     "n": "3-Ton 22 SEER 208/230-Volt Inverter Heat Pump",
-    "m": "General Electric NS22H36MA4",
-    "b": "General",
+    "m": "NS22H36MA4",
+    "b": "GE",
     "ton": 0,
     "seer": 22,
     "stg": 1,
@@ -397,8 +397,8 @@
   },
   {
     "n": "Heat Pump 2 Ton Split 1 Stage R-454B 16 SEER2",
-    "m": "General Electric NS16H24SA5",
-    "b": "General",
+    "m": "NS16H24SA5",
+    "b": "GE",
     "ton": 2,
     "seer": 16,
     "stg": 1,
@@ -496,8 +496,8 @@
   },
   {
     "n": "Heat Pump 3 Ton Split 1 Stage R-454B 16 SEER2",
-    "m": "General Electric NS16H36SA5",
-    "b": "General",
+    "m": "NS16H36SA5",
+    "b": "GE",
     "ton": 3,
     "seer": 16,
     "stg": 1,
@@ -586,8 +586,8 @@
   },
   {
     "n": "Heat Pump 3.5 Ton Split 1 Stage R-454B 16 SEER2",
-    "m": "General Electric NS16H42SA5",
-    "b": "General",
+    "m": "NS16H42SA5",
+    "b": "GE",
     "ton": 3.5,
     "seer": 16,
     "stg": 1,
@@ -595,8 +595,8 @@
   },
   {
     "n": "Heat Pump 2.5 Ton Split 1 Stage R-454B 16 SEER2",
-    "m": "General Electric NS16H30SA5",
-    "b": "General",
+    "m": "NS16H30SA5",
+    "b": "GE",
     "ton": 2.5,
     "seer": 16,
     "stg": 1,
@@ -686,7 +686,7 @@
   {
     "n": "Electric Heater Resitance 15 KW SDI Series",
     "m": "",
-    "b": "",
+    "b": "Bosch",
     "ton": 0,
     "seer": 0,
     "stg": 1,
@@ -848,7 +848,7 @@
   {
     "n": "Heat Pump 36K BTU 3 Ton Cold Climate 17.4 Seer R-454B 3001 Cubic Feet per Minute 39 K BTU 10.2 HSPF2 208/23...",
     "m": "",
-    "b": "",
+    "b": "Other",
     "ton": 3,
     "seer": 17.4,
     "stg": 1,
@@ -856,8 +856,8 @@
   },
   {
     "n": "Heat Pump 5 Ton Split 1 Stage R-454B 16 SEER2",
-    "m": "General Electric NS16H60SA5",
-    "b": "General",
+    "m": "NS16H60SA5",
+    "b": "GE",
     "ton": 5,
     "seer": 16,
     "stg": 1,
@@ -865,8 +865,8 @@
   },
   {
     "n": "Heat Pump 4 Ton Split 1 Stage R-454B 16 SEER2",
-    "m": "General Electric NS16H48SA5",
-    "b": "General",
+    "m": "NS16H48SA5",
+    "b": "GE",
     "ton": 4,
     "seer": 16,
     "stg": 1,
@@ -910,8 +910,8 @@
   },
   {
     "n": "5-Ton 22 SEER 208/230-Volt Inverter Heat Pump",
-    "m": "General Electric NS22H60MA4",
-    "b": "General",
+    "m": "NS22H60MA4",
+    "b": "GE",
     "ton": 0,
     "seer": 22,
     "stg": 1,
@@ -1072,8 +1072,8 @@
   },
   {
     "n": "Heat Pump 1.5 Ton Split 1 Stage R-454B 16 SEER2",
-    "m": "General Electric NS16H18SA5",
-    "b": "General",
+    "m": "NS16H18SA5",
+    "b": "GE",
     "ton": 1.5,
     "seer": 16,
     "stg": 1,
@@ -1136,7 +1136,7 @@
   {
     "n": "Electric Heater Resitance 20 KW SDI Series",
     "m": "",
-    "b": "",
+    "b": "Bosch",
     "ton": 0,
     "seer": 0,
     "stg": 1,
@@ -1172,7 +1172,7 @@
   {
     "n": "Heat Pump 30K BTU Regular Outdoor Ducted R-401A",
     "m": "",
-    "b": "",
+    "b": "Other",
     "ton": 0,
     "seer": 0,
     "stg": 1,
@@ -1982,7 +1982,7 @@
   {
     "n": "Heat Pump 56K BTU 5 Ton Cold Climate 16.0 Seer R-454B 2645 Cubic Feet per Minute 54 K BTU 9.0 HSPF2 208/230...",
     "m": "",
-    "b": "",
+    "b": "Other",
     "ton": 5,
     "seer": 16,
     "stg": 1,
@@ -1991,7 +1991,7 @@
   {
     "n": "Heat Pump 48K BTU 4 Ton Cold Climate 16.5 Seer R-454B 3037 Cubic Feet per Minute 46 K BTU 9.5 HSPF2 208/230...",
     "m": "",
-    "b": "",
+    "b": "Other",
     "ton": 4,
     "seer": 16.5,
     "stg": 1,
@@ -2000,7 +2000,7 @@
   {
     "n": "Heat Pump 24K BTU 2 Ton Cold Climate 18.3 Seer R-454B 1765 Cubic Feet per Minute 23 K BTU 10.0 HSPF2 208/23...",
     "m": "",
-    "b": "",
+    "b": "Other",
     "ton": 2,
     "seer": 18.3,
     "stg": 1,
@@ -2045,7 +2045,7 @@
   {
     "n": "Heat Pump SDI Extreme 2 4 to 5 Ton Top Discharge R-454B",
     "m": "",
-    "b": "",
+    "b": "Bosch",
     "ton": 5,
     "seer": 0,
     "stg": 1,
@@ -2054,7 +2054,7 @@
   {
     "n": "Heat Pump SDI Pro 2 3 Ton Top Discharge R-454B",
     "m": "",
-    "b": "",
+    "b": "Bosch",
     "ton": 3,
     "seer": 0,
     "stg": 1,
@@ -2144,7 +2144,7 @@
   {
     "n": "Heat Pump 33K BTU 2.5 Ton Cold Climate 17.0 Seer R-454B 3001 Cubic Feet per Minute 33 K BTU 10.0 HSPF2 208/...",
     "m": "",
-    "b": "",
+    "b": "Other",
     "ton": 2.5,
     "seer": 17,
     "stg": 1,
@@ -2153,7 +2153,7 @@
   {
     "n": "Heat Pump 18K BTU 1.5 Ton Cold Climate 19.0 Seer R-454B 1765 Cubic Feet per Minute 19 K BTU 9.7 HSPF2 208/2...",
     "m": "",
-    "b": "",
+    "b": "Other",
     "ton": 1.5,
     "seer": 19,
     "stg": 1,
@@ -2162,7 +2162,7 @@
   {
     "n": "Heat Pump SDI Extreme 2 to 3 Ton Top Discharge",
     "m": "",
-    "b": "",
+    "b": "Bosch",
     "ton": 3,
     "seer": 0,
     "stg": 1,
@@ -2171,7 +2171,7 @@
   {
     "n": "Heat Pump Pro 2 SDI 4 to 5 Ton R-454B",
     "m": "",
-    "b": "",
+    "b": "Bosch",
     "ton": 5,
     "seer": 0,
     "stg": 1,
@@ -2179,8 +2179,8 @@
   },
   {
     "n": "Heat Pump 5 Ton Inverter Split R-454B 21 SEER2",
-    "m": "General Electric NS21H60MA5",
-    "b": "General",
+    "m": "NS21H60MA5",
+    "b": "GE",
     "ton": 5,
     "seer": 21,
     "stg": 1,
@@ -2188,8 +2188,8 @@
   },
   {
     "n": "Heat Pump 4 Ton Inverter Split R-454B 21 SEER2",
-    "m": "General Electric NS21H48MA5",
-    "b": "General",
+    "m": "NS21H48MA5",
+    "b": "GE",
     "ton": 4,
     "seer": 21,
     "stg": 1,
@@ -2197,8 +2197,8 @@
   },
   {
     "n": "Heat Pump 3 Ton Inverter Split R-454B 21 SEER2",
-    "m": "General Electric NS21H36MA5",
-    "b": "General",
+    "m": "NS21H36MA5",
+    "b": "GE",
     "ton": 3,
     "seer": 21,
     "stg": 1,
@@ -2206,8 +2206,8 @@
   },
   {
     "n": "Heat Pump 2 Ton Inverter Split R-454B 21 SEER2",
-    "m": "General Electric NS21H24MA5",
-    "b": "General",
+    "m": "NS21H24MA5",
+    "b": "GE",
     "ton": 2,
     "seer": 21,
     "stg": 1,
@@ -2215,8 +2215,8 @@
   },
   {
     "n": "Heat Pump 4 to 5 Ton Inverter Split R-454B 19 SEER2",
-    "m": "General Electric NS19H60MA5",
-    "b": "General",
+    "m": "NS19H60MA5",
+    "b": "GE",
     "ton": 5,
     "seer": 19,
     "stg": 1,
@@ -2224,8 +2224,8 @@
   },
   {
     "n": "Heat Pump 2 to 3 Ton Inverter Split R-454B 19 SEER2",
-    "m": "General Electric NS19H36MA5",
-    "b": "General",
+    "m": "NS19H36MA5",
+    "b": "GE",
     "ton": 3,
     "seer": 19,
     "stg": 1,
@@ -2351,7 +2351,7 @@
   {
     "n": "Heat Pump 18K BTU Regular Outdoor Ducted 17 SEER2 R-401A 208/230 Volt 1 Phase",
     "m": "",
-    "b": "",
+    "b": "Other",
     "ton": 0,
     "seer": 17,
     "stg": 1,
@@ -2360,7 +2360,7 @@
   {
     "n": "Heat Pump 24K BTU Regular Outdoor Ducted 208/230 Volt 1 Phase",
     "m": "",
-    "b": "",
+    "b": "Other",
     "ton": 0,
     "seer": 0,
     "stg": 1,
@@ -2369,7 +2369,7 @@
   {
     "n": "Heat Pump 36K BTU Regular Outdoor Ducted R-401A 208/230 Volt 1 Phase",
     "m": "",
-    "b": "",
+    "b": "Other",
     "ton": 0,
     "seer": 0,
     "stg": 1,
@@ -2378,7 +2378,7 @@
   {
     "n": "Heat Pump 48K BTU 4 Ton Regular Outdoor Ducted R-401A 15.8 SEER2",
     "m": "",
-    "b": "",
+    "b": "Other",
     "ton": 4,
     "seer": 15.8,
     "stg": 1,
