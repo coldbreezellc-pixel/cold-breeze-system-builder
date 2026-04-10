@@ -65,7 +65,7 @@
     "b": "Rheem",
     "ton": 3,
     "btu": 60,
-    "afue": 96.0,
+    "afue": 96,
     "cab": "B",
     "w": "17.5",
     "stg": 2,
@@ -89,7 +89,7 @@
     "b": "Rheem",
     "ton": 4,
     "btu": 75,
-    "afue": 80.0,
+    "afue": 80,
     "cab": "B",
     "w": "17.5",
     "stg": 1,
@@ -994,30 +994,6 @@
     "w": "21",
     "stg": 1,
     "p": 1161.4
-  },
-  {
-    "n": "MGH Series Gas Furnace",
-    "m": "",
-    "b": "Other",
-    "ton": 0,
-    "btu": 0,
-    "afue": 0,
-    "cab": "",
-    "w": "",
-    "stg": 1,
-    "p": 2189.47
-  },
-  {
-    "n": "MGH Series Gas Furnace",
-    "m": "",
-    "b": "Other",
-    "ton": 0,
-    "btu": 0,
-    "afue": 0,
-    "cab": "",
-    "w": "",
-    "stg": 1,
-    "p": 2772.37
   },
   {
     "n": "Gas Furnace Natural Gas 72K BTU 95% 1 Stage PSC Downflow CMF95-072T-PG2",
@@ -2112,18 +2088,6 @@
     "p": 1050.54
   },
   {
-    "n": "MGH Series Gas Furnace",
-    "m": "",
-    "b": "Other",
-    "ton": 0,
-    "btu": 0,
-    "afue": 0,
-    "cab": "",
-    "w": "",
-    "stg": 1,
-    "p": 2586.84
-  },
-  {
     "n": "Furnace Natural Gas 80MBTU 95% AFUE 2000CFM ECM",
     "m": "RGF19080CE20MP13",
     "b": "Guardian",
@@ -2796,78 +2760,6 @@
     "p": 2322.43
   },
   {
-    "n": "Gas Furnace C Cabinet Upflow and Horizontal Gas Natural Gas or Propane 100K BTU 96% 2 Stage 21 Inch Cabinet",
-    "m": "",
-    "b": "GE",
-    "ton": 8.3,
-    "btu": 100,
-    "afue": 96,
-    "cab": "C",
-    "w": "21",
-    "stg": 2,
-    "p": 2744.21
-  },
-  {
-    "n": "Gas Furnace Midea AFUE ECM Motor B Cabinet Natural Gas or Propane 80K BTU 96% Upflow and Horizontal 2 Stage...",
-    "m": "",
-    "b": "GE",
-    "ton": 3.5,
-    "btu": 80,
-    "afue": 96,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 2,
-    "p": 2408.42
-  },
-  {
-    "n": "Gas Furnace Midea AFUE ECM Motor B Cabinet Natural Gas or Propane 60K BTU 96% Upflow and Horizontal 2 Stage...",
-    "m": "",
-    "b": "GE",
-    "ton": 5,
-    "btu": 60,
-    "afue": 96,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 2,
-    "p": 2338.95
-  },
-  {
-    "n": "Gas Furnace Midea AFUE ECM Motor C Cabinet Natural Gas or Propane 100K BTU 80% Upflow and Horizontal 1 Stag...",
-    "m": "",
-    "b": "Other",
-    "ton": 8.3,
-    "btu": 100,
-    "afue": 80,
-    "cab": "C",
-    "w": "21",
-    "stg": 1,
-    "p": 1754.21
-  },
-  {
-    "n": "Gas Furnace Midea AFUE ECM Motor B Cabinet Natural Gas or Propane 80K BTU 80% Upflow and Horizontal 1 Stage...",
-    "m": "",
-    "b": "GE",
-    "ton": 3.5,
-    "btu": 80,
-    "afue": 80,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 1,
-    "p": 1516.84
-  },
-  {
-    "n": "Gas Furnace Midea AFUE ECM Motor B Cabinet Natural Gas or Propane 60K BTU 80% Upflow and Horizontal 1 Stage...",
-    "m": "",
-    "b": "GE",
-    "ton": 5,
-    "btu": 60,
-    "afue": 80,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 1,
-    "p": 1383.68
-  },
-  {
     "n": "Gas Furnace Modulating 135K BTU 98% 5 Ton Upflow/Horizontal R-454B D Cabinet",
     "m": "NF98U135M5DR",
     "b": "GE",
@@ -3178,17 +3070,5 @@
     "w": "17.5",
     "stg": 1,
     "p": 1389.47
-  },
-  {
-    "n": "Gas Furnace AFUE ECM Motor C Cabinet Upflow and Horizontal Gas Conversion Kit Natural Gas or Propane 80K BT...",
-    "m": "",
-    "b": "Other",
-    "ton": 3.5,
-    "btu": 80,
-    "afue": 0,
-    "cab": "C",
-    "w": "21",
-    "stg": 1,
-    "p": 2622.63
   }
 ]
