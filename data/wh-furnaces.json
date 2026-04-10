@@ -732,18 +732,6 @@
     "p": 961.39
   },
   {
-    "n": "Gas Furnace LX Natural Gas 40K BTU 96% 2 Stage 3 Ton Variable-Speed Multi",
-    "m": "TM9V040A10MP12C",
-    "b": "York",
-    "ton": 3,
-    "btu": 40,
-    "afue": 96,
-    "cab": "A",
-    "w": "14.5",
-    "stg": 3,
-    "p": 1359.65
-  },
-  {
     "n": "Gas Furnace Natural 40K BTU 96 Percent 2.5T ECM Multi",
     "m": "Y91E040A10SMPS1",
     "b": "York",
