@@ -972,18 +972,6 @@
     "p": 1278.98
   },
   {
-    "n": "Gas Furnace CMA4 Natural Gas 50K BTU 95% 1 Stage 3 Ton PSC Downflow 57x18x25 Inch Cabinet",
-    "m": "CMA4-50D36N",
-    "b": "Thermo Pride",
-    "ton": 3,
-    "btu": 50,
-    "afue": 95,
-    "cab": "D",
-    "w": "25",
-    "stg": 1,
-    "p": 2628.44
-  },
-  {
     "n": "Guardian Single-Stage Multi-Position Natural Gas Residential Furnace",
     "m": "Single-Stage Multi-Position Natural Gas Residential Furnace",
     "b": "Guardian",
