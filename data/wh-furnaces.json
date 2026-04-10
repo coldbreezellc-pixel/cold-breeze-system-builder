@@ -1104,30 +1104,6 @@
     "p": 2022.02
   },
   {
-    "n": "Gas Furnace Natural Gas or Propane 75K BTU 80% Less Cabinet for Mobile Home",
-    "m": "GMA2-75D48N",
-    "b": "Thermo Pride",
-    "ton": 3,
-    "btu": 75,
-    "afue": 80,
-    "cab": "D",
-    "w": "24.5",
-    "stg": 1,
-    "p": 1404.78
-  },
-  {
-    "n": "Gas Furnace Less Cabinet Natural Gas or Propane 60K BTU for Mobile Home",
-    "m": "GMA2-60D48N",
-    "b": "Thermo Pride",
-    "ton": 5,
-    "btu": 60,
-    "afue": 80,
-    "cab": "D",
-    "w": "24.5",
-    "stg": 1,
-    "p": 1404.78
-  },
-  {
     "n": "Gas Furnace Modulating 90K BTU 98% 3 Ton Upflow/Horizontal R-454B C Cabinet",
     "m": "NF98U090M3CR",
     "b": "GE",
