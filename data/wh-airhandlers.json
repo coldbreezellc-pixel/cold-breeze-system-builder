@@ -900,16 +900,6 @@
     "p": 1008.41
   },
   {
-    "n": "Air Handler 2 Ton Hydronic Vertical",
-    "m": "45WCS2430JV0MC",
-    "b": "Spacepak",
-    "ton": 2,
-    "btu": 24,
-    "v": "208/230",
-    "stg": 1,
-    "p": 3794.78
-  },
-  {
     "n": "Air Handler 2 Ton R-454B Variable Speed 2 Piece Thermal Expansion Valve",
     "m": "NAM24V2TA5S",
     "b": "GE",
