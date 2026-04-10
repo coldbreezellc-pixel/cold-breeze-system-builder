@@ -840,30 +840,6 @@
     "p": 2564.21
   },
   {
-    "n": "Gas Furnace LX Non-Condensing Natural Gas 100K BTU 80% 1 Stage 5 Ton ECM Multi-Position C Cabinet",
-    "m": "Y81E100C20SMPS1",
-    "b": "York",
-    "ton": 5,
-    "btu": 100,
-    "afue": 80,
-    "cab": "C",
-    "w": "21",
-    "stg": 1,
-    "p": 748.55
-  },
-  {
-    "n": "Gas Furnace LX Non-Condensing Natural Gas 120K BTU 80% 1 Stage 4 Ton ECM Multi-Position C Cabinet",
-    "m": "Y81E120C16SMPS1",
-    "b": "York",
-    "ton": 4,
-    "btu": 120,
-    "afue": 80,
-    "cab": "C",
-    "w": "21",
-    "stg": 1,
-    "p": 785.7
-  },
-  {
     "n": "Gas Furnace Natural Gas 100K BTU 92% 1 Stage 5 Ton ECM Multi C Cabinet",
     "m": "R921T1005A21M4SNAS",
     "b": "Rheem",
