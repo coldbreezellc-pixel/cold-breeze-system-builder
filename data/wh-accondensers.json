@@ -399,7 +399,7 @@
     "n": "Window Air Conditioner with Remote - 12K BTU",
     "m": "",
     "b": "Other",
-    "ton": 0,
+    "ton": 1,
     "seer": 0,
     "stg": 1,
     "p": 604.64
@@ -534,8 +534,8 @@
     "n": "Air Conditioner 8K BTU 115 Volt 8.9 EER Portable with Remote",
     "m": "",
     "b": "Other",
-    "ton": 0,
-    "seer": 0,
+    "ton": 0.7,
+    "seer": 8.9,
     "stg": 1,
     "p": 511.44
   },
@@ -696,8 +696,8 @@
     "n": "Air Conditioner 10K BTU 115 Volt 8.9 EER Portable with Remote",
     "m": "",
     "b": "Other",
-    "ton": 0,
-    "seer": 0,
+    "ton": 0.8,
+    "seer": 8.9,
     "stg": 1,
     "p": 468.42
   },
@@ -707,7 +707,7 @@
     "b": "GE",
     "ton": 5,
     "seer": 22,
-    "stg": 2,
+    "stg": 3,
     "p": 8344.74
   },
   {
@@ -716,7 +716,7 @@
     "b": "GE",
     "ton": 4,
     "seer": 22,
-    "stg": 2,
+    "stg": 3,
     "p": 7703.95
   },
   {
@@ -725,7 +725,7 @@
     "b": "GE",
     "ton": 3,
     "seer": 22,
-    "stg": 2,
+    "stg": 3,
     "p": 7150
   },
   {
@@ -734,7 +734,7 @@
     "b": "GE",
     "ton": 2,
     "seer": 22,
-    "stg": 2,
+    "stg": 3,
     "p": 6456.58
   },
   {
