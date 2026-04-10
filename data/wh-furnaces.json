@@ -2052,30 +2052,6 @@
     "p": 1242.85
   },
   {
-    "n": "Gas Furnace M7 Without Coil Cabinet 45K BTU 95% Downflow 1 Stage R-454B MG2R-B045T1AAM1 for Manufactured Ho...",
-    "m": "Furnace 1048444",
-    "b": "Miller",
-    "ton": 3.8,
-    "btu": 45,
-    "afue": 95,
-    "cab": "C",
-    "w": "21",
-    "stg": 1,
-    "p": 2131.7
-  },
-  {
-    "n": "Gas Furnace M7 with Cabinet 45K BTU 95% Downflow R-454B MG2R-B045T1ACM1 for Manufactured Houses",
-    "m": "Furnace 1048443",
-    "b": "Miller",
-    "ton": 3.8,
-    "btu": 45,
-    "afue": 95,
-    "cab": "C",
-    "w": "21",
-    "stg": 1,
-    "p": 2291.45
-  },
-  {
     "n": "Gas Furnace M7 with Cabinet 60K BTU 95% Downflow R-454B MG2R-B060F1ACM1 for Manufactured Houses",
     "m": "Furnace 1048441",
     "b": "Miller",
