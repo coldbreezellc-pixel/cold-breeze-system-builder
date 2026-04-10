@@ -240,26 +240,6 @@
     "p": 1486.06
   },
   {
-    "n": "Air Handler B Series 3 Ton Multi-Position R-454B with RDS and Less Pump Non-Bleed Thermal Expansion Valve 1...",
-    "m": "BVRMB9A37S3N3R",
-    "b": "ADP",
-    "ton": 3,
-    "btu": 36,
-    "v": "208/230",
-    "stg": 1,
-    "p": 2138.62
-  },
-  {
-    "n": "Air Handler B Series 2 Ton Multi-Position R-454B with RDS and Less Pump Non-Bleed Thermal Expansion Valve 1...",
-    "m": "BVRMB2A25S3N3R",
-    "b": "ADP",
-    "ton": 2,
-    "btu": 24,
-    "v": "208/230",
-    "stg": 1,
-    "p": 1835.59
-  },
-  {
     "n": "Air Handler 36K BTU 3 Ton R-454B Mid Efficiency Multi-Position 2 Stage 208/230 Volt ECM",
     "m": "RH2TY3621MTANNJ",
     "b": "Rheem",
