@@ -1332,30 +1332,6 @@
     "p": 2783.58
   },
   {
-    "n": "Gas Furnace 70K BTU 97% 4 Ton Down 2 Stage R-454B B Cabinet",
-    "m": "NF97D070V4BR",
-    "b": "GE",
-    "ton": 4,
-    "btu": 70,
-    "afue": 97,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 2,
-    "p": 1978.61
-  },
-  {
-    "n": "Gas Furnace Modulating 70K BTU 97% 3 Ton Down R-454B B Cabinet",
-    "m": "NF97D070M3BR",
-    "b": "GE",
-    "ton": 3,
-    "btu": 70,
-    "afue": 97,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 3,
-    "p": 3603.64
-  },
-  {
     "n": "Gas Furnace 90K BTU 96% 4 Ton Down 1 Stage R-454B C Cabinet",
     "m": "NF96D090S4CR",
     "b": "GE",
