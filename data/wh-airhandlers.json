@@ -1040,16 +1040,6 @@
     "p": 1875.6
   },
   {
-    "n": "Air Handler VMB-4HW 5 Ton 4 Pipe Upflow 120/208/230 Volt Variable Speed",
-    "m": "20VMB-4HW",
-    "b": "First Co",
-    "ton": 5,
-    "btu": 60,
-    "v": "208/230",
-    "stg": 3,
-    "p": 5380.35
-  },
-  {
     "n": "Air Handler 52K BTU 5 Ton 1807 Cubic Feet per Minute R-454B 16.5 SEER Ducted Unit EEV Valve 1 Stage 115/208...",
     "m": "CS-HM60BAHU",
     "b": "Panasonic",
