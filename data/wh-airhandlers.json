@@ -60,16 +60,6 @@
     "p": 1414.62
   },
   {
-    "n": "Air Handler Hydronic 2.5 Ton R-454B 2 Row Non-Bleed Thermal Expansion Valve 120 Volt Permanent Split Capacitor",
-    "m": "30HCXW2010BVB00AA",
-    "b": "First Co",
-    "ton": 2.5,
-    "btu": 30,
-    "v": "120",
-    "stg": 1,
-    "p": 1311.41
-  },
-  {
     "n": "Air Handler IDS Light 2 Ton AHU Permanent Split Capacitor R454B",
     "m": "BIVA-24RXB-M15X",
     "b": "Bosch",
