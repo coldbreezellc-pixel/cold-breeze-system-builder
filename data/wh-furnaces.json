@@ -1011,25 +1011,25 @@
     "n": "Guardian Single-Stage Multi-Position Natural Gas Residential Furnace",
     "m": "Single-Stage Multi-Position Natural Gas Residential Furnace",
     "b": "Guardian",
-    "ton": 2.5,
-    "btu": 60,
+    "ton": 3,
+    "btu": 70,
     "afue": 80,
     "cab": "B",
     "w": "17.5",
     "stg": 1,
-    "p": 1235.85
+    "p": 1278.98
   },
   {
     "n": "Guardian Single-Stage Multi-Position Natural Gas Residential Furnace",
     "m": "Single-Stage Multi-Position Natural Gas Residential Furnace",
     "b": "Guardian",
-    "ton": 2.5,
-    "btu": 60,
+    "ton": 3,
+    "btu": 70,
     "afue": 80,
     "cab": "B",
     "w": "17.5",
     "stg": 1,
-    "p": 1200.09
+    "p": 1278.98
   },
   {
     "n": "Gas Furnace CLQS1 Natural Gas 125K BTU 95% 1 Stage 5 Ton ECM Multi 34-1/2x24x28-1/2 Inch Cabinet",
@@ -1119,13 +1119,13 @@
     "n": "Guardian Single-Stage Multi-Position Natural Gas Residential Furnace",
     "m": "Single-Stage Multi-Position Natural Gas Residential Furnace",
     "b": "Guardian",
-    "ton": 4.5,
-    "btu": 100,
+    "ton": 3,
+    "btu": 70,
     "afue": 80,
-    "cab": "D",
-    "w": "24.5",
+    "cab": "B",
+    "w": "17.5",
     "stg": 1,
-    "p": 1607.66
+    "p": 1278.98
   },
   {
     "n": "Gas Furnace Affinity Natural Gas 120K BTU 80% Modulating 5 Ton Variable-Speed Multi",
@@ -2115,37 +2115,13 @@
     "n": "Guardian Single-Stage Multi-Position Natural Gas Residential Furnace",
     "m": "Single-Stage Multi-Position Natural Gas Residential Furnace",
     "b": "Guardian",
-    "ton": 4.5,
-    "btu": 100,
+    "ton": 3,
+    "btu": 70,
     "afue": 80,
-    "cab": "D",
-    "w": "24.5",
+    "cab": "B",
+    "w": "17.5",
     "stg": 1,
-    "p": 1664.46
-  },
-  {
-    "n": "Guardian Single-Stage Multi-Position Natural Gas Residential Furnace",
-    "m": "Single-Stage Multi-Position Natural Gas Residential Furnace",
-    "b": "Guardian",
-    "ton": 4,
-    "btu": 90,
-    "afue": 80,
-    "cab": "C",
-    "w": "21",
-    "stg": 1,
-    "p": 1542.98
-  },
-  {
-    "n": "Guardian Single-Stage Multi-Position Natural Gas Residential Furnace",
-    "m": "Single-Stage Multi-Position Natural Gas Residential Furnace",
-    "b": "Guardian",
-    "ton": 3.5,
-    "btu": 80,
-    "afue": 80,
-    "cab": "C",
-    "w": "21",
-    "stg": 1,
-    "p": 1479.34
+    "p": 1278.98
   },
   {
     "n": "Guardian Single-Stage Multi-Position Natural Gas Residential Furnace",
@@ -2157,7 +2133,31 @@
     "cab": "B",
     "w": "17.5",
     "stg": 1,
-    "p": 1314.21
+    "p": 1278.98
+  },
+  {
+    "n": "Guardian Single-Stage Multi-Position Natural Gas Residential Furnace",
+    "m": "Single-Stage Multi-Position Natural Gas Residential Furnace",
+    "b": "Guardian",
+    "ton": 3,
+    "btu": 70,
+    "afue": 80,
+    "cab": "B",
+    "w": "17.5",
+    "stg": 1,
+    "p": 1278.98
+  },
+  {
+    "n": "Guardian Single-Stage Multi-Position Natural Gas Residential Furnace",
+    "m": "Single-Stage Multi-Position Natural Gas Residential Furnace",
+    "b": "Guardian",
+    "ton": 3,
+    "btu": 70,
+    "afue": 80,
+    "cab": "B",
+    "w": "17.5",
+    "stg": 1,
+    "p": 1278.98
   },
   {
     "n": "Gas Furnace 135K BTU 97% 5 Ton Up/Horizontal Flow 2 Stage R454B B",
