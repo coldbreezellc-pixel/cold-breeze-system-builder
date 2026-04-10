@@ -658,33 +658,29 @@ License: PA# PA175599 | NJ HVAC Master Technician # 19HC00783700`);
   const msInList=useMemo(()=>{let l=[...msInData].filter(i=>i.z===msSysType||i.z==="Both");if(msInSearch){const s=msInSearch.toLowerCase();l=l.filter(i=>i.n.toLowerCase().includes(s)||(i.m&&i.m.toLowerCase().includes(s)))}return l.sort((a,b)=>a.btu-b.btu||a.p-b.p)},[msInData,msInSearch,msSysType]);
   const msSingleOutList=useMemo(()=>{if(msSysType!=="Single"||!msSelIn)return msOutList;return msOutList.map(i=>({...i,_match:i.btu===msSelIn.btu?"exact":Math.abs(i.btu-msSelIn.btu)<=3?"close":"none"})).sort((a,b)=>{const order={exact:0,close:1,none:2};return order[a._match]-order[b._match]||Math.abs(a.btu-msSelIn.btu)-Math.abs(b.btu-msSelIn.btu)||a.p-b.p})},[msOutList,msSelIn,msSysType]);
 
-  const whFList=useMemo(()=>{let l=[...whDb.FURNACES];if(whFBrand!=="All")l=l.filter(i=>i.b===whFBrand);if(whFTon!=="All")l=l.filter(i=>i.ton===Number(whFTon));if(whFBtu!=="All")l=l.filter(i=>i.btu===Number(whFBtu));if(whFAfue!=="All")l=l.filter(i=>i.afue===Number(whFAfue));if(whFStg!=="All")l=l.filter(i=>i.stg===Number(whFStg));if(whFCab!=="All")l=l.filter(i=>i.cab===whFCab);return l},[whDb.FURNACES,whFBrand,whFTon,whFBtu,whFAfue,whFStg,whFCab]);
-  const whCoilList=useMemo(()=>{if(!whSelF)return[];let l=[...whDb.COILS];if(whCBrand!=="All")l=l.filter(i=>i.b===whCBrand);return l.filter(i=>Math.abs(i.ton-whSelF.ton)<=1&&(!i.w||Math.abs(parseFloat(i.w)-parseFloat(whSelF.w))<=3.5)).sort((a,b)=>(Math.abs(a.ton-whSelF.ton)+Math.abs(parseFloat(a.w||0)-parseFloat(whSelF.w))/10)-(Math.abs(b.ton-whSelF.ton)+Math.abs(parseFloat(b.w||0)-parseFloat(whSelF.w))/10)||a.p-b.p)},[whDb.COILS,whSelF,whCBrand]);
-  const whFOutList=useMemo(()=>{
+  const whFList=(()=>{let l=[...whDb.FURNACES];if(whFBrand!=="All")l=l.filter(i=>i.b===whFBrand);if(whFTon!=="All")l=l.filter(i=>i.ton===Number(whFTon));if(whFBtu!=="All")l=l.filter(i=>i.btu===Number(whFBtu));if(whFAfue!=="All")l=l.filter(i=>i.afue===Number(whFAfue));if(whFStg!=="All")l=l.filter(i=>i.stg===Number(whFStg));if(whFCab!=="All")l=l.filter(i=>i.cab===whFCab);return l})();
+  const whCoilList=(()=>{if(!whSelF)return[];let l=[...whDb.COILS];if(whCBrand!=="All")l=l.filter(i=>i.b===whCBrand);return l.filter(i=>Math.abs(i.ton-whSelF.ton)<=1&&(!i.w||Math.abs(parseFloat(i.w)-parseFloat(whSelF.w))<=3.5)).sort((a,b)=>(Math.abs(a.ton-whSelF.ton)+Math.abs(parseFloat(a.w||0)-parseFloat(whSelF.w))/10)-(Math.abs(b.ton-whSelF.ton)+Math.abs(parseFloat(b.w||0)-parseFloat(whSelF.w))/10)||a.p-b.p)})();
+  const whFOutList=(()=>{
     let l=whFOutType==="ac"?[...whDb.AC_CONDENSERS]:[...whDb.HEAT_PUMPS];
     if(whFOutBrand!=="All")l=l.filter(i=>i.b===whFOutBrand);
-    // Use coil tonnage if a coil is selected (most accurate), otherwise fall back to furnace tonnage
     const targetTon=whSelC?whSelC.ton:(whSelF?whSelF.ton:null);
     const preferBrand=whSelC?whSelC.b:(whSelF?whSelF.b:null);
     if(targetTon!==null)l=l.filter(i=>Math.abs(i.ton-targetTon)<=1);
     return l.sort((a,b)=>{
       if(targetTon===null)return a.p-b.p;
-      // 1. Exact tonnage match first
       const aTonDiff=Math.abs(a.ton-targetTon);
       const bTonDiff=Math.abs(b.ton-targetTon);
       if(aTonDiff!==bTonDiff)return aTonDiff-bTonDiff;
-      // 2. Same brand as coil/furnace preferred
       if(preferBrand){
         const aSameBrand=a.b===preferBrand?0:1;
         const bSameBrand=b.b===preferBrand?0:1;
         if(aSameBrand!==bSameBrand)return aSameBrand-bSameBrand;
       }
-      // 3. Lower price
       return a.p-b.p;
     });
-  },[whDb.AC_CONDENSERS,whDb.HEAT_PUMPS,whFOutType,whFOutBrand,whSelF,whSelC]);
-  const whAList=useMemo(()=>{let l=[...whDb.AIR_HANDLERS];if(whABrand!=="All")l=l.filter(i=>i.b===whABrand);if(whATon!=="All")l=l.filter(i=>i.ton===Number(whATon));if(whAVolt!=="All")l=l.filter(i=>i.v===whAVolt);if(whAStg!=="All")l=l.filter(i=>i.stg===Number(whAStg));return l},[whDb.AIR_HANDLERS,whABrand,whATon,whAVolt,whAStg]);
-  const whAOutList=useMemo(()=>{let l=whAOutType==="heatpump"?[...whDb.HEAT_PUMPS]:[...whDb.AC_CONDENSERS];if(whAOutBrand!=="All")l=l.filter(i=>i.b===whAOutBrand);if(whSelA)l=l.filter(i=>Math.abs(i.ton-whSelA.ton)<=1);return l.sort((a,b)=>whSelA?Math.abs(a.ton-whSelA.ton)-Math.abs(b.ton-whSelA.ton)||a.p-b.p:a.p-b.p)},[whDb.HEAT_PUMPS,whDb.AC_CONDENSERS,whAOutType,whAOutBrand,whSelA]);
+  })();
+  const whAList=(()=>{let l=[...whDb.AIR_HANDLERS];if(whABrand!=="All")l=l.filter(i=>i.b===whABrand);if(whATon!=="All")l=l.filter(i=>i.ton===Number(whATon));if(whAVolt!=="All")l=l.filter(i=>i.v===whAVolt);if(whAStg!=="All")l=l.filter(i=>i.stg===Number(whAStg));return l})();
+  const whAOutList=(()=>{let l=whAOutType==="heatpump"?[...whDb.HEAT_PUMPS]:[...whDb.AC_CONDENSERS];if(whAOutBrand!=="All")l=l.filter(i=>i.b===whAOutBrand);if(whSelA)l=l.filter(i=>Math.abs(i.ton-whSelA.ton)<=1);return l.sort((a,b)=>whSelA?Math.abs(a.ton-whSelA.ton)-Math.abs(b.ton-whSelA.ton)||a.p-b.p:a.p-b.p)})();
   const uq=(arr,fn)=>[...new Set(arr.map(fn))].sort((a,b)=>a-b);
   const whFTons=uq(whDb.FURNACES,i=>i.ton),whFBtus=uq(whDb.FURNACES,i=>i.btu),whFAfues=uq(whDb.FURNACES,i=>i.afue),whATons=uq(whDb.AIR_HANDLERS,i=>i.ton);
   const whFBrands=uq(whDb.FURNACES,i=>i.b).filter(Boolean).sort();
