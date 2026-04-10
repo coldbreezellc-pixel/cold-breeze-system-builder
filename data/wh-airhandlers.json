@@ -300,16 +300,6 @@
     "p": 1858.15
   },
   {
-    "n": "Air Handler B Series 5 Ton Multi-Position R-454B with RDS and Less Pump Non-Bleed Thermal Expansion Valve 1...",
-    "m": "BVRMC7A60S4N3R",
-    "b": "ADP",
-    "ton": 5,
-    "btu": 60,
-    "v": "208/230",
-    "stg": 1,
-    "p": 2498.48
-  },
-  {
     "n": "Air Handler 3.5 Ton R-454B 1 Piece Thermal Expansion Valve ECM",
     "m": "NAM42E1TA5S",
     "b": "GE",
@@ -350,16 +340,6 @@
     "p": 1111.64
   },
   {
-    "n": "Air Handler F Series 3 Ton Multi-Position R-454B Low Profile with RDS Non-Bleed Thermal Expansion Valve 208...",
-    "m": "FCMCC1A37S002R",
-    "b": "ADP",
-    "ton": 3,
-    "btu": 36,
-    "v": "208/230",
-    "stg": 1,
-    "p": 1211.18
-  },
-  {
     "n": "Air Handler 5 Ton Hydronic 4 Row Hardwire Coil Permanent Split Capacitor",
     "m": "ABM59J-024WC4XL",
     "b": "Aspen",
@@ -388,16 +368,6 @@
     "v": "208/230",
     "stg": 1,
     "p": 2051.18
-  },
-  {
-    "n": "Air Handler F Series 1.5 to 2 Ton Multi-Position R-454B Low Profile with RDS Non-Bleed Thermal Expansion Va...",
-    "m": "FCME31A24S002R",
-    "b": "ADP",
-    "ton": 2,
-    "btu": 24,
-    "v": "208/230",
-    "stg": 1,
-    "p": 891.66
   },
   {
     "n": "Air Handler F Series 3.5 to 4 Ton Multi-Position R-454B Low Profile with RDS Non-Bleed Thermal Expansion Va...",
