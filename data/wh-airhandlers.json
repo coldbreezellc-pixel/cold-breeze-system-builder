@@ -900,26 +900,6 @@
     "p": 1875.6
   },
   {
-    "n": "Air Handler 48K BTU 4 Ton 1600 Cubic Feet per Minute R-454B 16.5 SEER Ducted Unit CS Valve 1 Stage 115/208/...",
-    "m": "CS-HM48BAHU",
-    "b": "Panasonic",
-    "ton": 4,
-    "btu": 48,
-    "v": "208/230",
-    "stg": 1,
-    "p": 2482.7
-  },
-  {
-    "n": "Air Handler 23K BTU 2 Ton 800 Cubic Feet per Minute R-454B 18.3 SEER Ducted Unit EEV Valve 1 Stage 115/208/...",
-    "m": "CS-HM24BAHU",
-    "b": "Panasonic",
-    "ton": 2,
-    "btu": 23,
-    "v": "208/230",
-    "stg": 1,
-    "p": 1970.37
-  },
-  {
     "n": "Air Handler 3.5 Ton R-454B Variable Speed 2 Piece Thermal Expansion Valve",
     "m": "NAM42V2TA5S",
     "b": "GE",
@@ -1028,16 +1008,6 @@
     "v": "208/230",
     "stg": 1,
     "p": 1203.53
-  },
-  {
-    "n": "Air Handler 32K BTU 2.5 Ton 1000 Cubic Feet per Minute R-454B 16.8 SEER Ducted Unit TXY Valve 1 Stage 115/2...",
-    "m": "CS-HM30BAHU",
-    "b": "Panasonic",
-    "ton": 2.5,
-    "btu": 32,
-    "v": "208/230",
-    "stg": 1,
-    "p": 2234.69
   },
   {
     "n": "Air Handler 18K BTU 1.5 Ton 600 Cubic Feet per Minute R-454B 18.4 SEER Ducted Unit TXY Valve 1 Stage 115/20...",
