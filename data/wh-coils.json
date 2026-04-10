@@ -1,14 +1,294 @@
 [
   {
-    "n": "Rheem N 2T 17.5\" (Cab B) Std",
-    "m": "RCFY2417STANMC",
-    "b": "Rheem",
-    "ton": 2,
+    "n": "Evaporator Coil Cased 17-1/2 Inch 2.5 to 3 Ton R-454B",
+    "m": "BMAC3036BBTA",
+    "b": "Bosch",
+    "ton": 3,
     "w": "17.5",
-    "p": 536.19
+    "p": 851.02
   },
   {
-    "n": "Rheem N 3T 17.5\" (Cab B) Std",
+    "n": "Evaporator Coil Cased 21 Inch 3.5 to 4 Ton R-454B",
+    "m": "BMAC4248CBTA",
+    "b": "Bosch",
+    "ton": 4,
+    "w": "21",
+    "p": 1144.49
+  },
+  {
+    "n": "Evaporator Coil Cased 21 Inch 2.5 to 3 Ton R-454B",
+    "m": "BMAC3036CBTA",
+    "b": "Bosch",
+    "ton": 3,
+    "w": "21",
+    "p": 973.33
+  },
+  {
+    "n": "Evaporator Coil Cased 21 Inch 4 to 5 Ton R-454B",
+    "m": "BMAC4860CBTA",
+    "b": "Bosch",
+    "ton": 5,
+    "w": "21",
+    "p": 1303.54
+  },
+  {
+    "n": "Evaporator Coil Cased 17-1/2 Inch 3.5 to 4 Ton R-454B",
+    "m": "BMAC4248BBTA",
+    "b": "Bosch",
+    "ton": 4,
+    "w": "17.5",
+    "p": 1039.46
+  },
+  {
+    "n": "Evaporator Coil Cased 17-1/2 Inch 2 to 2.5 Ton R-454B",
+    "m": "BMAC2430BBTA",
+    "b": "Bosch",
+    "ton": 2.5,
+    "w": "17.5",
+    "p": 827.68
+  },
+  {
+    "n": "Evaporator Coil Cased 24-1/2 Inch 4 to 5 Ton R-454B",
+    "m": "BMAC4860DBTA",
+    "b": "Bosch",
+    "ton": 5,
+    "w": "24.5",
+    "p": 1312.62
+  },
+  {
+    "n": "Evaporator Coil Cased Multi 21 Inch 3 Ton R-410A for Inverter",
+    "m": "BMAC3036CNTD",
+    "b": "Bosch",
+    "ton": 3,
+    "w": "21",
+    "p": 762.18
+  },
+  {
+    "n": "Evaporator Coil USM 3 Ton for MBX/MBXR/MAX USM436AP",
+    "m": "First Co USM436AP",
+    "b": "First",
+    "ton": 3,
+    "w": "",
+    "p": 1680.38
+  },
+  {
+    "n": "Evaporator Coil USM 2 Ton for MBX/MBXR/MAX USM424AP",
+    "m": "First Co USM424AP",
+    "b": "First",
+    "ton": 2,
+    "w": "",
+    "p": 1404.83
+  },
+  {
+    "n": "Evaporator Coil Cased 24-1/2 Inch 3.5 to 4 Ton R-454B",
+    "m": "BMAC4248DBTA",
+    "b": "Bosch",
+    "ton": 4,
+    "w": "24.5",
+    "p": 1181.22
+  },
+  {
+    "n": "Evaporator Coil USM 2-1/2 Ton for MBX/MBXR/MAX USM330AP",
+    "m": "First Co USM330AP",
+    "b": "First",
+    "ton": 2,
+    "w": "",
+    "p": 1365.95
+  },
+  {
+    "n": "Evaporator Coil USM 4 Ton for MBX/MBXR/MAX USM348AP",
+    "m": "First Co USM348AP",
+    "b": "First",
+    "ton": 4,
+    "w": "",
+    "p": 1851.13
+  },
+  {
+    "n": "Evaporator Coil Cased 14-1/2 Inch 2 to 2.5 Ton R-454B",
+    "m": "BMAC2430ABTA",
+    "b": "Bosch",
+    "ton": 2.5,
+    "w": "14.5",
+    "p": 827.68
+  },
+  {
+    "n": "Evaporator Coil Uncased 2.5 Ton R-410A",
+    "m": "Furnace 921505",
+    "b": "Miller",
+    "ton": 2.5,
+    "w": "",
+    "p": 575.76
+  },
+  {
+    "n": "Evaporator Coil Cased 14-1/2 Inch 2.5 to 3 Ton R-454B",
+    "m": "BMAC3036ABTA",
+    "b": "Bosch",
+    "ton": 3,
+    "w": "14.5",
+    "p": 851.02
+  },
+  {
+    "n": "Evaporator Coil USM 1-1/2 Ton for DX Cooling 18MBX USM318AP",
+    "m": "First Co USM318AP",
+    "b": "First",
+    "ton": 2,
+    "w": "",
+    "p": 1107.29
+  },
+  {
+    "n": "Evaporator Coil USM 5 Ton for MBX/MBXR/MAX USM460BP",
+    "m": "First Co USM460BP",
+    "b": "First",
+    "ton": 5,
+    "w": "",
+    "p": 2312.64
+  },
+  {
+    "n": "Evaporator Coil AC A-Style Cased Painted",
+    "m": "HE50960PA212",
+    "b": "Thermo",
+    "ton": 0,
+    "w": "",
+    "p": 1405.74
+  },
+  {
+    "n": "Evaporator Coil AC A-Style Cased Painted",
+    "m": "HE33936PA212",
+    "b": "Thermo",
+    "ton": 0,
+    "w": "",
+    "p": 1039.32
+  },
+  {
+    "n": "Evaporator Coil Multi-Position 21 Inch 4 Ton R-454B for G/E Thermal Expansion Valve",
+    "m": "ADP AE84A48D210B2520L",
+    "b": "ADP",
+    "ton": 4,
+    "w": "21",
+    "p": 812.41
+  },
+  {
+    "n": "Evaporator Coil Cased Cabinet Multi Position with EEV 24 Inch 5 Ton R-454B",
+    "m": "RCFY6021SEAAMC",
+    "b": "Rheem",
+    "ton": 5,
+    "w": "24",
+    "p": 1234.47
+  },
+  {
+    "n": "Evaporator Coil Cased Cabinet Multi Position with EEV 21 Inch 4 Ton R-454B",
+    "m": "RCFY4821SEAAMC",
+    "b": "Rheem",
+    "ton": 4,
+    "w": "21",
+    "p": 1014.32
+  },
+  {
+    "n": "Evaporator Coil 1-1/2 Ton for HBXB/VHBXB 321-30-3",
+    "m": "First Co 9-321-30-3",
+    "b": "First",
+    "ton": 2,
+    "w": "",
+    "p": 1053.66
+  },
+  {
+    "n": "Evaporator Coil Cased Thermal Expansion Valve Multi-Position 21 Inch 4 Ton R-454B",
+    "m": "ADP RE84A48D210B2522R",
+    "b": "ADP",
+    "ton": 4,
+    "w": "21",
+    "p": 891.66
+  },
+  {
+    "n": "Evaporator Coil 3 Ton for HBXB/VHBXB 321-39-3",
+    "m": "First Co 9-321-39-3",
+    "b": "First",
+    "ton": 3,
+    "w": "",
+    "p": 1725.25
+  },
+  {
+    "n": "Evaporator Coil 4 Ton for HBXB/VHBXB 321-35-3",
+    "m": "First Co 9-321-35-3",
+    "b": "First",
+    "ton": 4,
+    "w": "",
+    "p": 2216.28
+  },
+  {
+    "n": "Evaporator Coil Uncased C8QAMO30U-B 20 Aluminum 30K BTU R-410A for Upflow and Counterflow Furnace",
+    "m": "Furnace 921703",
+    "b": "Miller",
+    "ton": 0,
+    "w": "",
+    "p": 580.37
+  },
+  {
+    "n": "Evaporator Coil Cased Thermal Expansion Valve Multi-Position 24-1/2 Inch 4 Ton R-454B for Rheem",
+    "m": "ADP RE84A48D245B2522R",
+    "b": "ADP",
+    "ton": 4,
+    "w": "24.5",
+    "p": 891.66
+  },
+  {
+    "n": "Evaporator Coil AC A-Style Cased Painted",
+    "m": "HE47936PA212",
+    "b": "Thermo",
+    "ton": 0,
+    "w": "",
+    "p": 1405.74
+  },
+  {
+    "n": "Evaporator Coil AC A-Style Uncased",
+    "m": "HE33936UA170",
+    "b": "Thermo",
+    "ton": 0,
+    "w": "",
+    "p": 846.27
+  },
+  {
+    "n": "Evaporator Coil 5 Ton for HBXB/VHBXB 321-41-3",
+    "m": "First Co 9-321-41-3",
+    "b": "First",
+    "ton": 5,
+    "w": "",
+    "p": 2304.28
+  },
+  {
+    "n": "Evaporator Coil 2 Ton for HBXB/VHBXB 321-37-3",
+    "m": "First Co 321-37-3",
+    "b": "First",
+    "ton": 2,
+    "w": "",
+    "p": 1395.01
+  },
+  {
+    "n": "Evaporator Coil 2-1/2 Ton for HBXB/VHBXB 321-32-3",
+    "m": "First Co 9-321-32-3",
+    "b": "First",
+    "ton": 2,
+    "w": "",
+    "p": 1578.95
+  },
+  {
+    "n": "Evaporator Coil Cased Cabinet Multi-Position 21 Inch 2.4K BTU 2 Ton R-454B",
+    "m": "RCFY2421HEAAM",
+    "b": "Rheem",
+    "ton": 2,
+    "w": "21",
+    "p": 1072.43
+  },
+  {
+    "n": "Evaporator Coil Cased Thermal Expansion Valve 24-1/2 Inch 4 Ton R-454B for G/E",
+    "m": "ADP AE84A48D245B2520L",
+    "b": "ADP",
+    "ton": 4,
+    "w": "24.5",
+    "p": 812.41
+  },
+  {
+    "n": "Cased Coil N 3 Ton Multi 17-1/2 Inch Thermal Expansion Valve R-454B Standard Efficiency",
     "m": "RCFY3617STANMC",
     "b": "Rheem",
     "ton": 3,
@@ -16,7 +296,15 @@
     "p": 575.46
   },
   {
-    "n": "Rheem N 3T 21\" (Cab C) Std",
+    "n": "Cased Coil N 2 Ton 17-1/2 Inch Thermal Expansion Valve R-454B Standard Efficiency",
+    "m": "RCFY2417STANMC",
+    "b": "Rheem",
+    "ton": 2,
+    "w": "17.5",
+    "p": 536.19
+  },
+  {
+    "n": "Cased Coil N 3 Ton Multi 21 Inch Thermal Expansion Valve R-454B Standard Efficiency",
     "m": "RCFY3621STANMC",
     "b": "Rheem",
     "ton": 3,
@@ -24,7 +312,7 @@
     "p": 608.27
   },
   {
-    "n": "Rheem N 4T 21\" (Cab C) Std",
+    "n": "Cased Coil N 4 Ton Multi 21 Inch Thermal Expansion Valve R-454B Standard Efficiency",
     "m": "RCFY4821STANMC",
     "b": "Rheem",
     "ton": 4,
@@ -32,23 +320,23 @@
     "p": 756.46
   },
   {
-    "n": "Rheem N 4T 24\" (Cab D) Std",
-    "m": "RCFY4824STANMC",
-    "b": "Rheem",
-    "ton": 4,
-    "w": "24",
-    "p": 828.34
+    "n": "Cased Coil Evaporator Upflow B Cabinet 3 Ton R-454B",
+    "m": "General Electric NCUC36BT5S",
+    "b": "General",
+    "ton": 3,
+    "w": "",
+    "p": 680
   },
   {
-    "n": "Rheem N 5T 24\" (Cab D) Std",
-    "m": "RCFY6024STANMC",
-    "b": "Rheem",
-    "ton": 5,
-    "w": "24",
-    "p": 1017.23
+    "n": "Cased Coil Evaporator Upflow B Cabinet 2 Ton R-454B",
+    "m": "General Electric NCUC24BT5S",
+    "b": "General",
+    "ton": 2,
+    "w": "",
+    "p": 575
   },
   {
-    "n": "Rheem A 2T 14\" Std",
+    "n": "Cased Coil A 2 Ton Multi 14 Inch Thermal Expansion Valve R-454B Standard Efficiency",
     "m": "RCFY2414STAAMC",
     "b": "Rheem",
     "ton": 2,
@@ -56,7 +344,31 @@
     "p": 501.37
   },
   {
-    "n": "Rheem A 5T 21\" (Cab C) Std",
+    "n": "Cased Coil Evaporator Upflow C Cabinet 4 Ton R-454B",
+    "m": "General Electric NCUC48CT5S",
+    "b": "General",
+    "ton": 4,
+    "w": "",
+    "p": 816.25
+  },
+  {
+    "n": "Cased Coil Evaporator Upflow B Cabinet 2.5 Ton R-454B",
+    "m": "General Electric NCUC30BT5S",
+    "b": "General",
+    "ton": 2.5,
+    "w": "",
+    "p": 677.5
+  },
+  {
+    "n": "Cased Coil N 5 Ton Multi 24 Inch Thermal Expansion Valve R-454B Standard Efficiency",
+    "m": "RCFY6024STANMC",
+    "b": "Rheem",
+    "ton": 5,
+    "w": "24",
+    "p": 1017.23
+  },
+  {
+    "n": "Cased Coil A 5 Ton Multi 21 Inch Thermal Expansion Valve R-454B Standard Efficiency",
     "m": "RCFY6021STAAMC",
     "b": "Rheem",
     "ton": 5,
@@ -64,15 +376,351 @@
     "p": 941.96
   },
   {
-    "n": "Rheem A 4T 21\" (Cab C) Std",
-    "m": "RCFY4821STAAMC",
-    "b": "Rheem",
-    "ton": 4,
-    "w": "21",
-    "p": 942.4
+    "n": "Cased Coil Evaporator 3 Ton Multi-Position 17 Inch Thermal Expansion Valve R-454B for G/E",
+    "m": "ADP AE9JA36D175B2020L",
+    "b": "ADP",
+    "ton": 3,
+    "w": "17",
+    "p": 767.98
   },
   {
-    "n": "Rheem N 5T 24\" (Cab D) High",
+    "n": "Cased Coil Evaporator Upflow C Cabinet 3 Ton R-454B",
+    "m": "General Electric NCUC36CT5S",
+    "b": "General",
+    "ton": 3,
+    "w": "",
+    "p": 703.75
+  },
+  {
+    "n": "Cased Coil N 4 Ton Multi 24 Inch Thermal Expansion Valve R-454B Medium Efficiency",
+    "m": "RCFY4824STANMC",
+    "b": "Rheem",
+    "ton": 4,
+    "w": "24",
+    "p": 828.34
+  },
+  {
+    "n": "Cased Coil 3 Ton Multi 17 Inch Thermal Expansion Valve R-454B for Rheem",
+    "m": "ADP RE9JA36D175B2022R",
+    "b": "ADP",
+    "ton": 3,
+    "w": "17",
+    "p": 800.59
+  },
+  {
+    "n": "Cased Coil 24K BTU Multi 17-1/2 Inch for Inverter",
+    "m": "BMAC2430BNTD",
+    "b": "Bosch",
+    "ton": 0,
+    "w": "17.5",
+    "p": 647.9
+  },
+  {
+    "n": "Cased Coil N 2 Ton Multi 21 Inch Thermal Expansion Valve R-454B Medium Efficiency",
+    "m": "RCFY2421MTANMC",
+    "b": "Rheem",
+    "ton": 2,
+    "w": "21",
+    "p": 655.46
+  },
+  {
+    "n": "Cased Coil Evaporator Upflow A Cabinet 2 Ton R-454B",
+    "m": "General Electric NCUC24AT5S",
+    "b": "General",
+    "ton": 2,
+    "w": "",
+    "p": 567.5
+  },
+  {
+    "n": "Cased Coil Evaporator Horizontal B Cabinet 3 Ton R-454B",
+    "m": "General Electric NCHC36BT5S",
+    "b": "General",
+    "ton": 3,
+    "w": "",
+    "p": 750
+  },
+  {
+    "n": "Cased Coil Evaporator Upflow C Cabinet 5 Ton R-454B",
+    "m": "General Electric NCUC60CT5S",
+    "b": "General",
+    "ton": 5,
+    "w": "",
+    "p": 901.25
+  },
+  {
+    "n": "4/5-Ton Upflow C Cabinet Cased Evaporator Coil",
+    "m": "General Electric NCUC5060CT4",
+    "b": "General",
+    "ton": 0,
+    "w": "",
+    "p": 685
+  },
+  {
+    "n": "Cased Coil Evaporator Horizontal B Cabinet 2 Ton R-454B",
+    "m": "General Electric NCHC24BT5S",
+    "b": "General",
+    "ton": 2,
+    "w": "",
+    "p": 682.5
+  },
+  {
+    "n": "Cased Coil 2 Ton Multi 17 Inch Thermal Expansion Valve R-454B for Rheem",
+    "m": "ADP RE32A24D175B1622R",
+    "b": "ADP",
+    "ton": 2,
+    "w": "17",
+    "p": 742.77
+  },
+  {
+    "n": "Cased Coil 48K BTU Multi 17-1/2 Inch for Inverter",
+    "m": "BMAC4248BNTF",
+    "b": "Bosch",
+    "ton": 0,
+    "w": "17.5",
+    "p": 814.13
+  },
+  {
+    "n": "Cased Coil Evaporator 2 Ton Multi-Position 17 Inch Thermal Expansion Valve R-454B for G/E",
+    "m": "ADP AE32A24D175B1620L",
+    "b": "ADP",
+    "ton": 2,
+    "w": "17",
+    "p": 686.43
+  },
+  {
+    "n": "Cased Coil Evaporator Horizontal B Cabinet 2.5 Ton R-454B",
+    "m": "General Electric NCHC30BT5S",
+    "b": "General",
+    "ton": 2.5,
+    "w": "",
+    "p": 741.25
+  },
+  {
+    "n": "Cased Coil Evaporator 3 Ton Multi-Position 21 Inch Thermal Expansion Valve R-454B for G/E",
+    "m": "ADP AE9JA36D210B2020L",
+    "b": "ADP",
+    "ton": 3,
+    "w": "21",
+    "p": 767.98
+  },
+  {
+    "n": "Cased Coil 5 Ton Multi 21 Inch Thermal Expansion Valve R-454B for Rheem",
+    "m": "ADP RE86A60D210B2722R",
+    "b": "ADP",
+    "ton": 5,
+    "w": "21",
+    "p": 1044.32
+  },
+  {
+    "n": "Cased Coil N 3 Ton Multi 24 Inch Thermal Expansion Valve R-454B Medium Efficiency",
+    "m": "RCFY3624MTANMC",
+    "b": "Rheem",
+    "ton": 3,
+    "w": "24",
+    "p": 782.3
+  },
+  {
+    "n": "Cased Coil 3 Ton Multi 21 Inch Thermal Expansion Valve R-454B for Rheem",
+    "m": "ADP RE9JA36D210B2022R",
+    "b": "ADP",
+    "ton": 3,
+    "w": "21",
+    "p": 842.11
+  },
+  {
+    "n": "Cased Coil Evaporator Upflow B Cabinet 4 Ton R-454B",
+    "m": "General Electric NCUC48BT5S",
+    "b": "General",
+    "ton": 4,
+    "w": "",
+    "p": 896.25
+  },
+  {
+    "n": "Cased Coil Evaporator Upflow A Cabinet 3 Ton R-454B",
+    "m": "General Electric NCUC36AT5S",
+    "b": "General",
+    "ton": 3,
+    "w": "",
+    "p": 726.25
+  },
+  {
+    "n": "5-Ton Horizontal D Cabinet Cased Evaporator Coil",
+    "m": "General Electric NCHC60DT4",
+    "b": "General",
+    "ton": 0,
+    "w": "",
+    "p": 825
+  },
+  {
+    "n": "Cased Coil Evaporator Upflow A Cabinet 2.5 Ton R-454B",
+    "m": "General Electric NCUC30AT5S",
+    "b": "General",
+    "ton": 2.5,
+    "w": "",
+    "p": 618.75
+  },
+  {
+    "n": "Cased Coil Evaporator Horizontal C Cabinet 4 Ton R-454B",
+    "m": "General Electric NCHC48CT5S",
+    "b": "General",
+    "ton": 4,
+    "w": "",
+    "p": 922.5
+  },
+  {
+    "n": "Cased Coil TDI Pro 2 R454B 2-1/2 - 3 Ton B Width",
+    "m": "",
+    "b": "",
+    "ton": 3,
+    "w": "",
+    "p": 1056.58
+  },
+  {
+    "n": "Cased Coil Evaporator A Cabinet 2 Ton Horizontal R-454B",
+    "m": "General Electric NCHC24AT5S",
+    "b": "General",
+    "ton": 2,
+    "w": "",
+    "p": 668.75
+  },
+  {
+    "n": "Cased Coil Horizontal C Cabinet 3 Ton R-454B",
+    "m": "General Electric NCHC36CT5S",
+    "b": "General",
+    "ton": 3,
+    "w": "",
+    "p": 781.25
+  },
+  {
+    "n": "Cased Coil Evaporator Upflow D Cabinet 5 Ton R-454B",
+    "m": "General Electric NCUC60DT5S",
+    "b": "General",
+    "ton": 5,
+    "w": "",
+    "p": 940
+  },
+  {
+    "n": "Cased Coil Evaporator Upflow C Cabinet 4 Ton R-454B",
+    "m": "General Electric NCUC49CT5S",
+    "b": "General",
+    "ton": 4,
+    "w": "",
+    "p": 1000
+  },
+  {
+    "n": "Cased Coil Evaporator 5 Ton Multi-Position 24-1/2 Inch Thermal Expansion Valve R-454B for G/E",
+    "m": "ADP AE86A60D245B2720L",
+    "b": "ADP",
+    "ton": 5,
+    "w": "24.5",
+    "p": 1022.98
+  },
+  {
+    "n": "Cased Coil Evaporator 3 Ton Downflow B R-454B",
+    "m": "General Electric NCDC36BT5S",
+    "b": "General",
+    "ton": 3,
+    "w": "",
+    "p": 1046.25
+  },
+  {
+    "n": "Cased Coil 48K BTU Multi 24-1/2 Inch for Inverter",
+    "m": "BMAC4248DNTF",
+    "b": "Bosch",
+    "ton": 0,
+    "w": "24.5",
+    "p": 924.67
+  },
+  {
+    "n": "Cased Coil 5 Ton Multi 24-1/2 Inch Thermal Expansion Valve R-454B for Rheem",
+    "m": "ADP RE86A60D245B2722R",
+    "b": "ADP",
+    "ton": 5,
+    "w": "24.5",
+    "p": 1044.32
+  },
+  {
+    "n": "Cased Coil Evaporator 2 Ton Multi-Position 14-1/2 Inch Thermal Expansion Valve R-454B for G/E",
+    "m": "ADP AE32A24D145B1620L",
+    "b": "ADP",
+    "ton": 2,
+    "w": "14.5",
+    "p": 686.43
+  },
+  {
+    "n": "3-Ton Horizontal A Cabinet Cased Evaporator Coil",
+    "m": "General Electric NCHC36AT4",
+    "b": "General",
+    "ton": 0,
+    "w": "",
+    "p": 687.5
+  },
+  {
+    "n": "Cased Coil A 3 Ton Multi-Position 21 Inch Electronic Expansion Valve R-454B Medium Efficiency",
+    "m": "RCFY3621MEAAMC",
+    "b": "Rheem",
+    "ton": 3,
+    "w": "21",
+    "p": 1120.29
+  },
+  {
+    "n": "Cased Coil Evaporator 5 Ton Multi-Position 21 Inch Thermal Expansion Valve R-454B for G/E",
+    "m": "ADP AE86A60D210B2720L",
+    "b": "ADP",
+    "ton": 5,
+    "w": "21",
+    "p": 1022.98
+  },
+  {
+    "n": "Cased Coil Evaporator Horizontal C Cabinet 4 Ton R-454B",
+    "m": "General Electric NCHC51CT5S",
+    "b": "General",
+    "ton": 4,
+    "w": "",
+    "p": 930
+  },
+  {
+    "n": "Cased Coil Evaporator Horizontal C Cabinet 3.5 Ton R-454B",
+    "m": "General Electric NCHC42CT5S",
+    "b": "General",
+    "ton": 3.5,
+    "w": "",
+    "p": 835
+  },
+  {
+    "n": "Cased Coil Evaporator 4 Ton Downflow C R-454B",
+    "m": "General Electric NCDC48CT5S",
+    "b": "General",
+    "ton": 4,
+    "w": "",
+    "p": 1178.75
+  },
+  {
+    "n": "Cased Coil Evaporator Horizontal A Cabinet 2.5 Ton R-454B",
+    "m": "General Electric NCHC30AT5S",
+    "b": "General",
+    "ton": 2.5,
+    "w": "",
+    "p": 803.75
+  },
+  {
+    "n": "Cased Coil Evaporator Horizontal A Cabinet 3 Ton R-454B",
+    "m": "General Electric NCHC36AT5S",
+    "b": "General",
+    "ton": 3,
+    "w": "",
+    "p": 852.5
+  },
+  {
+    "n": "Cased Coil TDI Pro 2 R454B 4 - 5 Ton C Width",
+    "m": "",
+    "b": "",
+    "ton": 5,
+    "w": "",
+    "p": 1436.84
+  },
+  {
+    "n": "Cased Coil N 5 Ton Multi 24 Inch Thermal Expansion Valve R-454B High Efficiency",
     "m": "RCFY6024HTANMC",
     "b": "Rheem",
     "ton": 5,
@@ -80,7 +728,175 @@
     "p": 1150.54
   },
   {
-    "n": "Rheem A 3.5T 21\" (Cab C) High",
+    "n": "Cased Coil Evaporator Horizontal D Cabinet 5 Ton R-454B",
+    "m": "General Electric NCHC60DT5S",
+    "b": "General",
+    "ton": 5,
+    "w": "",
+    "p": 1022.5
+  },
+  {
+    "n": "Cased Coil Evaporator 2 Ton Downflow B R-454B",
+    "m": "General Electric NCDC24BT5S",
+    "b": "General",
+    "ton": 2,
+    "w": "",
+    "p": 847.5
+  },
+  {
+    "n": "Cased Coil TDI Pro 2 R454B 2 - 2-1/2 Ton B Width",
+    "m": "",
+    "b": "",
+    "ton": 2,
+    "w": "",
+    "p": 1051.32
+  },
+  {
+    "n": "Cased Coil N 3 Ton Multi 21 Inch Thermal Expansion Valve R-454B Medium Efficiency",
+    "m": "RCFY3621MTANMC",
+    "b": "Rheem",
+    "ton": 3,
+    "w": "21",
+    "p": 760.76
+  },
+  {
+    "n": "Cased Coil Evaporator Horizontal B Cabinet 3.5 Ton R-454B",
+    "m": "General Electric NCHC42BT5S",
+    "b": "General",
+    "ton": 3.5,
+    "w": "",
+    "p": 923.75
+  },
+  {
+    "n": "Cased Coil 3 Ton Multi 14-1/2 Inch Thermal Expansion Valve R-454B for Rheem",
+    "m": "ADP RE9JA36D145B2022R",
+    "b": "ADP",
+    "ton": 3,
+    "w": "14.5",
+    "p": 778.36
+  },
+  {
+    "n": "Cased Coil Evaporator 3 Ton Multi-Position 14-1/2 Inch Thermal Expansion Valve R-454B for G/E",
+    "m": "ADP AE9JA36D145B2020L",
+    "b": "ADP",
+    "ton": 3,
+    "w": "14.5",
+    "p": 767.98
+  },
+  {
+    "n": "Cased Coil Evaporator 3 Ton Downflow C R-454B",
+    "m": "General Electric NCDC36CT5S",
+    "b": "General",
+    "ton": 3,
+    "w": "",
+    "p": 1133.75
+  },
+  {
+    "n": "Cased Coil Horizontal 5T 21.0W 3R32H BC TXV",
+    "m": "XAHC60HBCN1",
+    "b": "York",
+    "ton": 0,
+    "w": "",
+    "p": 632.25
+  },
+  {
+    "n": "Cased Coil TDI Pro 2 R454B 3-1/2 - 4 Ton C Width",
+    "m": "",
+    "b": "",
+    "ton": 4,
+    "w": "",
+    "p": 1259.21
+  },
+  {
+    "n": "Cased Coil Evaporator 2 Ton Downflow A R-454B",
+    "m": "General Electric NCDC24AT5S",
+    "b": "General",
+    "ton": 2,
+    "w": "",
+    "p": 840
+  },
+  {
+    "n": "Cased Coil Horizontal 4T 24.5W 3R24H BC TXV",
+    "m": "XAHD48FBCN1",
+    "b": "York",
+    "ton": 0,
+    "w": "",
+    "p": 555.01
+  },
+  {
+    "n": "Cased Coil GE Unitary 2.5 Ton Multi-Position 17-1/2 Inch R-410A for Thermal Expansion Valve",
+    "m": "ADP HG31930D175B1605",
+    "b": "ADP",
+    "ton": 2.5,
+    "w": "17.5",
+    "p": 494.2
+  },
+  {
+    "n": "Cased Coil Evaporator Horizontal B Cabinet 4 Ton R-454B",
+    "m": "General Electric NCHC48BT5S",
+    "b": "General",
+    "ton": 4,
+    "w": "",
+    "p": 1021.25
+  },
+  {
+    "n": "Cased Coil 2 Ton Multi 14-1/2 Inch Thermal Expansion Valve R-454B for Rheem",
+    "m": "ADP RE32A24D145B1622R",
+    "b": "ADP",
+    "ton": 2,
+    "w": "14.5",
+    "p": 696.81
+  },
+  {
+    "n": "Cased Coil TDI Pro 2 R454B 4 - 5 Ton D Width",
+    "m": "",
+    "b": "",
+    "ton": 5,
+    "w": "",
+    "p": 1531.58
+  },
+  {
+    "n": "3-Ton Downflow C Cabinet Cased Evaporator Coil",
+    "m": "General Electric NCDC3036CT4",
+    "b": "General",
+    "ton": 0,
+    "w": "",
+    "p": 913.75
+  },
+  {
+    "n": "Cased Coil Evaporator Horizontal A Cabinet 1.5 Ton R-454B",
+    "m": "General Electric NCHC18AT5S",
+    "b": "General",
+    "ton": 1.5,
+    "w": "",
+    "p": 655
+  },
+  {
+    "n": "Cased Coil TDI Pro 2 R454B 2 - 2-1/2 Ton A Width",
+    "m": "",
+    "b": "",
+    "ton": 2,
+    "w": "",
+    "p": 1042.25
+  },
+  {
+    "n": "Cased Coil N 2 Ton Multi-Position 17-1/2 Inch Thermal Expansion Valve R-454B Medium Efficiency",
+    "m": "RCFY2417MTANMC",
+    "b": "Rheem",
+    "ton": 2,
+    "w": "17.5",
+    "p": 632.11
+  },
+  {
+    "n": "Cased Coil N Less Sensor 4 Ton 21 Inch Thermal Expansion Valve R-454B",
+    "m": "RCFY4821STANMCL",
+    "b": "Rheem",
+    "ton": 4,
+    "w": "21",
+    "p": 649.3
+  },
+  {
+    "n": "Cased Coil A 3.5 Ton 21 Inch Thermal Expansion Valve R-454B High Efficiency",
     "m": "RCFY4221HTAAMC",
     "b": "Rheem",
     "ton": 3.5,
@@ -88,7 +904,183 @@
     "p": 867.19
   },
   {
-    "n": "Rheem A 3T 21\" (Cab C) High",
+    "n": "Cased Coil N 3 Ton 21 Inch Thermal Expansion Valve R-454B Standard Efficiency",
+    "m": "RCFY3621STANMCL",
+    "b": "Rheem",
+    "ton": 3,
+    "w": "21",
+    "p": 522.11
+  },
+  {
+    "n": "Cased Coil N Less Sensor 2 Ton 17-1/2 Inch Thermal Expansion Valve R-454B",
+    "m": "RCFY2417STANMCL",
+    "b": "Rheem",
+    "ton": 2,
+    "w": "17.5",
+    "p": 460.24
+  },
+  {
+    "n": "Cased Coil C Cabinet RDS Leak Detector Sensor System Installed 4 to 5 Ton 21 Inch R-454B for ESCA16H-60BBA ...",
+    "m": "",
+    "b": "",
+    "ton": 5,
+    "w": "21",
+    "p": 1465.79
+  },
+  {
+    "n": "Cased Coil B Cabinet RDS Leak Detector Sensor System Installed 2.5 to 3 Ton 17 Inch R-454B for SCA16H-36BBA...",
+    "m": "",
+    "b": "",
+    "ton": 3,
+    "w": "17",
+    "p": 1200
+  },
+  {
+    "n": "Cased Coil Up/Down 24.5W 3R32H Thermal Expansion Valve R-454B",
+    "m": "CTF60D5CHS1",
+    "b": "York",
+    "ton": 0,
+    "w": "",
+    "p": 602.48
+  },
+  {
+    "n": "Cased Coil Evaporator 5 Ton Downflow D R-454B",
+    "m": "General Electric NCDC60DT5S",
+    "b": "General",
+    "ton": 5,
+    "w": "",
+    "p": 1377.5
+  },
+  {
+    "n": "Cased Coil Evaporator 4 to 5 Ton Downflow C R-454B",
+    "m": "General Electric NCDC60CT5S",
+    "b": "General",
+    "ton": 5,
+    "w": "",
+    "p": 1113.75
+  },
+  {
+    "n": "Cased Coil N Less Sensor 5 Ton 24 Inch Thermal Expansion Valve R-454B High Efficiency",
+    "m": "RCFY6024HTANMCL",
+    "b": "Rheem",
+    "ton": 5,
+    "w": "24",
+    "p": 1028.44
+  },
+  {
+    "n": "Cased Coil N Less Sensor 3 Ton 17-1/2 Inch Thermal Expansion Valve R-454B",
+    "m": "RCFY3617STANMCL",
+    "b": "Rheem",
+    "ton": 3,
+    "w": "17.5",
+    "p": 493.96
+  },
+  {
+    "n": "Cased Coil N Less Sensor 5 Ton 24 Inch Thermal Expansion Valve R-454B Standard Efficiency",
+    "m": "RCFY6024STANMCL",
+    "b": "Rheem",
+    "ton": 5,
+    "w": "24",
+    "p": 873.16
+  },
+  {
+    "n": "Cased Coil A 5 Ton Multi 21 Inch Thermal Expansion Valve R-454B Standard Efficiency",
+    "m": "RCFY6021STAAMCL",
+    "b": "Rheem",
+    "ton": 5,
+    "w": "21",
+    "p": 805.11
+  },
+  {
+    "n": "Cased Coil N Less Sensor 4 Ton 24 Inch Thermal Expansion Valve R-454B Standard Efficiency",
+    "m": "RCFY4824STANMCL",
+    "b": "Rheem",
+    "ton": 4,
+    "w": "24",
+    "p": 711.03
+  },
+  {
+    "n": "Cased Coil N Less Sensor 4 Ton 24 Inch Thermal Expansion Valve R-454B Medium Efficiency",
+    "m": "RCFY4824MTANMCL",
+    "b": "Rheem",
+    "ton": 4,
+    "w": "24",
+    "p": 908.79
+  },
+  {
+    "n": "Cased Coil N 4 Ton Multi 24 Inch Thermal Expansion Valve R-454B Medium Efficiency",
+    "m": "RCFY4824MTANMC",
+    "b": "Rheem",
+    "ton": 4,
+    "w": "24",
+    "p": 1058.74
+  },
+  {
+    "n": "Cased Coil A 4 Ton Multi 21 Inch Thermal Expansion Valve R-454B Standard Efficiency",
+    "m": "RCFY4821STAAMCL",
+    "b": "Rheem",
+    "ton": 4,
+    "w": "21",
+    "p": 808.93
+  },
+  {
+    "n": "Cased Coil A 4 Ton Multi 21 Inch Thermal Expansion Valve R-454B Standard Efficiency",
+    "m": "RCFY4821STAAMC",
+    "b": "Rheem",
+    "ton": 4,
+    "w": "21",
+    "p": 942.4
+  },
+  {
+    "n": "Cased Coil A Less Sensor 4 Ton 21 Inch Thermal Expansion Valve R-454B Medium Efficiency",
+    "m": "RCFY4821HTAAMCL",
+    "b": "Rheem",
+    "ton": 4,
+    "w": "21",
+    "p": 790.67
+  },
+  {
+    "n": "Cased Coil A 4 Ton Multi 21 Inch Thermal Expansion Valve R-454B High Efficiency",
+    "m": "RCFY4821HTAAMC",
+    "b": "Rheem",
+    "ton": 4,
+    "w": "21",
+    "p": 894.41
+  },
+  {
+    "n": "Cased Coil A Less Sensor 3.5 Ton 21 Inch Thermal Expansion Valve R-454B High Efficiency",
+    "m": "RCFY4221HTAAMCL",
+    "b": "Rheem",
+    "ton": 3.5,
+    "w": "21",
+    "p": 728.87
+  },
+  {
+    "n": "Cased Coil N Less Sensor 3 Ton 24 Inch Thermal Expansion Valve R-454B Medium Efficiency",
+    "m": "RCFY3624MTANMCL",
+    "b": "Rheem",
+    "ton": 3,
+    "w": "24",
+    "p": 671.51
+  },
+  {
+    "n": "Cased Coil N Less Sensor 3 Ton 21 Inch Thermal Expansion Valve R-454B Medium Efficiency",
+    "m": "RCFY3621MTANMCL",
+    "b": "Rheem",
+    "ton": 3,
+    "w": "21",
+    "p": 653.01
+  },
+  {
+    "n": "Cased Coil A Less Sensor 3 Ton 21 Inch Thermal Expansion Valve R-454B High Efficiency",
+    "m": "RCFY3621HTAAMCL",
+    "b": "Rheem",
+    "ton": 3,
+    "w": "21",
+    "p": 805.94
+  },
+  {
+    "n": "Cased Coil A 3 Ton Multi 21 Inch Thermal Expansion Valve R-454B High Efficiency",
     "m": "RCFY3621HTAAMC",
     "b": "Rheem",
     "ton": 3,
@@ -96,59 +1088,443 @@
     "p": 909.54
   },
   {
-    "n": "Bosch 17.5\" (Cab B) 2-2.5T",
-    "m": "BMAC2430BBTA",
-    "b": "Bosch",
+    "n": "Cased Coil N Less Sensor 2 Ton 21 Inch Thermal Expansion Valve R-454B Medium Efficiency",
+    "m": "RCFY2421MTANMCL",
+    "b": "Rheem",
+    "ton": 2,
+    "w": "21",
+    "p": 562.63
+  },
+  {
+    "n": "Cased Coil N 2 Ton Multi 21 Inch Thermal Expansion Valve R-454B High Efficiency",
+    "m": "RCFY2421HTANMCL",
+    "b": "Rheem",
+    "ton": 2,
+    "w": "21",
+    "p": 792.46
+  },
+  {
+    "n": "Cased Coil N 2 Ton 21 Inch Thermal Expansion Valve R-454B High Efficiency",
+    "m": "RCFY2421HTANMC",
+    "b": "Rheem",
+    "ton": 2,
+    "w": "21",
+    "p": 916.57
+  },
+  {
+    "n": "Cased Coil N 2 Ton 17-1/2 Inch Thermal Expansion Valve R-454B Medium Efficiency",
+    "m": "RCFY2417MTANMCL",
+    "b": "Rheem",
+    "ton": 2,
+    "w": "17.5",
+    "p": 542.59
+  },
+  {
+    "n": "Cased Coil A 2 Ton Multi 14 Inch Thermal Expansion Valve R-454B",
+    "m": "RCFY2414STAAMCL",
+    "b": "Rheem",
+    "ton": 2,
+    "w": "14",
+    "p": 430.37
+  },
+  {
+    "n": "Cased Coil with Thermal Expansion Valve 2.5 Ton 21 Inch R-454B",
+    "m": "",
+    "b": "",
     "ton": 2.5,
-    "w": "17.5",
-    "p": 803.8
+    "w": "21",
+    "p": 802.37
   },
   {
-    "n": "Bosch 17.5\" (Cab B) 2.5-3T",
-    "m": "BMAC3036BBTA",
-    "b": "Bosch",
+    "n": "Cased Coil 2 Ton R-454B",
+    "m": "",
+    "b": "",
+    "ton": 2,
+    "w": "",
+    "p": 736.06
+  },
+  {
+    "n": "Cased Coil with Thermal Expansion Valve 1.5 Ton R-454B",
+    "m": "",
+    "b": "",
+    "ton": 1.5,
+    "w": "",
+    "p": 683.01
+  },
+  {
+    "n": "Cased Coil 3 Ton Multiple 21 Inch Solenoid R-454B 15.8 SEER",
+    "m": "",
+    "b": "",
     "ton": 3,
+    "w": "21",
+    "p": 1249.63
+  },
+  {
+    "n": "Cased Coil 2 Ton Multiple 17-1/2 Inch Solenoid R-454B 16.1 SEER",
+    "m": "",
+    "b": "",
+    "ton": 2,
     "w": "17.5",
-    "p": 826.47
+    "p": 1050.06
   },
   {
-    "n": "Bosch 21\" (Cab C) 2.5-3T",
-    "m": "BMAC3036CBTA",
-    "b": "Bosch",
-    "ton": 3,
-    "w": "21",
-    "p": 945.26
-  },
-  {
-    "n": "Bosch 17.5\" (Cab B) 3.5-4T",
-    "m": "BMAC4248BBTA",
-    "b": "Bosch",
-    "ton": 4,
-    "w": "17.5",
-    "p": 1009.48
-  },
-  {
-    "n": "Bosch 21\" (Cab C) 3.5-4T",
-    "m": "BMAC4248CBTA",
-    "b": "Bosch",
-    "ton": 4,
-    "w": "21",
-    "p": 1111.47
-  },
-  {
-    "n": "Bosch 21\" (Cab C) 4-5T",
-    "m": "BMAC4860CBTA",
-    "b": "Bosch",
-    "ton": 5,
-    "w": "21",
-    "p": 1265.94
-  },
-  {
-    "n": "Bosch 24.5\" (Cab D) 4-5T",
-    "m": "BMAC4860DBTA",
-    "b": "Bosch",
+    "n": "Cased Coil 5 Ton Multiple 24-1/2 Inch Solenoid R-454B 15.2 SEER",
+    "m": "",
+    "b": "",
     "ton": 5,
     "w": "24.5",
-    "p": 1274.75
+    "p": 1534.71
+  },
+  {
+    "n": "Cased Coil 5 Ton Multiple 21 Inch Solenoid R-454B 15.2 SEER",
+    "m": "",
+    "b": "",
+    "ton": 5,
+    "w": "21",
+    "p": 1582.23
+  },
+  {
+    "n": "Cased Coil 3 Ton Multiple 17-1/2 Inch Solenoid R-454B 15.8 SEER",
+    "m": "",
+    "b": "",
+    "ton": 3,
+    "w": "17.5",
+    "p": 1149.85
+  },
+  {
+    "n": "Cased Coil 3 Ton Multiple 14-1/2 Inch Solenoid R-454B 15.3 SEER",
+    "m": "",
+    "b": "",
+    "ton": 3,
+    "w": "14.5",
+    "p": 1092.83
+  },
+  {
+    "n": "Cased Coil 2 Ton Multiple 14-1/2 Inch Solenoid R-454B 16.1 SEER",
+    "m": "",
+    "b": "",
+    "ton": 2,
+    "w": "14.5",
+    "p": 1037.55
+  },
+  {
+    "n": "Cased Coil SDI Series R454B 4 - 5 Ton D Width",
+    "m": "",
+    "b": "",
+    "ton": 5,
+    "w": "",
+    "p": 980.23
+  },
+  {
+    "n": "Cased Coil SDI Series R454B 2-1/2 - 3 Ton C Width",
+    "m": "",
+    "b": "",
+    "ton": 3,
+    "w": "",
+    "p": 802.1
+  },
+  {
+    "n": "Cased Coil Evaporator 3.5 Ton Downflow B R-454B",
+    "m": "General Electric NCDC42BT5S",
+    "b": "General",
+    "ton": 3.5,
+    "w": "",
+    "p": 978.75
+  },
+  {
+    "n": "Uncased Coil 1.5 to 3 Ton Multi TXV 18-1/2x19-1/2x6 Inch R-454B 14.3 for Mobile Home",
+    "m": "ADP M36E33AR",
+    "b": "ADP",
+    "ton": 3,
+    "w": "6",
+    "p": 698.59
+  },
+  {
+    "n": "Uncased Coil 3 to 5 Ton Multi TXV 18x19-1/2x16 Inch R-454B 14.3 for Mobile Home",
+    "m": "ADP M36E59AR",
+    "b": "ADP",
+    "ton": 5,
+    "w": "16",
+    "p": 849.3
+  },
+  {
+    "n": "2-Ton Upflow B Cabinet Uncased Evaporator Coil",
+    "m": "General Electric NCUU24BP4",
+    "b": "General",
+    "ton": 0,
+    "w": "",
+    "p": 420
+  },
+  {
+    "n": "Uncased Coil Upflow D Cabinet 5 Ton R-454B for Evaporator",
+    "m": "General Electric NCUU60DT5S",
+    "b": "General",
+    "ton": 5,
+    "w": "",
+    "p": 825
+  },
+  {
+    "n": "Uncased Coil N 4 Ton Vertical 24 Inch Thermal Expansion Valve R-454B Standard Efficiency",
+    "m": "RCHY6024STANVU",
+    "b": "Rheem",
+    "ton": 4,
+    "w": "24",
+    "p": 1265.26
+  },
+  {
+    "n": "Uncased Coil A 5 Ton Vertical 21 Inch Thermal Expansion Valve R-454B Standard Efficiency",
+    "m": "RCHY6021STAAVU",
+    "b": "Rheem",
+    "ton": 5,
+    "w": "21",
+    "p": 1162.62
+  },
+  {
+    "n": "Uncased Coil N 4 Ton Vertical 24 Inch Thermal Expansion Valve R-454B Standard Efficiency",
+    "m": "RCHY4824STANVU",
+    "b": "Rheem",
+    "ton": 4,
+    "w": "24",
+    "p": 1010.8
+  },
+  {
+    "n": "Uncased Coil N 4 Ton Vertical 21 Inch Thermal Expansion Valve R-454B Standard Efficiency",
+    "m": "RCHY4821STANVU",
+    "b": "Rheem",
+    "ton": 4,
+    "w": "21",
+    "p": 957.14
+  },
+  {
+    "n": "Uncased Coil N 3 Ton Vertical 21 Inch R-454B Standard Efficiency",
+    "m": "RCHY3621STANVU",
+    "b": "Rheem",
+    "ton": 3,
+    "w": "21",
+    "p": 756.69
+  },
+  {
+    "n": "Uncased Coil N 3 Ton Vertical 21 Inch Thermal Expansion Valve R-454B Medium Efficiency",
+    "m": "RCHY3621MTANVU",
+    "b": "Rheem",
+    "ton": 3,
+    "w": "21",
+    "p": 926.87
+  },
+  {
+    "n": "Uncased Coil N 3 Ton Vertical 17-1/2 Inch Thermal Expansion Valve R-454B Standard Efficiency",
+    "m": "RCHY3617STANVU",
+    "b": "Rheem",
+    "ton": 3,
+    "w": "17.5",
+    "p": 711.25
+  },
+  {
+    "n": "Uncased Coil N 2 Ton Vertical 17-1/2 Inch Standard Efficiency",
+    "m": "RCHY2417STANVU",
+    "b": "Rheem",
+    "ton": 2,
+    "w": "17.5",
+    "p": 650.73
+  },
+  {
+    "n": "Uncased Coil N 5 Ton Vertical 24 Inch Thermal Expansion Valve R-454B Standard Efficiency",
+    "m": "RCFY6024STANVU",
+    "b": "Rheem",
+    "ton": 5,
+    "w": "24",
+    "p": 1265.26
+  },
+  {
+    "n": "Uncased Coil N 5 Ton Vertical 24 Inch Electronic Expansion Valve R-454B Standard Efficiency",
+    "m": "RCFY6024SEANVU",
+    "b": "Rheem",
+    "ton": 5,
+    "w": "24",
+    "p": 1262.66
+  },
+  {
+    "n": "Uncased Coil A 5 Ton Vertical 21 Inch Thermal Expansion Valve R-454B Standard Efficiency",
+    "m": "RCFY6021STAAVU",
+    "b": "Rheem",
+    "ton": 5,
+    "w": "21",
+    "p": 1035.09
+  },
+  {
+    "n": "Uncased Coil N 4 Ton Vertical 24 Inch Thermal Expansion Valve R-454B Standard Efficiency",
+    "m": "RCFY4824STANVU",
+    "b": "Rheem",
+    "ton": 4,
+    "w": "24",
+    "p": 1010.8
+  },
+  {
+    "n": "Uncased Coil N 4 Ton Vertical 24 Inch Thermal Expansion Valve R-454B Medium Efficiency",
+    "m": "RCFY4824MTANVU",
+    "b": "Rheem",
+    "ton": 4,
+    "w": "24",
+    "p": 1390.72
+  },
+  {
+    "n": "Uncased Coil N 4 Ton Vertical 21 Inch Thermal Expansion Valve R-454B Standard Efficiency",
+    "m": "RCFY4821STANVU",
+    "b": "Rheem",
+    "ton": 4,
+    "w": "21",
+    "p": 957.14
+  },
+  {
+    "n": "Uncased Coil N 3 Ton Vertical 24 Inch Thermal Expansion Valve R-454B Medium Efficiency",
+    "m": "RCFY3624MTANVU",
+    "b": "Rheem",
+    "ton": 3,
+    "w": "24",
+    "p": 964.76
+  },
+  {
+    "n": "Uncased Coil N 3 Ton Vertical 21 Inch Thermal Expansion Valve R-454B Standard Efficiency",
+    "m": "RCFY3621STANVU",
+    "b": "Rheem",
+    "ton": 3,
+    "w": "21",
+    "p": 756.69
+  },
+  {
+    "n": "Uncased Coil V 3 Ton Vertical 21 Inch Thermal Expansion Valve R-454B Medium Efficiency",
+    "m": "RCFY3621MTANVU",
+    "b": "Rheem",
+    "ton": 3,
+    "w": "21",
+    "p": 926.87
+  },
+  {
+    "n": "Uncased Coil N 3 Ton Vertical 17-1/2 Inch Thermal Expansion Valve R-454B Standard Efficiency",
+    "m": "RCFY3617STANVU",
+    "b": "Rheem",
+    "ton": 3,
+    "w": "17.5",
+    "p": 711.25
+  },
+  {
+    "n": "Uncased Coil N 2 Ton Vertical 21 Inch Thermal Expansion Valve R-454B Medium Efficiency",
+    "m": "RCFY2421MTANVU",
+    "b": "Rheem",
+    "ton": 2,
+    "w": "21",
+    "p": 779.39
+  },
+  {
+    "n": "Uncased Coil N 2 Ton Vertical 17-1/2 Inch Thermal Expansion Valve R-454B Standard Efficiency",
+    "m": "RCFY2417STANVU",
+    "b": "Rheem",
+    "ton": 2,
+    "w": "17.5",
+    "p": 650.73
+  },
+  {
+    "n": "Uncased Coil N 2 Ton Vertical 17-1/2 Inch Thermal Expansion Valve R-454B Medium Efficiency",
+    "m": "RCFY2417MTANVU",
+    "b": "Rheem",
+    "ton": 2,
+    "w": "17.5",
+    "p": 711.25
+  },
+  {
+    "n": "Uncased Coil 4 to 5 Ton Multi TXV 18x19-1/2x31 Inch R-454B 14 for Mobile Home",
+    "m": "ADP M60E52AR",
+    "b": "ADP",
+    "ton": 5,
+    "w": "31",
+    "p": 1025
+  },
+  {
+    "n": "Uncased Coil 3.5 to 5 Ton Multi TXV 21x21x25-1/2 Inch R-454B 14.5 for Mobile Home",
+    "m": "ADP M48E36AR",
+    "b": "ADP",
+    "ton": 5,
+    "w": "25.5",
+    "p": 811.27
+  },
+  {
+    "n": "Uncased Coil Upflow C Cabinet 5 Ton R-454B for Evaporator",
+    "m": "General Electric NCUU60CT5S",
+    "b": "General",
+    "ton": 5,
+    "w": "",
+    "p": 696.25
+  },
+  {
+    "n": "Uncased Coil Upflow C Cabinet 4 Ton R-454B for Evaporator",
+    "m": "General Electric NCUU49CT5S",
+    "b": "General",
+    "ton": 4,
+    "w": "",
+    "p": 818.75
+  },
+  {
+    "n": "Uncased Coil Upflow C Cabinet 4 Ton R-454B for Evaporator",
+    "m": "General Electric NCUU48CT5S",
+    "b": "General",
+    "ton": 4,
+    "w": "",
+    "p": 741.25
+  },
+  {
+    "n": "Uncased Coil Upflow B Cabinet 4 Ton R-454B for Evaporator",
+    "m": "General Electric NCUU48BT5S",
+    "b": "General",
+    "ton": 4,
+    "w": "",
+    "p": 741.25
+  },
+  {
+    "n": "Uncased Coil Upflow B Cabinet 3 Ton R-454B for Evaporator",
+    "m": "General Electric NCUU36BT5S",
+    "b": "General",
+    "ton": 3,
+    "w": "",
+    "p": 620
+  },
+  {
+    "n": "Uncased Coil Upflow A Cabinet 3 Ton R-454B for Evaporator",
+    "m": "General Electric NCUU36AT5S",
+    "b": "General",
+    "ton": 3,
+    "w": "",
+    "p": 601.25
+  },
+  {
+    "n": "Uncased Coil Upflow B Cabinet 2.5 Ton R-454B for Evaporator",
+    "m": "General Electric NCUU30BT5S",
+    "b": "General",
+    "ton": 2.5,
+    "w": "",
+    "p": 615
+  },
+  {
+    "n": "Uncased Coil Upflow A Cabinet 2.5 Ton R-454B for Evaporator",
+    "m": "General Electric NCUU30AT5S",
+    "b": "General",
+    "ton": 2.5,
+    "w": "",
+    "p": 567.5
+  },
+  {
+    "n": "Uncased Coil Upflow B Cabinet 2 Ton R-454B for Evaporator",
+    "m": "General Electric NCUU24BT5S",
+    "b": "General",
+    "ton": 2,
+    "w": "",
+    "p": 520
+  },
+  {
+    "n": "Uncased Coil Upflow A Cabinet 2 Ton R-454B for Evaporator",
+    "m": "General Electric NCUU24AT5S",
+    "b": "General",
+    "ton": 2,
+    "w": "",
+    "p": 491.25
   }
 ]
