@@ -888,18 +888,6 @@
     "p": 2286.74
   },
   {
-    "n": "Gas Furnace 45K BTU 80% 3 Ton Down 1 Stage R-454B A Cabinet",
-    "m": "NF80D045S3AR",
-    "b": "GE",
-    "ton": 3,
-    "btu": 45,
-    "afue": 80,
-    "cab": "A",
-    "w": "14.5",
-    "stg": 1,
-    "p": 1296.05
-  },
-  {
     "n": "Gas Furnace Variable Speed 2 Stage B Cabinet 70K BTU 96% 3 Ton Upflow/Horizontal",
     "m": "NF97U070V3B",
     "b": "GE",
