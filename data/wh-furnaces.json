@@ -1332,42 +1332,6 @@
     "p": 2783.58
   },
   {
-    "n": "Gas Furnace Ultra Low Nox 40K BTU 95% 3 Ton Upflow/Horizontal 1 Stage R-454B B Cabinet",
-    "m": "NF95X040S3BR",
-    "b": "GE",
-    "ton": 3,
-    "btu": 40,
-    "afue": 95,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 1,
-    "p": 2019.09
-  },
-  {
-    "n": "Gas Furnace 135K BTU 80% 5 Ton Upflow/Horizontal 1 Stage R-454B D Cabinet",
-    "m": "NF80U135S5DR",
-    "b": "GE",
-    "ton": 5,
-    "btu": 135,
-    "afue": 80,
-    "cab": "D",
-    "w": "24.5",
-    "stg": 1,
-    "p": 1492.11
-  },
-  {
-    "n": "Gas Furnace 90K BTU 80% 5 Ton Upflow/Horizontal 1 Stage R-454B C Cabinet",
-    "m": "NF80U090S5CR",
-    "b": "GE",
-    "ton": 5,
-    "btu": 90,
-    "afue": 80,
-    "cab": "C",
-    "w": "21",
-    "stg": 1,
-    "p": 1286.84
-  },
-  {
     "n": "Gas Furnace 45K BTU 80% 3 Ton Upflow/Horizontal 1 Stage R-454B A Cabinet",
     "m": "NF80U045S3AR",
     "b": "GE",
