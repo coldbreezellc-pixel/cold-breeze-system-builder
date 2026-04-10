@@ -1,682 +1,1482 @@
 [
   {
-    "n": "Endeavor 18K 1.5T Std",
-    "m": "RH1PY1817STANNJ",
-    "b": "Rheem",
-    "ton": 1.5,
-    "btu": 18,
-    "stg": 1,
-    "v": "208/230",
-    "p": 844
-  },
-  {
-    "n": "Endeavor 24K 2T Std",
-    "m": "RH1PY2417STANNJ",
-    "b": "Rheem",
-    "ton": 2,
-    "btu": 24,
-    "stg": 1,
-    "v": "208/230",
-    "p": 874.14
-  },
-  {
-    "n": "Endeavor 30K 2.5T Std",
-    "m": "RH1PY3017STANNJ",
-    "b": "Rheem",
-    "ton": 2.5,
-    "btu": 30,
-    "stg": 1,
-    "v": "208/230",
-    "p": 932.47
-  },
-  {
-    "n": "Endeavor 36K 3T 17.5\" Std",
-    "m": "RH1PY3617STANNJ",
-    "b": "Rheem",
-    "ton": 3,
-    "btu": 36,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1044.34
-  },
-  {
-    "n": "Endeavor 36K 3T 21\" Std",
-    "m": "RH1PY3621STANNJ",
-    "b": "Rheem",
-    "ton": 3,
-    "btu": 36,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1076.04
-  },
-  {
-    "n": "Endeavor 42K 3.5T Std",
-    "m": "RH1PY4221STANNJ",
-    "b": "Rheem",
-    "ton": 3.5,
-    "btu": 42,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1221.61
-  },
-  {
-    "n": "Endeavor 48K 4T 21\" Std",
-    "m": "RH1PY4821STANNJ",
-    "b": "Rheem",
-    "ton": 4,
-    "btu": 48,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1307.04
-  },
-  {
-    "n": "Endeavor 48K 4T 24\" Std",
-    "m": "RH1PY4824STANNJ",
-    "b": "Rheem",
-    "ton": 4,
-    "btu": 48,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1354.3
-  },
-  {
-    "n": "Endeavor 60K 5T 24\" Std",
-    "m": "RH1PY6024STANNJ",
-    "b": "Rheem",
-    "ton": 5,
-    "btu": 60,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1768.13
-  },
-  {
-    "n": "24K 2T 2-Stg 208/230V",
-    "m": "RH2TY2417STANNJ",
-    "b": "Rheem",
-    "ton": 2,
-    "btu": 24,
-    "stg": 2,
-    "v": "208/230",
-    "p": 1194.33
-  },
-  {
-    "n": "36K 3T 17.5\" 2-Stg",
-    "m": "RH2TY3617STANNJ",
-    "b": "Rheem",
-    "ton": 3,
-    "btu": 36,
-    "stg": 2,
-    "v": "208/230",
-    "p": 1323.06
-  },
-  {
-    "n": "36K 3T 21\" 2-Stg",
-    "m": "RH2TY3621STANNJ",
-    "b": "Rheem",
-    "ton": 3,
-    "btu": 36,
-    "stg": 2,
-    "v": "208/230",
-    "p": 1499.14
-  },
-  {
-    "n": "48K 4T 21\" 2-Stg",
-    "m": "RH2TY4821STANNJ",
-    "b": "Rheem",
-    "ton": 4,
-    "btu": 48,
-    "stg": 2,
-    "v": "208/230",
-    "p": 1546.93
-  },
-  {
-    "n": "48K 4T 24\" 2-Stg",
-    "m": "RH2TY4824STANNJ",
-    "b": "Rheem",
-    "ton": 4,
-    "btu": 48,
-    "stg": 2,
-    "v": "208/230",
-    "p": 1613.09
-  },
-  {
-    "n": "60K 5T 21\" 2-Stg",
-    "m": "RH2TY6021STANAJ",
-    "b": "Rheem",
-    "ton": 5,
-    "btu": 60,
-    "stg": 2,
-    "v": "208/230",
-    "p": 1723.2
-  },
-  {
-    "n": "60K 5T 24\" 2-Stg",
-    "m": "RH2TY6024STANNJ",
-    "b": "Rheem",
-    "ton": 5,
-    "btu": 60,
-    "stg": 2,
-    "v": "208/230",
-    "p": 1785.7
-  },
-  {
-    "n": "4T Lowboy 115V",
-    "m": "RB2TY4824STANMAN00",
-    "b": "Rheem",
-    "ton": 4,
-    "btu": 48,
-    "stg": 2,
-    "v": "115",
-    "p": 2492.36
-  },
-  {
-    "n": "3T Lowboy 115V",
-    "m": "RB2TY3621STANMAN00",
-    "b": "Rheem",
-    "ton": 3,
-    "btu": 36,
-    "stg": 2,
-    "v": "115",
-    "p": 2088.45
-  },
-  {
-    "n": "2T Lowboy 115V",
-    "m": "RB2TY2417STANMAN00",
-    "b": "Rheem",
-    "ton": 2,
-    "btu": 24,
-    "stg": 2,
-    "v": "115",
-    "p": 1843.11
-  },
-  {
-    "n": "5T Lowboy 115V",
-    "m": "RB2TY6024STANMAN00",
-    "b": "Rheem",
-    "ton": 5,
-    "btu": 60,
-    "stg": 2,
-    "v": "115",
-    "p": 2615.01
-  },
-  {
-    "n": "Endeavor 18K 1.5T Std 115V",
-    "m": "RH1PY1817STANNA",
-    "b": "Rheem",
-    "ton": 1.5,
-    "btu": 18,
-    "stg": 1,
-    "v": "115",
-    "p": 1268.03
-  },
-  {
-    "n": "Endeavor 36K 3T 21\" Std 115V",
-    "m": "RH1PY3621STANNA",
-    "b": "Rheem",
-    "ton": 3,
-    "btu": 36,
-    "stg": 1,
-    "v": "115",
-    "p": 1499.09
-  },
-  {
-    "n": "60K 5T 24\" 2-Stg 115V",
-    "m": "RH2TY6024STANNA",
-    "b": "Rheem",
-    "ton": 5,
-    "btu": 60,
-    "stg": 2,
-    "v": "115",
-    "p": 1785.39
-  },
-  {
-    "n": "GE 1.5T 1-Pc PSC",
-    "m": "NAM18P1TA5S",
-    "b": "GE",
-    "ton": 1.5,
-    "btu": 18,
-    "stg": 1,
-    "v": "208/230",
-    "p": 901.17
-  },
-  {
-    "n": "GE 2T 1-Pc ECM",
-    "m": "NAM24E1TA5S",
-    "b": "GE",
-    "ton": 2,
-    "btu": 24,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1104.66
-  },
-  {
-    "n": "GE 2T 1-Pc PSC",
-    "m": "NAM24P1TA5S",
-    "b": "GE",
-    "ton": 2,
-    "btu": 24,
-    "stg": 1,
-    "v": "208/230",
-    "p": 909.31
-  },
-  {
-    "n": "GE 2.5T 1-Pc ECM",
-    "m": "NAM30E1TA5S",
-    "b": "GE",
-    "ton": 2.5,
-    "btu": 30,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1327.92
-  },
-  {
-    "n": "GE 2.5T 1-Pc PSC",
-    "m": "NAM30P1TA5S",
-    "b": "GE",
-    "ton": 2.5,
-    "btu": 30,
-    "stg": 1,
-    "v": "208/230",
-    "p": 975.59
-  },
-  {
-    "n": "GE 3T 1-Pc ECM",
-    "m": "NAM36E1TA5S",
-    "b": "GE",
-    "ton": 3,
-    "btu": 36,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1317.45
-  },
-  {
-    "n": "GE 3T 1-Pc PSC",
-    "m": "NAM36P1TA5S",
-    "b": "GE",
-    "ton": 3,
-    "btu": 36,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1111.64
-  },
-  {
-    "n": "GE 3T 1-Pc Conv PSC",
-    "m": "NAM36P1TA5D",
-    "b": "GE",
-    "ton": 3,
-    "btu": 36,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1060.47
-  },
-  {
-    "n": "GE 3.5T 1-Pc ECM",
-    "m": "NAM42E1TA5S",
-    "b": "GE",
-    "ton": 3.5,
-    "btu": 42,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1495.36
-  },
-  {
-    "n": "GE 3.5T 1-Pc PSC",
-    "m": "NAM42P1TA5S",
-    "b": "GE",
-    "ton": 3.5,
-    "btu": 42,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1234.89
-  },
-  {
-    "n": "GE 4T 1-Pc ECM",
-    "m": "NAM48E1TA5S",
-    "b": "GE",
-    "ton": 4,
-    "btu": 48,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1495.36
-  },
-  {
-    "n": "GE 5T 1-Pc ECM",
-    "m": "NAM60E1TA5S",
-    "b": "GE",
-    "ton": 5,
-    "btu": 60,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1602.34
-  },
-  {
-    "n": "GE 1.5T 1-Pc VS",
-    "m": "NAM18V1TA5S",
-    "b": "GE",
-    "ton": 1.5,
-    "btu": 18,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1303.5
-  },
-  {
-    "n": "GE 2T 1-Pc VS",
-    "m": "NAM24V1TA5S",
-    "b": "GE",
-    "ton": 2,
-    "btu": 24,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1486.06
-  },
-  {
-    "n": "GE 2.5T 1-Pc VS",
-    "m": "NAM30V1TA5S",
-    "b": "GE",
-    "ton": 2.5,
-    "btu": 30,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1602.34
-  },
-  {
-    "n": "GE 3T 1-Pc VS",
-    "m": "NAM36V1TA5S",
-    "b": "GE",
-    "ton": 3,
-    "btu": 36,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1638.39
-  },
-  {
-    "n": "GE 3.5T 1-Pc VS",
-    "m": "NAM42V1TA5S",
-    "b": "GE",
-    "ton": 3.5,
-    "btu": 42,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1745.36
-  },
-  {
-    "n": "GE 4T 1-Pc VS",
-    "m": "NAM48V1TA5S",
-    "b": "GE",
-    "ton": 4,
-    "btu": 48,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1858.15
-  },
-  {
-    "n": "GE 5T 1-Pc VS",
-    "m": "NAM60V1TA5S",
-    "b": "GE",
-    "ton": 5,
-    "btu": 60,
-    "stg": 1,
-    "v": "208/230",
-    "p": 2022.11
-  },
-  {
-    "n": "GE 2T 2-Pc VS",
-    "m": "NAM24V2TA5S",
-    "b": "GE",
-    "ton": 2,
-    "btu": 24,
-    "stg": 2,
-    "v": "208/230",
-    "p": 1875.6
-  },
-  {
-    "n": "GE 2.5T 2-Pc VS",
-    "m": "NAM30V2TA5S",
-    "b": "GE",
-    "ton": 2.5,
-    "btu": 30,
-    "stg": 2,
-    "v": "208/230",
-    "p": 2213.97
-  },
-  {
-    "n": "GE 3T 2-Pc VS",
-    "m": "NAM36V2TA5S",
-    "b": "GE",
-    "ton": 3,
-    "btu": 36,
-    "stg": 2,
-    "v": "208/230",
-    "p": 2368.62
-  },
-  {
-    "n": "GE 3.5T 2-Pc VS",
-    "m": "NAM42V2TA5S",
-    "b": "GE",
-    "ton": 3.5,
-    "btu": 42,
-    "stg": 2,
-    "v": "208/230",
-    "p": 2484.9
-  },
-  {
-    "n": "GE 4T 2-Pc VS",
-    "m": "NAM48V2TA5S",
-    "b": "GE",
-    "ton": 4,
-    "btu": 48,
-    "stg": 2,
-    "v": "208/230",
-    "p": 2554.67
-  },
-  {
-    "n": "GE 5T 2-Pc VS",
-    "m": "NAM60V2TA5S",
-    "b": "GE",
-    "ton": 5,
-    "btu": 60,
-    "stg": 2,
-    "v": "208/230",
-    "p": 2723.28
-  },
-  {
-    "n": "GE 2T 2-Pc VS R-410A",
-    "m": "NAM24V2TA4",
-    "b": "GE",
-    "ton": 2,
-    "btu": 24,
-    "stg": 2,
-    "v": "208/230",
-    "p": 1623.27
-  },
-  {
-    "n": "GE 3T 2-Pc VS R-410A",
-    "m": "NAM36V2TA4",
-    "b": "GE",
-    "ton": 3,
-    "btu": 36,
-    "stg": 2,
-    "v": "208/230",
-    "p": 2051.18
-  },
-  {
-    "n": "GE 3.5T 2-Pc VS R-410A",
-    "m": "NAM42V2TA4",
-    "b": "GE",
-    "ton": 3.5,
-    "btu": 42,
-    "stg": 2,
-    "v": "208/230",
-    "p": 2151.18
-  },
-  {
-    "n": "GE 4T Legacy",
-    "m": "UUY48ZGDAB",
-    "b": "GE",
-    "ton": 4,
-    "btu": 48,
-    "stg": 1,
-    "v": "208/230",
-    "p": 2631.88
-  },
-  {
-    "n": "GE 5T Legacy",
-    "m": "UUY60ZGDAB",
-    "b": "GE",
-    "ton": 5,
-    "btu": 60,
-    "stg": 1,
-    "v": "208/230",
-    "p": 2693.46
-  },
-  {
-    "n": "Bosch Biva 2T R-454B 20 SEER Premium",
-    "m": "BIVA-24RCB-M20X",
-    "b": "Bosch",
-    "ton": 2,
-    "btu": 24,
-    "stg": 2,
-    "v": "220",
-    "p": 2234.28
-  },
-  {
-    "n": "Bosch Biva 3T 36K R-454B 20 SEER Premium",
+    "n": "Air Handler Biva 36K BTU 3 Ton R-454B 20 SEER Premium IDS",
     "m": "BIVA-36RCB-M20X",
     "b": "Bosch",
     "ton": 3,
     "btu": 36,
-    "stg": 2,
-    "v": "220",
-    "p": 2638.49
+    "v": "208/230",
+    "stg": 1,
+    "p": 2716.86
   },
   {
-    "n": "Bosch Biva 4T R-454B 20 SEER Premium",
+    "n": "Air Handler Biva 2 Ton R-454B 20 SEER Premium IDS",
+    "m": "BIVA-24RCB-M20X",
+    "b": "Bosch",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2300.64
+  },
+  {
+    "n": "Air Handler Hydronic 3 Ton R-454B 2 Row Non-Bleed Thermal Expansion Valve 120 Volt Permanent Split Capacitor",
+    "m": "36HCXW2010BVB00AA",
+    "b": "First Co",
+    "ton": 3,
+    "btu": 36,
+    "v": "120",
+    "stg": 1,
+    "p": 1430.92
+  },
+  {
+    "n": "Air Handler Biva 4 Ton R-454B 20 SEER Premium IDS",
     "m": "BIVA-48RCB-M20X",
     "b": "Bosch",
     "ton": 4,
     "btu": 48,
-    "stg": 2,
-    "v": "220",
-    "p": 2857.59
-  },
-  {
-    "n": "Bosch Biva 5T R-454B 20 SEER Premium 220V",
-    "m": "BIVA-60RCB-M20X",
-    "b": "Bosch",
-    "ton": 5,
-    "btu": 60,
-    "stg": 2,
-    "v": "220",
-    "p": 3974.94
-  },
-  {
-    "n": "Bosch Biva 4T 48K IDS 3.0 R-454B 220V",
-    "m": "BIVA-48MCB-M19X",
-    "b": "Bosch",
-    "ton": 4,
-    "btu": 48,
-    "stg": 2,
-    "v": "220",
-    "p": 2914.26
-  },
-  {
-    "n": "Bosch Biva 5T 60K IDS 3.0 R-454B 220V",
-    "m": "BIVA-60MCB-M19X",
-    "b": "Bosch",
-    "ton": 5,
-    "btu": 60,
-    "stg": 2,
-    "v": "220",
-    "p": 4054.27
-  },
-  {
-    "n": "Bosch IDS Light 2T PSC R-454B",
-    "m": "BIVA-24RXB-M15X",
-    "b": "Bosch",
-    "ton": 2,
-    "btu": 24,
-    "stg": 1,
     "v": "208/230",
-    "p": 1134.14
-  },
-  {
-    "n": "Bosch IDS Light 3T PSC R-454B",
-    "m": "BIVA-36RXB-M15X",
-    "b": "Bosch",
-    "ton": 3,
-    "btu": 36,
     "stg": 1,
-    "v": "208/230",
-    "p": 1373.81
+    "p": 2942.47
   },
   {
-    "n": "Bosch IDS Light 4T PSC R-454B",
-    "m": "BIVA-48RXB-M15X",
-    "b": "Bosch",
-    "ton": 4,
-    "btu": 48,
-    "stg": 1,
-    "v": "208/230",
-    "p": 1642.02
-  },
-  {
-    "n": "Bosch IDS Light 5T PSC R-454B",
-    "m": "BIVA-60RXB-M15X",
-    "b": "Bosch",
-    "ton": 5,
-    "btu": 60,
-    "stg": 1,
-    "v": "208/230",
-    "p": 2033.64
-  },
-  {
-    "n": "Bosch BVA 3T R-410A Multi ECM Inv 2.0",
+    "n": "Air Handler BVA 3 Ton 1120 Cubic Feet per Minute R-410A Multi ECM for Inverter 2.0 208/230 Volt 1 Phase",
     "m": "BVA-36WN1-M20",
     "b": "Bosch",
     "ton": 3,
     "btu": 36,
-    "stg": 2,
     "v": "208/230",
-    "p": 2360.25
+    "stg": 3,
+    "p": 2313.97
   },
   {
-    "n": "Bosch BVA 4T R-410A Multi ECM",
+    "n": "Air Handler Hydronic 2 Ton R-454B 2 Row Non-Bleed Thermal Expansion Valve 120 Volt Permanent Split Capacitor",
+    "m": "24HCXW2010BVB00AA",
+    "b": "First Co",
+    "ton": 2,
+    "btu": 24,
+    "v": "120",
+    "stg": 1,
+    "p": 1279.68
+  },
+  {
+    "n": "Air Handler Biva 5 Ton R-454B 20 SEER Premium IDS 220 Volt",
+    "m": "BIVA-60RCB-M20X",
+    "b": "Bosch",
+    "ton": 5,
+    "btu": 60,
+    "v": "220",
+    "stg": 1,
+    "p": 4093.01
+  },
+  {
+    "n": "Air Handler IDS Light 3 Ton AHU Permanent Split Capacitor R454B",
+    "m": "BIVA-36RXB-M15X",
+    "b": "Bosch",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1414.62
+  },
+  {
+    "n": "Air Handler Hydronic 2.5 Ton R-454B 2 Row Non-Bleed Thermal Expansion Valve 120 Volt Permanent Split Capacitor",
+    "m": "30HCXW2010BVB00AA",
+    "b": "First Co",
+    "ton": 2.5,
+    "btu": 30,
+    "v": "120",
+    "stg": 1,
+    "p": 1311.41
+  },
+  {
+    "n": "Air Handler IDS Light 2 Ton AHU Permanent Split Capacitor R454B",
+    "m": "BIVA-24RXB-M15X",
+    "b": "Bosch",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1167.83
+  },
+  {
+    "n": "Air Handler Hydronic 4 Ton R-454B 3 Row Non-Bleed Thermal Expansion Valve 120 Volt Permanent Split Capacitor",
+    "m": "48HCXW3010BVB00AA",
+    "b": "First Co",
+    "ton": 4,
+    "btu": 48,
+    "v": "120",
+    "stg": 1,
+    "p": 1773.58
+  },
+  {
+    "n": "Air Handler Biva 60K BTU 5 Ton R-454B IDS 3.0 220 Volt",
+    "m": "BIVA-60MCB-M19X",
+    "b": "Bosch",
+    "ton": 5,
+    "btu": 60,
+    "v": "220",
+    "stg": 1,
+    "p": 4174.7
+  },
+  {
+    "n": "Air Handler 24K BTU 2 Ton R-454B ECM 1 Piece Thermal Expansion Valve",
+    "m": "NAM24E1TA5S",
+    "b": "GE",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1104.66
+  },
+  {
+    "n": "Air Handler M 3 to 3.5 Ton 230 Volt",
+    "m": "45ESP3642JH4MC",
+    "b": "Spacepak",
+    "ton": 3.5,
+    "btu": 42,
+    "v": "208/230",
+    "stg": 1,
+    "p": 3302.6
+  },
+  {
+    "n": "Air Handler Hydronic 3 Ton R-454B 2 Row Non-Bleed Thermal Expansion Valve 120 Volt Variable Speed",
+    "m": "36HCXW2V10BVB00AA",
+    "b": "First Co",
+    "ton": 3,
+    "btu": 36,
+    "v": "120",
+    "stg": 3,
+    "p": 2028.46
+  },
+  {
+    "n": "Air Handler Biva 48K BTU 4 Ton R-454B IDS 3.0 220 Volt",
+    "m": "BIVA-48MCB-M19X",
+    "b": "Bosch",
+    "ton": 4,
+    "btu": 48,
+    "v": "220",
+    "stg": 1,
+    "p": 3000.82
+  },
+  {
+    "n": "Air Handler 3 Ton R-454B 1 Piece Thermal Expansion Valve 36K BTU ECM",
+    "m": "NAM36E1TA5S",
+    "b": "GE",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1317.45
+  },
+  {
+    "n": "Air Handler 2 Ton G.E.",
+    "m": "UUY24ZGDAB",
+    "b": "GE",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2102.31
+  },
+  {
+    "n": "Air Handler Hydronic 2 Ton R-454B 2 Row Non-Bleed Thermal Expansion Valve 120 Volt Variable Speed",
+    "m": "24HCXW2V10BVB00AA",
+    "b": "First Co",
+    "ton": 2,
+    "btu": 24,
+    "v": "120",
+    "stg": 3,
+    "p": 1902.6
+  },
+  {
+    "n": "Air Handler 3 Ton R-454B Multi-Position Less Pump with Thermal Expansion Valve with RDS 120 Volt 36K BTU",
+    "m": "BCRMB7A36S3N3R",
+    "b": "ADP",
+    "ton": 3,
+    "btu": 36,
+    "v": "120",
+    "stg": 1,
+    "p": 1368.79
+  },
+  {
+    "n": "Air Handler IDS Light 4 Ton AHU Permanent Split Capacitor R454B",
+    "m": "BIVA-48RXB-M15X",
+    "b": "Bosch",
+    "ton": 4,
+    "btu": 48,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1690.8
+  },
+  {
+    "n": "Air Handler TDI Pro 2 3 Ton R-410A/R-454B Multi-Position 208/230 Volt 1 Phase",
+    "m": "EAHDEN-36ABA",
+    "b": "Ecoer",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2468.42
+  },
+  {
+    "n": "Air Handler Hydronic 1.5 Ton R-454B 2 Row Non-Bleed Thermal Expansion Valve 120 Volt Permanent Split Capacitor",
+    "m": "18HCXW2010BVB00AA",
+    "b": "First Co",
+    "ton": 1.5,
+    "btu": 18,
+    "v": "120",
+    "stg": 1,
+    "p": 1197.19
+  },
+  {
+    "n": "Air Handler 2 Ton R-454B Multi-Position Less Pump with Thermal Expansion Valve with RDS 120 Volt",
+    "m": "BCRMA4A24S3N3R",
+    "b": "ADP",
+    "ton": 2,
+    "btu": 24,
+    "v": "120",
+    "stg": 1,
+    "p": 1207.46
+  },
+  {
+    "n": "Air Handler IDS Light 5 Ton AHU Permanent Split Capacitor R454B",
+    "m": "BIVA-60RXB-M15X",
+    "b": "Bosch",
+    "ton": 5,
+    "btu": 60,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2094.05
+  },
+  {
+    "n": "Air Handler 4 Ton G.E.",
+    "m": "UUY48ZGDAB",
+    "b": "GE",
+    "ton": 4,
+    "btu": 48,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2631.88
+  },
+  {
+    "n": "Air Handler 4 Ton R-454B 1 Piece Thermal Expansion Valve ECM",
+    "m": "NAM48E1TA5S",
+    "b": "GE",
+    "ton": 4,
+    "btu": 48,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1495.36
+  },
+  {
+    "n": "Air Handler 4 Ton R-454B Multi-Position Less Pump with Thermal Expansion Valve with RDS 120 Volt",
+    "m": "BCRMC1A48S4N3R",
+    "b": "ADP",
+    "ton": 4,
+    "btu": 48,
+    "v": "120",
+    "stg": 1,
+    "p": 1697.7
+  },
+  {
+    "n": "Air Handler Hydronic 5 Ton R-454B 3 Row Non-Bleed Thermal Expansion Valve 120 Volt Permanent Split Capacitor",
+    "m": "60HCXW3010BVB00AA",
+    "b": "First Co",
+    "ton": 5,
+    "btu": 60,
+    "v": "120",
+    "stg": 1,
+    "p": 2320.35
+  },
+  {
+    "n": "Air Handler 36K BTU 3 Ton R-454B SE Multi-Position 2 Stage 208/230 Volt ECM",
+    "m": "RH2TY3621STANNJ",
+    "b": "Rheem",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 2,
+    "p": 1499.14
+  },
+  {
+    "n": "Air Handler 36/42 R-454B/R-32 Horizontal",
+    "m": "45ESP3642KHZA",
+    "b": "Spacepak",
+    "ton": 0,
+    "btu": 0,
+    "v": "208/230",
+    "stg": 1,
+    "p": 3579.74
+  },
+  {
+    "n": "Air Handler 48/60 R-454B/R-32 Horizontal",
+    "m": "45ESP4860KHZA",
+    "b": "Spacepak",
+    "ton": 0,
+    "btu": 0,
+    "v": "208/230",
+    "stg": 1,
+    "p": 3938.51
+  },
+  {
+    "n": "Air Handler 24/30 R-454B/R-32 Horizontal",
+    "m": "45ESP2430KHZA",
+    "b": "Spacepak",
+    "ton": 0,
+    "btu": 0,
+    "v": "208/230",
+    "stg": 1,
+    "p": 3363.83
+  },
+  {
+    "n": "Air Handler Hydronic 4 Ton R-454B 3 Row Non-Bleed Thermal Expansion Valve 120 Volt Variable Speed",
+    "m": "48HCXW3V10BVB00AA",
+    "b": "First Co",
+    "ton": 4,
+    "btu": 48,
+    "v": "120",
+    "stg": 3,
+    "p": 2517.06
+  },
+  {
+    "n": "Air Handler 5 Ton R-454B 1 Piece Thermal Expansion Valve 60K BTU ECM",
+    "m": "NAM60E1TA5S",
+    "b": "GE",
+    "ton": 5,
+    "btu": 60,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1602.34
+  },
+  {
+    "n": "Air Handler 3 Ton R-454B Variable Speed 1 Piece Thermal Expansion Valve",
+    "m": "NAM36V1TA5S",
+    "b": "GE",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 3,
+    "p": 1638.39
+  },
+  {
+    "n": "Air Handler TDI Pro 2 2 Ton R-410A/R-454B Multi-Position 208/230 Volt 1 Phase",
+    "m": "EAHDEN-24ABA",
+    "b": "Ecoer",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2222.37
+  },
+  {
+    "n": "Air Handler 5 Ton G.E.",
+    "m": "UUY60ZGDAB",
+    "b": "GE",
+    "ton": 5,
+    "btu": 60,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2693.46
+  },
+  {
+    "n": "Air Handler 2.5 Ton R-454B 1 Piece Thermal Expansion Valve ECM",
+    "m": "NAM30E1TA5S",
+    "b": "GE",
+    "ton": 2.5,
+    "btu": 30,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1327.92
+  },
+  {
+    "n": "Air Handler Hydronic 5 Ton R-454B 3 Row Non-Bleed Thermal Expansion Valve 120 Volt Variable Speed",
+    "m": "60HCXW3V10BVB00AA",
+    "b": "First Co",
+    "ton": 5,
+    "btu": 60,
+    "v": "120",
+    "stg": 3,
+    "p": 2997.21
+  },
+  {
+    "n": "Air Handler B Series 4 Ton Multi-Position R-454B with RDS and Less Pump Non-Bleed Thermal Expansion Valve 1...",
+    "m": "BVRMC3A48S4N3R",
+    "b": "ADP",
+    "ton": 4,
+    "btu": 48,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2143.71
+  },
+  {
+    "n": "Air Handler 3 Ton R-454B Hydronic 4 Row Hardwire Coil Permanent Split Capacitor",
+    "m": "ABM35J-024WC4ML",
+    "b": "Aspen",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1572.69
+  },
+  {
+    "n": "Air Handler 5 Ton R-454B Multi-Position Less Pump with Thermal Expansion Valve with RDS 120 Volt",
+    "m": "BCRMC4A60S4N3R",
+    "b": "ADP",
+    "ton": 5,
+    "btu": 60,
+    "v": "120",
+    "stg": 1,
+    "p": 1954.51
+  },
+  {
+    "n": "Air Handler 3 Ton Multi R-410A 3 Row less Pump with Bleed Thermal Expansion Valve",
+    "m": "BVRMB9737S4N3",
+    "b": "ADP",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1800.05
+  },
+  {
+    "n": "Air Handler 4 Ton R-410A PSC 208/230 VAC 1 Phase",
     "m": "BVA-48WN1-M15",
     "b": "Bosch",
     "ton": 4,
     "btu": 48,
-    "stg": 1,
     "v": "208/230",
-    "p": 1350.53
+    "stg": 1,
+    "p": 1324.05
   },
   {
-    "n": "Bosch IDS Edge 3T Multi-Pos",
-    "m": "BIVA-36VCB-M18X",
-    "b": "Bosch",
+    "n": "Air Handler 2 Ton R-454B Variable Speed 1 Piece Thermal Expansion Valve",
+    "m": "NAM24V1TA5S",
+    "b": "GE",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 3,
+    "p": 1486.06
+  },
+  {
+    "n": "Air Handler B Series 3 Ton Multi-Position R-454B with RDS and Less Pump Non-Bleed Thermal Expansion Valve 1...",
+    "m": "BVRMB9A37S3N3R",
+    "b": "ADP",
     "ton": 3,
     "btu": 36,
-    "stg": 2,
     "v": "208/230",
-    "p": 2526.34
+    "stg": 1,
+    "p": 2138.62
   },
   {
-    "n": "Bosch IDS Edge 4T Multi-Pos",
+    "n": "Air Handler B Series 2 Ton Multi-Position R-454B with RDS and Less Pump Non-Bleed Thermal Expansion Valve 1...",
+    "m": "BVRMB2A25S3N3R",
+    "b": "ADP",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1835.59
+  },
+  {
+    "n": "Air Handler 36K BTU 3 Ton R-454B Mid Efficiency Multi-Position 2 Stage 208/230 Volt ECM",
+    "m": "RH2TY3621MTANNJ",
+    "b": "Rheem",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 2,
+    "p": 2209.25
+  },
+  {
+    "n": "Air Handler 36/42 R-454B/R-32 Vertical",
+    "m": "45ESP3642KVZA",
+    "b": "Spacepak",
+    "ton": 0,
+    "btu": 0,
+    "v": "208/230",
+    "stg": 1,
+    "p": 4032.42
+  },
+  {
+    "n": "Air Handler 24/30 R-454B/R-32 Vertical",
+    "m": "45ESP2430KVZA",
+    "b": "Spacepak",
+    "ton": 0,
+    "btu": 0,
+    "v": "208/230",
+    "stg": 1,
+    "p": 3794.84
+  },
+  {
+    "n": "Air Handler RAQ 1.5 to 2 Ton 120 Volt",
+    "m": "24RAQ-3",
+    "b": "First Co",
+    "ton": 2,
+    "btu": 24,
+    "v": "120",
+    "stg": 1,
+    "p": 1777.58
+  },
+  {
+    "n": "Air Handler 24K BTU 2 Ton R-410A Multi-Position 208/230 Volt 1 Phase ECM",
+    "m": "EAHATN-24",
+    "b": "Ecoer",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1394.49
+  },
+  {
+    "n": "Air Handler 3 Ton R-454B Hydronic 4 Row Hardwire Coil ECM",
+    "m": "AFM35J-016WC4ML",
+    "b": "Aspen",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1861.45
+  },
+  {
+    "n": "Air Handler FWA-HW Less Pump Heat Only 120 Volt 62.6K BTU",
+    "m": "FWA60HW",
+    "b": "First Co",
+    "ton": 0.5,
+    "btu": 6,
+    "v": "120",
+    "stg": 1,
+    "p": 1990.71
+  },
+  {
+    "n": "Air Handler 4 Ton R-454B Hydronic 4 Row Hardwire Coil Permanent Split Capacitor",
+    "m": "ABM47J-024WC4XL",
+    "b": "Aspen",
+    "ton": 4,
+    "btu": 48,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1922.38
+  },
+  {
+    "n": "Air Handler TDI Pro 2 4 Ton R-410A/R-454B Multi-Position 208/230 Volt 1 Phase",
+    "m": "EAHDEN-48ABA",
+    "b": "Ecoer",
+    "ton": 4,
+    "btu": 48,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2963.16
+  },
+  {
+    "n": "Air Handler Aspen 2.5-3T Hydronic PSC Thermal Expansion Valve 4-Row Hot Water Coil No Pump",
+    "m": "ABM354-024WC4ML",
+    "b": "Aspen",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1431.21
+  },
+  {
+    "n": "Air Handler 2 Ton R-454B Hydronic 3 Row Hardware Coil Permanent Split Capacitor",
+    "m": "ABM23J-024WC3SL",
+    "b": "Aspen",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1334.57
+  },
+  {
+    "n": "Air Handler VMB-3HW 1 to 2 Ton 4 Pipe Upflow 120/208/230 Volt Variable Speed",
+    "m": "8VMB-3HW",
+    "b": "First Co",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 3,
+    "p": 3294.59
+  },
+  {
+    "n": "Air Handler FWA-HW Less Pump Heat Only 120 Volt 8.1 Amps 52.8K BTU",
+    "m": "FWA50HW",
+    "b": "First Co",
+    "ton": 0.7,
+    "btu": 8,
+    "v": "120",
+    "stg": 1,
+    "p": 1585.21
+  },
+  {
+    "n": "Air Handler 4 Ton R-454B Variable Speed 1 Piece Thermal Expansion Valve",
+    "m": "NAM48V1TA5S",
+    "b": "GE",
+    "ton": 4,
+    "btu": 48,
+    "v": "208/230",
+    "stg": 3,
+    "p": 1858.15
+  },
+  {
+    "n": "Air Handler B Series 5 Ton Multi-Position R-454B with RDS and Less Pump Non-Bleed Thermal Expansion Valve 1...",
+    "m": "BVRMC7A60S4N3R",
+    "b": "ADP",
+    "ton": 5,
+    "btu": 60,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2498.48
+  },
+  {
+    "n": "Air Handler VMB-3HW 2.5 to 3 Ton 4 Pipe Upflow 120/208/230 Volt Variable Speed",
+    "m": "12VMB-3HW",
+    "b": "First Co",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 3,
+    "p": 3604.89
+  },
+  {
+    "n": "Air Handler 3.5 Ton R-454B 1 Piece Thermal Expansion Valve ECM",
+    "m": "NAM42E1TA5S",
+    "b": "GE",
+    "ton": 3.5,
+    "btu": 42,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1495.36
+  },
+  {
+    "n": "Air Handler 5 Ton with Thermal Expansion Valve and Permanent Split Capacitor",
+    "m": "AAM604-009ECS00",
+    "b": "Aspen",
+    "ton": 5,
+    "btu": 60,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1173.46
+  },
+  {
+    "n": "Air Handler 3 Ton R-454B Mid EEV Multi-Position Variable Speed ECM A Coil 208/230 Volt",
+    "m": "RHMVY3621MEACAJ",
+    "b": "Rheem",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 3,
+    "p": 2476.36
+  },
+  {
+    "n": "Air Handler VMB 1 to 2 Ton 3 Pipe Upflow 120/208/230 Volt Variable Speed",
+    "m": "8VMB",
+    "b": "First Co",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 3,
+    "p": 2957.3
+  },
+  {
+    "n": "Air Handler 3 Ton R-454B 1 Piece Thermal Expansion Valve PSC",
+    "m": "NAM36P1TA5S",
+    "b": "GE",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1111.64
+  },
+  {
+    "n": "Air Handler F Series 3 Ton Multi-Position R-454B Low Profile with RDS Non-Bleed Thermal Expansion Valve 208...",
+    "m": "FCMCC1A37S002R",
+    "b": "ADP",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1211.18
+  },
+  {
+    "n": "Air Handler FWA-HW Less Pump Heat Only 120 Volt 2.7 Amps 37.1K BTU",
+    "m": "FWA30HW",
+    "b": "First Co",
+    "ton": 0.1,
+    "btu": 1,
+    "v": "120",
+    "stg": 1,
+    "p": 1429
+  },
+  {
+    "n": "Air Handler 5 Ton Hydronic 4 Row Hardwire Coil Permanent Split Capacitor",
+    "m": "ABM59J-024WC4XL",
+    "b": "Aspen",
+    "ton": 5,
+    "btu": 60,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2037.12
+  },
+  {
+    "n": "Air Handler Aspen 2.5-3T Hydronic ECM Thermal Expansion Valve 4-Row Hot Water Coil No Pump",
+    "m": "AFM354-016WC4ML",
+    "b": "Aspen",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1719.96
+  },
+  {
+    "n": "3-Ton 2-Piece Multi-Position VS Air Handling Unit 36K BTU",
+    "m": "NAM36V2TA4",
+    "b": "GE",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2051.18
+  },
+  {
+    "n": "Air Handler with Hydronic Heating Coil R454B 2 - 3 Ton Multiple Position",
+    "m": "EAHETN-36HB",
+    "b": "Ecoer",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2217.11
+  },
+  {
+    "n": "Air Handler 2 Ton Hydronic Horizontal",
+    "m": "45WCS2430JH0MC",
+    "b": "Spacepak",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 1,
+    "p": 3237.66
+  },
+  {
+    "n": "Air Handler F Series 1.5 to 2 Ton Multi-Position R-454B Low Profile with RDS Non-Bleed Thermal Expansion Va...",
+    "m": "FCME31A24S002R",
+    "b": "ADP",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 1,
+    "p": 891.66
+  },
+  {
+    "n": "Air Handler VMB 2.5 to 3 Ton 2 Pipe Upflow 120/208/230 Volt Variable Speed",
+    "m": "12VMB",
+    "b": "First Co",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 3,
+    "p": 3225.78
+  },
+  {
+    "n": "Air Handler F Series 3.5 to 4 Ton Multi-Position R-454B Low Profile with RDS Non-Bleed Thermal Expansion Va...",
+    "m": "FCMCC1A48S002R",
+    "b": "ADP",
+    "ton": 4,
+    "btu": 48,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1245.85
+  },
+  {
+    "n": "Air Handler 48/60 R-454B/R-32 Vertical",
+    "m": "45ESP4860KVZA",
+    "b": "Spacepak",
+    "ton": 0,
+    "btu": 0,
+    "v": "208/230",
+    "stg": 1,
+    "p": 4386.38
+  },
+  {
+    "n": "Air Handler Aspen 1.5-2T Hydronic PSC Thermal Expansion Valve 3-Row Hot Water Coil No Pump",
+    "m": "ABM234-024WC3SL",
+    "b": "Aspen",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1193.08
+  },
+  {
+    "n": "Air Handler Aspen 3.5-4T Hydronic PSC Thermal Expansion Valve 4-Row Hot Water Coil No Pump",
+    "m": "ABM474-024WC4XL",
+    "b": "Aspen",
+    "ton": 4,
+    "btu": 48,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1780.9
+  },
+  {
+    "n": "Air Handler 2 Ton R-454B Hydronic 3 Row Hardwire Coil ECM",
+    "m": "AFM23J-016WC3SL",
+    "b": "Aspen",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1678.63
+  },
+  {
+    "n": "Air Handler 5 Ton R-454B Variable Speed 1 Piece Thermal Expansion",
+    "m": "NAM60V1TA5S",
+    "b": "GE",
+    "ton": 5,
+    "btu": 60,
+    "v": "208/230",
+    "stg": 3,
+    "p": 2022.11
+  },
+  {
+    "n": "Air Handler 2 Ton R-454B 1 Piece Thermal Expansion Valve PSC",
+    "m": "NAM24P1TA5S",
+    "b": "GE",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 1,
+    "p": 909.31
+  },
+  {
+    "n": "Air Handler 3 Ton Hydronic Horizontal",
+    "m": "45WCS3642JH0MC",
+    "b": "Spacepak",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 3426.5
+  },
+  {
+    "n": "Air Handler LX 1.5 Ton 600 Cubic Feet per Minute 208/230 Volt 1 Phase Variable Speed ECM",
+    "m": "AE18BX21",
+    "b": "York",
+    "ton": 1.5,
+    "btu": 18,
+    "v": "208/230",
+    "stg": 3,
+    "p": 607.32
+  },
+  {
+    "n": "Air Handler 2.5 Ton R-454B Variable Speed 1 Piece Thermal Expansion Valve",
+    "m": "NAM30V1TA5S",
+    "b": "GE",
+    "ton": 2.5,
+    "btu": 30,
+    "v": "208/230",
+    "stg": 3,
+    "p": 1602.34
+  },
+  {
+    "n": "Air Handler 5 Ton R-454B Hydronic 4 Row Hardwire Coil ECM",
+    "m": "AFM59J-016WC4XL",
+    "b": "Aspen",
+    "ton": 5,
+    "btu": 60,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2224.63
+  },
+  {
+    "n": "Air Handler 4 Ton R-454B Hydronic 4 Row Hardwire Coil ECM",
+    "m": "AFM47J-016WC4XL",
+    "b": "Aspen",
+    "ton": 4,
+    "btu": 48,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2108.94
+  },
+  {
+    "n": "2-Ton 2-Piece Multi-Position VS Air Handling Unit 24K BTU",
+    "m": "NAM24V2TA4",
+    "b": "GE",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1623.27
+  },
+  {
+    "n": "3.5-Ton 2-Piece Multi-Position VS Air Handling Unit 42K BTU",
+    "m": "NAM42V2TA4",
+    "b": "GE",
+    "ton": 3.5,
+    "btu": 42,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2151.18
+  },
+  {
+    "n": "Air Handler Endeavor 36K BTU 3 Ton 727-1069 Cubic Feet per Minute R-454B Mid Multi Position Thermal Expansi...",
+    "m": "RH2VY3621MTACAJ",
+    "b": "Rheem",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2931.53
+  },
+  {
+    "n": "Air Handler 2.5 Ton R-454B 1 Piece Thermal Expansion Valve PSC",
+    "m": "NAM30P1TA5S",
+    "b": "GE",
+    "ton": 2.5,
+    "btu": 30,
+    "v": "208/230",
+    "stg": 1,
+    "p": 975.59
+  },
+  {
+    "n": "Air Handler 1.5 Ton R-454B Cooling 1 Piece Thermal Expansion Valve PSC",
+    "m": "NAM18P1TA5S",
+    "b": "GE",
+    "ton": 1.5,
+    "btu": 18,
+    "v": "208/230",
+    "stg": 1,
+    "p": 901.17
+  },
+  {
+    "n": "Air Handler TDI Pro 2 5 Ton R-410A/R-454B Multi-Position 208/230 Volt 1 Phase",
+    "m": "EAHDEN-60ABA",
+    "b": "Ecoer",
+    "ton": 5,
+    "btu": 60,
+    "v": "208/230",
+    "stg": 1,
+    "p": 3210.53
+  },
+  {
+    "n": "Air Handler 3 Ton R-410A/R-454B 1 Piece Convertible PSC Thermal Expansion Valve",
+    "m": "NAM36P1TA5D",
+    "b": "GE",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1060.47
+  },
+  {
+    "n": "Air Handler Aspen 3.5-4T Hydronic ECM Thermal Expansion Valve 4-Row Hot Water Coil No Pump",
+    "m": "AFM474-016WC4XL",
+    "b": "Aspen",
+    "ton": 4,
+    "btu": 48,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1967.46
+  },
+  {
+    "n": "Air Handler Aspen 5T Hydronic ECM Thermal Expansion Valve 4-Row Hot Water Coil No Pump",
+    "m": "AFM594-016WC4XL",
+    "b": "Aspen",
+    "ton": 5,
+    "btu": 60,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2083.15
+  },
+  {
+    "n": "Air Handler 10Ton 2 Pipe with VFD Less By-Pass 208/230/3",
+    "m": "NL120C00D2BAA4",
+    "b": "York",
+    "ton": 10,
+    "btu": 120,
+    "v": "208/230",
+    "stg": 1,
+    "p": 3133.86
+  },
+  {
+    "n": "Air Handler VMB 3.5 to 4 Ton 2 Pipe Upflow 120/208/230 Volt Variable Speed",
+    "m": "16VMB",
+    "b": "First Co",
+    "ton": 4,
+    "btu": 48,
+    "v": "208/230",
+    "stg": 3,
+    "p": 3835.59
+  },
+  {
+    "n": "Air Handler VMB 5 Ton 2 Pipe Upflow 120/208/230 Volt Variable Speed",
+    "m": "20VMB",
+    "b": "First Co",
+    "ton": 5,
+    "btu": 60,
+    "v": "208/230",
+    "stg": 3,
+    "p": 4193.11
+  },
+  {
+    "n": "Air Handler 3 Ton with Thermal Expansion Valve and Permanent Split Capacitor",
+    "m": "AAM364-009ECS00",
+    "b": "Aspen",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1049.69
+  },
+  {
+    "n": "Air Handler 4 Ton Hydronic Horizontal",
+    "m": "45WCS4860JH0MC",
+    "b": "Spacepak",
+    "ton": 4,
+    "btu": 48,
+    "v": "208/230",
+    "stg": 1,
+    "p": 3745.22
+  },
+  {
+    "n": "Air Handler with Hydronic Heating Coil R454B 4 - 5 Ton Multiple Position",
+    "m": "EAHETN-60HB",
+    "b": "Ecoer",
+    "ton": 5,
+    "btu": 60,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2713.16
+  },
+  {
+    "n": "Air Handler Endeavor 36K BTU 3 Ton 727-1069 Cubic Feet per Minute R-454B Mid Multi Position Thermal Expansi...",
+    "m": "RH2VY3621MTACNJ",
+    "b": "Rheem",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1690.7
+  },
+  {
+    "n": "Air Handler 4 Ton Hydronic Vertical",
+    "m": "45WCS4860JV0MC",
+    "b": "Spacepak",
+    "ton": 4,
+    "btu": 48,
+    "v": "208/230",
+    "stg": 1,
+    "p": 4527.08
+  },
+  {
+    "n": "Air Handler 3 Ton Hydronic Vertical",
+    "m": "45WCS3642JV0MC",
+    "b": "Spacepak",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 4123.76
+  },
+  {
+    "n": "Air Handler Latitude 3.5 Ton 1400 Cubic Feet per Minute 208/230 Volt 1 Phase Variable Speed PSC",
+    "m": "AP42CX21",
+    "b": "York",
+    "ton": 3.5,
+    "btu": 42,
+    "v": "208/230",
+    "stg": 3,
+    "p": 789.95
+  },
+  {
+    "n": "Air Handler 36K BTU 3 Ton 3002 Cubic Feet per Minute R-454B 17.4 SEER Ducted Unit EEV Valve 1 Stage 115/208...",
+    "m": "CS-HM36BAHU",
+    "b": "Panasonic",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2304.25
+  },
+  {
+    "n": "Air Handler F Series 2.5 Ton Multi-Position R-454B Low Profile with RDS Non-Bleed Thermal Expansion Valve 2...",
+    "m": "FCME32A30S002R",
+    "b": "ADP",
+    "ton": 2.5,
+    "btu": 30,
+    "v": "208/230",
+    "stg": 1,
+    "p": 956.06
+  },
+  {
+    "n": "Air Handler 2.5 Ton R-454B Variable Speed 2 Piece Thermal Expansion Valve 30K BTU",
+    "m": "NAM30V2TA5S",
+    "b": "GE",
+    "ton": 2.5,
+    "btu": 30,
+    "v": "208/230",
+    "stg": 3,
+    "p": 2213.97
+  },
+  {
+    "n": "Air Handler Aspen 1.5-2T Hydronic ECM Thermal Expansion Valve 3-Row Hot Water Coil No Pump",
+    "m": "AFM234-016WC3SL",
+    "b": "Aspen",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1537.15
+  },
+  {
+    "n": "Air Handler Aspen 5T Hydronic PSC Thermal Expansion Valve 4-Row Hot Water Coil No Pump",
+    "m": "ABM594-024WC4XL",
+    "b": "Aspen",
+    "ton": 5,
+    "btu": 60,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1895.64
+  },
+  {
+    "n": "Air Handler VMB-4HW 4 Ton 4 Pipe Upflow 120/208/230 Volt Variable Speed",
+    "m": "16VMB-4HW",
+    "b": "First Co",
+    "ton": 4,
+    "btu": 48,
+    "v": "208/230",
+    "stg": 3,
+    "p": 4753
+  },
+  {
+    "n": "Air Handler 3.5 Ton R-454B 1 Piece Thermal Expansion Valve PSC",
+    "m": "NAM42P1TA5S",
+    "b": "GE",
+    "ton": 3.5,
+    "btu": 42,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1234.89
+  },
+  {
+    "n": "Air Handler F Series 5 Ton Multi-Position R-454B Low Profile with RDS Non-Bleed Thermal Expansion Valve 208...",
+    "m": "FCMCC3A60S002R",
+    "b": "ADP",
+    "ton": 5,
+    "btu": 60,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1330.07
+  },
+  {
+    "n": "Air Handler 5 Ton R-454B Variable Speed 2 Piece Thermal Expansion Valve",
+    "m": "NAM60V2TA5S",
+    "b": "GE",
+    "ton": 5,
+    "btu": 60,
+    "v": "208/230",
+    "stg": 3,
+    "p": 2723.28
+  },
+  {
+    "n": "Air Handler 4 Ton R-454B Variable Speed 2 Piece Thermal Expansion Valve",
+    "m": "NAM48V2TA5S",
+    "b": "GE",
+    "ton": 4,
+    "btu": 48,
+    "v": "208/230",
+    "stg": 3,
+    "p": 2554.67
+  },
+  {
+    "n": "Air Handler 3.5 Ton R-454B Variable Speed 1 Piece Thermal Expansion Valve 42K BTU",
+    "m": "NAM42V1TA5S",
+    "b": "GE",
+    "ton": 3.5,
+    "btu": 42,
+    "v": "208/230",
+    "stg": 3,
+    "p": 1745.36
+  },
+  {
+    "n": "Air Handler 3 Ton R-454B Variable Speed 2 Piece Thermal Expansion Valve",
+    "m": "NAM36V2TA5S",
+    "b": "GE",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 3,
+    "p": 2368.62
+  },
+  {
+    "n": "Air Handler 1.5 Ton R-454B Variable Speed 1 Piece Thermal Expansion Valve",
+    "m": "NAM18V1TA5S",
+    "b": "GE",
+    "ton": 1.5,
+    "btu": 18,
+    "v": "208/230",
+    "stg": 3,
+    "p": 1303.5
+  },
+  {
+    "n": "Air Handler 2.0T 1PC VS ECM 17.5 AL BA TXV",
+    "m": "JHVTB24CBAC2N1",
+    "b": "York",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 1,
+    "p": 854.68
+  },
+  {
+    "n": "Air Handler 2.5 Ton with Thermal Expansion Valve and Permanent Split Capacitor",
+    "m": "AAM304-009ECS00",
+    "b": "Aspen",
+    "ton": 2.5,
+    "btu": 30,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1008.41
+  },
+  {
+    "n": "Air Handler 2 Ton Hydronic Vertical",
+    "m": "45WCS2430JV0MC",
+    "b": "Spacepak",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 1,
+    "p": 3794.78
+  },
+  {
+    "n": "Air Handler 2 Ton R-454B Variable Speed 2 Piece Thermal Expansion Valve",
+    "m": "NAM24V2TA5S",
+    "b": "GE",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 3,
+    "p": 1875.6
+  },
+  {
+    "n": "Air Handler VMB-4HW 5 Ton 4 Pipe Upflow 120/208/230 Volt Variable Speed",
+    "m": "20VMB-4HW",
+    "b": "First Co",
+    "ton": 5,
+    "btu": 60,
+    "v": "208/230",
+    "stg": 3,
+    "p": 5380.35
+  },
+  {
+    "n": "Air Handler 52K BTU 5 Ton 1807 Cubic Feet per Minute R-454B 16.5 SEER Ducted Unit EEV Valve 1 Stage 115/208...",
+    "m": "CS-HM60BAHU",
+    "b": "Panasonic",
+    "ton": 5,
+    "btu": 52,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2853.56
+  },
+  {
+    "n": "Air Handler 48K BTU 4 Ton 1600 Cubic Feet per Minute R-454B 16.5 SEER Ducted Unit CS Valve 1 Stage 115/208/...",
+    "m": "CS-HM48BAHU",
+    "b": "Panasonic",
+    "ton": 4,
+    "btu": 48,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2482.7
+  },
+  {
+    "n": "Air Handler 23K BTU 2 Ton 800 Cubic Feet per Minute R-454B 18.3 SEER Ducted Unit EEV Valve 1 Stage 115/208/...",
+    "m": "CS-HM24BAHU",
+    "b": "Panasonic",
+    "ton": 2,
+    "btu": 23,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1970.37
+  },
+  {
+    "n": "Air Handler 3.5 Ton R-454B Variable Speed 2 Piece Thermal Expansion Valve",
+    "m": "NAM42V2TA5S",
+    "b": "GE",
+    "ton": 3.5,
+    "btu": 42,
+    "v": "208/230",
+    "stg": 3,
+    "p": 2484.9
+  },
+  {
+    "n": "Air Handler 4 Ton R-454B ME Multi-Position Electrical Commutating Motor 2 Stage 208/230 Volt",
+    "m": "RH2TY4824MTANN",
+    "b": "Rheem",
+    "ton": 4,
+    "btu": 48,
+    "v": "208/230",
+    "stg": 2,
+    "p": 2381.8
+  },
+  {
+    "n": "Air Handler 36K BTU 3 Ton R-454B Mid Efficiency Multi-Position 2 Stage 115 Volt ECM",
+    "m": "RH2TY3621MTANNA",
+    "b": "Rheem",
+    "ton": 3,
+    "btu": 36,
+    "v": "115",
+    "stg": 2,
+    "p": 2209.25
+  },
+  {
+    "n": "Air Handler IDS Edge Multi-Position Unit 4 Ton",
     "m": "BIVA-48VCB-M18X",
     "b": "Bosch",
     "ton": 4,
     "btu": 48,
-    "stg": 2,
     "v": "208/230",
+    "stg": 1,
     "p": 2752.41
   },
   {
-    "n": "Bosch 4T R-454B 208/230V",
-    "m": "BIVA-48VCB-M18X-2",
+    "n": "Air Handler IDS Edge Multi-Position Unit 5 Ton",
+    "m": "BIVA-60VCB-M18X",
     "b": "Bosch",
-    "ton": 4,
-    "btu": 48,
-    "stg": 2,
+    "ton": 5,
+    "btu": 60,
     "v": "208/230",
-    "p": 1350.53
+    "stg": 1,
+    "p": 3816.31
+  },
+  {
+    "n": "Air Handler IDS Edge Multi-Position Unit 3 Ton",
+    "m": "BIVA-36VCB-M18X",
+    "b": "Bosch",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2526.34
+  },
+  {
+    "n": "Air Handler IDS Edge Multi-Position Unit 2 Ton",
+    "m": "BIVA-24VCB-M18X",
+    "b": "Bosch",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2163.53
+  },
+  {
+    "n": "Air Handler IDS Edge Multi-Position Unit 1.5 Ton",
+    "m": "BIVA-18VCB-M18X",
+    "b": "Bosch",
+    "ton": 1.5,
+    "btu": 18,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2047.58
+  },
+  {
+    "n": "Air Handler IDS Edge Multi-Position Unit 1 Ton",
+    "m": "BIVA-12VCB-M18X",
+    "b": "Bosch",
+    "ton": 1,
+    "btu": 12,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1905.87
+  },
+  {
+    "n": "Air Handler IDS Edge Multi-Position Slim Ducted 1.5 Ton",
+    "m": "BIDA-18VCB-M18X",
+    "b": "Bosch",
+    "ton": 1.5,
+    "btu": 18,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1343.58
+  },
+  {
+    "n": "Air Handler IDS Edge Multi-Position Slim Ducted 1 Ton",
+    "m": "BIDA-12VCB-M18X",
+    "b": "Bosch",
+    "ton": 1,
+    "btu": 12,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1203.53
+  },
+  {
+    "n": "Air Handler IDS Edge Multi-Position Slim Ducted 0.8 Ton",
+    "m": "BIDA-09VCB-M18X",
+    "b": "Bosch",
+    "ton": 0.8,
+    "btu": 10,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1110.44
+  },
+  {
+    "n": "Air Handler IDS Edge Multi-Position Slim Ducted 0.6 Ton",
+    "m": "BIDA-07VCB-M18X",
+    "b": "Bosch",
+    "ton": 0.6,
+    "btu": 7,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1075.95
+  },
+  {
+    "n": "Air Handler 32K BTU 2.5 Ton 1000 Cubic Feet per Minute R-454B 16.8 SEER Ducted Unit TXY Valve 1 Stage 115/2...",
+    "m": "CS-HM30BAHU",
+    "b": "Panasonic",
+    "ton": 2.5,
+    "btu": 32,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2234.69
+  },
+  {
+    "n": "Air Handler 18K BTU 1.5 Ton 600 Cubic Feet per Minute R-454B 18.4 SEER Ducted Unit TXY Valve 1 Stage 115/20...",
+    "m": "CS-HM18BAHU",
+    "b": "Panasonic",
+    "ton": 1.5,
+    "btu": 18,
+    "v": "208/230",
+    "stg": 1,
+    "p": 1938.97
+  },
+  {
+    "n": "Air Handler SDI Series R454B 4-5 Ton Multiple Position",
+    "m": "EAHDEC-60ABA",
+    "b": "Ecoer",
+    "ton": 5,
+    "btu": 60,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2677.63
+  },
+  {
+    "n": "Air Handler SDI Series R454B 3 Ton Multiple Position",
+    "m": "EAHDEC-36ABA",
+    "b": "Ecoer",
+    "ton": 3,
+    "btu": 36,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2086.84
+  },
+  {
+    "n": "Air Handler SDI Series R454B 2 Ton Multiple Position",
+    "m": "EAHDEC-24ABA",
+    "b": "Ecoer",
+    "ton": 2,
+    "btu": 24,
+    "v": "208/230",
+    "stg": 1,
+    "p": 2001.32
   }
 ]
