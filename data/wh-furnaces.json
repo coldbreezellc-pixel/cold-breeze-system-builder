@@ -1308,18 +1308,6 @@
     "p": 1050.54
   },
   {
-    "n": "Gas Furnace 110K BTU 97% 5 Ton Downflow 2 Stage R454B C",
-    "m": "NF97D110T5CR",
-    "b": "GE",
-    "ton": 5,
-    "btu": 110,
-    "afue": 97,
-    "cab": "D",
-    "w": "24.5",
-    "stg": 2,
-    "p": 1750.04
-  },
-  {
     "n": "Gas Furnace 90K BTU 97% 4 Ton Downflow 2 Stage R454B C",
     "m": "NF97D090T4CR",
     "b": "GE",
