@@ -810,16 +810,6 @@
     "p": 2083.15
   },
   {
-    "n": "Air Handler VMB 3.5 to 4 Ton 2 Pipe Upflow 120/208/230 Volt Variable Speed",
-    "m": "16VMB",
-    "b": "First Co",
-    "ton": 4,
-    "btu": 48,
-    "v": "208/230",
-    "stg": 3,
-    "p": 3835.59
-  },
-  {
     "n": "Air Handler VMB 5 Ton 2 Pipe Upflow 120/208/230 Volt Variable Speed",
     "m": "20VMB",
     "b": "First Co",
