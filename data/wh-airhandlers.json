@@ -610,16 +610,6 @@
     "p": 1234.89
   },
   {
-    "n": "Air Handler F Series 5 Ton Multi-Position R-454B Low Profile with RDS Non-Bleed Thermal Expansion Valve 208...",
-    "m": "FCMCC3A60S002R",
-    "b": "ADP",
-    "ton": 5,
-    "btu": 60,
-    "v": "208/230",
-    "stg": 1,
-    "p": 1330.07
-  },
-  {
     "n": "Air Handler 5 Ton R-454B Variable Speed 2 Piece Thermal Expansion Valve",
     "m": "NAM60V2TA5S",
     "b": "GE",
