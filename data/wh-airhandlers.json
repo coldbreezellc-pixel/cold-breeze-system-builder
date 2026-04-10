@@ -990,16 +990,6 @@
     "p": 2083.15
   },
   {
-    "n": "Air Handler 10Ton 2 Pipe with VFD Less By-Pass 208/230/3",
-    "m": "NL120C00D2BAA4",
-    "b": "York",
-    "ton": 10,
-    "btu": 120,
-    "v": "208/230",
-    "stg": 1,
-    "p": 3133.86
-  },
-  {
     "n": "Air Handler VMB 3.5 to 4 Ton 2 Pipe Upflow 120/208/230 Volt Variable Speed",
     "m": "16VMB",
     "b": "First Co",
