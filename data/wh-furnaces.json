@@ -2088,18 +2088,6 @@
     "p": 1050.54
   },
   {
-    "n": "Furnace Natural Gas 80MBTU 95% AFUE 2000CFM ECM",
-    "m": "RGF19080CE20MP13",
-    "b": "Guardian",
-    "ton": 0,
-    "btu": 80,
-    "afue": 95,
-    "cab": "",
-    "w": "",
-    "stg": 1,
-    "p": 1515.1
-  },
-  {
     "n": "Guardian Single-Stage Multi-Position Natural Gas Residential Furnace",
     "m": "Single-Stage Multi-Position Natural Gas Residential Furnace",
     "b": "Guardian",
