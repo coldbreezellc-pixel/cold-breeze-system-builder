@@ -18,7 +18,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <!-- Google Identity Services for OAuth (Google Drive integration) -->
-<script src="https://accounts.google.com/gsi/client" async defer></script>
+<!-- onerror prevents GIS load failures from breaking the app (e.g. ad-blockers, network issues) -->
+<script src="https://accounts.google.com/gsi/client" async defer onerror="console.warn('Google Identity Services failed to load — Save to Drive will be unavailable.')"></script>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #f8fafc; }
@@ -502,6 +503,30 @@ function WhRestorePanel({removedItems,onRestore}){
 // ╚══════════════════════════════════════════════════════════════╝
 
 // ╔══════════════════════════════════════════════════════════════╗
+// ║  ERROR BOUNDARY — catches runtime errors, shows recovery UI  ║
+// ╚══════════════════════════════════════════════════════════════╝
+class ErrorBoundary extends React.Component {
+  constructor(props) { super(props); this.state = { hasError: false, error: null }; }
+  static getDerivedStateFromError(error) { return { hasError: true, error }; }
+  componentDidCatch(error, info) { console.error('App Error:', error, info); }
+  render() {
+    if (this.state.hasError) {
+      return React.createElement('div', { style: { minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#f8fafc', fontFamily: 'system-ui, sans-serif' } },
+        React.createElement('div', { style: { textAlign: 'center', maxWidth: 520, padding: 40 } },
+          React.createElement('div', { style: { fontSize: 48, marginBottom: 16 } }, '\u26A0\uFE0F'),
+          React.createElement('h1', { style: { fontSize: 20, fontWeight: 800, color: '#c00', marginBottom: 8 } }, 'Something went wrong'),
+          React.createElement('p', { style: { fontSize: 13, color: '#666', marginBottom: 12 } }, String(this.state.error)),
+          React.createElement('p', { style: { fontSize: 11, color: '#999', marginBottom: 20 } }, 'Try: Hard-refresh (Ctrl+Shift+R) or clear site data in DevTools \u2192 Application \u2192 Storage \u2192 Clear site data'),
+          React.createElement('button', { onClick: () => { if ('caches' in window) caches.keys().then(k => k.forEach(c => caches.delete(c))); localStorage.removeItem('cb_github_config'); location.reload(); }, style: { padding: '12px 28px', borderRadius: 8, border: 'none', cursor: 'pointer', fontSize: 14, fontWeight: 700, background: '#1e293b', color: '#fff', marginRight: 8 } }, 'Clear Cache & Reload'),
+          React.createElement('button', { onClick: () => location.reload(), style: { padding: '12px 28px', borderRadius: 8, border: '1px solid #ddd', cursor: 'pointer', fontSize: 14, fontWeight: 600, background: '#fff', color: '#555' } }, 'Reload Page')
+        )
+      );
+    }
+    return this.props.children;
+  }
+}
+
+// ╔══════════════════════════════════════════════════════════════╗
 // ║  APP WRAPPER — handles GitHub loading + setup                ║
 // ╚══════════════════════════════════════════════════════════════╝
 function AppWrapper() {
@@ -908,7 +933,7 @@ ${notesHtml}
   const saveToDrive = async () => {
     const clientId = getGoogleClientId();
     if (!clientId) {
-      alert('Google Drive not configured yet.\n\nTo enable this feature:\n1. Click the ⚙️ Settings gear icon (top-right)\n2. Enter your Google OAuth Client ID\n3. Instructions for creating one are shown in the settings panel\n\nOnce configured, this button will save your estimate directly to Google Drive!');
+      alert('Google Drive not configured.\n\nGo to the setup screen and enter your Google OAuth Client ID to enable this feature.');
       return;
     }
 
@@ -1776,11 +1801,13 @@ ${notesHtml2}
                 </div>
                 <div style={{marginTop:12,display:"flex",flexDirection:"column",gap:6}}>
                   <button onClick={generatePDF} style={{width:"100%",padding:"10px",borderRadius:8,border:"2px solid #10b981",cursor:"pointer",fontSize:13,fontWeight:800,background:"linear-gradient(135deg,#10b981,#059669)",color:"#fff"}}>📄 Generate Estimate PDF</button>
-                  <button onClick={saveToDrive} disabled={gDriveSaving}
-                    style={{width:"100%",padding:"10px",borderRadius:8,border:"2px solid #4285f4",cursor:gDriveSaving?"wait":"pointer",fontSize:13,fontWeight:800,
-                      background:gDriveSaving?"#94a3b8":"linear-gradient(135deg,#4285f4,#2563eb)",color:"#fff",transition:"all .2s"}}>
-                    {gDriveSaving ? "☁️ Saving..." : "☁️ Save to Google Drive"}
-                  </button>
+                  {getGoogleClientId() && (
+                    <button onClick={saveToDrive} disabled={gDriveSaving}
+                      style={{width:"100%",padding:"10px",borderRadius:8,border:"2px solid #4285f4",cursor:gDriveSaving?"wait":"pointer",fontSize:13,fontWeight:800,
+                        background:gDriveSaving?"#94a3b8":"linear-gradient(135deg,#4285f4,#2563eb)",color:"#fff",transition:"all .2s"}}>
+                      {gDriveSaving ? "☁️ Saving..." : "☁️ Save to Google Drive"}
+                    </button>
+                  )}
                   {gDriveMsg && (
                     <div style={{padding:"6px 10px",borderRadius:6,fontSize:11,fontWeight:600,textAlign:"center",
                       background:gDriveStatus==="success"?"#d1fae5":gDriveStatus==="error"?"#fee2e2":"#dbeafe",
@@ -1800,7 +1827,7 @@ ${notesHtml2}
   );
 }
 
-ReactDOM.createRoot(document.getElementById("root")).render(<AppWrapper />);
+ReactDOM.createRoot(document.getElementById("root")).render(<ErrorBoundary><AppWrapper /></ErrorBoundary>);
 
 </script>
 <script>
