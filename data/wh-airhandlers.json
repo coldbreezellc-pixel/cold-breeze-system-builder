@@ -90,16 +90,6 @@
     "p": 1104.66
   },
   {
-    "n": "Air Handler M 3 to 3.5 Ton 230 Volt",
-    "m": "45ESP3642JH4MC",
-    "b": "Spacepak",
-    "ton": 3.5,
-    "btu": 42,
-    "v": "208/230",
-    "stg": 1,
-    "p": 3302.6
-  },
-  {
     "n": "Air Handler Biva 48K BTU 4 Ton R-454B IDS 3.0 220 Volt",
     "m": "BIVA-48MCB-M19X",
     "b": "Bosch",
@@ -218,16 +208,6 @@
     "v": "208/230",
     "stg": 2,
     "p": 1499.14
-  },
-  {
-    "n": "Air Handler 36/42 R-454B/R-32 Horizontal",
-    "m": "45ESP3642KHZA",
-    "b": "Spacepak",
-    "ton": 3.2,
-    "btu": 38400,
-    "v": "208/230",
-    "stg": 1,
-    "p": 3579.74
   },
   {
     "n": "Air Handler 48/60 R-454B/R-32 Horizontal",
