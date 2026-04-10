@@ -810,16 +810,6 @@
     "p": 2083.15
   },
   {
-    "n": "Air Handler VMB 5 Ton 2 Pipe Upflow 120/208/230 Volt Variable Speed",
-    "m": "20VMB",
-    "b": "First Co",
-    "ton": 5,
-    "btu": 60,
-    "v": "208/230",
-    "stg": 3,
-    "p": 4193.11
-  },
-  {
     "n": "Air Handler 3 Ton with Thermal Expansion Valve and Permanent Split Capacitor",
     "m": "AAM364-009ECS00",
     "b": "Aspen",
