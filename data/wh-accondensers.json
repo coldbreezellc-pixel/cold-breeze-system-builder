@@ -400,7 +400,7 @@
     "m": "",
     "b": "Other",
     "ton": 1,
-    "seer": 0,
+    "seer": 10,
     "stg": 1,
     "p": 604.64
   },
@@ -768,8 +768,8 @@
     "n": "Guardian Split System Air Conditioner",
     "m": "Split System Air Conditioner",
     "b": "Guardian",
-    "ton": 0,
-    "seer": 0,
+    "ton": 2,
+    "seer": 13.4,
     "stg": 1,
     "p": 1115.39
   },
@@ -777,8 +777,8 @@
     "n": "Guardian Split System Air Conditioner",
     "m": "Split System Air Conditioner",
     "b": "Guardian",
-    "ton": 0,
-    "seer": 0,
+    "ton": 3,
+    "seer": 13.4,
     "stg": 1,
     "p": 1337.46
   },
@@ -786,8 +786,8 @@
     "n": "Guardian Split System Air Conditioner",
     "m": "Split System Air Conditioner",
     "b": "Guardian",
-    "ton": 0,
-    "seer": 0,
+    "ton": 4,
+    "seer": 13.4,
     "stg": 1,
     "p": 1942.81
   },
@@ -913,7 +913,7 @@
     "m": "",
     "b": "Other",
     "ton": 2,
-    "seer": 0,
+    "seer": 13,
     "stg": 1,
     "p": 2846.16
   },
@@ -922,7 +922,7 @@
     "m": "",
     "b": "Other",
     "ton": 1.5,
-    "seer": 0,
+    "seer": 13,
     "stg": 1,
     "p": 2636.16
   },
@@ -931,7 +931,7 @@
     "m": "",
     "b": "Other",
     "ton": 1,
-    "seer": 0,
+    "seer": 13,
     "stg": 1,
     "p": 2538.52
   },
@@ -940,7 +940,7 @@
     "m": "",
     "b": "Other",
     "ton": 0.75,
-    "seer": 0,
+    "seer": 13,
     "stg": 1,
     "p": 2532.37
   }
