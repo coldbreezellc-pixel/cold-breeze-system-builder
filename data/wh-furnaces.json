@@ -1020,18 +1020,6 @@
     "p": 2286.74
   },
   {
-    "n": "Gas Furnace Modulating 90K BTU 98% 3 Ton Upflow/Horizontal R-454B C Cabinet",
-    "m": "NF98U090M3CR",
-    "b": "GE",
-    "ton": 3,
-    "btu": 90,
-    "afue": 98,
-    "cab": "C",
-    "w": "21",
-    "stg": 3,
-    "p": 2853.63
-  },
-  {
     "n": "Gas Furnace 135K BTU 97% 5 Ton Upflow/Horizontal 2 Stage R-454B D Cabinet",
     "m": "NF97U135V5DR",
     "b": "GE",
