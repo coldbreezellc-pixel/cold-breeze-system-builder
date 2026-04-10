@@ -547,6 +547,8 @@ License: PA# PA175599 | NJ HVAC Master Technician # 19HC00783700`);
   const[whRemovedItems,setWhRemovedItems]=useState([]);
   const[whEditingKey,setWhEditingKey]=useState(null);
   const[whShowRemoved,setWhShowRemoved]=useState(false);
+  const[whShowAddEq,setWhShowAddEq]=useState(null);
+  const[whNewEq,setWhNewEq]=useState({n:"",m:"",b:"",p:"",ton:"",btu:"",afue:"",stg:"",cab:"",w:"",seer:"",v:""});
   const[whSysType,setWhSysType]=useState("furnace");
   const[whFBrand,setWhFBrand]=useState("All");const[whFTon,setWhFTon]=useState("All");const[whFBtu,setWhFBtu]=useState("All");const[whFAfue,setWhFAfue]=useState("All");const[whFStg,setWhFStg]=useState("All");const[whFCab,setWhFCab]=useState("All");const[whSelF,setWhSelF]=useState(null);
   const[whCBrand,setWhCBrand]=useState("All");
@@ -650,6 +652,26 @@ License: PA# PA175599 | NJ HVAC Master Technician # 19HC00783700`);
     setWhDb(prev=>{const next={...prev,[_cat]:[...prev[_cat],clean]};return next});
     setWhRemovedItems(prev=>prev.filter(i=>i.m!==model));
     setTimeout(()=>saveWhCategory(_cat),50);
+  };
+  const whAddEquipment=(cat)=>{
+    if(!whNewEq.n)return;
+    const base={n:whNewEq.n,m:whNewEq.m||"",b:whNewEq.b||"",p:parseFloat(whNewEq.p)||0};
+    let item;
+    if(cat==="FURNACES"){
+      item={...base,ton:parseFloat(whNewEq.ton)||0,btu:parseFloat(whNewEq.btu)||0,afue:parseFloat(whNewEq.afue)||0,stg:parseInt(whNewEq.stg)||1,cab:whNewEq.cab||"C",w:whNewEq.w||"21"};
+    }else if(cat==="COILS"){
+      item={...base,ton:parseFloat(whNewEq.ton)||0,w:whNewEq.w||"21"};
+    }else if(cat==="AIR_HANDLERS"){
+      item={...base,ton:parseFloat(whNewEq.ton)||0,btu:parseFloat(whNewEq.btu)||0,stg:parseInt(whNewEq.stg)||1,v:whNewEq.v||"208/230",seer:parseFloat(whNewEq.seer)||0};
+    }else if(cat==="HEAT_PUMPS"){
+      item={...base,ton:parseFloat(whNewEq.ton)||0,seer:parseFloat(whNewEq.seer)||0,stg:parseInt(whNewEq.stg)||1};
+    }else if(cat==="AC_CONDENSERS"){
+      item={...base,ton:parseFloat(whNewEq.ton)||0,seer:parseFloat(whNewEq.seer)||0,stg:parseInt(whNewEq.stg)||1};
+    }else{item=base}
+    setWhDb(prev=>{const next={...prev,[cat]:[...prev[cat],item]};return next});
+    setTimeout(()=>saveWhCategory(cat),50);
+    setWhNewEq({n:"",m:"",b:"",p:"",ton:"",btu:"",afue:"",stg:"",cab:"",w:"",seer:"",v:""});
+    setWhShowAddEq(null);
   };
   const whReset=()=>{setWhSelF(null);setWhSelC(null);setWhSelA(null);setWhFBrand("All");setWhFTon("All");setWhFBtu("All");setWhFAfue("All");setWhFStg("All");setWhFCab("All");setWhCBrand("All");setWhFOutBrand("All");setWhABrand("All");setWhATon("All");setWhAVolt("All");setWhAStg("All");setWhAOutBrand("All");setWhEditingKey(null)};
 
@@ -836,6 +858,28 @@ ${notesHtml}
     </div>
     <div style={{display:"flex",gap:4,marginTop:4}}><button onClick={()=>msAddEquip(type)} style={{padding:"3px 12px",borderRadius:3,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:"#059669",color:"#fff"}}>Save</button><button onClick={()=>setMsShowAddEq(null)} style={{padding:"3px 12px",borderRadius:3,border:"1px solid #999",cursor:"pointer",fontSize:9,fontWeight:700,background:"#fff",color:"#555"}}>Cancel</button></div>
   </div>;
+
+  const WhAddEqForm=({cat})=>{
+    const isFurnace=cat==="FURNACES",isCoil=cat==="COILS",isAH=cat==="AIR_HANDLERS",isHP=cat==="HEAT_PUMPS",isAC=cat==="AC_CONDENSERS";
+    const inp=(ph,key,type)=><input value={whNewEq[key]} onChange={e=>setWhNewEq(p=>({...p,[key]:e.target.value}))} placeholder={ph} type={type||"text"} step={type==="number"?"any":undefined} style={{padding:"4px 6px",borderRadius:3,border:"1px solid #ccc",fontSize:10}}/>;
+    return <div style={{background:"#e8f5e9",borderRadius:6,padding:8,marginBottom:6,border:"1px solid #c8e6c9"}}>
+      <div style={{fontSize:10,fontWeight:700,color:"#059669",marginBottom:4}}>Add {CAT_LABELS[cat]||cat} to Database</div>
+      <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:4}}>
+        {inp("Name *","n")}{inp("Model #","m")}{inp("Brand","b")}{inp("Price","p","number")}{inp("Tonnage","ton","number")}
+        {(isFurnace||isAH)&&inp("BTU (k)","btu","number")}
+        {isFurnace&&inp("AFUE %","afue","number")}
+        {(isFurnace||isAH||isHP||isAC)&&inp("Stages","stg","number")}
+        {(isFurnace)&&<select value={whNewEq.cab} onChange={e=>setWhNewEq(p=>({...p,cab:e.target.value}))} style={{padding:"4px 6px",borderRadius:3,border:"1px solid #ccc",fontSize:10}}><option value="">Cabinet...</option><option value="A">A</option><option value="B">B (17.5")</option><option value="C">C (21")</option><option value="D">D (24.5")</option></select>}
+        {(isFurnace||isCoil)&&inp("Width","w")}
+        {(isHP||isAC||isAH)&&inp("SEER","seer","number")}
+        {isAH&&<select value={whNewEq.v} onChange={e=>setWhNewEq(p=>({...p,v:e.target.value}))} style={{padding:"4px 6px",borderRadius:3,border:"1px solid #ccc",fontSize:10}}><option value="">Voltage...</option><option value="115">115V</option><option value="208/230">208/230V</option><option value="220">220V</option></select>}
+      </div>
+      <div style={{display:"flex",gap:4,marginTop:4}}>
+        <button onClick={()=>whAddEquipment(cat)} style={{padding:"3px 12px",borderRadius:3,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:"#059669",color:"#fff"}}>Save</button>
+        <button onClick={()=>setWhShowAddEq(null)} style={{padding:"3px 12px",borderRadius:3,border:"1px solid #999",cursor:"pointer",fontSize:9,fontWeight:700,background:"#fff",color:"#555"}}>Cancel</button>
+      </div>
+    </div>;
+  };
 
   // ╔══════════════════════════════════════════════════════════════╗
   // ╔══════════════════════════════════════════════════════════════╗
@@ -1219,7 +1263,8 @@ ${notesHtml}
             <div className="mob-stack-3" style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:10,marginBottom:12}}>
               {/* 1. Furnace */}
               <div>
-                <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#c00"}}>1. Furnace (Indoor)</h3>
+                <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#c00",display:"flex",justifyContent:"space-between",alignItems:"center"}}>1. Furnace (Indoor)<button onClick={()=>setWhShowAddEq(whShowAddEq==="FURNACES"?null:"FURNACES")} style={{padding:"2px 8px",borderRadius:4,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:whShowAddEq==="FURNACES"?"#c00":"#10b981",color:"#fff"}}>{whShowAddEq==="FURNACES"?"Cancel":"+ Add"}</button></h3>
+                {whShowAddEq==="FURNACES"&&<WhAddEqForm cat="FURNACES"/>}
                 <div style={{background:"#fff",borderRadius:8,padding:8,marginBottom:6,boxShadow:"0 1px 2px rgba(0,0,0,.06)"}}>
                   <F label="Brand"><Btn v="All" cur={whFBrand} onClick={()=>setWhFBrand("All")}>All</Btn>{whFBrands.map(v=><Btn key={v} v={v} cur={whFBrand} onClick={()=>setWhFBrand(v)}>{v}</Btn>)}</F>
                   <F label="Tonnage"><Btn v="All" cur={whFTon} onClick={()=>setWhFTon("All")}>All</Btn>{whFTons.map(t=><Btn key={t} v={String(t)} cur={whFTon} onClick={()=>setWhFTon(String(t))}>{t}T</Btn>)}</F>
@@ -1240,7 +1285,8 @@ ${notesHtml}
               </div>
               {/* 2. Evap Coil */}
               <div>
-                <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#8B0000"}}>2. Evaporator Coil</h3>
+                <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#8B0000",display:"flex",justifyContent:"space-between",alignItems:"center"}}>2. Evaporator Coil<button onClick={()=>setWhShowAddEq(whShowAddEq==="COILS"?null:"COILS")} style={{padding:"2px 8px",borderRadius:4,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:whShowAddEq==="COILS"?"#c00":"#10b981",color:"#fff"}}>{whShowAddEq==="COILS"?"Cancel":"+ Add"}</button></h3>
+                {whShowAddEq==="COILS"&&<WhAddEqForm cat="COILS"/>}
                 {whSelF?<>
                   <div style={{background:"#e8f5e9",borderRadius:6,padding:7,marginBottom:6,fontSize:10}}>
                     <strong>{whSelF.b} {whSelF.n}</strong> — {fmt(whSelF.p)}<br/>
@@ -1261,7 +1307,9 @@ ${notesHtml}
               </div>
               {/* 3. Outdoor */}
               <div>
-                <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#2563eb"}}>3. Outdoor Unit</h3>
+                <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#2563eb",display:"flex",justifyContent:"space-between",alignItems:"center"}}>3. Outdoor Unit<button onClick={()=>setWhShowAddEq(whShowAddEq===(whFOutType==="ac"?"AC_CONDENSERS":"HEAT_PUMPS")?null:(whFOutType==="ac"?"AC_CONDENSERS":"HEAT_PUMPS"))} style={{padding:"2px 8px",borderRadius:4,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:(whShowAddEq==="AC_CONDENSERS"||whShowAddEq==="HEAT_PUMPS")?"#c00":"#10b981",color:"#fff"}}>{(whShowAddEq==="AC_CONDENSERS"||whShowAddEq==="HEAT_PUMPS")?"Cancel":"+ Add"}</button></h3>
+                {whShowAddEq==="AC_CONDENSERS"&&<WhAddEqForm cat="AC_CONDENSERS"/>}
+                {whShowAddEq==="HEAT_PUMPS"&&<WhAddEqForm cat="HEAT_PUMPS"/>}
                 <div style={{background:"#fff",borderRadius:8,padding:8,marginBottom:6,boxShadow:"0 1px 2px rgba(0,0,0,.06)"}}>
                   <F label="Type">
                     <Btn v="ac" cur={whFOutType} onClick={()=>{setWhFOutType("ac");setWhFOutBrand("All");setWhEditingKey(null)}}>AC Condenser</Btn>
@@ -1299,7 +1347,8 @@ ${notesHtml}
           /* Air Handler Mode */
           <div className="mob-stack" style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:12,marginBottom:12}}>
             <div>
-              <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#6B3A2A"}}>1. Air Handler (Indoor)</h3>
+              <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#6B3A2A",display:"flex",justifyContent:"space-between",alignItems:"center"}}>1. Air Handler (Indoor)<button onClick={()=>setWhShowAddEq(whShowAddEq==="AIR_HANDLERS"?null:"AIR_HANDLERS")} style={{padding:"2px 8px",borderRadius:4,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:whShowAddEq==="AIR_HANDLERS"?"#c00":"#10b981",color:"#fff"}}>{whShowAddEq==="AIR_HANDLERS"?"Cancel":"+ Add"}</button></h3>
+              {whShowAddEq==="AIR_HANDLERS"&&<WhAddEqForm cat="AIR_HANDLERS"/>}
               <div style={{background:"#fff",borderRadius:8,padding:8,marginBottom:6,boxShadow:"0 1px 2px rgba(0,0,0,.06)"}}>
                 <F label="Brand"><Btn v="All" cur={whABrand} onClick={()=>setWhABrand("All")}>All</Btn>{whAHBrands.map(v=><Btn key={v} v={v} cur={whABrand} onClick={()=>setWhABrand(v)}>{v}</Btn>)}</F>
                 <F label="Tonnage"><Btn v="All" cur={whATon} onClick={()=>setWhATon("All")}>All</Btn>{whATons.map(t=><Btn key={t} v={String(t)} cur={whATon} onClick={()=>setWhATon(String(t))}>{t}T</Btn>)}</F>
@@ -1315,7 +1364,9 @@ ${notesHtml}
               </div>
             </div>
             <div>
-              <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#2563eb"}}>2. Outdoor Unit</h3>
+              <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#2563eb",display:"flex",justifyContent:"space-between",alignItems:"center"}}>2. Outdoor Unit<button onClick={()=>setWhShowAddEq(whShowAddEq===(whAOutType==="ac"?"AC_CONDENSERS":"HEAT_PUMPS")?null:(whAOutType==="ac"?"AC_CONDENSERS":"HEAT_PUMPS"))} style={{padding:"2px 8px",borderRadius:4,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:(whShowAddEq==="AC_CONDENSERS"||whShowAddEq==="HEAT_PUMPS")?"#c00":"#10b981",color:"#fff"}}>{(whShowAddEq==="AC_CONDENSERS"||whShowAddEq==="HEAT_PUMPS")?"Cancel":"+ Add"}</button></h3>
+              {whShowAddEq==="AC_CONDENSERS"&&<WhAddEqForm cat="AC_CONDENSERS"/>}
+              {whShowAddEq==="HEAT_PUMPS"&&<WhAddEqForm cat="HEAT_PUMPS"/>}
               <div style={{background:"#fff",borderRadius:8,padding:8,marginBottom:6,boxShadow:"0 1px 2px rgba(0,0,0,.06)"}}>
                 <F label="Type">
                   <Btn v="heatpump" cur={whAOutType} onClick={()=>{setWhAOutType("heatpump");setWhAOutBrand("All");setWhEditingKey(null)}}>Heat Pump</Btn>
