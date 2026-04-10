@@ -756,18 +756,6 @@
     "p": 907.56
   },
   {
-    "n": "Gas Furnace 70K BTU 80% 3 Ton Down 1 Stage R-454B A Cabinet",
-    "m": "NF80D070S3AR",
-    "b": "GE",
-    "ton": 3,
-    "btu": 70,
-    "afue": 80,
-    "cab": "A",
-    "w": "14.5",
-    "stg": 1,
-    "p": 1380.26
-  },
-  {
     "n": "Gas Furnace Natural Gas or Propane 120K BTU 96% R-454B D Cabinet Cabinet",
     "m": "BGH96M120D5C",
     "b": "Bosch",
@@ -898,42 +886,6 @@
     "w": "17.5",
     "stg": 1,
     "p": 2286.74
-  },
-  {
-    "n": "Gas Furnace 135K BTU 97% 5 Ton Upflow/Horizontal 2 Stage R-454B D Cabinet",
-    "m": "NF97U135V5DR",
-    "b": "GE",
-    "ton": 5,
-    "btu": 135,
-    "afue": 97,
-    "cab": "D",
-    "w": "24.5",
-    "stg": 2,
-    "p": 2448.86
-  },
-  {
-    "n": "Gas Furnace 90K BTU 97% 3 Ton Upflow/Horizontal 2 Stage R-454B C Cabinet",
-    "m": "NF97U090V3CR",
-    "b": "GE",
-    "ton": 3,
-    "btu": 90,
-    "afue": 97,
-    "cab": "C",
-    "w": "21",
-    "stg": 2,
-    "p": 1670.27
-  },
-  {
-    "n": "Gas Furnace 110K BTU 96% 5 Ton Upflow/Horizontal 1 Stage R-454B C Cabinet",
-    "m": "NF96U110S5CR",
-    "b": "GE",
-    "ton": 5,
-    "btu": 110,
-    "afue": 96,
-    "cab": "C",
-    "w": "21",
-    "stg": 1,
-    "p": 1815.51
   },
   {
     "n": "Gas Furnace 45K BTU 96% 3 Ton Upflow/Horizontal 1 Stage R-454B B Cabinet",
