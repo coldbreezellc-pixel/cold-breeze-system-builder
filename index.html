@@ -17,6 +17,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<!-- Google Identity Services for OAuth (Google Drive integration) -->
+<script src="https://accounts.google.com/gsi/client" async defer></script>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #f8fafc; }
@@ -196,6 +198,7 @@ function SetupScreen({ onComplete }) {
   const [owner, setOwner] = useState(existing?.owner || '');
   const [repo, setRepo] = useState(existing?.repo || 'cold-breeze-system-builder');
   const [token, setToken] = useState(existing?.token || '');
+  const [googleClientId, setGoogleClientId] = useState(getGoogleClientId() || '');
   const [testing, setTesting] = useState(false);
   const [error, setError] = useState('');
 
@@ -206,6 +209,7 @@ function SetupScreen({ onComplete }) {
     try {
       await loadAllData(cfg);
       saveConfig(cfg);
+      if (googleClientId.trim()) saveGoogleClientId(googleClientId.trim());
       onComplete(cfg);
     } catch (e) {
       setError(e.message);
@@ -233,6 +237,12 @@ function SetupScreen({ onComplete }) {
           <p style={{fontSize:10,color:'#999',marginTop:4}}>Generate at github.com → Settings → Developer settings → Personal access tokens → Tokens (classic) → Generate new token. Give it <strong>repo</strong> scope.</p>
         </div>
 
+        <div style={{marginBottom:24,padding:14,background:'#f0f7ff',borderRadius:8,border:'1px solid #bfdbfe'}}>
+          <label style={{fontSize:11,fontWeight:700,color:'#2563eb',display:'block',marginBottom:4}}>☁️ Google Drive — Save Estimates (Optional)</label>
+          <input value={googleClientId} onChange={e=>setGoogleClientId(e.target.value)} placeholder="Google OAuth Client ID (e.g. 123456789.apps.googleusercontent.com)" style={{width:'100%',padding:'10px 14px',borderRadius:8,border:'1px solid #bfdbfe',fontSize:13,boxSizing:'border-box'}}/>
+          <p style={{fontSize:10,color:'#6b7280',marginTop:4}}>Optional: Lets you save PDF estimates to Google Drive. <a href="https://console.cloud.google.com/apis/credentials" target="_blank" style={{color:'#2563eb'}}>Create OAuth Client ID</a> → Web app → Add origin <strong>https://coldbreezellc-pixel.github.io</strong> → Enable <strong>Google Drive API</strong>.</p>
+        </div>
+
         {error && <div style={{background:'#fee',border:'1px solid #fcc',borderRadius:8,padding:10,marginBottom:16,fontSize:11,color:'#c00'}}>{error}</div>}
 
         <button onClick={handleTest} disabled={testing || !owner || !token}
@@ -249,6 +259,102 @@ function SetupScreen({ onComplete }) {
       </div>
     </div>
   );
+}
+
+
+// ╔══════════════════════════════════════════════════════════════╗
+// ║  GOOGLE DRIVE INTEGRATION                                     ║
+// ║  Saves PDF estimates directly to user's Google Drive          ║
+// ║                                                               ║
+// ║  SETUP: You need a Google Cloud OAuth Client ID.              ║
+// ║  1. Go to https://console.cloud.google.com/                   ║
+// ║  2. Create a project (or use existing)                        ║
+// ║  3. Enable the "Google Drive API"                             ║
+// ║  4. Go to Credentials → Create Credentials → OAuth client ID  ║
+// ║  5. Application type: "Web application"                       ║
+// ║  6. Add authorized JS origins:                                ║
+// ║     - https://coldbreezellc-pixel.github.io                   ║
+// ║     - http://localhost (for dev)                              ║
+// ║  7. Add authorized redirect URIs: (same as origins)           ║
+// ║  8. Copy the Client ID and paste it in the app's settings    ║
+// ╚══════════════════════════════════════════════════════════════╝
+
+function getGoogleClientId() {
+  try { return localStorage.getItem('cb_google_client_id') || ''; }
+  catch { return ''; }
+}
+function saveGoogleClientId(id) {
+  localStorage.setItem('cb_google_client_id', id);
+}
+
+// In-memory OAuth token (not persisted for security)
+let gDriveAccessToken = null;
+let gDriveTokenClient = null;
+
+function initGoogleTokenClient(clientId, onTokenReceived) {
+  if (typeof google === 'undefined' || !google.accounts) {
+    throw new Error('Google Identity Services not loaded. Check your internet connection.');
+  }
+  gDriveTokenClient = google.accounts.oauth2.initTokenClient({
+    client_id: clientId,
+    scope: 'https://www.googleapis.com/auth/drive.file',
+    callback: (tokenResponse) => {
+      if (tokenResponse.error) {
+        onTokenReceived(null, tokenResponse.error_description || tokenResponse.error);
+        return;
+      }
+      gDriveAccessToken = tokenResponse.access_token;
+      onTokenReceived(tokenResponse.access_token, null);
+    },
+  });
+}
+
+async function requestGoogleDriveToken(clientId) {
+  return new Promise((resolve, reject) => {
+    try {
+      if (!gDriveTokenClient) {
+        initGoogleTokenClient(clientId, (token, error) => {
+          if (error) reject(new Error(error));
+          else resolve(token);
+        });
+      } else {
+        // Re-init callback for this promise
+        const origClient = gDriveTokenClient;
+        origClient.callback = (tokenResponse) => {
+          if (tokenResponse.error) reject(new Error(tokenResponse.error_description || tokenResponse.error));
+          else { gDriveAccessToken = tokenResponse.access_token; resolve(tokenResponse.access_token); }
+        };
+      }
+      gDriveTokenClient.requestAccessToken();
+    } catch (e) { reject(e); }
+  });
+}
+
+async function uploadToGoogleDrive(accessToken, fileName, htmlContent) {
+  // Convert HTML to a Blob
+  const fileBlob = new Blob([htmlContent], { type: 'text/html' });
+
+  // Multipart upload: metadata + file content
+  const metadata = {
+    name: fileName,
+    mimeType: 'text/html',
+  };
+
+  const form = new FormData();
+  form.append('metadata', new Blob([JSON.stringify(metadata)], { type: 'application/json' }));
+  form.append('file', fileBlob);
+
+  const res = await fetch('https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id,name,webViewLink', {
+    method: 'POST',
+    headers: { 'Authorization': 'Bearer ' + accessToken },
+    body: form,
+  });
+
+  if (!res.ok) {
+    const errBody = await res.text();
+    throw new Error('Drive upload failed (' + res.status + '): ' + errBody.substring(0, 200));
+  }
+  return res.json();
 }
 
 
@@ -792,6 +898,112 @@ ${notesHtml}
     dlLink.click();
     URL.revokeObjectURL(dlUrl);
     alert("Estimate opened in new tab!\n\nHTML file downloaded: "+pdfFileName.replace(".pdf",".html"));
+  };
+
+  // ===== SAVE ESTIMATE TO GOOGLE DRIVE =====
+  const [gDriveSaving, setGDriveSaving] = useState(false);
+  const [gDriveStatus, setGDriveStatus] = useState(''); // '', 'saving', 'success', 'error'
+  const [gDriveMsg, setGDriveMsg] = useState('');
+
+  const saveToDrive = async () => {
+    const clientId = getGoogleClientId();
+    if (!clientId) {
+      alert('Google Drive not configured.\n\nGo to the setup screen and enter your Google OAuth Client ID to enable this feature.');
+      return;
+    }
+
+    setGDriveSaving(true);
+    setGDriveStatus('saving');
+    setGDriveMsg('Authenticating with Google...');
+
+    try {
+      // Get token (will popup OAuth consent if needed)
+      let token = gDriveAccessToken;
+      if (!token) {
+        token = await requestGoogleDriveToken(clientId);
+      }
+
+      setGDriveMsg('Generating estimate...');
+
+      // Generate the HTML estimate (same as generatePDF but capture the content)
+      const totalAmt = parseFloat(estTotal) || grandTotal;
+      const fmt2 = n => "$" + Number(n).toLocaleString("en-US", {minimumFractionDigits:2,maximumFractionDigits:2});
+      const estNum = "#" + Date.now();
+      const terms2 = estTerms.split("\n").filter(t=>t.trim());
+      const fnAddr = (estClient.svcAddr1||estClient.addr1||"").replace(/\s+/g,"_");
+      const fnName = (estClient.name||"Customer").replace(/\s+/g,"_");
+      const driveFileName = "Estimate_"+fnAddr+(fnAddr?"_":"")+fnName+".html";
+      const esc2 = s=>(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+      const clientName2 = esc2(estClient.name)||"[Client Name]";
+      const billAddr12 = esc2(estClient.addr1)||"[Address]";
+      const billAddr22 = esc2(estClient.addr2)||"[City, State ZIP]";
+      const svcAddr12 = esc2(estClient.svcAddr1)||billAddr12;
+      const svcAddr22 = esc2(estClient.svcAddr2)||billAddr22;
+      const clientPhone2 = esc2(estClient.phone);
+      const clientEmail2 = esc2(estClient.email);
+      const title2 = esc2(estTitle);
+      const notesHtml2 = estNotes?'<div class="section"><h3>Notes</h3><p style="font-size:11px;white-space:pre-wrap">'+esc2(estNotes)+'</p></div>':"";
+      const termsHtml2 = terms2.map(t=>"<p>"+esc2(t)+"</p>").join("");
+      const descRows2 = estDesc?estDesc.split("\n").map(l=>"<tr><td>"+esc2(l)+"</td></tr>").join(""):"<tr><td>Fees</td></tr>";
+      const totalStr2 = fmt2(totalAmt);
+      const depositAmt2 = parseFloat(deposit)||0;
+      const balanceDue2 = totalAmt - depositAmt2;
+
+      const sigHtml2 = `<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Estimate - ${clientName2}</title>
+<style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:Arial,sans-serif;background:#f5f5f5;padding:20px}
+.page{max-width:800px;margin:0 auto;background:#fff;padding:40px;box-shadow:0 2px 8px rgba(0,0,0,.15);border-radius:4px}
+h1{text-align:center;font-size:22px;margin:10px 0 20px}.client-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:20px}
+.section{margin-bottom:16px}.section h3{font-size:14px;margin-bottom:6px}.section p{font-size:12px;color:#333;line-height:1.5}
+.terms{font-size:10px;color:#666;margin-bottom:16px;line-height:1.6}
+.svc-table{width:100%;border-collapse:collapse;margin-bottom:16px}.svc-table th{background:#666;color:#fff;padding:8px;text-align:center;font-size:13px}
+.svc-table td{border:1px solid #ccc;padding:6px 8px;font-size:11px}.totals{width:320px;margin-left:auto;margin-bottom:20px}
+.totals tr td{padding:4px 8px;font-size:12px;border:1px solid #ddd}.totals tr:last-child td{font-weight:bold;font-size:14px}
+.footer{text-align:center;font-size:9px;color:#999;margin-top:20px;padding-top:10px;border-top:1px solid #eee}
+@media print{.no-print{display:none!important}}</style></head>
+<body><div class="page">
+<div style="display:flex;justify-content:space-between;margin-bottom:20px"><div style="font-size:11px"><strong>Cold Breeze LLC</strong><br>100 Hyacinth Ct, Milford PA 18337<br>570-618-3776 | coldbreezellc@gmail.com<br><a href="https://coldbreezellc.com/">https://coldbreezellc.com/</a></div>
+<div style="text-align:right;font-size:10px;color:#888;margin-top:4px">${estNum}</div></div>
+<h1>Estimate</h1>
+<div class="section"><h3>Client</h3><p>${clientName2}${clientPhone2?'<br>Phone: '+clientPhone2:''}${clientEmail2?'<br>Email: '+clientEmail2:''}</p></div>
+<div class="client-grid"><div><h3 style="font-size:12px">Billing Information</h3><p style="font-size:11px">${billAddr12}<br>${billAddr22}</p></div>
+<div><h3 style="font-size:12px">Service Address</h3><p style="font-size:11px">${svcAddr12}<br>${svcAddr22}</p></div></div>
+<div class="section"><h3>${title2}</h3></div>
+${notesHtml2}
+<div class="terms">${termsHtml2}</div>
+<table class="svc-table"><tr><th>Description Of Service</th></tr>${descRows2}</table>
+<table class="totals"><tr><td style="text-align:right">Sub Total</td><td style="text-align:right">${totalStr2}</td></tr>
+<tr><td style="text-align:right">Sales Tax (7%)</td><td style="text-align:right">$0.00</td></tr>
+<tr><td style="text-align:right"><strong>Total</strong></td><td style="text-align:right"><strong>${totalStr2}</strong></td></tr></table>
+<div class="footer">Cold Breeze LLC - 570-618-3776 ${estNum}</div></div></body></html>`;
+
+      setGDriveMsg('Uploading to Google Drive...');
+
+      const result = await uploadToGoogleDrive(token, driveFileName, sigHtml2);
+
+      setGDriveStatus('success');
+      setGDriveMsg('Saved to Google Drive! ');
+      if (result.webViewLink) {
+        setGDriveMsg('Saved! Opening in Drive...');
+        window.open(result.webViewLink, '_blank');
+      }
+
+      // Clear success message after 5s
+      setTimeout(() => { setGDriveStatus(''); setGDriveMsg(''); }, 5000);
+    } catch (e) {
+      console.error('Google Drive save error:', e);
+      setGDriveStatus('error');
+      // If token expired, clear it so next attempt re-authenticates
+      if (e.message && (e.message.includes('401') || e.message.includes('invalid_grant'))) {
+        gDriveAccessToken = null;
+        gDriveTokenClient = null;
+        setGDriveMsg('Auth expired — please try again.');
+      } else {
+        setGDriveMsg('Error: ' + e.message);
+      }
+      setTimeout(() => { setGDriveStatus(''); setGDriveMsg(''); }, 8000);
+    }
+    setGDriveSaving(false);
   };
 
   // ===== EXPORT XLSX =====
@@ -1562,8 +1774,23 @@ ${notesHtml}
                     <span>Balance Due</span><span>{fmt(balanceDue)}</span>
                   </div>}
                 </div>
-                <div style={{marginTop:12}}>
+                <div style={{marginTop:12,display:"flex",flexDirection:"column",gap:6}}>
                   <button onClick={generatePDF} style={{width:"100%",padding:"10px",borderRadius:8,border:"2px solid #10b981",cursor:"pointer",fontSize:13,fontWeight:800,background:"linear-gradient(135deg,#10b981,#059669)",color:"#fff"}}>📄 Generate Estimate PDF</button>
+                  {getGoogleClientId() && (
+                    <button onClick={saveToDrive} disabled={gDriveSaving}
+                      style={{width:"100%",padding:"10px",borderRadius:8,border:"2px solid #4285f4",cursor:gDriveSaving?"wait":"pointer",fontSize:13,fontWeight:800,
+                        background:gDriveSaving?"#94a3b8":"linear-gradient(135deg,#4285f4,#2563eb)",color:"#fff",transition:"all .2s"}}>
+                      {gDriveSaving ? "☁️ Saving..." : "☁️ Save to Google Drive"}
+                    </button>
+                  )}
+                  {gDriveMsg && (
+                    <div style={{padding:"6px 10px",borderRadius:6,fontSize:11,fontWeight:600,textAlign:"center",
+                      background:gDriveStatus==="success"?"#d1fae5":gDriveStatus==="error"?"#fee2e2":"#dbeafe",
+                      color:gDriveStatus==="success"?"#065f46":gDriveStatus==="error"?"#991b1b":"#1e40af",
+                      border:"1px solid "+(gDriveStatus==="success"?"#6ee7b7":gDriveStatus==="error"?"#fca5a5":"#93c5fd")}}>
+                      {gDriveMsg}
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
