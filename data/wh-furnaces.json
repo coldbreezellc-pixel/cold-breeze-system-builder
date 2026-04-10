@@ -2040,30 +2040,6 @@
     "p": 2783.58
   },
   {
-    "n": "Gas Furnace M1 70K BTU R-454B MG1E-070F1AAM2 for Manufactured Houses",
-    "m": "Furnace 1036479",
-    "b": "Miller",
-    "ton": 3,
-    "btu": 70,
-    "afue": 80,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 1,
-    "p": 1173.14
-  },
-  {
-    "n": "Gas Furnace M1 90K BTU MG1E-056F1AAM2 for Manufactured Houses",
-    "m": "Furnace 1036477",
-    "b": "Miller",
-    "ton": 7.5,
-    "btu": 90,
-    "afue": 80,
-    "cab": "D",
-    "w": "24.5",
-    "stg": 1,
-    "p": 1163.53
-  },
-  {
     "n": "Gas Furnace M7 90K BTU Upflow MG3P-072U1AAC2 for Manufactured Houses",
     "m": "Furnace 1025428P2",
     "b": "Miller",
