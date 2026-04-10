@@ -768,42 +768,6 @@
     "p": 2355.79
   },
   {
-    "n": "Gas Furnace Affinity Natural Gas 120K BTU 80% Modulating 5 Ton Variable-Speed Multi",
-    "m": "YPLC120C20MP13C",
-    "b": "York",
-    "ton": 5,
-    "btu": 120,
-    "afue": 80,
-    "cab": "C",
-    "w": "21",
-    "stg": 3,
-    "p": 1660.35
-  },
-  {
-    "n": "Gas Furnace Affinity Natural Gas 100K BTU 98% Modulating 5 Ton Variable-Speed Multi",
-    "m": "YP9C100C20MP13C",
-    "b": "York",
-    "ton": 5,
-    "btu": 100,
-    "afue": 98,
-    "cab": "C",
-    "w": "21",
-    "stg": 3,
-    "p": 1955.85
-  },
-  {
-    "n": "Gas Furnace Affinity Natural Gas 80K BTU 98% Modulating 3 Ton Variable-Speed Multi",
-    "m": "YP9C080B12MP13C",
-    "b": "York",
-    "ton": 3,
-    "btu": 80,
-    "afue": 98,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 3,
-    "p": 1822.04
-  },
-  {
     "n": "Gas Furnace 97% 100K BTU/HR C Cabinet",
     "m": "BGH97M100C5C",
     "b": "Bosch",
