@@ -687,6 +687,11 @@ License: PA# PA175599 | NJ HVAC Master Technician # 19HC00783700`);
   const whAOutList=useMemo(()=>{let l=whAOutType==="heatpump"?[...whDb.HEAT_PUMPS]:[...whDb.AC_CONDENSERS];if(whAOutBrand!=="All")l=l.filter(i=>i.b===whAOutBrand);if(whSelA)l=l.filter(i=>Math.abs(i.ton-whSelA.ton)<=1);return l.sort((a,b)=>whSelA?Math.abs(a.ton-whSelA.ton)-Math.abs(b.ton-whSelA.ton)||a.p-b.p:a.p-b.p)},[whDb.HEAT_PUMPS,whDb.AC_CONDENSERS,whAOutType,whAOutBrand,whSelA]);
   const uq=(arr,fn)=>[...new Set(arr.map(fn))].sort((a,b)=>a-b);
   const whFTons=uq(whDb.FURNACES,i=>i.ton),whFBtus=uq(whDb.FURNACES,i=>i.btu),whFAfues=uq(whDb.FURNACES,i=>i.afue),whATons=uq(whDb.AIR_HANDLERS,i=>i.ton);
+  const whFBrands=uq(whDb.FURNACES,i=>i.b).filter(Boolean).sort();
+  const whHPBrands=uq(whDb.HEAT_PUMPS,i=>i.b).filter(Boolean).sort();
+  const whACBrands=uq(whDb.AC_CONDENSERS,i=>i.b).filter(Boolean).sort();
+  const whCoilBrands=uq(whDb.COILS,i=>i.b).filter(Boolean).sort();
+  const whAHBrands=uq(whDb.AIR_HANDLERS,i=>i.b).filter(Boolean).sort();
   const whTotalItems=whDb.FURNACES.length+whDb.HEAT_PUMPS.length+whDb.AC_CONDENSERS.length+whDb.AIR_HANDLERS.length+whDb.COILS.length;
   const whEqProps={editingModel:whEditingModel,onStartEdit:whStartEdit,onSaveEdit:whSaveEdit,onCancelEdit:whCancelEdit,onRemove:whRemoveFromDb,addToCart:addToCartWH,inCart:inCartWH};
 
@@ -1220,12 +1225,12 @@ ${notesHtml}
               <div>
                 <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#c00"}}>1. Furnace (Indoor)</h3>
                 <div style={{background:"#fff",borderRadius:8,padding:8,marginBottom:6,boxShadow:"0 1px 2px rgba(0,0,0,.06)"}}>
-                  <F label="Brand">{["All","Rheem","Bosch"].map(v=><Btn key={v} v={v} cur={whFBrand} onClick={()=>setWhFBrand(v)}>{v}</Btn>)}</F>
+                  <F label="Brand"><Btn v="All" cur={whFBrand} onClick={()=>setWhFBrand("All")}>All</Btn>{whFBrands.map(v=><Btn key={v} v={v} cur={whFBrand} onClick={()=>setWhFBrand(v)}>{v}</Btn>)}</F>
                   <F label="Tonnage"><Btn v="All" cur={whFTon} onClick={()=>setWhFTon("All")}>All</Btn>{whFTons.map(t=><Btn key={t} v={String(t)} cur={whFTon} onClick={()=>setWhFTon(String(t))}>{t}T</Btn>)}</F>
                   <F label="BTU"><Btn v="All" cur={whFBtu} onClick={()=>setWhFBtu("All")}>All</Btn>{whFBtus.map(b=><Btn key={b} v={String(b)} cur={whFBtu} onClick={()=>setWhFBtu(String(b))}>{b}K</Btn>)}</F>
                   <F label="Efficiency"><Btn v="All" cur={whFAfue} onClick={()=>setWhFAfue("All")}>All</Btn>{whFAfues.map(a=><Btn key={a} v={String(a)} cur={whFAfue} onClick={()=>setWhFAfue(String(a))}>{a}%</Btn>)}</F>
                   <F label="Gas Valve"><Btn v="All" cur={whFStg} onClick={()=>setWhFStg("All")}>All</Btn><Btn v="1" cur={whFStg} onClick={()=>setWhFStg("1")}>1-Stage</Btn><Btn v="2" cur={whFStg} onClick={()=>setWhFStg("2")}>2-Stage</Btn></F>
-                  <F label="Cabinet"><Btn v="All" cur={whFCab} onClick={()=>setWhFCab("All")}>All</Btn>{["B","C","D"].map(c=><Btn key={c} v={c} cur={whFCab} onClick={()=>setWhFCab(c)}>{c} ({cabW(c)})</Btn>)}</F>
+                  <F label="Cabinet"><Btn v="All" cur={whFCab} onClick={()=>setWhFCab("All")}>All</Btn>{["A","B","C","D"].map(c=><Btn key={c} v={c} cur={whFCab} onClick={()=>setWhFCab(c)}>{c} ({cabW(c)})</Btn>)}</F>
                 </div>
                 <div style={{background:"#fff",borderRadius:8,boxShadow:"0 1px 2px rgba(0,0,0,.08)",maxHeight:340,overflowY:"auto"}}>
                   {whFList.length===0?<div style={{padding:16,textAlign:"center",color:"#aaa",fontSize:11}}>No furnaces match.</div>:
@@ -1246,7 +1251,7 @@ ${notesHtml}
                     <span style={{color:"#555"}}>{whSelF.ton}T • Cab {whSelF.cab} ({cabW(whSelF.cab)})</span>
                   </div>
                   <div style={{marginBottom:6}}>
-                    <F label="Coil Brand">{["All","Rheem","Bosch"].map(v=><Btn key={v} v={v} cur={whCBrand} onClick={()=>setWhCBrand(v)}>{v}</Btn>)}</F>
+                    <F label="Coil Brand"><Btn v="All" cur={whCBrand} onClick={()=>setWhCBrand("All")}>All</Btn>{whCoilBrands.map(v=><Btn key={v} v={v} cur={whCBrand} onClick={()=>setWhCBrand(v)}>{v}</Btn>)}</F>
                   </div>
                   <div style={{background:"#fff",borderRadius:8,boxShadow:"0 1px 2px rgba(0,0,0,.08)",maxHeight:340,overflowY:"auto"}}>
                     {whCoilList.map(c=>(
@@ -1267,7 +1272,8 @@ ${notesHtml}
                     <Btn v="heatpump" cur={whFOutType} onClick={()=>{setWhFOutType("heatpump");setWhFOutBrand("All");setWhEditingModel(null)}}>Heat Pump (Dual Fuel)</Btn>
                   </F>
                   <F label="Brand">
-                    {(whFOutType==="ac"?["All","GE"]:["All","Rheem","Bosch"]).map(v=><Btn key={v} v={v} cur={whFOutBrand} onClick={()=>setWhFOutBrand(v)}>{v}</Btn>)}
+                    <Btn v="All" cur={whFOutBrand} onClick={()=>setWhFOutBrand("All")}>All</Btn>
+                    {(whFOutType==="ac"?whACBrands:whHPBrands).map(v=><Btn key={v} v={v} cur={whFOutBrand} onClick={()=>setWhFOutBrand(v)}>{v}</Btn>)}
                   </F>
                 </div>
                 {whSelC&&<div style={{background:"#e8f5e9",borderRadius:6,padding:7,marginBottom:6,fontSize:10,border:"1px solid #c8e6c9"}}>
@@ -1298,7 +1304,7 @@ ${notesHtml}
             <div>
               <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#6B3A2A"}}>1. Air Handler (Indoor)</h3>
               <div style={{background:"#fff",borderRadius:8,padding:8,marginBottom:6,boxShadow:"0 1px 2px rgba(0,0,0,.06)"}}>
-                <F label="Brand">{["All","Rheem","Bosch","GE"].map(v=><Btn key={v} v={v} cur={whABrand} onClick={()=>setWhABrand(v)}>{v}</Btn>)}</F>
+                <F label="Brand"><Btn v="All" cur={whABrand} onClick={()=>setWhABrand("All")}>All</Btn>{whAHBrands.map(v=><Btn key={v} v={v} cur={whABrand} onClick={()=>setWhABrand(v)}>{v}</Btn>)}</F>
                 <F label="Tonnage"><Btn v="All" cur={whATon} onClick={()=>setWhATon("All")}>All</Btn>{whATons.map(t=><Btn key={t} v={String(t)} cur={whATon} onClick={()=>setWhATon(String(t))}>{t}T</Btn>)}</F>
                 <F label="Voltage"><Btn v="All" cur={whAVolt} onClick={()=>setWhAVolt("All")}>All</Btn>{["115","208/230","220"].map(v=><Btn key={v} v={v} cur={whAVolt} onClick={()=>setWhAVolt(v)}>{v}V</Btn>)}</F>
                 <F label="Stages"><Btn v="All" cur={whAStg} onClick={()=>setWhAStg("All")}>All</Btn><Btn v="1" cur={whAStg} onClick={()=>setWhAStg("1")}>1-Stg</Btn><Btn v="2" cur={whAStg} onClick={()=>setWhAStg("2")}>2-Stg</Btn></F>
@@ -1319,7 +1325,8 @@ ${notesHtml}
                   <Btn v="ac" cur={whAOutType} onClick={()=>{setWhAOutType("ac");setWhAOutBrand("All");setWhEditingModel(null)}}>AC Condenser</Btn>
                 </F>
                 <F label="Brand">
-                  {(whAOutType==="ac"?["All","GE"]:["All","Rheem","Bosch"]).map(v=><Btn key={v} v={v} cur={whAOutBrand} onClick={()=>setWhAOutBrand(v)}>{v}</Btn>)}
+                  <Btn v="All" cur={whAOutBrand} onClick={()=>setWhAOutBrand("All")}>All</Btn>
+                  {(whAOutType==="ac"?whACBrands:whHPBrands).map(v=><Btn key={v} v={v} cur={whAOutBrand} onClick={()=>setWhAOutBrand(v)}>{v}</Btn>)}
                 </F>
               </div>
               {whSelA?<>
