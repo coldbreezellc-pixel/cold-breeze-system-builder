@@ -1332,18 +1332,6 @@
     "p": 2783.58
   },
   {
-    "n": "Gas Furnace 90K BTU 80% 4 Ton Down 2 Stage R-454B B Cabinet",
-    "m": "NF80D090T4BR",
-    "b": "GE",
-    "ton": 4,
-    "btu": 90,
-    "afue": 80,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 2,
-    "p": 1271.05
-  },
-  {
     "n": "Gas Furnace 70K BTU 80% 3 Ton Down 2 Stage R-454B A Cabinet",
     "m": "NF80D070T3AR",
     "b": "GE",
