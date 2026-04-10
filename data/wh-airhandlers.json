@@ -730,16 +730,6 @@
     "p": 1049.69
   },
   {
-    "n": "Air Handler 4 Ton Hydronic Horizontal",
-    "m": "45WCS4860JH0MC",
-    "b": "Spacepak",
-    "ton": 4,
-    "btu": 48,
-    "v": "208/230",
-    "stg": 1,
-    "p": 3745.22
-  },
-  {
     "n": "Air Handler with Hydronic Heating Coil R454B 4 - 5 Ton Multiple Position",
     "m": "EAHETN-60HB",
     "b": "Ecoer",
@@ -758,16 +748,6 @@
     "v": "208/230",
     "stg": 1,
     "p": 1690.7
-  },
-  {
-    "n": "Air Handler 4 Ton Hydronic Vertical",
-    "m": "45WCS4860JV0MC",
-    "b": "Spacepak",
-    "ton": 4,
-    "btu": 48,
-    "v": "208/230",
-    "stg": 1,
-    "p": 4527.08
   },
   {
     "n": "Air Handler 3 Ton Hydronic Vertical",
