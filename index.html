@@ -1230,8 +1230,8 @@ ${notesHtml}
                 </div>
                 <div style={{background:"#fff",borderRadius:8,boxShadow:"0 1px 2px rgba(0,0,0,.08)",maxHeight:340,overflowY:"auto"}}>
                   {whFList.length===0?<div style={{padding:16,textAlign:"center",color:"#aaa",fontSize:11}}>No furnaces match.</div>:
-                  whFList.map(item=>(
-                    <EqRow key={item.m} item={item} sel={whSelF&&whSelF.m===item.m} onClick={()=>{setWhSelF(item);setWhSelC(null)}}
+                  whFList.map((item,idx)=>(
+                    <EqRow key={'f'+idx} item={item} sel={whSelF&&whSelF.m===item.m} onClick={()=>{setWhSelF(item);setWhSelC(null)}}
                       type="Furnace" info={`${item.ton}T • ${item.afue}% • ${item.btu}K • ${item.stg}-Stg • Cab ${item.cab}`}
                       cat="FURNACES" {...whEqProps}/>
                   ))}
@@ -1250,8 +1250,8 @@ ${notesHtml}
                     <F label="Coil Brand"><Btn v="All" cur={whCBrand} onClick={()=>setWhCBrand("All")}>All</Btn>{whCoilBrands.map(v=><Btn key={v} v={v} cur={whCBrand} onClick={()=>setWhCBrand(v)}>{v}</Btn>)}</F>
                   </div>
                   <div style={{background:"#fff",borderRadius:8,boxShadow:"0 1px 2px rgba(0,0,0,.08)",maxHeight:340,overflowY:"auto"}}>
-                    {whCoilList.map(c=>(
-                      <CoilRow key={c.m} c={c} selF={whSelF} cat="COILS"
+                    {whCoilList.map((c,idx)=>(
+                      <CoilRow key={'c'+idx} c={c} selF={whSelF} cat="COILS"
                         sel={whSelC&&whSelC.m===c.m} onClick={()=>setWhSelC(c)}
                         editingModel={whEditingModel} onStartEdit={whStartEdit} onSaveEdit={whSaveEdit} onCancelEdit={whCancelEdit}
                         onRemove={whRemoveFromDb} addToCart={addToCartWH} inCart={inCartWH}/>
@@ -1281,10 +1281,10 @@ ${notesHtml}
                 </div>}
                 <div style={{background:"#fff",borderRadius:8,boxShadow:"0 1px 2px rgba(0,0,0,.08)",maxHeight:370,overflowY:"auto"}}>
                   {whFOutList.length===0?<div style={{padding:16,textAlign:"center",color:"#aaa",fontSize:11}}>No items match.</div>:
-                  whFOutList.map(item=>{
+                  whFOutList.map((item,idx)=>{
                     const sameBrand=whSelC&&item.b===whSelC.b;
                     const exactTon=whSelC&&item.ton===whSelC.ton;
-                    return <EqRow key={item.m} item={item} sel={false}
+                    return <EqRow key={'o'+idx} item={item} sel={false}
                       type={whFOutType==="ac"?"AC Condenser":"Heat Pump"}
                       typeInfo={sameBrand&&exactTon?{label:"★ MATCH",color:"#10b981"}:{label:whFOutType==="ac"?"AC":"HP",color:whFOutType==="ac"?"#2E4053":"#2563eb"}}
                       info={`${item.ton}T • ${item.seer} SEER • ${item.stg}-Stg`}
@@ -1306,8 +1306,8 @@ ${notesHtml}
                 <F label="Stages"><Btn v="All" cur={whAStg} onClick={()=>setWhAStg("All")}>All</Btn><Btn v="1" cur={whAStg} onClick={()=>setWhAStg("1")}>1-Stg</Btn><Btn v="2" cur={whAStg} onClick={()=>setWhAStg("2")}>2-Stg</Btn></F>
               </div>
               <div style={{background:"#fff",borderRadius:8,boxShadow:"0 1px 2px rgba(0,0,0,.08)",maxHeight:420,overflowY:"auto"}}>
-                {whAList.map(item=>(
-                  <EqRow key={item.m} item={item} sel={whSelA&&whSelA.m===item.m} onClick={()=>setWhSelA(item)}
+                {whAList.map((item,idx)=>(
+                  <EqRow key={'ah'+idx} item={item} sel={whSelA&&whSelA.m===item.m} onClick={()=>setWhSelA(item)}
                     type="Air Handler" info={`${item.ton}T • ${item.btu}K • ${item.v}V • ${item.stg}-Stg`}
                     cat="AIR_HANDLERS" {...whEqProps}/>
                 ))}
@@ -1332,8 +1332,8 @@ ${notesHtml}
                 </div>
                 <div style={{background:"#fff",borderRadius:8,boxShadow:"0 1px 2px rgba(0,0,0,.08)",maxHeight:420,overflowY:"auto"}}>
                   {whAOutList.length===0?<div style={{padding:16,textAlign:"center",color:"#aaa",fontSize:11}}>No items match.</div>:
-                  whAOutList.map(item=>(
-                    <EqRow key={item.m} item={item} sel={false}
+                  whAOutList.map((item,idx)=>(
+                    <EqRow key={'ao'+idx} item={item} sel={false}
                       type={whAOutType==="ac"?"AC Condenser":"Heat Pump"}
                       typeInfo={{label:whAOutType==="ac"?"AC":"HP",color:whAOutType==="ac"?"#2E4053":"#2563eb"}}
                       info={`${item.ton}T • ${item.seer} SEER • ${item.stg}-Stg`}
