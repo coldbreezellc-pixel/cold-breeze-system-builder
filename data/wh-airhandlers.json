@@ -540,16 +540,6 @@
     "p": 1245.85
   },
   {
-    "n": "Air Handler 48/60 R-454B/R-32 Vertical",
-    "m": "45ESP4860KVZA",
-    "b": "Spacepak",
-    "ton": 4.5,
-    "btu": 54000,
-    "v": "208/230",
-    "stg": 1,
-    "p": 4386.38
-  },
-  {
     "n": "Air Handler Aspen 1.5-2T Hydronic PSC Thermal Expansion Valve 3-Row Hot Water Coil No Pump",
     "m": "ABM234-024WC3SL",
     "b": "Aspen",
@@ -598,16 +588,6 @@
     "v": "208/230",
     "stg": 1,
     "p": 909.31
-  },
-  {
-    "n": "Air Handler 3 Ton Hydronic Horizontal",
-    "m": "45WCS3642JH0MC",
-    "b": "Spacepak",
-    "ton": 3,
-    "btu": 36,
-    "v": "208/230",
-    "stg": 1,
-    "p": 3426.5
   },
   {
     "n": "Air Handler LX 1.5 Ton 600 Cubic Feet per Minute 208/230 Volt 1 Phase Variable Speed ECM",
