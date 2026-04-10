@@ -219,7 +219,7 @@
     "n": "Evaporator Coil Uncased C8QAMO30U-B 20 Aluminum 30K BTU R-410A for Upflow and Counterflow Furnace",
     "m": "Furnace 921703",
     "b": "Miller",
-    "ton": 0,
+    "ton": 2.5,
     "w": "",
     "p": 580.37
   },
@@ -411,7 +411,7 @@
     "n": "Cased Coil 24K BTU Multi 17-1/2 Inch for Inverter",
     "m": "BMAC2430BNTD",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 2,
     "w": "17.5",
     "p": 647.9
   },
@@ -451,7 +451,7 @@
     "n": "4/5-Ton Upflow C Cabinet Cased Evaporator Coil",
     "m": "NCUC5060CT4",
     "b": "GE",
-    "ton": 0,
+    "ton": 5,
     "w": "",
     "p": 685
   },
@@ -475,7 +475,7 @@
     "n": "Cased Coil 48K BTU Multi 17-1/2 Inch for Inverter",
     "m": "BMAC4248BNTF",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 4,
     "w": "17.5",
     "p": 814.13
   },
@@ -547,7 +547,7 @@
     "n": "5-Ton Horizontal D Cabinet Cased Evaporator Coil",
     "m": "NCHC60DT4",
     "b": "GE",
-    "ton": 0,
+    "ton": 5,
     "w": "",
     "p": 825
   },
@@ -627,7 +627,7 @@
     "n": "Cased Coil 48K BTU Multi 24-1/2 Inch for Inverter",
     "m": "BMAC4248DNTF",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 4,
     "w": "24.5",
     "p": 924.67
   },
@@ -651,7 +651,7 @@
     "n": "3-Ton Horizontal A Cabinet Cased Evaporator Coil",
     "m": "NCHC36AT4",
     "b": "GE",
-    "ton": 0,
+    "ton": 3,
     "w": "",
     "p": 687.5
   },
@@ -795,7 +795,7 @@
     "n": "Cased Coil Horizontal 5T 21.0W 3R32H BC TXV",
     "m": "XAHC60HBCN1",
     "b": "York",
-    "ton": 0,
+    "ton": 5,
     "w": "",
     "p": 632.25
   },
@@ -819,7 +819,7 @@
     "n": "Cased Coil Horizontal 4T 24.5W 3R24H BC TXV",
     "m": "XAHD48FBCN1",
     "b": "York",
-    "ton": 0,
+    "ton": 4,
     "w": "",
     "p": 555.01
   },
@@ -859,7 +859,7 @@
     "n": "3-Ton Downflow C Cabinet Cased Evaporator Coil",
     "m": "NCDC3036CT4",
     "b": "GE",
-    "ton": 0,
+    "ton": 3,
     "w": "",
     "p": 913.75
   },
@@ -1251,7 +1251,7 @@
     "n": "2-Ton Upflow B Cabinet Uncased Evaporator Coil",
     "m": "NCUU24BP4",
     "b": "GE",
-    "ton": 0,
+    "ton": 2,
     "w": "",
     "p": 420
   },
