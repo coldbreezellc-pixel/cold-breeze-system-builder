@@ -888,18 +888,6 @@
     "p": 2286.74
   },
   {
-    "n": "Gas Furnace 110K BTU 80% 5 Ton Down 1 Stage R-454B C Cabinet",
-    "m": "NF80D110S5CR",
-    "b": "GE",
-    "ton": 5,
-    "btu": 110,
-    "afue": 80,
-    "cab": "C",
-    "w": "21",
-    "stg": 1,
-    "p": 1564.47
-  },
-  {
     "n": "Gas Furnace 45K BTU 80% 3 Ton Down 1 Stage R-454B A Cabinet",
     "m": "NF80D045S3AR",
     "b": "GE",
