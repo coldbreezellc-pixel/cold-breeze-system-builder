@@ -2040,18 +2040,6 @@
     "p": 2783.58
   },
   {
-    "n": "Gas Furnace M7 90K BTU Upflow MG3P-072U1AAC2 for Manufactured Houses",
-    "m": "Furnace 1025428P2",
-    "b": "Miller",
-    "ton": 7.5,
-    "btu": 90,
-    "afue": 80,
-    "cab": "D",
-    "w": "24.5",
-    "stg": 1,
-    "p": 2517.56
-  },
-  {
     "n": "Gas Furnace M7 90K BTU Upflow MG3P-054U1AAB2 for Manufactured Houses",
     "m": "Furnace 1025427P2",
     "b": "Miller",
