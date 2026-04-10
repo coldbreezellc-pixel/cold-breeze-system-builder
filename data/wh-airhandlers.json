@@ -160,16 +160,6 @@
     "p": 1495.36
   },
   {
-    "n": "Air Handler 4 Ton R-454B Multi-Position Less Pump with Thermal Expansion Valve with RDS 120 Volt",
-    "m": "BCRMC1A48S4N3R",
-    "b": "ADP",
-    "ton": 4,
-    "btu": 48,
-    "v": "120",
-    "stg": 1,
-    "p": 1697.7
-  },
-  {
     "n": "Air Handler 36K BTU 3 Ton R-454B SE Multi-Position 2 Stage 208/230 Volt ECM",
     "m": "RH2TY3621STANNJ",
     "b": "Rheem",
@@ -220,16 +210,6 @@
     "p": 1327.92
   },
   {
-    "n": "Air Handler B Series 4 Ton Multi-Position R-454B with RDS and Less Pump Non-Bleed Thermal Expansion Valve 1...",
-    "m": "BVRMC3A48S4N3R",
-    "b": "ADP",
-    "ton": 4,
-    "btu": 48,
-    "v": "208/230",
-    "stg": 1,
-    "p": 2143.71
-  },
-  {
     "n": "Air Handler 3 Ton R-454B Hydronic 4 Row Hardwire Coil Permanent Split Capacitor",
     "m": "ABM35J-024WC4ML",
     "b": "Aspen",
@@ -238,16 +218,6 @@
     "v": "208/230",
     "stg": 1,
     "p": 1572.69
-  },
-  {
-    "n": "Air Handler 5 Ton R-454B Multi-Position Less Pump with Thermal Expansion Valve with RDS 120 Volt",
-    "m": "BCRMC4A60S4N3R",
-    "b": "ADP",
-    "ton": 5,
-    "btu": 60,
-    "v": "120",
-    "stg": 1,
-    "p": 1954.51
   },
   {
     "n": "Air Handler 3 Ton Multi R-410A 3 Row less Pump with Bleed Thermal Expansion Valve",
