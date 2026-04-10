@@ -938,25 +938,5 @@
     "v": "208/230",
     "stg": 1,
     "p": 1203.53
-  },
-  {
-    "n": "Air Handler SDI Series R454B 3 Ton Multiple Position",
-    "m": "EAHDEC-36ABA",
-    "b": "Ecoer",
-    "ton": 3,
-    "btu": 36,
-    "v": "208/230",
-    "stg": 1,
-    "p": 2086.84
-  },
-  {
-    "n": "Air Handler SDI Series R454B 2 Ton Multiple Position",
-    "m": "EAHDEC-24ABA",
-    "b": "Ecoer",
-    "ton": 2,
-    "btu": 24,
-    "v": "208/230",
-    "stg": 1,
-    "p": 2001.32
   }
 ]
