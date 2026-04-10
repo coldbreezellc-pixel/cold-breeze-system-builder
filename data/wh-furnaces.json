@@ -1308,18 +1308,6 @@
     "p": 1050.54
   },
   {
-    "n": "Gas Furnace 30K BTU 97% 2 Ton Up/Horizontal Flow 2 Stage R454B B",
-    "m": "NF97U030T2BR",
-    "b": "GE",
-    "ton": 2,
-    "btu": 30,
-    "afue": 97,
-    "cab": "A",
-    "w": "14.5",
-    "stg": 2,
-    "p": 1267.88
-  },
-  {
     "n": "Gas Furnace 110K BTU 97% 5 Ton Downflow 2 Stage R454B C",
     "m": "NF97D110T5CR",
     "b": "GE",
