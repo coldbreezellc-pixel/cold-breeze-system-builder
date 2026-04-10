@@ -113,16 +113,26 @@ async function saveFile(path, content, cfg, message) {
 async function loadAllData(cfg) {
   const results = {};
   const entries = Object.entries(DB_FILES);
+  const errors = [];
   // Load all files in parallel
   const promises = entries.map(async ([key, path]) => {
     try {
       results[key] = await loadFile(path, cfg);
     } catch (e) {
-      console.warn(`Could not load ${path}:`, e.message);
+      console.error(`Failed to load ${path}:`, e);
+      errors.push(`${path}: ${e.message}`);
       results[key] = [];
     }
   });
   await Promise.all(promises);
+  if (errors.length > 0) {
+    // If ALL files failed, throw — something is fundamentally wrong
+    if (errors.length === entries.length) {
+      throw new Error(`All data files failed to load. First error: ${errors[0]}`);
+    }
+    // If some failed, log a warning so the user sees in console
+    console.warn(`${errors.length} of ${entries.length} data files failed to load:`, errors);
+  }
   return results;
 }
 
@@ -383,14 +393,22 @@ function AppWrapper() {
     </div>
   );
 
-  return <App initialData={dbData} ghConfig={cfg} onReconfigure={()=>{setCfg(null);setDbData(null)}} />;
+  const handleRefresh = () => {
+    setLoading(true);
+    setLoadError('');
+    loadAllData(cfg)
+      .then(data => { setDbData(data); setLoading(false); })
+      .catch(e => { setLoadError(e.message); setLoading(false); });
+  };
+
+  return <App initialData={dbData} ghConfig={cfg} onReconfigure={()=>{setCfg(null);setDbData(null)}} onRefresh={handleRefresh} />;
 }
 
 
 // ╔══════════════════════════════════════════════════════════════╗
 // ║  MAIN APP (with GitHub auto-save)                            ║
 // ╚══════════════════════════════════════════════════════════════╝
-function App({ initialData, ghConfig, onReconfigure }){
+function App({ initialData, ghConfig, onReconfigure, onRefresh }){
   // ===== SYNC STATUS =====
   const [syncStatus, setSyncStatus] = useState('ok'); // 'ok' | 'saving' | 'error'
   const [lastSaved, setLastSaved] = useState(null);
@@ -787,6 +805,7 @@ ${notesHtml}
             </div>
             <div style={{display:"flex",gap:8,alignItems:"center",flexWrap:"wrap"}}>
               <button onClick={exportXLSX} style={{padding:"6px 14px",borderRadius:7,border:"1px solid rgba(255,255,255,.4)",cursor:"pointer",fontSize:11,fontWeight:700,background:"rgba(255,255,255,.15)",color:"#fff"}}>📥 Export XLSX</button>
+              <button onClick={onRefresh} title="Reload data from GitHub" style={{padding:"6px 14px",borderRadius:7,border:"1px solid rgba(255,255,255,.4)",cursor:"pointer",fontSize:11,fontWeight:700,background:"rgba(255,255,255,.15)",color:"#fff"}}>🔄 Refresh</button>
               <button onClick={onReconfigure} style={{padding:"6px 14px",borderRadius:7,border:"1px solid rgba(255,255,255,.25)",cursor:"pointer",fontSize:11,fontWeight:600,background:"rgba(255,255,255,.08)",color:"rgba(255,255,255,.6)"}}>⚙️ Settings</button>
             </div>
           </div>
