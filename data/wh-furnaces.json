@@ -288,18 +288,6 @@
     "p": 1322.37
   },
   {
-    "n": "Gas Furnace Natural Gas 75K BTU 95% 1 Stage 3 Ton ECM Downflow 76-1/8x18-3/4x25-3/4 Inch Cabinet",
-    "m": "CMC1-75DV3N",
-    "b": "Thermo Pride",
-    "ton": 3,
-    "btu": 75,
-    "afue": 95,
-    "cab": "B",
-    "w": "18.75",
-    "stg": 1,
-    "p": 3090.15
-  },
-  {
     "n": "Gas Furnace Natural Gas 115K BTU 92% 1 Stage 5 Ton ECM Multi D Cabinet",
     "m": "R921T1155A24M4SNAS",
     "b": "Rheem",
@@ -790,18 +778,6 @@
     "w": "14",
     "stg": 1,
     "p": 961.39
-  },
-  {
-    "n": "Gas Furnace GMD2 Natural Gas or Propane 60K BTU 81% 1 Stage 2.5 Ton PSC Downflow 57x18x25-3/4 Inch Cabinet",
-    "m": "GMD2-60N",
-    "b": "Thermo Pride",
-    "ton": 2.5,
-    "btu": 60,
-    "afue": 81,
-    "cab": "B",
-    "w": "18.0",
-    "stg": 1,
-    "p": 1944.05
   },
   {
     "n": "Gas Furnace LX Natural Gas 40K BTU 96% 2 Stage 3 Ton Variable-Speed Multi",
