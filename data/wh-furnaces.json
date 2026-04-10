@@ -732,18 +732,6 @@
     "p": 961.39
   },
   {
-    "n": "Gas Furnace Natural 40K BTU 96 Percent 2.5T ECM Multi",
-    "m": "Y91E040A10SMPS1",
-    "b": "York",
-    "ton": 2.5,
-    "btu": 40,
-    "afue": 96,
-    "cab": "A",
-    "w": "14.5",
-    "stg": 1,
-    "p": 907.56
-  },
-  {
     "n": "Gas Furnace Natural Gas or Propane 120K BTU 96% R-454B D Cabinet Cabinet",
     "m": "BGH96M120D5C",
     "b": "Bosch",
@@ -778,18 +766,6 @@
     "w": "17.5",
     "stg": 1,
     "p": 2355.79
-  },
-  {
-    "n": "Gas Furnace Natural 100K BTU 96 Percent 4T ECM Multi",
-    "m": "Y91E100C16SMPS1",
-    "b": "York",
-    "ton": 4,
-    "btu": 100,
-    "afue": 96,
-    "cab": "C",
-    "w": "21",
-    "stg": 1,
-    "p": 1161.4
   },
   {
     "n": "Gas Furnace Affinity Natural Gas 120K BTU 80% Modulating 5 Ton Variable-Speed Multi",
