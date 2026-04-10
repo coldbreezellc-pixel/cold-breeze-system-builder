@@ -936,18 +936,6 @@
     "p": 785.7
   },
   {
-    "n": "3-Ton 70K BTU 97% AFUE Modulating Variable Speed Downflow B Cabinet Natural Gas Furnace",
-    "m": "NF97D070M3B",
-    "b": "GE",
-    "ton": 3,
-    "btu": 70,
-    "afue": 97,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 3,
-    "p": 3267.92
-  },
-  {
     "n": "Gas Furnace Natural Gas 100K BTU 92% 1 Stage 5 Ton ECM Multi C Cabinet",
     "m": "R921T1005A21M4SNAS",
     "b": "Rheem",
