@@ -520,16 +520,6 @@
     "p": 2476.36
   },
   {
-    "n": "Air Handler VMB 1 to 2 Ton 3 Pipe Upflow 120/208/230 Volt Variable Speed",
-    "m": "8VMB",
-    "b": "First Co",
-    "ton": 2,
-    "btu": 24,
-    "v": "208/230",
-    "stg": 3,
-    "p": 2957.3
-  },
-  {
     "n": "Air Handler 3 Ton R-454B 1 Piece Thermal Expansion Valve PSC",
     "m": "NAM36P1TA5S",
     "b": "GE",
