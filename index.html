@@ -409,6 +409,7 @@ function App({ initialData, ghConfig, onReconfigure }){
   const[addlPrice,setAddlPrice]=useState("");
   const[labor,setLabor]=useState("");
   const[seanLabor,setSeanLabor]=useState("");
+  const[deposit,setDeposit]=useState("");
 
   // ===== ESTIMATE STATE =====
   const[estClient,setEstClient]=useState({name:"",addr1:"",addr2:"",svcAddr1:"",svcAddr2:""});
@@ -510,7 +511,7 @@ License: PA# PA175599 | NJ HVAC Master Technician # 19HC00783700`);
   const addToCartWH=(type,item,info)=>{if(!cart.find(c=>c.item.m===item.m))setCart(p=>[...p,{type,item,info,_mode:"wholehouse"}])};
   const removeFromCart=idx=>setCart(p=>p.filter((_,i)=>i!==idx));
   const removeFromCartByModel=m=>setCart(p=>p.filter(c=>c.item.m!==m));
-  const clearCart=()=>{setCart([]);setAddlMaterials([]);setLabor("");setSeanLabor("")};
+  const clearCart=()=>{setCart([]);setAddlMaterials([]);setLabor("");setSeanLabor("");setDeposit("")};
   const addMaterial=()=>{if(!addlDesc||!addlPrice)return;setAddlMaterials(p=>[...p,{desc:addlDesc,price:parseFloat(addlPrice)||0,qty:1}]);setAddlDesc("");setAddlPrice("")};
   const addMatFromCatalog=(m)=>{setAddlMaterials(p=>[...p,{desc:m.n,price:m.p,qty:1,cat:m.cat,b:m.b||"",m:m.m||""}])};
   const removeMaterial=i=>setAddlMaterials(p=>p.filter((_,idx)=>idx!==i));
@@ -619,6 +620,8 @@ License: PA# PA175599 | NJ HVAC Master Technician # 19HC00783700`);
   const laborAmt=parseFloat(labor)||0;
   const seanLaborAmt=parseFloat(seanLabor)||0;
   const grandTotal=materialWithTax+margin+laborAmt+seanLaborAmt;
+  const depositAmt=parseFloat(deposit)||0;
+  const balanceDue=grandTotal-depositAmt;
   const msTotalRemoved=msRemovedOut.length+msRemovedIn.length+msRemovedMat.length;
   const msTotal=msOutData.length+msInData.length;
 
@@ -1403,6 +1406,18 @@ ${notesHtml}
                 <div style={{borderTop:"2px solid #4caf50",marginTop:10,paddingTop:10,display:"flex",justifyContent:"space-between",alignItems:"center"}}>
                   <span style={{fontSize:16,fontWeight:800}}>TOTAL PROJECT PRICE</span>
                   <span style={{fontSize:20,fontWeight:900,color:"#4caf50"}}>{fmt(grandTotal)}</span>
+                </div>
+                <div style={{borderTop:"1px solid rgba(255,255,255,.15)",marginTop:10,paddingTop:10}}>
+                  <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",padding:"4px 0",fontSize:12,color:"#ffd54f"}}>
+                    <span style={{fontWeight:700}}>Deposit Amount</span>
+                    <div style={{display:"flex",alignItems:"center",gap:4}}>
+                      <span style={{fontSize:11,color:"#aab"}}>$</span>
+                      <input value={deposit} onChange={e=>setDeposit(e.target.value)} type="number" placeholder="0.00" style={{width:90,padding:"4px 6px",borderRadius:4,border:"1px solid #ffd54f",background:"rgba(255,213,79,.12)",color:"#fff",fontSize:12,textAlign:"right"}}/>
+                    </div>
+                  </div>
+                  {depositAmt>0&&<div style={{display:"flex",justifyContent:"space-between",padding:"6px 0 2px",fontSize:13,fontWeight:800,color:"#fff"}}>
+                    <span>Balance Due</span><span>{fmt(balanceDue)}</span>
+                  </div>}
                 </div>
                 <div style={{marginTop:12}}>
                   <button onClick={generatePDF} style={{width:"100%",padding:"10px",borderRadius:8,border:"2px solid #4caf50",cursor:"pointer",fontSize:13,fontWeight:800,background:"linear-gradient(135deg,#4caf50,#2E7D32)",color:"#fff"}}>📄 Generate Estimate PDF</button>
