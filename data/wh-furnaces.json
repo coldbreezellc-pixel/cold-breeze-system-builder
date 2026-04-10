@@ -1260,18 +1260,6 @@
     "p": 2564.21
   },
   {
-    "n": "Gas Furnace Propane 72K BTU 80% 70 Ton",
-    "m": "Furnace 1041044",
-    "b": "Miller",
-    "ton": 3,
-    "btu": 72,
-    "afue": 80,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 1,
-    "p": 2400.63
-  },
-  {
     "n": "Gas Furnace LX Non-Condensing Natural Gas 100K BTU 80% 1 Stage 5 Ton ECM Multi-Position C Cabinet",
     "m": "Y81E100C20SMPS1",
     "b": "York",
