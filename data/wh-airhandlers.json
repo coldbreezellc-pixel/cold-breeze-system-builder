@@ -410,16 +410,6 @@
     "p": 3794.84
   },
   {
-    "n": "Air Handler RAQ 1.5 to 2 Ton 120 Volt",
-    "m": "24RAQ-3",
-    "b": "First Co",
-    "ton": 2,
-    "btu": 24,
-    "v": "120",
-    "stg": 1,
-    "p": 1777.58
-  },
-  {
     "n": "Air Handler 24K BTU 2 Ton R-410A Multi-Position 208/230 Volt 1 Phase ECM",
     "m": "EAHATN-24",
     "b": "Ecoer",
