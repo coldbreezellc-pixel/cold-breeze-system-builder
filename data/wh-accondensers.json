@@ -1,200 +1,947 @@
 [
   {
-    "n": "GE 1.5T 15 SEER2 1-Stg",
-    "m": "NS15A18SA5",
-    "b": "GE",
-    "ton": 1.5,
-    "seer": 15,
-    "stg": 1,
-    "p": 1385.95
-  },
-  {
-    "n": "GE 2T 15 SEER2 1-Stg",
-    "m": "NS15A24SA5",
-    "b": "GE",
+    "n": "Air Conditioner Endeavor Classic 24K BTU 2 Ton 208/230 Volt 1 Phase R-454B 13.4 SEER2 iM 1 Stage Scroll",
+    "m": "RA13NY24AJ1NA",
+    "b": "Rheem",
     "ton": 2,
-    "seer": 15,
+    "seer": 13.4,
     "stg": 1,
-    "p": 1450.06
+    "p": 1372.73
   },
   {
-    "n": "GE 2.5T 15 SEER2 1-Stg",
-    "m": "NS15A30SA5",
-    "b": "GE",
+    "n": "Air Conditioner Endeavor Classic 30K BTU 2.5 Ton 208/230 Volt 1 Phase R-454B 13.4 SEER2 iM 1 Stage Scroll",
+    "m": "RA13NY30AJ1NA",
+    "b": "Rheem",
+    "ton": 2.5,
+    "seer": 13.4,
+    "stg": 1,
+    "p": 1541.57
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 36K BTU 3 Ton 208/230 Volt 1 Phase R-454B 13.4 SEER2 iM 1 Stage Scroll",
+    "m": "RA13NY36AJ1NA",
+    "b": "Rheem",
+    "ton": 3,
+    "seer": 13.4,
+    "stg": 1,
+    "p": 1769.31
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 42K BTU 3.5 Ton 208/230 Volt 1 Phase R-454B 13.4 SEER2 iM 1 Stage Scroll",
+    "m": "RA13NY42AJ1NA",
+    "b": "Rheem",
+    "ton": 3.5,
+    "seer": 13.4,
+    "stg": 1,
+    "p": 1881.87
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 48K BTU 4 Ton 208/230 Volt 1 Phase R-454B 13.4 SEER2 iM 1 Stage Scroll",
+    "m": "RA13NY48AJ1NA",
+    "b": "Rheem",
+    "ton": 4,
+    "seer": 13.4,
+    "stg": 1,
+    "p": 2163.53
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 48K BTU 4 Ton 208/230 Volt 1 Phase R-454B 15.2 SEER2 iM 1 Stage Scroll",
+    "m": "RA15AY48AJ1NA",
+    "b": "Rheem",
+    "ton": 4,
+    "seer": 15.2,
+    "stg": 1,
+    "p": 2810.54
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 36K BTU 3 Ton 208/230 Volt 1 Phase R-454B 15.2 SEER2 iM 1 Stage Scroll",
+    "m": "RA15AY36AJ1NA",
+    "b": "Rheem",
+    "ton": 3,
+    "seer": 15.2,
+    "stg": 1,
+    "p": 2273.06
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 30K BTU 2.5 Ton 208/230 Volt 1 Phase R-454B 14.3 SEER2 iM 1 Stage Scroll",
+    "m": "RA14AY30AJ1NA",
+    "b": "Rheem",
+    "ton": 2.5,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 1739.34
+  },
+  {
+    "n": "Air Conditioner 2 Ton 208/230 Volt 1 Phase R-454B 16 SEER 2 Stage",
+    "m": "RA16AY24AJ2NA",
+    "b": "Rheem",
+    "ton": 2,
+    "seer": 16,
+    "stg": 2,
+    "p": 1860.84
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 60K BTU 5 Ton 208/230 Volt 3 Phase R-454B 13.4 SEER2 iM 1 Stage Scroll",
+    "m": "RA13NY60AC1NA",
+    "b": "Rheem",
+    "ton": 5,
+    "seer": 13.4,
+    "stg": 1,
+    "p": 3853.53
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 42K BTU 3.5 Ton 208/230 Volt 1 Phase R-454B 15.2 SEER2 iM 1 Stage Scroll",
+    "m": "RA15AY42AJ1NA",
+    "b": "Rheem",
+    "ton": 3.5,
+    "seer": 15.2,
+    "stg": 1,
+    "p": 2457.03
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 24K BTU 2 Ton 208/230 Volt 1 Phase R-454B 15.2 SEER2 iM 1 Stage Scroll",
+    "m": "RA15AY24AJ1NA",
+    "b": "Rheem",
+    "ton": 2,
+    "seer": 15.2,
+    "stg": 1,
+    "p": 1803.17
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 48K BTU 4 Ton 208/230 Volt 1 Phase R-454B 13.8 SEER2 iM 1 Stage Scroll",
+    "m": "RA14AY48AJ1NA",
+    "b": "Rheem",
+    "ton": 4,
+    "seer": 13.8,
+    "stg": 1,
+    "p": 2535.09
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 42K BTU 3.5 Ton 208/230 Volt 1 Phase R-454B 14.3 SEER2 iM 1 Stage Scroll",
+    "m": "RA14AY42AJ1NA",
+    "b": "Rheem",
+    "ton": 3.5,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 2215.24
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 60K BTU 5 Ton 208/230 Volt 1 Phase R-454B 13.4 SEER2 iM 1 Stage Scroll",
+    "m": "RA13NY60AJ1NA",
+    "b": "Rheem",
+    "ton": 5,
+    "seer": 13.4,
+    "stg": 1,
+    "p": 2621.14
+  },
+  {
+    "n": "Air Conditioner 2.5 Ton R-454B 15 SEER2 Split 1 Stage",
+    "m": "General Electric NS15A30SA5",
+    "b": "General",
     "ton": 2.5,
     "seer": 15,
     "stg": 1,
     "p": 1606.47
   },
   {
-    "n": "GE 3T 15 SEER2 1-Stg",
-    "m": "NS15A36SA5",
-    "b": "GE",
+    "n": "Air Conditioner 3 Ton R-454B 15 SEER2 Split 1 Stage",
+    "m": "General Electric NS15A36SA5",
+    "b": "General",
     "ton": 3,
     "seer": 15,
     "stg": 1,
     "p": 1756.48
   },
   {
-    "n": "GE 3.5T 15 SEER2 1-Stg",
-    "m": "NS15A42SA5",
-    "b": "GE",
-    "ton": 3.5,
-    "seer": 15,
-    "stg": 1,
-    "p": 1955.2
-  },
-  {
-    "n": "GE 4T 15 SEER2 1-Stg",
-    "m": "NS15A48SA5",
-    "b": "GE",
-    "ton": 4,
-    "seer": 15,
-    "stg": 1,
-    "p": 2215.47
-  },
-  {
-    "n": "GE 5T 15 SEER2 1-Stg",
-    "m": "NS15A60SA5",
-    "b": "GE",
+    "n": "Air Conditioner 5 Ton R-454B 15 SEER2 Split 1 Stage",
+    "m": "General Electric NS15A60SA5",
+    "b": "General",
     "ton": 5,
     "seer": 15,
     "stg": 1,
     "p": 2547.53
   },
   {
-    "n": "GE 1.5T 16 SEER2 1-Stg",
-    "m": "NS16A18SA5",
-    "b": "GE",
-    "ton": 1.5,
-    "seer": 16,
-    "stg": 1,
-    "p": 1980.26
-  },
-  {
-    "n": "GE 2T 16 SEER2 1-Stg",
-    "m": "NS16A24SA5",
-    "b": "GE",
+    "n": "Air Conditioner 2 Ton R-454B 15 SEER2 Split 1 Stage",
+    "m": "General Electric NS15A24SA5",
+    "b": "General",
     "ton": 2,
-    "seer": 16,
+    "seer": 15,
     "stg": 1,
-    "p": 2105.26
+    "p": 1450.06
   },
   {
-    "n": "GE 2.5T 16 SEER2 1-Stg",
-    "m": "NS16A30SA5",
-    "b": "GE",
-    "ton": 2.5,
-    "seer": 16,
-    "stg": 1,
-    "p": 2272.37
-  },
-  {
-    "n": "GE 3T 16 SEER2 1-Stg",
-    "m": "NS16A36SA5",
-    "b": "GE",
-    "ton": 3,
-    "seer": 16,
-    "stg": 1,
-    "p": 2493.42
-  },
-  {
-    "n": "GE 3.5T 16 SEER2 1-Stg",
-    "m": "NS16A42SA5",
-    "b": "GE",
-    "ton": 3.5,
-    "seer": 16,
-    "stg": 1,
-    "p": 2664.47
-  },
-  {
-    "n": "GE 4T 16 SEER2 1-Stg",
-    "m": "NS16A48SA5",
-    "b": "GE",
+    "n": "Air Conditioner 4 Ton R-454B 16 SEER2 Split 1 Stage",
+    "m": "General Electric NS16A48SA5",
+    "b": "General",
     "ton": 4,
     "seer": 16,
     "stg": 1,
     "p": 2977.63
   },
   {
-    "n": "GE 5T 16 SEER2 1-Stg",
-    "m": "NS16A60SA5",
-    "b": "GE",
-    "ton": 5,
+    "n": "Air Conditioner 2.5 Ton R-454B 16 SEER2 Split 1 Stage",
+    "m": "General Electric NS16A30SA5",
+    "b": "General",
+    "ton": 2.5,
     "seer": 16,
     "stg": 1,
-    "p": 3628.95
+    "p": 2272.37
   },
   {
-    "n": "GE 2T 17 SEER2 2-Stg",
-    "m": "NS17A24TA5",
-    "b": "GE",
-    "ton": 2,
-    "seer": 17,
-    "stg": 2,
-    "p": 3092.11
-  },
-  {
-    "n": "GE 3T 17 SEER2 2-Stg",
-    "m": "NS17A36TA5",
-    "b": "GE",
-    "ton": 3,
-    "seer": 17,
-    "stg": 2,
-    "p": 3827.63
-  },
-  {
-    "n": "GE 4T 17 SEER2 2-Stg",
-    "m": "NS17A48TA5",
-    "b": "GE",
+    "n": "Air Conditioner 4 Ton R-454B 15 SEER2 Split 1 Stage",
+    "m": "General Electric NS15A48SA5",
+    "b": "General",
     "ton": 4,
-    "seer": 17,
-    "stg": 2,
-    "p": 4471.05
+    "seer": 15,
+    "stg": 1,
+    "p": 2215.47
   },
   {
-    "n": "GE 5T 17 SEER2 2-Stg",
-    "m": "NS17A60TA5",
-    "b": "GE",
+    "n": "Air Conditioner 5 Ton 208/230 Volt 1 Phase R-454B 16 SEER 2 Stage",
+    "m": "RA16AY60AJ2NA",
+    "b": "Rheem",
+    "ton": 5,
+    "seer": 16,
+    "stg": 2,
+    "p": 3566.96
+  },
+  {
+    "n": "Air Conditioner 4 Ton 208/230 Volt 1 Phase R-454B 16 SEER 2 Stage",
+    "m": "RA16AY48AJ2NA",
+    "b": "Rheem",
+    "ton": 4,
+    "seer": 16,
+    "stg": 2,
+    "p": 2967.93
+  },
+  {
+    "n": "Air Conditioner 3 Ton 208/230 Volt 1 Phase 19 SEER with EcoNet Inverter Variable Speed",
+    "m": "RA19AY36AJVCA",
+    "b": "Rheem",
+    "ton": 3,
+    "seer": 19,
+    "stg": 3,
+    "p": 3923.69
+  },
+  {
+    "n": "Air Conditioner 2 Ton 208/230 Volt 1 Phase 19 SEER with EcoNet Inverter Variable Speed",
+    "m": "RA19AY24AJVCA",
+    "b": "Rheem",
+    "ton": 2,
+    "seer": 19,
+    "stg": 3,
+    "p": 3821.19
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 60K BTU 5 Ton 460 Volt 3 Phase R-454B 13.4 SEER2 iM 1 Stage Scroll",
+    "m": "RA13NY60AD1NA",
+    "b": "Rheem",
+    "ton": 5,
+    "seer": 13.4,
+    "stg": 1,
+    "p": 3891.62
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 48K BTU 4 Ton 208/230 Volt 3 Phase R-454B 13.4 SEER2 iM 1 Stage Scroll",
+    "m": "RA13NY48AC1NA",
+    "b": "Rheem",
+    "ton": 4,
+    "seer": 13.4,
+    "stg": 1,
+    "p": 3290.41
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 36K BTU 3 Ton 208/230 Volt 3 Phase R-454B 13.4 SEER2 iM 1 Stage Scroll",
+    "m": "RA13NY36AC1NA",
+    "b": "Rheem",
+    "ton": 3,
+    "seer": 13.4,
+    "stg": 1,
+    "p": 2706.08
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 60K BTU 5 Ton 208/230 Volt 1 Phase R-454B 15.2 SEER2 iM 1 Stage Scroll",
+    "m": "RA15AY60AJ1NA",
+    "b": "Rheem",
+    "ton": 5,
+    "seer": 15.2,
+    "stg": 1,
+    "p": 3320.86
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 30K BTU 2.5 Ton 208/230 Volt 1 Phase R-454B 15.2 SEER2 iM 1 Stage Scroll",
+    "m": "RA15AY30AJ1NA",
+    "b": "Rheem",
+    "ton": 2.5,
+    "seer": 15.2,
+    "stg": 1,
+    "p": 1982.83
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 18K BTU 1.5 Ton 208/230 Volt 1 Phase R-454B 15.2 SEER2 iM 1 Stage Scroll",
+    "m": "RA15AY18AJ1NA",
+    "b": "Rheem",
+    "ton": 1.5,
+    "seer": 15.2,
+    "stg": 1,
+    "p": 1672.77
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 60K BTU 5 Ton 208/230 Volt 1 Phase R-454B 13.8 SEER2 iM 1 Stage Scroll",
+    "m": "RA14AY60AJ1NA",
+    "b": "Rheem",
+    "ton": 5,
+    "seer": 13.8,
+    "stg": 1,
+    "p": 2968.19
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 24K BTU 2 Ton 208/230 Volt 1 Phase R-454B 14.3 SEER2 iM 1 Stage Scroll",
+    "m": "RA14AY24AJ1NA",
+    "b": "Rheem",
+    "ton": 2,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 1555.13
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 18K BTU 1.5 Ton 208/230 Volt 1 Phase R-454B 14.3 SEER2 iM 1 Stage Scroll",
+    "m": "RA14AY18AJ1NA",
+    "b": "Rheem",
+    "ton": 1.5,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 1473.17
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 18K BTU 1.5 Ton 208/230 Volt 1 Phase R-454B 13.4 SEER2 iM 1 Stage Scroll",
+    "m": "RA13NY18AJ1NA",
+    "b": "Rheem",
+    "ton": 1.5,
+    "seer": 13.4,
+    "stg": 1,
+    "p": 1332.83
+  },
+  {
+    "n": "Air Conditioner Affinity 2 Ton 19 SEER",
+    "m": "YXT24B21S",
+    "b": "York",
+    "ton": 2,
+    "seer": 19,
+    "stg": 1,
+    "p": 1932.8
+  },
+  {
+    "n": "Air Conditioner 3.5 Ton R-454B 15 SEER2 Split 1 Stage",
+    "m": "General Electric NS15A42SA5",
+    "b": "General",
+    "ton": 3.5,
+    "seer": 15,
+    "stg": 1,
+    "p": 1955.2
+  },
+  {
+    "n": "Air Conditioner 3.5 Ton R-454B 16 SEER2 Split 1 Stage",
+    "m": "General Electric NS16A42SA5",
+    "b": "General",
+    "ton": 3.5,
+    "seer": 16,
+    "stg": 1,
+    "p": 2664.47
+  },
+  {
+    "n": "Air Conditioner 3 Ton R-454B 16 SEER2 Split 1 Stage",
+    "m": "General Electric NS16A36SA5",
+    "b": "General",
+    "ton": 3,
+    "seer": 16,
+    "stg": 1,
+    "p": 2493.42
+  },
+  {
+    "n": "Air Conditioner 2 Ton R-454B 16 SEER2 Split 1 Stage",
+    "m": "General Electric NS16A24SA5",
+    "b": "General",
+    "ton": 2,
+    "seer": 16,
+    "stg": 1,
+    "p": 2105.26
+  },
+  {
+    "n": "Air Conditioner 1.5 Ton R-454B 16 SEER2 Split 1 Stage",
+    "m": "General Electric NS16A18SA5",
+    "b": "General",
+    "ton": 1.5,
+    "seer": 16,
+    "stg": 1,
+    "p": 1980.26
+  },
+  {
+    "n": "Air Conditioner 1.5 Ton R-454B 15 SEER2 Split 1 Stage",
+    "m": "General Electric NS15A18SA5",
+    "b": "General",
+    "ton": 1.5,
+    "seer": 15,
+    "stg": 1,
+    "p": 1385.95
+  },
+  {
+    "n": "Air Conditioner Affinity 5 Ton 19 SEER",
+    "m": "YXT60B21S",
+    "b": "York",
+    "ton": 5,
+    "seer": 19,
+    "stg": 1,
+    "p": 2660.81
+  },
+  {
+    "n": "Window Air Conditioner with Remote - 12K BTU",
+    "m": "",
+    "b": "",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 604.64
+  },
+  {
+    "n": "Air Conditioner 5 Ton R-454B 17 SEER2 Split 2 Stage",
+    "m": "General Electric NS17A60TA5",
+    "b": "General",
     "ton": 5,
     "seer": 17,
     "stg": 2,
     "p": 4934.21
   },
   {
-    "n": "GE 2T 22 SEER2 Inv 2-Stg",
-    "m": "NS22A24MA5",
-    "b": "GE",
-    "ton": 2,
-    "seer": 22,
+    "n": "Air Conditioner 4 Ton R-454B 17 SEER2 Split 2 Stage",
+    "m": "General Electric NS17A48TA5",
+    "b": "General",
+    "ton": 4,
+    "seer": 17,
     "stg": 2,
-    "p": 6456.58
+    "p": 4471.05
   },
   {
-    "n": "GE 3T 22 SEER2 Inv 2-Stg",
-    "m": "NS22A36MA5",
-    "b": "GE",
+    "n": "Air Conditioner 3 Ton R-454B 17 SEER2 Split 2 Stage",
+    "m": "General Electric NS17A36TA5",
+    "b": "General",
     "ton": 3,
-    "seer": 22,
+    "seer": 17,
     "stg": 2,
-    "p": 7150
+    "p": 3827.63
   },
   {
-    "n": "GE 4T 22 SEER2 Inv 2-Stg",
-    "m": "NS22A48MA5",
-    "b": "GE",
+    "n": "Air Conditioner 2 Ton R-454B 17 SEER2 Split 2 Stage",
+    "m": "General Electric NS17A24TA5",
+    "b": "General",
+    "ton": 2,
+    "seer": 17,
+    "stg": 2,
+    "p": 3092.11
+  },
+  {
+    "n": "Air Conditioner 5 Ton R-454B 16 SEER2 Split 1 Stage",
+    "m": "General Electric NS16A60SA5",
+    "b": "General",
+    "ton": 5,
+    "seer": 16,
+    "stg": 1,
+    "p": 3628.95
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 36K BTU 3 Ton 208/230 Volt 1 Phase R-454B 14.3 SEER2 iM 1 Stage Scroll",
+    "m": "RA14AY36AJ1NA",
+    "b": "Rheem",
+    "ton": 3,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 2007.03
+  },
+  {
+    "n": "Air Conditioner 3 Ton 208/230 Volt 1 Phase R-454B 16 SEER 2 Stage",
+    "m": "RA16AY36AJ2NA",
+    "b": "Rheem",
+    "ton": 3,
+    "seer": 16,
+    "stg": 2,
+    "p": 2521.19
+  },
+  {
+    "n": "Air Conditioner 5 Ton 208/230 Volt 1 Phase 19 SEER with EcoNet Inverter Variable Speed",
+    "m": "RA19AY60AJVCA",
+    "b": "Rheem",
+    "ton": 5,
+    "seer": 19,
+    "stg": 3,
+    "p": 5239.5
+  },
+  {
+    "n": "Air Conditioner 4 Ton 208/230 Volt 1 Phase 19 SEER with EcoNet Inverter Variable Speed",
+    "m": "RA19AY48AJVCA",
+    "b": "Rheem",
+    "ton": 4,
+    "seer": 19,
+    "stg": 3,
+    "p": 4657.14
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 48K BTU 4 Ton 460 Volt 3 Phase R-454B 13.4 SEER2 iM 1 Stage Scroll",
+    "m": "RA13NY48AD1NA",
+    "b": "Rheem",
+    "ton": 4,
+    "seer": 13.4,
+    "stg": 1,
+    "p": 3329.36
+  },
+  {
+    "n": "Air Conditioner Endeavor Classic 36K BTU 3 Ton 460 Volt 3 Phase R-454B 13.4 SEER2 iM 1 Stage Scroll",
+    "m": "RA13NY36AD1NA",
+    "b": "Rheem",
+    "ton": 3,
+    "seer": 13.4,
+    "stg": 1,
+    "p": 2744.29
+  },
+  {
+    "n": "Air Conditioner 4 Ton R-410A 13.4 SEER2 OTC",
+    "m": "Guardian RAC13448B21S",
+    "b": "Guardian",
+    "ton": 4,
+    "seer": 13.4,
+    "stg": 1,
+    "p": 1708.58
+  },
+  {
+    "n": "Air Conditioner Affinity 4 Ton 19 SEER",
+    "m": "YXT48B21S",
+    "b": "York",
+    "ton": 4,
+    "seer": 19,
+    "stg": 1,
+    "p": 2756.37
+  },
+  {
+    "n": "Air Conditioner Affinity 3 Ton 19 SEER",
+    "m": "YXT36B21S",
+    "b": "York",
+    "ton": 3,
+    "seer": 19,
+    "stg": 1,
+    "p": 2512.86
+  },
+  {
+    "n": "Air Conditioner 8K BTU 115 Volt 8.9 EER Portable with Remote",
+    "m": "",
+    "b": "",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 511.44
+  },
+  {
+    "n": "Condenser 5000 Through The Wall 2.5 Ton 208/230 Volt 1 Phase 13.0 SEER R-454B 1/5 Horsepower",
+    "m": "",
+    "b": "",
+    "ton": 2.5,
+    "seer": 13,
+    "stg": 1,
+    "p": 2788.6
+  },
+  {
+    "n": "Condenser 5000 Through The Wall 2 Ton 208/230 Volt 1 Phase 13.5 SEER R-454B 1/5 Horsepower",
+    "m": "",
+    "b": "",
+    "ton": 2,
+    "seer": 13.5,
+    "stg": 1,
+    "p": 2692.44
+  },
+  {
+    "n": "Condenser 3000 Through The Wall 2 Ton 208/230 Volt 1 Phase 12.5 SEER R-454B 1/4 Horsepower",
+    "m": "",
+    "b": "",
+    "ton": 2,
+    "seer": 12.5,
+    "stg": 1,
+    "p": 2403.96
+  },
+  {
+    "n": "Condenser 5000 Through The Wall 1.5 Ton 208/230 Volt 1 Phase 13.5 SEER R-454B 1/4 Horsepower",
+    "m": "",
+    "b": "",
+    "ton": 1.5,
+    "seer": 13.5,
+    "stg": 1,
+    "p": 2596.29
+  },
+  {
+    "n": "Condenser 3000 Through The Wall 1.5 Ton 208/230 Volt 1 Phase 12.5 SEER R-454B 1/4 Horsepower",
+    "m": "",
+    "b": "",
+    "ton": 1.5,
+    "seer": 12.5,
+    "stg": 1,
+    "p": 2307.8
+  },
+  {
+    "n": "Condenser 5000 Through The Wall 2.5 Ton 208/230 Volt 1 Phase 12.3 SEER R-454B 1/5 Horsepower",
+    "m": "",
+    "b": "",
+    "ton": 2.5,
+    "seer": 12.3,
+    "stg": 1,
+    "p": 2500.12
+  },
+  {
+    "n": "Condenser 4000 Through The Wall 2.5 Ton 208/230 Volt 1 Phase 11.7 SEER R-454B 1/5 Horsepower",
+    "m": "",
+    "b": "",
+    "ton": 2.5,
+    "seer": 11.7,
+    "stg": 1,
+    "p": 2220.95
+  },
+  {
+    "n": "Condenser 3000 Through The Wall 2.5 Ton 208/230 Volt 1 Phase 11.7 SEER R-454B 1/4 Horsepower",
+    "m": "",
+    "b": "",
+    "ton": 2.5,
+    "seer": 11.7,
+    "stg": 1,
+    "p": 1958.3
+  },
+  {
+    "n": "Condenser 1000 Through The Wall 2.5 Ton 208/230 Volt 1 Phase 11.7 SEER R-454B 1/4 Horsepower",
+    "m": "",
+    "b": "",
+    "ton": 2.5,
+    "seer": 11.7,
+    "stg": 1,
+    "p": 1958.3
+  },
+  {
+    "n": "Condenser 5000 Through The Wall 2 Ton 208/230 Volt 1 Phase 12.3 SEER R-454B 1/5 Horsepower",
+    "m": "",
+    "b": "",
+    "ton": 2,
+    "seer": 12.3,
+    "stg": 1,
+    "p": 2403.96
+  },
+  {
+    "n": "Condenser 4000 Through The Wall 2 Ton 208/230 Volt 1 Phase 11.7 SEER R-454B 1/5 Horsepower",
+    "m": "",
+    "b": "",
+    "ton": 2,
+    "seer": 11.7,
+    "stg": 1,
+    "p": 2081.13
+  },
+  {
+    "n": "Condenser 3000 Through The Wall 2 Ton 208/230 Volt 1 Phase 11.7 SEER R-454B 1/4 Horsepower",
+    "m": "",
+    "b": "",
+    "ton": 2,
+    "seer": 11.7,
+    "stg": 1,
+    "p": 1860.19
+  },
+  {
+    "n": "Condenser 1000 Through The Wall 2 Ton 208/230 Volt 1 Phase 11.7 SEER R-454B 1/4 Horsepower",
+    "m": "",
+    "b": "",
+    "ton": 2,
+    "seer": 11.7,
+    "stg": 1,
+    "p": 1860.19
+  },
+  {
+    "n": "Condenser 5000 Through The Wall 1.5 Ton 208/230 Volt 1 Phase 12.3 SEER R-454B 1/5 Horsepower",
+    "m": "",
+    "b": "",
+    "ton": 1.5,
+    "seer": 12.3,
+    "stg": 1,
+    "p": 2307.8
+  },
+  {
+    "n": "Condenser 4000 Through The Wall 1.5 Ton 208/230 Volt 1 Phase 11.7 SEER R-454B 1/5 Horsepower",
+    "m": "",
+    "b": "",
+    "ton": 1.5,
+    "seer": 11.7,
+    "stg": 1,
+    "p": 1964.48
+  },
+  {
+    "n": "Condenser 3000 Through The Wall 1.5 Ton 208/230 Volt 1 Phase 11.7 SEER R-454B 1/4 Horsepower",
+    "m": "",
+    "b": "",
+    "ton": 1.5,
+    "seer": 11.7,
+    "stg": 1,
+    "p": 1740.46
+  },
+  {
+    "n": "Condenser 1000 Through The Wall 1.5 Ton 208/230 Volt 1 Phase 11.7 SEER R-454B 1/4 Horsepower",
+    "m": "",
+    "b": "",
+    "ton": 1.5,
+    "seer": 11.7,
+    "stg": 1,
+    "p": 1740.46
+  },
+  {
+    "n": "Air Conditioner 10K BTU 115 Volt 8.9 EER Portable with Remote",
+    "m": "",
+    "b": "",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 468.42
+  },
+  {
+    "n": "Air Conditioner 5 Ton R-454B 22 SEER2 Inverter Split 2 Stage",
+    "m": "General Electric NS22A60MA5",
+    "b": "General",
+    "ton": 5,
+    "seer": 22,
+    "stg": 2,
+    "p": 8344.74
+  },
+  {
+    "n": "Air Conditioner 4 Ton R-454B 22 SEER2 Inverter Split 2 Stage",
+    "m": "General Electric NS22A48MA5",
+    "b": "General",
     "ton": 4,
     "seer": 22,
     "stg": 2,
     "p": 7703.95
   },
   {
-    "n": "GE 5T 22 SEER2 Inv 2-Stg",
-    "m": "NS22A60MA5",
-    "b": "GE",
-    "ton": 5,
+    "n": "Air Conditioner 3 Ton R-454B 22 SEER2 Inverter Split 2 Stage",
+    "m": "General Electric NS22A36MA5",
+    "b": "General",
+    "ton": 3,
     "seer": 22,
     "stg": 2,
-    "p": 8344.74
+    "p": 7150
+  },
+  {
+    "n": "Air Conditioner 2 Ton R-454B 22 SEER2 Inverter Split 2 Stage",
+    "m": "General Electric NS22A24MA5",
+    "b": "General",
+    "ton": 2,
+    "seer": 22,
+    "stg": 2,
+    "p": 6456.58
+  },
+  {
+    "n": "Air Conditioner 1.5 Ton R-410A 13.4 SEER2 OTC",
+    "m": "Guardian RAC13418B21S",
+    "b": "Guardian",
+    "ton": 1.5,
+    "seer": 13.4,
+    "stg": 1,
+    "p": 1046.44
+  },
+  {
+    "n": "Air Conditioner 2.5 Ton R-410A 13.4 SEER2 OTC",
+    "m": "Guardian RAC13430B21S",
+    "b": "Guardian",
+    "ton": 2.5,
+    "seer": 13.4,
+    "stg": 1,
+    "p": 1226.93
+  },
+  {
+    "n": "Air Conditioner 3.5 Ton R-410A 13.4 SEER2 OTC",
+    "m": "Guardian RAC13442B21S",
+    "b": "Guardian",
+    "ton": 3.5,
+    "seer": 13.4,
+    "stg": 1,
+    "p": 1501.72
+  },
+  {
+    "n": "Guardian Split System Air Conditioner",
+    "m": "Guardian Split System Air Conditioner",
+    "b": "Guardian",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1115.39
+  },
+  {
+    "n": "Guardian Split System Air Conditioner",
+    "m": "Guardian Split System Air Conditioner",
+    "b": "Guardian",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1337.46
+  },
+  {
+    "n": "Guardian Split System Air Conditioner",
+    "m": "Guardian Split System Air Conditioner",
+    "b": "Guardian",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1942.81
+  },
+  {
+    "n": "Air Conditioner 1.5 Ton R-410A 15.2 SEER2 OTC",
+    "m": "Guardian RAC15018B21S",
+    "b": "Guardian",
+    "ton": 1.5,
+    "seer": 15.2,
+    "stg": 1,
+    "p": 1714.71
+  },
+  {
+    "n": "Air Conditioner 3 Ton R-410A 14.3 SEER2 OTC",
+    "m": "Guardian RAC14336B21S",
+    "b": "Guardian",
+    "ton": 3,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 1605.81
+  },
+  {
+    "n": "Air Conditioner 2.5 Ton R-410A 15.2 SEER2 OTC",
+    "m": "Guardian RAC15030B21S",
+    "b": "Guardian",
+    "ton": 2.5,
+    "seer": 15.2,
+    "stg": 1,
+    "p": 1973.18
+  },
+  {
+    "n": "Air Conditioner 4 Ton R-410A 14.3 SEER2 OTC",
+    "m": "Guardian RAC14348B21S",
+    "b": "Guardian",
+    "ton": 4,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 2043.82
+  },
+  {
+    "n": "Air Conditioner 3.5 Ton R-410A 15.2 SEER2 OTC",
+    "m": "Guardian RAC15042B21S",
+    "b": "Guardian",
+    "ton": 3.5,
+    "seer": 15.2,
+    "stg": 1,
+    "p": 2500.62
+  },
+  {
+    "n": "Air Conditioner 5 Ton R-410A 14.3 SEER2 OTC",
+    "m": "Guardian RAC14360B21S",
+    "b": "Guardian",
+    "ton": 5,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 2336.98
+  },
+  {
+    "n": "Air Conditioner 1.5 Ton R-410A 14.3 SEER2 OTC",
+    "m": "Guardian RAC14318B21S",
+    "b": "Guardian",
+    "ton": 1.5,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 1271.96
+  },
+  {
+    "n": "Air Conditioner 2.5 Ton R-410A 14.3 SEER2 OTC",
+    "m": "Guardian RAC14330B21S",
+    "b": "Guardian",
+    "ton": 2.5,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 1460.27
+  },
+  {
+    "n": "Air Conditioner 2 Ton R-410A 15.2 SEER2 OTC",
+    "m": "Guardian RAC15024B21S",
+    "b": "Guardian",
+    "ton": 2,
+    "seer": 15.2,
+    "stg": 1,
+    "p": 1801.57
+  },
+  {
+    "n": "Air Conditioner 3.5 Ton R-410A 14.3 SEER2 OTC",
+    "m": "Guardian RAC14342B21S",
+    "b": "Guardian",
+    "ton": 3.5,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 1812.06
+  },
+  {
+    "n": "Air Conditioner 3 Ton R-410A 15.2 SEER2 OTC",
+    "m": "Guardian RAC15036B21S",
+    "b": "Guardian",
+    "ton": 3,
+    "seer": 15.2,
+    "stg": 1,
+    "p": 2162.31
+  },
+  {
+    "n": "Air Conditioner 4 Ton R-410A 15.2 SEER2 OTC",
+    "m": "Guardian RAC15048B21S",
+    "b": "Guardian",
+    "ton": 4,
+    "seer": 15.2,
+    "stg": 1,
+    "p": 2816.53
+  },
+  {
+    "n": "Air Conditioner 5 Ton R-410A 15.2 SEER2 OTC",
+    "m": "Guardian RAC15060B21S",
+    "b": "Guardian",
+    "ton": 5,
+    "seer": 15.2,
+    "stg": 1,
+    "p": 3030.87
+  },
+  {
+    "n": "Packaged Unit Comfort Pack Universal Thru-The-Wall Electric Heat 2 Ton 208/230 Volt 14.2 Amp 1 Phase 60 Her...",
+    "m": "",
+    "b": "",
+    "ton": 2,
+    "seer": 0,
+    "stg": 1,
+    "p": 2846.16
+  },
+  {
+    "n": "Packaged Unit Comfort Pack Universal Thru-The-Wall Electric Heat 1.5 Ton 208/230 Volt 10.7 Amp 1 Phase 60 H...",
+    "m": "",
+    "b": "",
+    "ton": 1.5,
+    "seer": 0,
+    "stg": 1,
+    "p": 2636.16
+  },
+  {
+    "n": "Packaged Unit Comfort Pack Universal Thru-The-Wall Electric Heat 1 Ton 208/230 Volt 9.3 Amp 1 Phase 60 Hert...",
+    "m": "",
+    "b": "",
+    "ton": 1,
+    "seer": 0,
+    "stg": 1,
+    "p": 2538.52
+  },
+  {
+    "n": "Packaged Unit Comfort Pack Universal Thru-The-Wall Electric Heat 0.75 Ton 208/230 Volt 8.1 Amp 1 Phase 60 H...",
+    "m": "",
+    "b": "",
+    "ton": 0.75,
+    "seer": 0,
+    "stg": 1,
+    "p": 2532.37
   }
 ]
