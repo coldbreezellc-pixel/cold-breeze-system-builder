@@ -760,16 +760,6 @@
     "p": 789.95
   },
   {
-    "n": "Air Handler 36K BTU 3 Ton 3002 Cubic Feet per Minute R-454B 17.4 SEER Ducted Unit EEV Valve 1 Stage 115/208...",
-    "m": "CS-HM36BAHU",
-    "b": "Panasonic",
-    "ton": 3,
-    "btu": 36,
-    "v": "208/230",
-    "stg": 1,
-    "p": 2304.25
-  },
-  {
     "n": "Air Handler F Series 2.5 Ton Multi-Position R-454B Low Profile with RDS Non-Bleed Thermal Expansion Valve 2...",
     "m": "FCME32A30S002R",
     "b": "ADP",
@@ -908,16 +898,6 @@
     "v": "208/230",
     "stg": 3,
     "p": 1875.6
-  },
-  {
-    "n": "Air Handler 52K BTU 5 Ton 1807 Cubic Feet per Minute R-454B 16.5 SEER Ducted Unit EEV Valve 1 Stage 115/208...",
-    "m": "CS-HM60BAHU",
-    "b": "Panasonic",
-    "ton": 5,
-    "btu": 52,
-    "v": "208/230",
-    "stg": 1,
-    "p": 2853.56
   },
   {
     "n": "Air Handler 48K BTU 4 Ton 1600 Cubic Feet per Minute R-454B 16.5 SEER Ducted Unit CS Valve 1 Stage 115/208/...",
