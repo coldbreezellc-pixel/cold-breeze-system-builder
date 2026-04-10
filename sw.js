@@ -1,6 +1,6 @@
 // Cold Breeze HVAC System Builder - Service Worker
 // Caches the app shell for offline use; data still requires network for sync
-const CACHE_NAME = 'coldbreeze-v2';
+const CACHE_NAME = 'coldbreeze-v4';
 const APP_SHELL = [
   './',
   './index.html',
@@ -18,7 +18,6 @@ const APP_SHELL = [
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME).then(cache => {
-      // Cache files individually so one failure doesn't break everything
       return Promise.allSettled(
         APP_SHELL.map(url => cache.add(url).catch(err => console.warn('Cache failed:', url, err)))
       );
@@ -36,30 +35,45 @@ self.addEventListener('activate', event => {
 });
 
 // Fetch strategy:
-// - GitHub API calls (data sync): network only, never cache
-// - App shell + CDN scripts: cache-first with network fallback
+// - GitHub API calls: network only, never cache
+// - index.html / navigation: network-first (always get fresh HTML), cache fallback for offline
+// - CDN scripts + static assets: cache-first with network fallback
 self.addEventListener('fetch', event => {
   const url = new URL(event.request.url);
 
-  // Never cache GitHub API requests - always fresh data
+  // Never cache GitHub API requests
   if (url.hostname === 'api.github.com') {
     event.respondWith(fetch(event.request));
     return;
   }
 
-  // Cache-first for everything else
+  // Network-first for HTML pages (navigation requests and index.html)
+  if (event.request.mode === 'navigate' || url.pathname.endsWith('.html') || url.pathname.endsWith('/')) {
+    event.respondWith(
+      fetch(event.request).then(response => {
+        if (response && response.status === 200) {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+        }
+        return response;
+      }).catch(() => {
+        return caches.match(event.request).then(cached => cached || caches.match('./index.html'));
+      })
+    );
+    return;
+  }
+
+  // Cache-first for everything else (CDN scripts, icons, etc.)
   event.respondWith(
     caches.match(event.request).then(cached => {
       if (cached) return cached;
       return fetch(event.request).then(response => {
-        // Cache new requests for next time
         if (response && response.status === 200) {
           const responseClone = response.clone();
           caches.open(CACHE_NAME).then(cache => cache.put(event.request, responseClone));
         }
         return response;
       }).catch(() => {
-        // Offline fallback - return cached index for navigation requests
         if (event.request.mode === 'navigate') {
           return caches.match('./index.html');
         }
