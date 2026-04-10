@@ -240,30 +240,6 @@
     "p": 1004.03
   },
   {
-    "n": "Gas Furnace 90K BTU 97% 5 Ton Upflow/Horizontal 2 Stage R-454B C Cabinet",
-    "m": "NF97U090V5CR",
-    "b": "GE",
-    "ton": 5,
-    "btu": 90,
-    "afue": 97,
-    "cab": "C",
-    "w": "21",
-    "stg": 2,
-    "p": 1709.56
-  },
-  {
-    "n": "Gas Furnace 70K BTU 80% 3 Ton Upflow/Horizontal 2 Stage R-454B A Cabinet",
-    "m": "NF80U070T3AR",
-    "b": "GE",
-    "ton": 3,
-    "btu": 70,
-    "afue": 80,
-    "cab": "A",
-    "w": "14.5",
-    "stg": 2,
-    "p": 1322.37
-  },
-  {
     "n": "Gas Furnace Natural Gas 115K BTU 92% 1 Stage 5 Ton ECM Multi D Cabinet",
     "m": "R921T1155A24M4SNAS",
     "b": "Rheem",
@@ -778,18 +754,6 @@
     "w": "14.5",
     "stg": 1,
     "p": 907.56
-  },
-  {
-    "n": "Gas Furnace 90K BTU 80% 4 Ton Upflow/Horizontal 2 Stage R-454B B Cabinet",
-    "m": "NF80U090T4BR",
-    "b": "GE",
-    "ton": 4,
-    "btu": 90,
-    "afue": 80,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 2,
-    "p": 1443.42
   },
   {
     "n": "Gas Furnace 110K BTU 97% 5 Ton Upflow/Horizontal 2 Stage R-454B C Cabinet",
