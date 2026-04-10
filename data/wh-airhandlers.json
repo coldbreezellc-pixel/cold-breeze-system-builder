@@ -540,16 +540,6 @@
     "p": 1861.45
   },
   {
-    "n": "Air Handler FWA-HW Less Pump Heat Only 120 Volt 62.6K BTU",
-    "m": "FWA60HW",
-    "b": "First Co",
-    "ton": 0.5,
-    "btu": 6,
-    "v": "120",
-    "stg": 1,
-    "p": 1990.71
-  },
-  {
     "n": "Air Handler 4 Ton R-454B Hydronic 4 Row Hardwire Coil Permanent Split Capacitor",
     "m": "ABM47J-024WC4XL",
     "b": "Aspen",
