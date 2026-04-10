@@ -210,16 +210,6 @@
     "p": 1499.14
   },
   {
-    "n": "Air Handler 48/60 R-454B/R-32 Horizontal",
-    "m": "45ESP4860KHZA",
-    "b": "Spacepak",
-    "ton": 4.5,
-    "btu": 54000,
-    "v": "208/230",
-    "stg": 1,
-    "p": 3938.51
-  },
-  {
     "n": "Air Handler 24/30 R-454B/R-32 Horizontal",
     "m": "45ESP2430KHZA",
     "b": "Spacepak",
