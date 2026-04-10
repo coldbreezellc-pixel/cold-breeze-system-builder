@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Cold Breeze LLC — HVAC System Builder & Project Quote</title>
 <link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#1a1a2e">
+<meta name="theme-color" content="#1e293b">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Cold Breeze">
@@ -19,7 +19,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #f4f5f7; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #f8fafc; }
   input[type=number]::-webkit-inner-spin-button { opacity: 1; }
   ::-webkit-scrollbar { width: 6px; }
   ::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 3px; }
@@ -28,7 +28,7 @@
   .edit-form-grid { display:grid; grid-template-columns:1fr 1fr 1fr; gap:5px; margin-bottom:6px; }
   .edit-field label { display:block; font-size:8px; font-weight:700; color:#888; margin-bottom:2px; text-transform:uppercase; }
   .edit-field input, .edit-field select { width:100%; padding:4px 6px; border-radius:3px; border:1px solid #bbb; font-size:10px; background:#fff; }
-  .edit-field input:focus { outline:none; border-color:#1a1a2e; }
+  .edit-field input:focus { outline:none; border-color:#1e293b; }
   @media (max-width:900px) { body { font-size: 14px; } .edit-form-grid { grid-template-columns:1fr 1fr; } }
   @media (max-width:768px) {
     body { font-size: 15px; }
@@ -86,9 +86,9 @@
   }
   @media print { body { background: #fff; } button { display: none !important; } }
   .sync-dot { display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:5px; }
-  .sync-ok { background:#4caf50; }
-  .sync-saving { background:#ff9800; animation: pulse .6s infinite alternate; }
-  .sync-error { background:#f44336; }
+  .sync-ok { background:#10b981; }
+  .sync-saving { background:#f59e0b; animation: pulse .6s infinite alternate; }
+  .sync-error { background:#ef4444; }
   @keyframes pulse { from{opacity:1} to{opacity:.3} }
 </style>
 </head>
@@ -214,9 +214,9 @@ function SetupScreen({ onComplete }) {
   };
 
   return (
-    <div style={{minHeight:'100vh',display:'flex',alignItems:'center',justifyContent:'center',background:'linear-gradient(135deg,#1a1a2e,#0f3460)'}}>
+    <div style={{minHeight:'100vh',display:'flex',alignItems:'center',justifyContent:'center',background:'linear-gradient(135deg,#1e293b,#2563eb)'}}>
       <div style={{background:'#fff',borderRadius:16,padding:40,maxWidth:520,width:'90%',boxShadow:'0 20px 60px rgba(0,0,0,.3)'}}>
-        <h1 style={{fontSize:24,fontWeight:800,color:'#1a1a2e',marginBottom:4}}>Cold Breeze LLC</h1>
+        <h1 style={{fontSize:24,fontWeight:800,color:'#1e293b',marginBottom:4}}>Cold Breeze LLC</h1>
         <p style={{fontSize:13,color:'#888',marginBottom:24}}>HVAC System Builder — GitHub Database Setup</p>
 
         <div style={{marginBottom:16}}>
@@ -237,7 +237,7 @@ function SetupScreen({ onComplete }) {
 
         <button onClick={handleTest} disabled={testing || !owner || !token}
           style={{width:'100%',padding:'12px',borderRadius:8,border:'none',cursor:'pointer',fontSize:14,fontWeight:800,
-            background:testing?'#888':'linear-gradient(135deg,#4caf50,#2E7D32)',color:'#fff'}}>
+            background:testing?'#888':'linear-gradient(135deg,#10b981,#059669)',color:'#fff'}}>
           {testing ? 'Connecting...' : 'Connect & Load Database'}
         </button>
 
@@ -259,14 +259,14 @@ const fmt=n=>"$"+n.toLocaleString("en-US",{minimumFractionDigits:2,maximumFracti
 const cabW=c=>c==="B"?'17.5"':c==="C"?'21"':c==="D"?'24.5"':"";
 const wToCab=w=>w==="17.5"?"B":w==="21"?"C":(w==="24"||w==="24.5")?"D":"";
 const bColor=b=>b==="Rheem"?"#c00":b==="Bosch"?"#036":b==="GE"?"#2E4053":b==="Samsung"?"#1428A0":b==="Fujitsu"?"#c00":"#333";
-const catColor=cat=>cat==="Line Sets"?"#795548":cat==="Line Hide"?"#8D6E63":cat==="Materials"?"#546E7A":cat==="Electrical"?"#F57C00":cat==="Drain"?"#0097A7":cat==="Controls"?"#2E7D32":cat==="Fittings"?"#6D4C41":cat==="Mounting"?"#37474F":cat==="Labor"?"#5C6BC0":cat==="Plumbing"?"#00838F":cat==="Furnace"?"#c00":cat==="Air Handler"?"#6B3A2A":cat==="Air Conditioner"?"#2E4053":cat==="Heat Pump"?"#0f3460":cat==="Evaporator Coil"?"#8B0000":cat==="Fujitsu Mini Split"?"#1565C0":"#455A64";
+const catColor=cat=>cat==="Line Sets"?"#795548":cat==="Line Hide"?"#8D6E63":cat==="Materials"?"#546E7A":cat==="Electrical"?"#F57C00":cat==="Drain"?"#0097A7":cat==="Controls"?"#059669":cat==="Fittings"?"#6D4C41":cat==="Mounting"?"#37474F":cat==="Labor"?"#5C6BC0":cat==="Plumbing"?"#00838F":cat==="Furnace"?"#c00":cat==="Air Handler"?"#6B3A2A":cat==="Air Conditioner"?"#2E4053":cat==="Heat Pump"?"#2563eb":cat==="Evaporator Coil"?"#8B0000":cat==="Fujitsu Mini Split"?"#1565C0":"#455A64";
 const CAT_LABELS={"FURNACES":"Furnace","HEAT_PUMPS":"Heat Pump","AC_CONDENSERS":"AC Condenser","AIR_HANDLERS":"Air Handler","COILS":"Evap Coil"};
 
 const Btn=({v,cur,onClick,children})=>(
-  <button onClick={onClick} style={{padding:"4px 10px",borderRadius:5,border:"none",cursor:"pointer",fontSize:11,fontWeight:600,background:v===cur?"#1a1a2e":"#e8e8ee",color:v===cur?"#fff":"#555",transition:"all .12s"}}>{children}</button>
+  <button onClick={onClick} style={{padding:"4px 10px",borderRadius:5,border:"none",cursor:"pointer",fontSize:11,fontWeight:600,background:v===cur?"#1e293b":"#e2e8f0",color:v===cur?"#fff":"#555",transition:"all .12s"}}>{children}</button>
 );
 const BigBtn=({v,cur,onClick,children,color})=>(
-  <button onClick={onClick} style={{padding:"10px 24px",borderRadius:8,border:v===cur?"2px solid #fff":"2px solid transparent",cursor:"pointer",fontSize:14,fontWeight:800,background:v===cur?(color||"#1a1a2e"):"rgba(255,255,255,.12)",color:"#fff",transition:"all .2s",letterSpacing:".3px"}}>{children}</button>
+  <button onClick={onClick} style={{padding:"10px 24px",borderRadius:8,border:v===cur?"2px solid #fff":"2px solid transparent",cursor:"pointer",fontSize:14,fontWeight:800,background:v===cur?(color||"#1e293b"):"rgba(255,255,255,.12)",color:"#fff",transition:"all .2s",letterSpacing:".3px"}}>{children}</button>
 );
 const F=({label,children})=>(
   <div style={{display:"flex",gap:3,alignItems:"center",flexWrap:"wrap",marginBottom:5}}>
@@ -288,9 +288,9 @@ function EditForm({item,cat,onSave,onCancel}){
     <div className="edit-field"><label>{label}</label><input type="text" value={f[key]||""} onChange={e=>upd(key,e.target.value)}/></div>
   );
   return(
-    <div style={{padding:"10px 10px 8px",borderBottom:"2px solid #1a1a2e",background:"#fffde7"}}>
+    <div style={{padding:"10px 10px 8px",borderBottom:"2px solid #1e293b",background:"#fffde7"}}>
       <div style={{fontSize:9,fontWeight:800,color:"#888",marginBottom:6,textTransform:"uppercase",letterSpacing:".5px"}}>
-        ✏️ Editing: <span style={{color:"#1a1a2e"}}>{item.n}</span>
+        ✏️ Editing: <span style={{color:"#1e293b"}}>{item.n}</span>
       </div>
       <div className="edit-form-grid">
         {txtFld("Name","n")}{txtFld("Model #","m")}{txtFld("Brand","b")}{numFld("Price $","p",0.01)}{numFld("Tonnage","ton",0.5)}
@@ -303,7 +303,7 @@ function EditForm({item,cat,onSave,onCancel}){
         {f.v!==undefined&&txtFld("Voltage","v")}
       </div>
       <div style={{display:"flex",gap:5,justifyContent:"flex-end"}}>
-        <button onClick={()=>onSave(f,cat)} style={{background:"#4caf50",color:"#fff",border:"none",padding:"4px 12px",borderRadius:4,cursor:"pointer",fontSize:10,fontWeight:700}}>✓ Save</button>
+        <button onClick={()=>onSave(f,cat)} style={{background:"#10b981",color:"#fff",border:"none",padding:"4px 12px",borderRadius:4,cursor:"pointer",fontSize:10,fontWeight:700}}>✓ Save</button>
         <button onClick={onCancel} style={{background:"#888",color:"#fff",border:"none",padding:"4px 12px",borderRadius:4,cursor:"pointer",fontSize:10,fontWeight:700}}>✕ Cancel</button>
       </div>
     </div>
@@ -315,16 +315,16 @@ function EqRow({item,sel,onClick,info,type,typeInfo,cat,editingModel,onStartEdit
   if(editingModel===item.m) return <EditForm item={item} cat={cat} onSave={onSaveEdit} onCancel={onCancelEdit}/>;
   const added=inCart(item.m);
   return(
-    <div onClick={onClick} style={{padding:"6px 9px",borderBottom:"1px solid #eee",cursor:onClick?"pointer":"default",background:sel?"#1a1a2e":"#fff",color:sel?"#fff":"#333",display:"flex",justifyContent:"space-between",alignItems:"center",gap:4}}>
+    <div onClick={onClick} style={{padding:"6px 9px",borderBottom:"1px solid #eee",cursor:onClick?"pointer":"default",background:sel?"#1e293b":"#fff",color:sel?"#fff":"#333",display:"flex",justifyContent:"space-between",alignItems:"center",gap:4}}>
       <div style={{flex:1,minWidth:0}}>
         {typeInfo&&<Tag label={typeInfo.label} color={typeInfo.color}/>}
-        <span style={{fontWeight:700,fontSize:10,color:sel?"#8af":bColor(item.b),marginRight:3}}>{item.b}</span>
+        <span style={{fontWeight:700,fontSize:10,color:sel?"#60a5fa":bColor(item.b),marginRight:3}}>{item.b}</span>
         <span style={{fontSize:11}}>{item.n}</span>
         <div style={{fontSize:9,marginTop:1,opacity:.6}}>{item.m}{info?` • ${info}`:""}</div>
       </div>
       <div style={{display:"flex",alignItems:"center",gap:3,flexShrink:0}}>
         <span style={{fontWeight:800,fontSize:11,whiteSpace:"nowrap"}}>{fmt(item.p)}</span>
-        {addToCart&&<button onClick={e=>{e.stopPropagation();if(!added)addToCart(type,item,info)}} style={{padding:"2px 7px",borderRadius:4,border:"none",cursor:added?"default":"pointer",fontSize:9,fontWeight:700,background:added?"#4caf50":"#1a1a2e",color:"#fff",opacity:added?.75:1,whiteSpace:"nowrap"}}>{added?"✓":"+ Add"}</button>}
+        {addToCart&&<button onClick={e=>{e.stopPropagation();if(!added)addToCart(type,item,info)}} style={{padding:"2px 7px",borderRadius:4,border:"none",cursor:added?"default":"pointer",fontSize:9,fontWeight:700,background:added?"#10b981":"#1e293b",color:"#fff",opacity:added?.75:1,whiteSpace:"nowrap"}}>{added?"✓":"+ Add"}</button>}
         <button onClick={e=>{e.stopPropagation();onStartEdit(item,cat)}} title="Edit" style={{padding:"2px 6px",borderRadius:4,border:"1px solid #bbb",cursor:"pointer",fontSize:10,background:sel?"rgba(255,255,255,.15)":"#f5f5f5",color:sel?"#fff":"#555",lineHeight:1.2}}>✏️</button>
         <button onClick={e=>{e.stopPropagation();onRemove(item.m,cat)}} title="Remove" style={{padding:"2px 6px",borderRadius:4,border:"1px solid #fcc",cursor:"pointer",fontSize:10,background:"#fff0f0",color:"#c00",lineHeight:1.2}}>🗑</button>
       </div>
@@ -338,17 +338,17 @@ function CoilRow({c,selF,sel,onClick,cat,editingModel,onStartEdit,onSaveEdit,onC
   const exact=c.ton===selF.ton&&c.w===selF.w;
   const added=inCart(c.m);
   return(
-    <div onClick={onClick} style={{padding:"6px 9px",borderBottom:"1px solid #eee",cursor:onClick?"pointer":"default",background:sel?"#1a1a2e":exact?"#f0f7ff":"#fff",color:sel?"#fff":"#333",display:"flex",justifyContent:"space-between",alignItems:"center",gap:4}}>
+    <div onClick={onClick} style={{padding:"6px 9px",borderBottom:"1px solid #eee",cursor:onClick?"pointer":"default",background:sel?"#1e293b":exact?"#f0f7ff":"#fff",color:sel?"#fff":"#333",display:"flex",justifyContent:"space-between",alignItems:"center",gap:4}}>
       <div style={{flex:1}}>
-        <span style={{fontWeight:700,fontSize:10,color:sel?"#8af":bColor(c.b),marginRight:3}}>{c.b}</span>
+        <span style={{fontWeight:700,fontSize:10,color:sel?"#60a5fa":bColor(c.b),marginRight:3}}>{c.b}</span>
         <span style={{fontSize:11,fontWeight:600}}>{c.n}</span>
-        {exact&&<span style={{marginLeft:4,background:"#4caf50",color:"#fff",fontSize:8,padding:"1px 4px",borderRadius:3,fontWeight:800}}>EXACT</span>}
-        {sel&&<span style={{marginLeft:4,background:"#8af",color:"#1a1a2e",fontSize:8,padding:"1px 4px",borderRadius:3,fontWeight:800}}>SELECTED</span>}
+        {exact&&<span style={{marginLeft:4,background:"#10b981",color:"#fff",fontSize:8,padding:"1px 4px",borderRadius:3,fontWeight:800}}>EXACT</span>}
+        {sel&&<span style={{marginLeft:4,background:"#60a5fa",color:"#1e293b",fontSize:8,padding:"1px 4px",borderRadius:3,fontWeight:800}}>SELECTED</span>}
         <div style={{fontSize:9,color:sel?"#aab":"#666",marginTop:1}}>{c.m} • {c.ton}T • {c.w}" (Cab {wToCab(c.w)})</div>
       </div>
       <div style={{display:"flex",alignItems:"center",gap:3,flexShrink:0}}>
         <span style={{fontWeight:800,fontSize:11}}>{fmt(c.p)}</span>
-        <button onClick={e=>{e.stopPropagation();if(!added)addToCart("Evap Coil",c,`${c.ton}T ${c.w}"`)}} style={{padding:"2px 7px",borderRadius:4,border:"none",cursor:added?"default":"pointer",fontSize:9,fontWeight:700,background:added?"#4caf50":sel?"#8af":"#1a1a2e",color:sel?"#1a1a2e":"#fff",opacity:added?.75:1}}>{added?"✓":"+ Add"}</button>
+        <button onClick={e=>{e.stopPropagation();if(!added)addToCart("Evap Coil",c,`${c.ton}T ${c.w}"`)}} style={{padding:"2px 7px",borderRadius:4,border:"none",cursor:added?"default":"pointer",fontSize:9,fontWeight:700,background:added?"#10b981":sel?"#60a5fa":"#1e293b",color:sel?"#1e293b":"#fff",opacity:added?.75:1}}>{added?"✓":"+ Add"}</button>
         <button onClick={e=>{e.stopPropagation();onStartEdit(c,cat)}} title="Edit" style={{padding:"2px 6px",borderRadius:4,border:"1px solid #bbb",cursor:"pointer",fontSize:10,background:sel?"rgba(255,255,255,.15)":"#f5f5f5",color:sel?"#fff":"#555"}}>✏️</button>
         <button onClick={e=>{e.stopPropagation();onRemove(c.m,cat)}} title="Remove" style={{padding:"2px 6px",borderRadius:4,border:"1px solid #fcc",cursor:"pointer",fontSize:10,background:"#fff0f0",color:"#c00"}}>🗑</button>
       </div>
@@ -380,7 +380,7 @@ function WhRestorePanel({removedItems,onRestore}){
               </div>
               <div style={{display:"flex",alignItems:"center",gap:6}}>
                 <span style={{fontWeight:700,fontSize:11}}>{fmt(item.p)}</span>
-                <button onClick={()=>onRestore(item.m)} style={{background:"#4caf50",color:"#fff",border:"none",padding:"3px 10px",borderRadius:4,cursor:"pointer",fontSize:10,fontWeight:700}}>↩ Restore</button>
+                <button onClick={()=>onRestore(item.m)} style={{background:"#10b981",color:"#fff",border:"none",padding:"3px 10px",borderRadius:4,cursor:"pointer",fontSize:10,fontWeight:700}}>↩ Restore</button>
               </div>
             </div>
           ))}
@@ -428,21 +428,21 @@ function AppWrapper() {
 
   if (!cfg) return <SetupScreen onComplete={handleSetup} />;
   if (loading) return (
-    <div style={{minHeight:'100vh',display:'flex',alignItems:'center',justifyContent:'center',background:'#f4f5f7'}}>
+    <div style={{minHeight:'100vh',display:'flex',alignItems:'center',justifyContent:'center',background:'#f8fafc'}}>
       <div style={{textAlign:'center'}}>
         <div style={{fontSize:32,marginBottom:12}}>❄️</div>
-        <div style={{fontSize:16,fontWeight:700,color:'#1a1a2e'}}>Loading database from GitHub...</div>
+        <div style={{fontSize:16,fontWeight:700,color:'#1e293b'}}>Loading database from GitHub...</div>
         <div style={{fontSize:12,color:'#888',marginTop:4}}>{cfg.owner}/{cfg.repo}</div>
       </div>
     </div>
   );
   if (loadError) return (
-    <div style={{minHeight:'100vh',display:'flex',alignItems:'center',justifyContent:'center',background:'#f4f5f7'}}>
+    <div style={{minHeight:'100vh',display:'flex',alignItems:'center',justifyContent:'center',background:'#f8fafc'}}>
       <div style={{textAlign:'center',maxWidth:500}}>
         <div style={{fontSize:32,marginBottom:12}}>⚠️</div>
         <div style={{fontSize:16,fontWeight:700,color:'#c00',marginBottom:8}}>Failed to load database</div>
         <div style={{fontSize:12,color:'#888',marginBottom:16}}>{loadError}</div>
-        <button onClick={()=>{setCfg(null);setLoadError('')}} style={{padding:'10px 24px',borderRadius:8,border:'none',cursor:'pointer',fontSize:13,fontWeight:700,background:'#1a1a2e',color:'#fff'}}>Reconfigure</button>
+        <button onClick={()=>{setCfg(null);setLoadError('')}} style={{padding:'10px 24px',borderRadius:8,border:'none',cursor:'pointer',fontSize:13,fontWeight:700,background:'#1e293b',color:'#fff'}}>Reconfigure</button>
       </div>
     </div>
   );
@@ -737,7 +737,7 @@ h1{text-align:center;font-size:22px;margin:10px 0 20px}.client-grid{display:grid
 .totals tr td{padding:4px 8px;font-size:12px;border:1px solid #ddd}.totals tr:last-child td{font-weight:bold;font-size:14px}
 .btn-row{text-align:center;margin-top:24px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
 .btn{padding:12px 32px;border:none;border-radius:6px;font-size:14px;font-weight:bold;cursor:pointer}
-.btn-green{background:#4caf50;color:#fff}.btn-gray{background:#888;color:#fff}
+.btn-green{background:#10b981;color:#fff}.btn-gray{background:#888;color:#fff}
 .footer{text-align:center;font-size:9px;color:#999;margin-top:20px;padding-top:10px;border-top:1px solid #eee}
 @media print{.btn-row,.no-print{display:none!important}}</style></head>
 <body><div class="page">
@@ -809,7 +809,7 @@ ${notesHtml}
 
   // ===== MS INLINE EDIT FORM (plain function call to avoid focus loss) =====
   const MsEqEditForm=({type,item})=><div style={{padding:"8px 9px",borderBottom:"1px solid #eee",background:"#fffde7",border:"2px solid #f59e0b"}}>
-    <div style={{fontSize:9,fontWeight:800,color:"#888",marginBottom:6,textTransform:"uppercase"}}>✏️ Editing: <span style={{color:"#1a1a2e"}}>{item.n}</span></div>
+    <div style={{fontSize:9,fontWeight:800,color:"#888",marginBottom:6,textTransform:"uppercase"}}>✏️ Editing: <span style={{color:"#1e293b"}}>{item.n}</span></div>
     <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:4}}>
       <div><label style={{fontSize:8,fontWeight:700,color:"#555"}}>Name</label><input value={msEqEditForm.n} onChange={e=>setMsEqEditForm(p=>({...p,n:e.target.value}))} style={{width:"100%",padding:"3px 6px",borderRadius:3,border:"1px solid #f59e0b",fontSize:10,boxSizing:"border-box"}}/></div>
       <div><label style={{fontSize:8,fontWeight:700,color:"#555"}}>Part / Model #</label><input value={msEqEditForm.m} onChange={e=>setMsEqEditForm(p=>({...p,m:e.target.value}))} style={{width:"100%",padding:"3px 6px",borderRadius:3,border:"1px solid #f59e0b",fontSize:10,boxSizing:"border-box"}}/></div>
@@ -818,14 +818,14 @@ ${notesHtml}
       <div style={{gridColumn:"1/3"}}><label style={{fontSize:8,fontWeight:700,color:"#555"}}>Description</label><input value={msEqEditForm.d} onChange={e=>setMsEqEditForm(p=>({...p,d:e.target.value}))} style={{width:"100%",padding:"3px 6px",borderRadius:3,border:"1px solid #f59e0b",fontSize:10,boxSizing:"border-box"}}/></div>
     </div>
     <div style={{display:"flex",gap:4,marginTop:4}}>
-      <button onClick={()=>msSaveEqEdit(type,item)} style={{padding:"3px 10px",borderRadius:3,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:"#4caf50",color:"#fff"}}>✓ Save</button>
+      <button onClick={()=>msSaveEqEdit(type,item)} style={{padding:"3px 10px",borderRadius:3,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:"#10b981",color:"#fff"}}>✓ Save</button>
       <button onClick={msCancelEqEdit} style={{padding:"3px 8px",borderRadius:3,border:"1px solid #999",cursor:"pointer",fontSize:9,fontWeight:700,background:"#fff",color:"#555"}}>✕ Cancel</button>
       <button onClick={()=>msRemoveEqItem(type,item)} style={{padding:"3px 8px",borderRadius:3,border:"1px solid #c00",cursor:"pointer",fontSize:9,fontWeight:700,background:"#fff",color:"#c00",marginLeft:"auto"}}>🗑 Remove from DB</button>
     </div>
   </div>;
 
   const MsAddEqForm=({type})=><div style={{background:"#e8f5e9",borderRadius:6,padding:8,marginBottom:6,border:"1px solid #c8e6c9"}}>
-    <div style={{fontSize:10,fontWeight:700,color:"#2E7D32",marginBottom:4}}>Add {type==="outdoor"?"Outdoor":"Indoor"} Unit to Database</div>
+    <div style={{fontSize:10,fontWeight:700,color:"#059669",marginBottom:4}}>Add {type==="outdoor"?"Outdoor":"Indoor"} Unit to Database</div>
     <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:4}}>
       <input value={msNewEq.n} onChange={e=>setMsNewEq(p=>({...p,n:e.target.value}))} placeholder="Name *" style={{padding:"4px 6px",borderRadius:3,border:"1px solid #ccc",fontSize:10}}/>
       <input value={msNewEq.m} onChange={e=>setMsNewEq(p=>({...p,m:e.target.value}))} placeholder="Part / Model #" style={{padding:"4px 6px",borderRadius:3,border:"1px solid #ccc",fontSize:10}}/>
@@ -833,7 +833,7 @@ ${notesHtml}
       <input value={msNewEq.p} onChange={e=>setMsNewEq(p=>({...p,p:e.target.value}))} placeholder="Price" type="number" style={{padding:"4px 6px",borderRadius:3,border:"1px solid #ccc",fontSize:10}}/>
       <input value={msNewEq.d} onChange={e=>setMsNewEq(p=>({...p,d:e.target.value}))} placeholder="Description" style={{padding:"4px 6px",borderRadius:3,border:"1px solid #ccc",fontSize:10,gridColumn:"1/3"}}/>
     </div>
-    <div style={{display:"flex",gap:4,marginTop:4}}><button onClick={()=>msAddEquip(type)} style={{padding:"3px 12px",borderRadius:3,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:"#2E7D32",color:"#fff"}}>Save</button><button onClick={()=>setMsShowAddEq(null)} style={{padding:"3px 12px",borderRadius:3,border:"1px solid #999",cursor:"pointer",fontSize:9,fontWeight:700,background:"#fff",color:"#555"}}>Cancel</button></div>
+    <div style={{display:"flex",gap:4,marginTop:4}}><button onClick={()=>msAddEquip(type)} style={{padding:"3px 12px",borderRadius:3,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:"#059669",color:"#fff"}}>Save</button><button onClick={()=>setMsShowAddEq(null)} style={{padding:"3px 12px",borderRadius:3,border:"1px solid #999",cursor:"pointer",fontSize:9,fontWeight:700,background:"#fff",color:"#555"}}>Cancel</button></div>
   </div>;
 
   // ╔══════════════════════════════════════════════════════════════╗
@@ -845,7 +845,7 @@ ${notesHtml}
       <div style={{maxWidth:1440,margin:"0 auto"}}>
 
         {/* ====== HEADER ====== */}
-        <div className="mob-header" style={{background:"linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%)",borderRadius:12,padding:"16px 22px",marginBottom:12,color:"#fff"}}>
+        <div className="mob-header" style={{background:"linear-gradient(135deg,#1e293b 0%,#16213e 50%,#2563eb 100%)",borderRadius:12,padding:"16px 22px",marginBottom:12,color:"#fff"}}>
           <div className="mob-header-row" style={{display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:8,marginBottom:12}}>
             <div>
               <h1 style={{margin:0,fontSize:20,fontWeight:800}}>Cold Breeze LLC — HVAC System Builder</h1>
@@ -871,7 +871,7 @@ ${notesHtml}
         </div>
 
         {/* TIP BAR */}
-        <div className="mob-tip" style={{background:"#e8f4fd",borderRadius:7,padding:"6px 12px",marginBottom:10,fontSize:10,color:"#1a1a2e",display:"flex",gap:10,alignItems:"center"}}>
+        <div className="mob-tip" style={{background:"#e8f4fd",borderRadius:7,padding:"6px 12px",marginBottom:10,fontSize:10,color:"#1e293b",display:"flex",gap:10,alignItems:"center"}}>
           <span>💡</span><span><strong>✏️ Edit</strong> any item inline. <strong>🗑 Remove</strong> hides from database. All changes <strong>auto-save to GitHub</strong> instantly.</span>
         </div>
 
@@ -890,31 +890,31 @@ ${notesHtml}
             {msRemovedOut.length>0&&<div style={{marginBottom:8}}>
               <div style={{fontSize:10,fontWeight:800,color:"#92400e",marginBottom:4,textTransform:"uppercase"}}>Outdoor Units</div>
               {msRemovedOut.map((item,i)=><div key={i} style={{display:"flex",justifyContent:"space-between",alignItems:"center",padding:"5px 8px",background:"#fffbeb",borderRadius:5,marginBottom:3,border:"1px solid #fde68a"}}>
-                <div><span style={{fontWeight:700,fontSize:10,color:"#0f3460",marginRight:4}}>{item.b}</span><span style={{fontSize:11}}>{item.n}</span></div>
-                <div style={{display:"flex",alignItems:"center",gap:6}}><span style={{fontWeight:700,fontSize:11}}>{fmt(item.p)}</span><button onClick={()=>msRestoreOut(msEqKey(item))} style={{background:"#4caf50",color:"#fff",border:"none",padding:"3px 10px",borderRadius:4,cursor:"pointer",fontSize:10,fontWeight:700}}>↩ Restore</button></div>
+                <div><span style={{fontWeight:700,fontSize:10,color:"#2563eb",marginRight:4}}>{item.b}</span><span style={{fontSize:11}}>{item.n}</span></div>
+                <div style={{display:"flex",alignItems:"center",gap:6}}><span style={{fontWeight:700,fontSize:11}}>{fmt(item.p)}</span><button onClick={()=>msRestoreOut(msEqKey(item))} style={{background:"#10b981",color:"#fff",border:"none",padding:"3px 10px",borderRadius:4,cursor:"pointer",fontSize:10,fontWeight:700}}>↩ Restore</button></div>
               </div>)}
             </div>}
             {msRemovedIn.length>0&&<div style={{marginBottom:8}}>
               <div style={{fontSize:10,fontWeight:800,color:"#92400e",marginBottom:4,textTransform:"uppercase"}}>Indoor Units</div>
               {msRemovedIn.map((item,i)=><div key={i} style={{display:"flex",justifyContent:"space-between",alignItems:"center",padding:"5px 8px",background:"#fffbeb",borderRadius:5,marginBottom:3,border:"1px solid #fde68a"}}>
                 <div><span style={{fontWeight:700,fontSize:10,color:"#c00",marginRight:4}}>{item.b}</span><span style={{fontSize:11}}>{item.n}</span></div>
-                <div style={{display:"flex",alignItems:"center",gap:6}}><span style={{fontWeight:700,fontSize:11}}>{fmt(item.p)}</span><button onClick={()=>msRestoreIn(msEqKey(item))} style={{background:"#4caf50",color:"#fff",border:"none",padding:"3px 10px",borderRadius:4,cursor:"pointer",fontSize:10,fontWeight:700}}>↩ Restore</button></div>
+                <div style={{display:"flex",alignItems:"center",gap:6}}><span style={{fontWeight:700,fontSize:11}}>{fmt(item.p)}</span><button onClick={()=>msRestoreIn(msEqKey(item))} style={{background:"#10b981",color:"#fff",border:"none",padding:"3px 10px",borderRadius:4,cursor:"pointer",fontSize:10,fontWeight:700}}>↩ Restore</button></div>
               </div>)}
             </div>}
             {msRemovedMat.length>0&&<div>
               <div style={{fontSize:10,fontWeight:800,color:"#92400e",marginBottom:4,textTransform:"uppercase"}}>Materials</div>
               {msRemovedMat.map((item,i)=><div key={i} style={{display:"flex",justifyContent:"space-between",alignItems:"center",padding:"5px 8px",background:"#fffbeb",borderRadius:5,marginBottom:3,border:"1px solid #fde68a"}}>
                 <div><span style={{fontSize:8,fontWeight:700,color:"#fff",background:catColor(item.cat),padding:"1px 5px",borderRadius:3,marginRight:4}}>{item.cat}</span><span style={{fontSize:11}}>{item.n}</span></div>
-                <div style={{display:"flex",alignItems:"center",gap:6}}><span style={{fontWeight:700,fontSize:11}}>{fmt(item.p)}</span><button onClick={()=>msRestoreMat(i)} style={{background:"#4caf50",color:"#fff",border:"none",padding:"3px 10px",borderRadius:4,cursor:"pointer",fontSize:10,fontWeight:700}}>↩ Restore</button></div>
+                <div style={{display:"flex",alignItems:"center",gap:6}}><span style={{fontWeight:700,fontSize:11}}>{fmt(item.p)}</span><button onClick={()=>msRestoreMat(i)} style={{background:"#10b981",color:"#fff",border:"none",padding:"3px 10px",borderRadius:4,cursor:"pointer",fontSize:10,fontWeight:700}}>↩ Restore</button></div>
               </div>)}
             </div>}
           </div>}
 
           {/* MS System Type */}
           <div className="mob-type-bar" style={{background:"#fff",borderRadius:10,padding:"10px 14px",marginBottom:12,boxShadow:"0 1px 3px rgba(0,0,0,.08)",display:"flex",gap:8,alignItems:"center",flexWrap:"wrap"}}>
-            <span style={{fontWeight:800,fontSize:13,color:"#1a1a2e"}}>MINI SPLIT TYPE:</span>
-            <button onClick={()=>{setMsSysType("Single");setMsSelOut(null);setMsSelIn(null);setMsOutSearch("");setMsInSearch("");setMsFjmIndoor([]);setMsEditKey(null)}} style={{padding:"6px 16px",borderRadius:6,border:"none",cursor:"pointer",fontSize:12,fontWeight:700,background:msSysType==="Single"?"#1a1a2e":"#e8e8ee",color:msSysType==="Single"?"#fff":"#555"}}>Single Zone (RAC)</button>
-            <button onClick={()=>{setMsSysType("FJM");setMsSelOut(null);setMsSelIn(null);setMsOutSearch("");setMsInSearch("");setMsFjmIndoor([]);setMsEditKey(null)}} style={{padding:"6px 16px",borderRadius:6,border:"none",cursor:"pointer",fontSize:12,fontWeight:700,background:msSysType==="FJM"?"#1a1a2e":"#e8e8ee",color:msSysType==="FJM"?"#fff":"#555"}}>Multi-Zone (FJM)</button>
+            <span style={{fontWeight:800,fontSize:13,color:"#1e293b"}}>MINI SPLIT TYPE:</span>
+            <button onClick={()=>{setMsSysType("Single");setMsSelOut(null);setMsSelIn(null);setMsOutSearch("");setMsInSearch("");setMsFjmIndoor([]);setMsEditKey(null)}} style={{padding:"6px 16px",borderRadius:6,border:"none",cursor:"pointer",fontSize:12,fontWeight:700,background:msSysType==="Single"?"#1e293b":"#e2e8f0",color:msSysType==="Single"?"#fff":"#555"}}>Single Zone (RAC)</button>
+            <button onClick={()=>{setMsSysType("FJM");setMsSelOut(null);setMsSelIn(null);setMsOutSearch("");setMsInSearch("");setMsFjmIndoor([]);setMsEditKey(null)}} style={{padding:"6px 16px",borderRadius:6,border:"none",cursor:"pointer",fontSize:12,fontWeight:700,background:msSysType==="FJM"?"#1e293b":"#e2e8f0",color:msSysType==="FJM"?"#fff":"#555"}}>Multi-Zone (FJM)</button>
             <span style={{marginLeft:8,fontSize:11,color:"#888"}}>{msSysType==="Single"?"1 outdoor + 1 indoor":"1 outdoor + multiple indoor heads"}</span>
           </div>
 
@@ -922,7 +922,7 @@ ${notesHtml}
           <div style={{background:"#fff",borderRadius:10,padding:16,marginBottom:12,boxShadow:"0 1px 3px rgba(0,0,0,.08)"}}>
             <div className="mob-stack mob-touch" style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:16}}>
               <div>
-                <h3 style={{margin:"0 0 10px",fontSize:14,fontWeight:800,color:"#1a1a2e"}}>Customer Information</h3>
+                <h3 style={{margin:"0 0 10px",fontSize:14,fontWeight:800,color:"#1e293b"}}>Customer Information</h3>
                 <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:8}}>
                   <div style={{gridColumn:"1/3"}}><label style={{fontSize:10,fontWeight:700,color:"#888"}}>System Title</label><input value={estTitle} onChange={e=>setEstTitle(e.target.value)} style={{width:"100%",padding:"6px 10px",borderRadius:5,border:"1px solid #ddd",fontSize:12,boxSizing:"border-box"}}/></div>
                   <div style={{gridColumn:"1/3"}}><label style={{fontSize:10,fontWeight:700,color:"#888"}}>Client Name</label><input value={estClient.name} onChange={e=>setEstClient(p=>({...p,name:e.target.value}))} placeholder="Client full name" style={{width:"100%",padding:"6px 10px",borderRadius:5,border:"1px solid #ddd",fontSize:12,boxSizing:"border-box"}}/></div>
@@ -933,11 +933,11 @@ ${notesHtml}
                 </div>
               </div>
               <div>
-                <h3 style={{margin:"0 0 10px",fontSize:14,fontWeight:800,color:"#1a1a2e"}}>Notes & Scope of Work</h3>
+                <h3 style={{margin:"0 0 10px",fontSize:14,fontWeight:800,color:"#1e293b"}}>Notes & Scope of Work</h3>
                 <textarea value={estNotes} onChange={e=>setEstNotes(e.target.value)} rows={4} placeholder="Scope of work..." style={{width:"100%",padding:"10px",borderRadius:5,border:"1px solid #ddd",fontSize:11,fontFamily:"inherit",resize:"vertical",boxSizing:"border-box",marginBottom:10}}/>
-                <h3 style={{margin:"0 0 8px",fontSize:14,fontWeight:800,color:"#1a1a2e"}}>Description of Service</h3>
+                <h3 style={{margin:"0 0 8px",fontSize:14,fontWeight:800,color:"#1e293b"}}>Description of Service</h3>
                 <textarea value={estDesc} onChange={e=>setEstDesc(e.target.value)} rows={3} placeholder="Line items for estimate..." style={{width:"100%",padding:"10px",borderRadius:5,border:"1px solid #ddd",fontSize:11,fontFamily:"inherit",resize:"vertical",boxSizing:"border-box"}}/>
-                <h3 style={{margin:"10px 0 8px",fontSize:14,fontWeight:800,color:"#1a1a2e"}}>Terms & Conditions</h3>
+                <h3 style={{margin:"10px 0 8px",fontSize:14,fontWeight:800,color:"#1e293b"}}>Terms & Conditions</h3>
                 <textarea value={estTerms} onChange={e=>setEstTerms(e.target.value)} rows={4} style={{width:"100%",padding:"10px",borderRadius:5,border:"1px solid #ddd",fontSize:10,fontFamily:"inherit",resize:"vertical",boxSizing:"border-box",color:"#555"}}/>
                 <div style={{display:"flex",gap:8,marginTop:8}}>
                   <div style={{flex:1}}><label style={{fontSize:10,fontWeight:700,color:"#888"}}>Total Amount (override)</label><input value={estTotal} onChange={e=>setEstTotal(e.target.value)} placeholder={fmt(grandTotal)+" (auto)"} type="number" step="0.01" style={{width:"100%",padding:"6px 10px",borderRadius:5,border:"1px solid #ddd",fontSize:12,boxSizing:"border-box"}}/></div>
@@ -951,7 +951,7 @@ ${notesHtml}
           <div className="mob-stack" style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:12,marginBottom:12}}>
             {/* FJM Indoor */}
             <div>
-              <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#c00",display:"flex",justifyContent:"space-between",alignItems:"center"}}>1. Select FJM Indoor Units<button onClick={()=>setMsShowAddEq(msShowAddEq==="indoor"?null:"indoor")} style={{padding:"2px 8px",borderRadius:4,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:msShowAddEq==="indoor"?"#c00":"#4caf50",color:"#fff"}}>{msShowAddEq==="indoor"?"Cancel":"+ Add"}</button></h3>
+              <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#c00",display:"flex",justifyContent:"space-between",alignItems:"center"}}>1. Select FJM Indoor Units<button onClick={()=>setMsShowAddEq(msShowAddEq==="indoor"?null:"indoor")} style={{padding:"2px 8px",borderRadius:4,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:msShowAddEq==="indoor"?"#c00":"#10b981",color:"#fff"}}>{msShowAddEq==="indoor"?"Cancel":"+ Add"}</button></h3>
               {msShowAddEq==="indoor"&&<MsAddEqForm type="indoor"/>}
               {fjmZones>0&&<div style={{background:"#e3f2fd",borderRadius:6,padding:8,marginBottom:6,fontSize:11}}>
                 <strong>{fjmZones} indoor unit{fjmZones>1?"s":""}</strong> — Total: <strong>{fjmBtu}k BTU</strong>
@@ -963,7 +963,7 @@ ${notesHtml}
                   </span>)}
                 </div>
                 <button onClick={()=>setMsFjmIndoor([])} style={{marginTop:6,padding:"2px 8px",borderRadius:3,border:"1px solid #c00",cursor:"pointer",fontSize:8,fontWeight:700,background:"#fff",color:"#c00"}}>Clear All</button>
-                <button onClick={()=>{msFjmIndoor.forEach(u=>addToCartMS("Indoor",u))}} style={{marginTop:6,marginLeft:6,padding:"2px 8px",borderRadius:3,border:"none",cursor:"pointer",fontSize:8,fontWeight:700,background:"#4caf50",color:"#fff"}}>Add All to Quote</button>
+                <button onClick={()=>{msFjmIndoor.forEach(u=>addToCartMS("Indoor",u))}} style={{marginTop:6,marginLeft:6,padding:"2px 8px",borderRadius:3,border:"none",cursor:"pointer",fontSize:8,fontWeight:700,background:"#10b981",color:"#fff"}}>Add All to Quote</button>
               </div>}
               <SearchBox val={msInSearch} set={setMsInSearch} ph="Search indoor units..."/>
               <div style={{background:"#fff",borderRadius:8,boxShadow:"0 1px 2px rgba(0,0,0,.08)",maxHeight:440,overflowY:"auto"}}>
@@ -978,12 +978,12 @@ ${notesHtml}
                         <span style={{fontWeight:700,fontSize:10,color:"#c00",marginRight:3}}>{item.b}</span>
                         <span style={{fontSize:11}}>{item.n}</span>
                         {item.btu>0&&<Tag label={item.btu+"k BTU"} color="#607D8B"/>}
-                        {cnt>0&&<span style={{marginLeft:4,background:"#4caf50",color:"#fff",fontSize:8,padding:"1px 4px",borderRadius:3,fontWeight:800}}>{"×"+cnt}</span>}
+                        {cnt>0&&<span style={{marginLeft:4,background:"#10b981",color:"#fff",fontSize:8,padding:"1px 4px",borderRadius:3,fontWeight:800}}>{"×"+cnt}</span>}
                         {item.m&&<div style={{fontSize:8,color:"#999",marginTop:1}}>{item.m}</div>}
                       </div>
                       <div style={{display:"flex",alignItems:"center",gap:3,flexShrink:0}}>
                         <span style={{fontWeight:800,fontSize:11}}>{fmt(item.p)}</span>
-                        <button onClick={()=>addFjmIndoor(item)} style={{padding:"2px 7px",borderRadius:4,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:"#1a1a2e",color:"#fff"}}>+ Zone</button>
+                        <button onClick={()=>addFjmIndoor(item)} style={{padding:"2px 7px",borderRadius:4,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:"#1e293b",color:"#fff"}}>+ Zone</button>
                         <button onClick={()=>msStartEqEdit("indoor",item)} style={{padding:"2px 5px",borderRadius:4,border:"1px solid #bbb",cursor:"pointer",fontSize:8,background:"#f5f5f5",color:"#555"}}>✏️</button>
                         <button onClick={()=>msRemoveEqItem("indoor",item)} style={{padding:"2px 5px",borderRadius:4,border:"1px solid #fcc",cursor:"pointer",fontSize:8,background:"#fff0f0",color:"#c00"}}>🗑</button>
                       </div>
@@ -993,9 +993,9 @@ ${notesHtml}
             </div>
             {/* FJM Outdoor */}
             <div>
-              <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#0f3460",display:"flex",justifyContent:"space-between",alignItems:"center"}}>2. Select Outdoor Unit<button onClick={()=>setMsShowAddEq(msShowAddEq==="outdoor"?null:"outdoor")} style={{padding:"2px 8px",borderRadius:4,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:msShowAddEq==="outdoor"?"#c00":"#4caf50",color:"#fff"}}>{msShowAddEq==="outdoor"?"Cancel":"+ Add"}</button></h3>
+              <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#2563eb",display:"flex",justifyContent:"space-between",alignItems:"center"}}>2. Select Outdoor Unit<button onClick={()=>setMsShowAddEq(msShowAddEq==="outdoor"?null:"outdoor")} style={{padding:"2px 8px",borderRadius:4,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:msShowAddEq==="outdoor"?"#c00":"#10b981",color:"#fff"}}>{msShowAddEq==="outdoor"?"Cancel":"+ Add"}</button></h3>
               {msShowAddEq==="outdoor"&&<MsAddEqForm type="outdoor"/>}
-              {fjmZones>0&&<div style={{background:"#e8f5e9",borderRadius:6,padding:7,marginBottom:6,fontSize:10,color:"#1a1a2e"}}><strong>Showing outdoor units with ≥{fjmZones} ports and ≥{fjmBtu}k BTU</strong></div>}
+              {fjmZones>0&&<div style={{background:"#e8f5e9",borderRadius:6,padding:7,marginBottom:6,fontSize:10,color:"#1e293b"}}><strong>Showing outdoor units with ≥{fjmZones} ports and ≥{fjmBtu}k BTU</strong></div>}
               <SearchBox val={msOutSearch} set={setMsOutSearch} ph="Search outdoor units..."/>
               <div style={{background:"#fff",borderRadius:8,boxShadow:"0 1px 2px rgba(0,0,0,.08)",maxHeight:440,overflowY:"auto"}}>
                 {msOutList.length===0?<div style={{padding:16,textAlign:"center",color:"#aaa",fontSize:11}}>No outdoor units match.</div>:
@@ -1006,7 +1006,7 @@ ${notesHtml}
                   return<div key={k} style={{padding:"6px 9px",borderBottom:"1px solid #eee"}}>
                     <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",gap:4}}>
                       <div style={{flex:1,minWidth:0}}>
-                        <span style={{fontWeight:700,fontSize:10,color:"#0f3460",marginRight:3}}>{item.b}</span>
+                        <span style={{fontWeight:700,fontSize:10,color:"#2563eb",marginRight:3}}>{item.b}</span>
                         <span style={{fontSize:11}}>{item.n}</span>
                         {item.btu>0&&<Tag label={item.btu+"k BTU"} color="#607D8B"/>}
                         {item.ports&&<Tag label={item.ports+" ports"} color="#795548"/>}
@@ -1014,7 +1014,7 @@ ${notesHtml}
                       </div>
                       <div style={{display:"flex",alignItems:"center",gap:3,flexShrink:0}}>
                         <span style={{fontWeight:800,fontSize:11}}>{fmt(item.p)}</span>
-                        <button onClick={()=>{if(!added)addToCartMS("Outdoor",item)}} style={{padding:"2px 7px",borderRadius:4,border:"none",cursor:added?"default":"pointer",fontSize:9,fontWeight:700,background:added?"#4caf50":"#1a1a2e",color:"#fff",opacity:added?.75:1}}>{added?"✓":"+ Add"}</button>
+                        <button onClick={()=>{if(!added)addToCartMS("Outdoor",item)}} style={{padding:"2px 7px",borderRadius:4,border:"none",cursor:added?"default":"pointer",fontSize:9,fontWeight:700,background:added?"#10b981":"#1e293b",color:"#fff",opacity:added?.75:1}}>{added?"✓":"+ Add"}</button>
                         <button onClick={()=>msStartEqEdit("outdoor",item)} style={{padding:"2px 5px",borderRadius:4,border:"1px solid #bbb",cursor:"pointer",fontSize:8,background:"#f5f5f5",color:"#555"}}>✏️</button>
                         <button onClick={()=>msRemoveEqItem("outdoor",item)} style={{padding:"2px 5px",borderRadius:4,border:"1px solid #fcc",cursor:"pointer",fontSize:8,background:"#fff0f0",color:"#c00"}}>🗑</button>
                       </div>
@@ -1027,7 +1027,7 @@ ${notesHtml}
           /* Single Zone */
           <div className="mob-stack" style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:12,marginBottom:12}}>
             <div>
-              <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#c00",display:"flex",justifyContent:"space-between",alignItems:"center"}}>1. Indoor Unit<button onClick={()=>setMsShowAddEq(msShowAddEq==="indoor"?null:"indoor")} style={{padding:"2px 8px",borderRadius:4,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:msShowAddEq==="indoor"?"#c00":"#4caf50",color:"#fff"}}>{msShowAddEq==="indoor"?"Cancel":"+ Add"}</button></h3>
+              <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#c00",display:"flex",justifyContent:"space-between",alignItems:"center"}}>1. Indoor Unit<button onClick={()=>setMsShowAddEq(msShowAddEq==="indoor"?null:"indoor")} style={{padding:"2px 8px",borderRadius:4,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:msShowAddEq==="indoor"?"#c00":"#10b981",color:"#fff"}}>{msShowAddEq==="indoor"?"Cancel":"+ Add"}</button></h3>
               {msShowAddEq==="indoor"&&<MsAddEqForm type="indoor"/>}
               <SearchBox val={msInSearch} set={setMsInSearch}/>
               <div style={{background:"#fff",borderRadius:8,boxShadow:"0 1px 2px rgba(0,0,0,.08)",maxHeight:440,overflowY:"auto"}}>
@@ -1036,17 +1036,17 @@ ${notesHtml}
                   if(msEditKey===k)return <MsEqEditForm key={k} type="indoor" item={item}/>;
                   const sel=msSelIn&&msEqKey(msSelIn)===msEqKey(item);
                   const added=cart.some(c=>(c.item.m+"|"+c.item.n+"|"+c.item.p)===(item.m+"|"+item.n+"|"+item.p));
-                  return<div key={k} onClick={()=>setMsSelIn(item)} style={{padding:"6px 9px",borderBottom:"1px solid #eee",cursor:"pointer",background:sel?"#1a1a2e":"#fff",color:sel?"#fff":"#333"}}>
+                  return<div key={k} onClick={()=>setMsSelIn(item)} style={{padding:"6px 9px",borderBottom:"1px solid #eee",cursor:"pointer",background:sel?"#1e293b":"#fff",color:sel?"#fff":"#333"}}>
                     <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",gap:4}}>
                       <div style={{flex:1,minWidth:0}}>
-                        <span style={{fontWeight:700,fontSize:10,color:sel?"#8af":"#c00",marginRight:3}}>{item.b}</span>
+                        <span style={{fontWeight:700,fontSize:10,color:sel?"#60a5fa":"#c00",marginRight:3}}>{item.b}</span>
                         <span style={{fontSize:11}}>{item.n}</span>
                         {item.btu>0&&<Tag label={item.btu+"k BTU"} color="#607D8B"/>}
                         {item.m&&<div style={{fontSize:8,color:sel?"#aab":"#999",marginTop:1}}>{item.m}</div>}
                       </div>
                       <div style={{display:"flex",alignItems:"center",gap:3,flexShrink:0}}>
                         <span style={{fontWeight:800,fontSize:11}}>{fmt(item.p)}</span>
-                        <button onClick={e=>{e.stopPropagation();if(!added)addToCartMS("Indoor",item)}} style={{padding:"2px 7px",borderRadius:4,border:"none",cursor:added?"default":"pointer",fontSize:9,fontWeight:700,background:added?"#4caf50":"#1a1a2e",color:"#fff",opacity:added?.75:1}}>{added?"✓":"+ Add"}</button>
+                        <button onClick={e=>{e.stopPropagation();if(!added)addToCartMS("Indoor",item)}} style={{padding:"2px 7px",borderRadius:4,border:"none",cursor:added?"default":"pointer",fontSize:9,fontWeight:700,background:added?"#10b981":"#1e293b",color:"#fff",opacity:added?.75:1}}>{added?"✓":"+ Add"}</button>
                         <button onClick={e=>{e.stopPropagation();msStartEqEdit("indoor",item)}} style={{padding:"2px 5px",borderRadius:4,border:"1px solid #bbb",cursor:"pointer",fontSize:8,background:sel?"rgba(255,255,255,.15)":"#f5f5f5",color:sel?"#fff":"#555"}}>✏️</button>
                         <button onClick={e=>{e.stopPropagation();msRemoveEqItem("indoor",item)}} style={{padding:"2px 5px",borderRadius:4,border:"1px solid #fcc",cursor:"pointer",fontSize:8,background:"#fff0f0",color:"#c00"}}>🗑</button>
                       </div>
@@ -1055,7 +1055,7 @@ ${notesHtml}
               </div>
             </div>
             <div>
-              <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#0f3460",display:"flex",justifyContent:"space-between",alignItems:"center"}}>2. Outdoor Unit<button onClick={()=>setMsShowAddEq(msShowAddEq==="outdoor"?null:"outdoor")} style={{padding:"2px 8px",borderRadius:4,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:msShowAddEq==="outdoor"?"#c00":"#4caf50",color:"#fff"}}>{msShowAddEq==="outdoor"?"Cancel":"+ Add"}</button></h3>
+              <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#2563eb",display:"flex",justifyContent:"space-between",alignItems:"center"}}>2. Outdoor Unit<button onClick={()=>setMsShowAddEq(msShowAddEq==="outdoor"?null:"outdoor")} style={{padding:"2px 8px",borderRadius:4,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:msShowAddEq==="outdoor"?"#c00":"#10b981",color:"#fff"}}>{msShowAddEq==="outdoor"?"Cancel":"+ Add"}</button></h3>
               {msShowAddEq==="outdoor"&&<MsAddEqForm type="outdoor"/>}
               {msSelIn&&<div style={{background:"#e8f5e9",borderRadius:6,padding:7,marginBottom:6,fontSize:10}}>Selected indoor: <strong>{msSelIn.b} {msSelIn.n}</strong> ({msSelIn.btu}k BTU) — showing matched outdoor units</div>}
               <SearchBox val={msOutSearch} set={setMsOutSearch}/>
@@ -1067,15 +1067,15 @@ ${notesHtml}
                   return<div key={k} style={{padding:"6px 9px",borderBottom:"1px solid #eee",background:item._match==="exact"?"#e8f5e9":item._match==="close"?"#f0f7ff":"#fff"}}>
                     <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",gap:4}}>
                       <div style={{flex:1,minWidth:0}}>
-                        <span style={{fontWeight:700,fontSize:10,color:"#0f3460",marginRight:3}}>{item.b}</span>
+                        <span style={{fontWeight:700,fontSize:10,color:"#2563eb",marginRight:3}}>{item.b}</span>
                         <span style={{fontSize:11}}>{item.n}</span>
                         {item.btu>0&&<Tag label={item.btu+"k BTU"} color="#607D8B"/>}
-                        {item._match==="exact"&&<span style={{marginLeft:4,background:"#4caf50",color:"#fff",fontSize:8,padding:"1px 4px",borderRadius:3,fontWeight:800}}>EXACT MATCH</span>}
+                        {item._match==="exact"&&<span style={{marginLeft:4,background:"#10b981",color:"#fff",fontSize:8,padding:"1px 4px",borderRadius:3,fontWeight:800}}>EXACT MATCH</span>}
                         {item.m&&<div style={{fontSize:8,color:"#999",marginTop:1}}>{item.m}</div>}
                       </div>
                       <div style={{display:"flex",alignItems:"center",gap:3,flexShrink:0}}>
                         <span style={{fontWeight:800,fontSize:11}}>{fmt(item.p)}</span>
-                        <button onClick={()=>{if(!added)addToCartMS("Outdoor",item)}} style={{padding:"2px 7px",borderRadius:4,border:"none",cursor:added?"default":"pointer",fontSize:9,fontWeight:700,background:added?"#4caf50":"#1a1a2e",color:"#fff",opacity:added?.75:1}}>{added?"✓":"+ Add"}</button>
+                        <button onClick={()=>{if(!added)addToCartMS("Outdoor",item)}} style={{padding:"2px 7px",borderRadius:4,border:"none",cursor:added?"default":"pointer",fontSize:9,fontWeight:700,background:added?"#10b981":"#1e293b",color:"#fff",opacity:added?.75:1}}>{added?"✓":"+ Add"}</button>
                         <button onClick={()=>msStartEqEdit("outdoor",item)} style={{padding:"2px 5px",borderRadius:4,border:"1px solid #bbb",cursor:"pointer",fontSize:8,background:"#f5f5f5",color:"#555"}}>✏️</button>
                         <button onClick={()=>msRemoveEqItem("outdoor",item)} style={{padding:"2px 5px",borderRadius:4,border:"1px solid #fcc",cursor:"pointer",fontSize:8,background:"#fff0f0",color:"#c00"}}>🗑</button>
                       </div>
@@ -1089,8 +1089,8 @@ ${notesHtml}
           {/* MS Materials Catalog */}
           <div style={{background:"#fff",borderRadius:10,padding:16,marginBottom:12,boxShadow:"0 1px 3px rgba(0,0,0,.08)"}}>
             <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:8}}>
-              <h3 style={{margin:0,fontSize:14,fontWeight:800,color:"#1a1a2e"}}>Materials & Labor Catalog</h3>
-              <button onClick={()=>setMsShowAddDb(!msShowAddDb)} style={{padding:"4px 12px",borderRadius:5,border:"none",cursor:"pointer",fontSize:10,fontWeight:700,background:msShowAddDb?"#c00":"#4caf50",color:"#fff"}}>{msShowAddDb?"Cancel":"+ Add to Database"}</button>
+              <h3 style={{margin:0,fontSize:14,fontWeight:800,color:"#1e293b"}}>Materials & Labor Catalog</h3>
+              <button onClick={()=>setMsShowAddDb(!msShowAddDb)} style={{padding:"4px 12px",borderRadius:5,border:"none",cursor:"pointer",fontSize:10,fontWeight:700,background:msShowAddDb?"#c00":"#10b981",color:"#fff"}}>{msShowAddDb?"Cancel":"+ Add to Database"}</button>
             </div>
             {msShowAddDb&&<div style={{background:"#e8f5e9",borderRadius:8,padding:12,marginBottom:10,border:"1px solid #c8e6c9"}}>
               <div className="mob-add-form mob-touch" style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:8}}>
@@ -1098,7 +1098,7 @@ ${notesHtml}
                 <div><label style={{fontSize:9,fontWeight:700,color:"#555"}}>Model #</label><input value={msNewDbItem.m} onChange={e=>setMsNewDbItem(p=>({...p,m:e.target.value}))} style={{width:"100%",padding:"5px 8px",borderRadius:4,border:"1px solid #ccc",fontSize:11,boxSizing:"border-box"}}/></div>
                 <div><label style={{fontSize:9,fontWeight:700,color:"#555"}}>Brand</label><input value={msNewDbItem.b} onChange={e=>setMsNewDbItem(p=>({...p,b:e.target.value}))} style={{width:"100%",padding:"5px 8px",borderRadius:4,border:"1px solid #ccc",fontSize:11,boxSizing:"border-box"}}/></div>
                 <div><label style={{fontSize:9,fontWeight:700,color:"#555"}}>Category</label><select value={msNewDbItem.cat} onChange={e=>setMsNewDbItem(p=>({...p,cat:e.target.value}))} style={{width:"100%",padding:"5px 8px",borderRadius:4,border:"1px solid #ccc",fontSize:11,boxSizing:"border-box",background:"#fff"}}><option value="">Select...</option>{msMatCats.map(c=><option key={c} value={c}>{c}</option>)}<option value="General">General</option></select></div>
-                <div><label style={{fontSize:9,fontWeight:700,color:"#555"}}>Cost</label><div style={{display:"flex",gap:4}}><input value={msNewDbItem.p} onChange={e=>setMsNewDbItem(p=>({...p,p:e.target.value}))} placeholder="0.00" type="number" step="0.01" style={{flex:1,padding:"5px 8px",borderRadius:4,border:"1px solid #ccc",fontSize:11}}/><button onClick={msAddToDatabase} style={{padding:"5px 14px",borderRadius:5,border:"none",cursor:"pointer",fontSize:11,fontWeight:700,background:"#2E7D32",color:"#fff",whiteSpace:"nowrap"}}>Save</button></div></div>
+                <div><label style={{fontSize:9,fontWeight:700,color:"#555"}}>Cost</label><div style={{display:"flex",gap:4}}><input value={msNewDbItem.p} onChange={e=>setMsNewDbItem(p=>({...p,p:e.target.value}))} placeholder="0.00" type="number" step="0.01" style={{flex:1,padding:"5px 8px",borderRadius:4,border:"1px solid #ccc",fontSize:11}}/><button onClick={msAddToDatabase} style={{padding:"5px 14px",borderRadius:5,border:"none",cursor:"pointer",fontSize:11,fontWeight:700,background:"#059669",color:"#fff",whiteSpace:"nowrap"}}>Save</button></div></div>
               </div>
             </div>}
             <div className="mob-stack" style={{display:"grid",gridTemplateColumns:"1.2fr 0.8fr",gap:12}}>
@@ -1130,7 +1130,7 @@ ${notesHtml}
                       </div>
                       <div style={{display:"flex",alignItems:"center",gap:3,flexShrink:0}}>
                         <span style={{fontWeight:800,fontSize:11}}>{fmt(m.p)}</span>
-                        <button onClick={()=>addMatFromCatalog(m)} style={{padding:"2px 7px",borderRadius:4,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:"#1a1a2e",color:"#fff"}}>+ Add</button>
+                        <button onClick={()=>addMatFromCatalog(m)} style={{padding:"2px 7px",borderRadius:4,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:"#1e293b",color:"#fff"}}>+ Add</button>
                         <button onClick={()=>msStartCatEdit(i)} style={{padding:"2px 5px",borderRadius:4,border:"1px solid #1976D2",cursor:"pointer",fontSize:8,fontWeight:700,background:"#fff",color:"#1976D2"}}>Edit</button>
                         <button onClick={()=>msRemoveCatItem(i)} style={{padding:"2px 5px",borderRadius:4,border:"1px solid #c00",cursor:"pointer",fontSize:8,fontWeight:700,background:"#fff",color:"#c00"}}>Remove</button>
                       </div>
@@ -1140,13 +1140,13 @@ ${notesHtml}
                 <div style={{fontSize:10,color:"#888",marginTop:3}}>{msMatList.length} items</div>
               </div>
               <div>
-                <h4 style={{margin:"0 0 6px",fontSize:12,fontWeight:700,color:"#1a1a2e"}}>Quick Add Material</h4>
+                <h4 style={{margin:"0 0 6px",fontSize:12,fontWeight:700,color:"#1e293b"}}>Quick Add Material</h4>
                 <div className="mob-quickadd" style={{display:"flex",gap:6,alignItems:"center",marginBottom:12}}>
                   <input value={addlDesc} onChange={e=>setAddlDesc(e.target.value)} placeholder="Description" style={{flex:1,padding:"6px 8px",borderRadius:5,border:"1px solid #ccc",fontSize:11}}/>
                   <input value={addlPrice} onChange={e=>setAddlPrice(e.target.value)} placeholder="$ Cost" type="number" style={{width:80,padding:"6px 8px",borderRadius:5,border:"1px solid #ccc",fontSize:11}}/>
-                  <button onClick={addMaterial} style={{background:"#4caf50",color:"#fff",border:"none",padding:"6px 12px",borderRadius:5,cursor:"pointer",fontSize:11,fontWeight:700}}>+ Add</button>
+                  <button onClick={addMaterial} style={{background:"#10b981",color:"#fff",border:"none",padding:"6px 12px",borderRadius:5,cursor:"pointer",fontSize:11,fontWeight:700}}>+ Add</button>
                 </div>
-                <h4 style={{margin:"0 0 6px",fontSize:12,fontWeight:700,color:"#1a1a2e"}}>Materials Added ({addlMaterials.length})</h4>
+                <h4 style={{margin:"0 0 6px",fontSize:12,fontWeight:700,color:"#1e293b"}}>Materials Added ({addlMaterials.length})</h4>
                 {addlMaterials.length===0?<div style={{background:"#f9f9f9",borderRadius:8,padding:14,textAlign:"center",fontSize:11,color:"#aaa"}}>No additional materials yet.</div>:
                 <div style={{background:"#f9f9f9",borderRadius:8,border:"1px solid #eee",maxHeight:340,overflowY:"auto"}}>
                   {addlMaterials.map((m,i)=><div key={i} style={{padding:"6px 9px",borderBottom:"1px solid #eee"}}>
@@ -1162,11 +1162,11 @@ ${notesHtml}
                       <input value={m.qty||1} onChange={e=>updateMatQty(i,e.target.value)} type="number" min="1" style={{width:40,padding:"2px 4px",borderRadius:3,border:"1px solid #ccc",fontSize:10,textAlign:"center"}}/>
                       <span style={{fontSize:9,color:"#888"}}>× ${fmt(m.price).slice(1)}</span>
                       <span style={{fontSize:9,color:"#888"}}>=</span>
-                      <span style={{fontWeight:800,fontSize:12,color:"#1a1a2e"}}>{fmt(m.price*(m.qty||1))}</span>
+                      <span style={{fontWeight:800,fontSize:12,color:"#1e293b"}}>{fmt(m.price*(m.qty||1))}</span>
                     </div>
                   </div>)}
                 </div>}
-                {addlMaterials.length>0&&<div style={{marginTop:6,textAlign:"right",fontWeight:800,fontSize:13,color:"#1a1a2e"}}>Materials Subtotal: {fmt(addlTotal)}</div>}
+                {addlMaterials.length>0&&<div style={{marginTop:6,textAlign:"right",fontWeight:800,fontSize:13,color:"#1e293b"}}>Materials Subtotal: {fmt(addlTotal)}</div>}
               </div>
             </div>
           </div>
@@ -1180,7 +1180,7 @@ ${notesHtml}
           {whShowRemoved&&whRemovedItems.length>0&&<WhRestorePanel removedItems={whRemovedItems} onRestore={whRestoreItem}/>}
 
           <div className="mob-type-bar" style={{background:"#fff",borderRadius:10,padding:"10px 14px",marginBottom:12,boxShadow:"0 1px 3px rgba(0,0,0,.08)",display:"flex",gap:8,alignItems:"center",flexWrap:"wrap"}}>
-            <span style={{fontWeight:800,fontSize:13,color:"#1a1a2e"}}>WHOLE HOUSE TYPE:</span>
+            <span style={{fontWeight:800,fontSize:13,color:"#1e293b"}}>WHOLE HOUSE TYPE:</span>
             <Btn v="furnace" cur={whSysType} onClick={()=>{setWhSysType("furnace");whReset()}}>Furnace + Evap Coil + Outdoor</Btn>
             <Btn v="ahu" cur={whSysType} onClick={()=>{setWhSysType("ahu");whReset()}}>Air Handler + Outdoor</Btn>
           </div>
@@ -1189,7 +1189,7 @@ ${notesHtml}
           <div style={{background:"#fff",borderRadius:10,padding:16,marginBottom:12,boxShadow:"0 1px 3px rgba(0,0,0,.08)"}}>
             <div className="mob-stack mob-touch" style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:16}}>
               <div>
-                <h3 style={{margin:"0 0 10px",fontSize:14,fontWeight:800,color:"#1a1a2e"}}>Customer Information</h3>
+                <h3 style={{margin:"0 0 10px",fontSize:14,fontWeight:800,color:"#1e293b"}}>Customer Information</h3>
                 <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:8}}>
                   <div style={{gridColumn:"1/3"}}><label style={{fontSize:10,fontWeight:700,color:"#888"}}>System Title</label><input value={estTitle} onChange={e=>setEstTitle(e.target.value)} style={{width:"100%",padding:"6px 10px",borderRadius:5,border:"1px solid #ddd",fontSize:12,boxSizing:"border-box"}}/></div>
                   <div style={{gridColumn:"1/3"}}><label style={{fontSize:10,fontWeight:700,color:"#888"}}>Client Name</label><input value={estClient.name} onChange={e=>setEstClient(p=>({...p,name:e.target.value}))} placeholder="Client full name" style={{width:"100%",padding:"6px 10px",borderRadius:5,border:"1px solid #ddd",fontSize:12,boxSizing:"border-box"}}/></div>
@@ -1200,11 +1200,11 @@ ${notesHtml}
                 </div>
               </div>
               <div>
-                <h3 style={{margin:"0 0 10px",fontSize:14,fontWeight:800,color:"#1a1a2e"}}>Notes & Scope of Work</h3>
+                <h3 style={{margin:"0 0 10px",fontSize:14,fontWeight:800,color:"#1e293b"}}>Notes & Scope of Work</h3>
                 <textarea value={estNotes} onChange={e=>setEstNotes(e.target.value)} rows={4} placeholder="Scope of work..." style={{width:"100%",padding:"10px",borderRadius:5,border:"1px solid #ddd",fontSize:11,fontFamily:"inherit",resize:"vertical",boxSizing:"border-box",marginBottom:10}}/>
-                <h3 style={{margin:"0 0 8px",fontSize:14,fontWeight:800,color:"#1a1a2e"}}>Description of Service</h3>
+                <h3 style={{margin:"0 0 8px",fontSize:14,fontWeight:800,color:"#1e293b"}}>Description of Service</h3>
                 <textarea value={estDesc} onChange={e=>setEstDesc(e.target.value)} rows={3} placeholder="Line items for estimate..." style={{width:"100%",padding:"10px",borderRadius:5,border:"1px solid #ddd",fontSize:11,fontFamily:"inherit",resize:"vertical",boxSizing:"border-box"}}/>
-                <h3 style={{margin:"10px 0 8px",fontSize:14,fontWeight:800,color:"#1a1a2e"}}>Terms & Conditions</h3>
+                <h3 style={{margin:"10px 0 8px",fontSize:14,fontWeight:800,color:"#1e293b"}}>Terms & Conditions</h3>
                 <textarea value={estTerms} onChange={e=>setEstTerms(e.target.value)} rows={4} style={{width:"100%",padding:"10px",borderRadius:5,border:"1px solid #ddd",fontSize:10,fontFamily:"inherit",resize:"vertical",boxSizing:"border-box",color:"#555"}}/>
                 <div style={{display:"flex",gap:8,marginTop:8}}>
                   <div style={{flex:1}}><label style={{fontSize:10,fontWeight:700,color:"#888"}}>Total Amount (override)</label><input value={estTotal} onChange={e=>setEstTotal(e.target.value)} placeholder={fmt(grandTotal)+" (auto)"} type="number" step="0.01" style={{width:"100%",padding:"6px 10px",borderRadius:5,border:"1px solid #ddd",fontSize:12,boxSizing:"border-box"}}/></div>
@@ -1260,7 +1260,7 @@ ${notesHtml}
               </div>
               {/* 3. Outdoor */}
               <div>
-                <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#0f3460"}}>3. Outdoor Unit</h3>
+                <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#2563eb"}}>3. Outdoor Unit</h3>
                 <div style={{background:"#fff",borderRadius:8,padding:8,marginBottom:6,boxShadow:"0 1px 2px rgba(0,0,0,.06)"}}>
                   <F label="Type">
                     <Btn v="ac" cur={whFOutType} onClick={()=>{setWhFOutType("ac");setWhFOutBrand("All");setWhEditingModel(null)}}>AC Condenser</Btn>
@@ -1284,7 +1284,7 @@ ${notesHtml}
                     const exactTon=whSelC&&item.ton===whSelC.ton;
                     return <EqRow key={item.m} item={item} sel={false}
                       type={whFOutType==="ac"?"AC Condenser":"Heat Pump"}
-                      typeInfo={sameBrand&&exactTon?{label:"★ MATCH",color:"#4caf50"}:{label:whFOutType==="ac"?"AC":"HP",color:whFOutType==="ac"?"#2E4053":"#0f3460"}}
+                      typeInfo={sameBrand&&exactTon?{label:"★ MATCH",color:"#10b981"}:{label:whFOutType==="ac"?"AC":"HP",color:whFOutType==="ac"?"#2E4053":"#2563eb"}}
                       info={`${item.ton}T • ${item.seer} SEER • ${item.stg}-Stg`}
                       cat={whFOutType==="ac"?"AC_CONDENSERS":"HEAT_PUMPS"}
                       {...whEqProps}/>;
@@ -1312,7 +1312,7 @@ ${notesHtml}
               </div>
             </div>
             <div>
-              <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#0f3460"}}>2. Outdoor Unit</h3>
+              <h3 style={{margin:"0 0 6px",fontSize:13,fontWeight:800,color:"#2563eb"}}>2. Outdoor Unit</h3>
               <div style={{background:"#fff",borderRadius:8,padding:8,marginBottom:6,boxShadow:"0 1px 2px rgba(0,0,0,.06)"}}>
                 <F label="Type">
                   <Btn v="heatpump" cur={whAOutType} onClick={()=>{setWhAOutType("heatpump");setWhAOutBrand("All");setWhEditingModel(null)}}>Heat Pump</Btn>
@@ -1332,7 +1332,7 @@ ${notesHtml}
                   whAOutList.map(item=>(
                     <EqRow key={item.m} item={item} sel={false}
                       type={whAOutType==="ac"?"AC Condenser":"Heat Pump"}
-                      typeInfo={{label:whAOutType==="ac"?"AC":"HP",color:whAOutType==="ac"?"#2E4053":"#0f3460"}}
+                      typeInfo={{label:whAOutType==="ac"?"AC":"HP",color:whAOutType==="ac"?"#2E4053":"#2563eb"}}
                       info={`${item.ton}T • ${item.seer} SEER • ${item.stg}-Stg`}
                       cat={whAOutType==="ac"?"AC_CONDENSERS":"HEAT_PUMPS"}
                       {...whEqProps}/>
@@ -1346,8 +1346,8 @@ ${notesHtml}
           {/* WH Materials & Labor Catalog (same as MS) */}
           <div style={{background:"#fff",borderRadius:10,padding:16,marginBottom:12,boxShadow:"0 1px 3px rgba(0,0,0,.08)"}}>
             <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:8}}>
-              <h3 style={{margin:0,fontSize:14,fontWeight:800,color:"#1a1a2e"}}>Materials & Labor Catalog</h3>
-              <button onClick={()=>setMsShowAddDb(!msShowAddDb)} style={{padding:"4px 12px",borderRadius:5,border:"none",cursor:"pointer",fontSize:10,fontWeight:700,background:msShowAddDb?"#c00":"#4caf50",color:"#fff"}}>{msShowAddDb?"Cancel":"+ Add to Database"}</button>
+              <h3 style={{margin:0,fontSize:14,fontWeight:800,color:"#1e293b"}}>Materials & Labor Catalog</h3>
+              <button onClick={()=>setMsShowAddDb(!msShowAddDb)} style={{padding:"4px 12px",borderRadius:5,border:"none",cursor:"pointer",fontSize:10,fontWeight:700,background:msShowAddDb?"#c00":"#10b981",color:"#fff"}}>{msShowAddDb?"Cancel":"+ Add to Database"}</button>
             </div>
             {msShowAddDb&&<div style={{background:"#e8f5e9",borderRadius:8,padding:12,marginBottom:10,border:"1px solid #c8e6c9"}}>
               <div className="mob-add-form mob-touch" style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:8}}>
@@ -1355,7 +1355,7 @@ ${notesHtml}
                 <div><label style={{fontSize:9,fontWeight:700,color:"#555"}}>Model #</label><input value={msNewDbItem.m} onChange={e=>setMsNewDbItem(p=>({...p,m:e.target.value}))} style={{width:"100%",padding:"5px 8px",borderRadius:4,border:"1px solid #ccc",fontSize:11,boxSizing:"border-box"}}/></div>
                 <div><label style={{fontSize:9,fontWeight:700,color:"#555"}}>Brand</label><input value={msNewDbItem.b} onChange={e=>setMsNewDbItem(p=>({...p,b:e.target.value}))} style={{width:"100%",padding:"5px 8px",borderRadius:4,border:"1px solid #ccc",fontSize:11,boxSizing:"border-box"}}/></div>
                 <div><label style={{fontSize:9,fontWeight:700,color:"#555"}}>Category</label><select value={msNewDbItem.cat} onChange={e=>setMsNewDbItem(p=>({...p,cat:e.target.value}))} style={{width:"100%",padding:"5px 8px",borderRadius:4,border:"1px solid #ccc",fontSize:11,boxSizing:"border-box",background:"#fff"}}><option value="">Select...</option>{msMatCats.map(c=><option key={c} value={c}>{c}</option>)}<option value="General">General</option></select></div>
-                <div><label style={{fontSize:9,fontWeight:700,color:"#555"}}>Cost</label><div style={{display:"flex",gap:4}}><input value={msNewDbItem.p} onChange={e=>setMsNewDbItem(p=>({...p,p:e.target.value}))} placeholder="0.00" type="number" step="0.01" style={{flex:1,padding:"5px 8px",borderRadius:4,border:"1px solid #ccc",fontSize:11}}/><button onClick={msAddToDatabase} style={{padding:"5px 14px",borderRadius:5,border:"none",cursor:"pointer",fontSize:11,fontWeight:700,background:"#2E7D32",color:"#fff",whiteSpace:"nowrap"}}>Save</button></div></div>
+                <div><label style={{fontSize:9,fontWeight:700,color:"#555"}}>Cost</label><div style={{display:"flex",gap:4}}><input value={msNewDbItem.p} onChange={e=>setMsNewDbItem(p=>({...p,p:e.target.value}))} placeholder="0.00" type="number" step="0.01" style={{flex:1,padding:"5px 8px",borderRadius:4,border:"1px solid #ccc",fontSize:11}}/><button onClick={msAddToDatabase} style={{padding:"5px 14px",borderRadius:5,border:"none",cursor:"pointer",fontSize:11,fontWeight:700,background:"#059669",color:"#fff",whiteSpace:"nowrap"}}>Save</button></div></div>
               </div>
             </div>}
             <div className="mob-stack" style={{display:"grid",gridTemplateColumns:"1.2fr 0.8fr",gap:12}}>
@@ -1387,7 +1387,7 @@ ${notesHtml}
                       </div>
                       <div style={{display:"flex",alignItems:"center",gap:3,flexShrink:0}}>
                         <span style={{fontWeight:800,fontSize:11}}>{fmt(m.p)}</span>
-                        <button onClick={()=>addMatFromCatalog(m)} style={{padding:"2px 7px",borderRadius:4,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:"#1a1a2e",color:"#fff"}}>+ Add</button>
+                        <button onClick={()=>addMatFromCatalog(m)} style={{padding:"2px 7px",borderRadius:4,border:"none",cursor:"pointer",fontSize:9,fontWeight:700,background:"#1e293b",color:"#fff"}}>+ Add</button>
                         <button onClick={()=>msStartCatEdit(i)} style={{padding:"2px 5px",borderRadius:4,border:"1px solid #1976D2",cursor:"pointer",fontSize:8,fontWeight:700,background:"#fff",color:"#1976D2"}}>Edit</button>
                         <button onClick={()=>msRemoveCatItem(i)} style={{padding:"2px 5px",borderRadius:4,border:"1px solid #c00",cursor:"pointer",fontSize:8,fontWeight:700,background:"#fff",color:"#c00"}}>Remove</button>
                       </div>
@@ -1397,13 +1397,13 @@ ${notesHtml}
                 <div style={{fontSize:10,color:"#888",marginTop:3}}>{msMatList.length} items</div>
               </div>
               <div>
-                <h4 style={{margin:"0 0 6px",fontSize:12,fontWeight:700,color:"#1a1a2e"}}>Quick Add Material</h4>
+                <h4 style={{margin:"0 0 6px",fontSize:12,fontWeight:700,color:"#1e293b"}}>Quick Add Material</h4>
                 <div className="mob-quickadd" style={{display:"flex",gap:6,alignItems:"center",marginBottom:12}}>
                   <input value={addlDesc} onChange={e=>setAddlDesc(e.target.value)} placeholder="Description" style={{flex:1,padding:"6px 8px",borderRadius:5,border:"1px solid #ccc",fontSize:11}}/>
                   <input value={addlPrice} onChange={e=>setAddlPrice(e.target.value)} placeholder="$ Cost" type="number" style={{width:80,padding:"6px 8px",borderRadius:5,border:"1px solid #ccc",fontSize:11}}/>
-                  <button onClick={addMaterial} style={{background:"#4caf50",color:"#fff",border:"none",padding:"6px 12px",borderRadius:5,cursor:"pointer",fontSize:11,fontWeight:700}}>+ Add</button>
+                  <button onClick={addMaterial} style={{background:"#10b981",color:"#fff",border:"none",padding:"6px 12px",borderRadius:5,cursor:"pointer",fontSize:11,fontWeight:700}}>+ Add</button>
                 </div>
-                <h4 style={{margin:"0 0 6px",fontSize:12,fontWeight:700,color:"#1a1a2e"}}>Materials Added ({addlMaterials.length})</h4>
+                <h4 style={{margin:"0 0 6px",fontSize:12,fontWeight:700,color:"#1e293b"}}>Materials Added ({addlMaterials.length})</h4>
                 {addlMaterials.length===0?<div style={{background:"#f9f9f9",borderRadius:8,padding:14,textAlign:"center",fontSize:11,color:"#aaa"}}>No additional materials yet.</div>:
                 <div style={{background:"#f9f9f9",borderRadius:8,border:"1px solid #eee",maxHeight:340,overflowY:"auto"}}>
                   {addlMaterials.map((m,i)=><div key={i} style={{padding:"6px 9px",borderBottom:"1px solid #eee"}}>
@@ -1419,11 +1419,11 @@ ${notesHtml}
                       <input value={m.qty||1} onChange={e=>updateMatQty(i,e.target.value)} type="number" min="1" style={{width:40,padding:"2px 4px",borderRadius:3,border:"1px solid #ccc",fontSize:10,textAlign:"center"}}/>
                       <span style={{fontSize:9,color:"#888"}}>× ${fmt(m.price).slice(1)}</span>
                       <span style={{fontSize:9,color:"#888"}}>=</span>
-                      <span style={{fontWeight:800,fontSize:12,color:"#1a1a2e"}}>{fmt(m.price*(m.qty||1))}</span>
+                      <span style={{fontWeight:800,fontSize:12,color:"#1e293b"}}>{fmt(m.price*(m.qty||1))}</span>
                     </div>
                   </div>)}
                 </div>}
-                {addlMaterials.length>0&&<div style={{marginTop:6,textAlign:"right",fontWeight:800,fontSize:13,color:"#1a1a2e"}}>Materials Subtotal: {fmt(addlTotal)}</div>}
+                {addlMaterials.length>0&&<div style={{marginTop:6,textAlign:"right",fontWeight:800,fontSize:13,color:"#1e293b"}}>Materials Subtotal: {fmt(addlTotal)}</div>}
               </div>
             </div>
           </div>
@@ -1432,20 +1432,20 @@ ${notesHtml}
         {/* ╔══════════════════════════════════════════════════════════════╗ */}
         {/* ║  SHARED PROJECT QUOTE                                       ║ */}
         {/* ╚══════════════════════════════════════════════════════════════╝ */}
-        <div style={{background:"linear-gradient(135deg,#1a1a2e,#0f3460)",borderRadius:12,padding:20,color:"#fff"}}>
+        <div style={{background:"linear-gradient(135deg,#1e293b,#2563eb)",borderRadius:12,padding:20,color:"#fff"}}>
           <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:14}}>
             <h2 style={{margin:0,fontSize:18,fontWeight:800}}>Project Quote</h2>
             {(cart.length>0||addlMaterials.length>0)&&<button onClick={clearCart} style={{background:"#c00",color:"#fff",border:"none",padding:"5px 14px",borderRadius:6,cursor:"pointer",fontSize:11,fontWeight:700}}>Clear All</button>}
           </div>
           <div className="mob-quote-grid" style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:16}}>
             <div>
-              <h4 style={{margin:"0 0 8px",fontSize:13,fontWeight:700,color:"#8af"}}>Equipment Selected</h4>
+              <h4 style={{margin:"0 0 8px",fontSize:13,fontWeight:700,color:"#60a5fa"}}>Equipment Selected</h4>
               {cart.length===0?<div style={{background:"rgba(255,255,255,.08)",borderRadius:8,padding:16,textAlign:"center",fontSize:12,color:"#88a"}}>No equipment added yet.</div>:
               <div style={{background:"rgba(255,255,255,.06)",borderRadius:8,overflow:"hidden"}}>
                 {cart.map((c,i)=>(
                   <div key={i} style={{padding:"7px 10px",borderBottom:"1px solid rgba(255,255,255,.1)",display:"flex",justifyContent:"space-between",alignItems:"center"}}>
                     <div>
-                      <Tag label={c.type} color={c.type==="Outdoor"?"#0f3460":c.type==="Indoor"?"#c00":c.type==="Furnace"?"#c00":c.type==="Evap Coil"?"#8B0000":c.type==="Air Handler"?"#6B3A2A":c.type==="Heat Pump"?"#0f3460":"#2E4053"}/>
+                      <Tag label={c.type} color={c.type==="Outdoor"?"#2563eb":c.type==="Indoor"?"#c00":c.type==="Furnace"?"#c00":c.type==="Evap Coil"?"#8B0000":c.type==="Air Handler"?"#6B3A2A":c.type==="Heat Pump"?"#2563eb":"#2E4053"}/>
                       <Tag label={c._mode==="minisplit"?"MS":"WH"} color={c._mode==="minisplit"?"#1428A0":"#795548"}/>
                       <span style={{fontSize:11,fontWeight:600}}>{c.item.b} {c.item.n}</span>
                       <div style={{fontSize:9,color:"#aab",marginTop:1}}>{c.item.m}{c.info?` • ${c.info}`:""}</div>
@@ -1458,7 +1458,7 @@ ${notesHtml}
                 ))}
               </div>}
               {addlMaterials.length>0&&<>
-                <h4 style={{margin:"14px 0 8px",fontSize:13,fontWeight:700,color:"#8af"}}>Additional Materials ({addlMaterials.length})</h4>
+                <h4 style={{margin:"14px 0 8px",fontSize:13,fontWeight:700,color:"#60a5fa"}}>Additional Materials ({addlMaterials.length})</h4>
                 <div style={{background:"rgba(255,255,255,.06)",borderRadius:8,overflow:"hidden"}}>
                   {addlMaterials.map((m,i)=>(
                     <div key={i} style={{padding:"5px 10px",borderBottom:"1px solid rgba(255,255,255,.1)",display:"flex",justifyContent:"space-between",alignItems:"center"}}>
@@ -1470,7 +1470,7 @@ ${notesHtml}
               </>}
             </div>
             <div>
-              <h4 style={{margin:"0 0 8px",fontSize:13,fontWeight:700,color:"#8af"}}>Price Breakdown</h4>
+              <h4 style={{margin:"0 0 8px",fontSize:13,fontWeight:700,color:"#60a5fa"}}>Price Breakdown</h4>
               <div style={{background:"rgba(255,255,255,.06)",borderRadius:8,padding:14}}>
                 {[["Equipment ("+cart.length+" items)",equipTotal],
                   ...(addlMaterials.length>0?[["Additional Materials ("+addlMaterials.length+")",addlTotal]]:[]),
@@ -1484,9 +1484,9 @@ ${notesHtml}
                     <span>{l}</span><div style={{display:"flex",alignItems:"center",gap:4}}><span style={{fontSize:11,color:"#aab"}}>$</span><input value={v} onChange={e=>set(e.target.value)} type="number" placeholder="0.00" style={{width:90,padding:"4px 6px",borderRadius:4,border:"1px solid #444",background:"rgba(255,255,255,.12)",color:"#fff",fontSize:12,textAlign:"right"}}/></div>
                   </div>)}
                 </div>
-                <div style={{borderTop:"2px solid #4caf50",marginTop:10,paddingTop:10,display:"flex",justifyContent:"space-between",alignItems:"center"}}>
+                <div style={{borderTop:"2px solid #10b981",marginTop:10,paddingTop:10,display:"flex",justifyContent:"space-between",alignItems:"center"}}>
                   <span style={{fontSize:16,fontWeight:800}}>TOTAL PROJECT PRICE</span>
-                  <span style={{fontSize:20,fontWeight:900,color:"#4caf50"}}>{fmt(grandTotal)}</span>
+                  <span style={{fontSize:20,fontWeight:900,color:"#10b981"}}>{fmt(grandTotal)}</span>
                 </div>
                 <div style={{borderTop:"1px solid rgba(255,255,255,.15)",marginTop:10,paddingTop:10}}>
                   <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",padding:"4px 0",fontSize:12,color:"#ffd54f"}}>
@@ -1501,7 +1501,7 @@ ${notesHtml}
                   </div>}
                 </div>
                 <div style={{marginTop:12}}>
-                  <button onClick={generatePDF} style={{width:"100%",padding:"10px",borderRadius:8,border:"2px solid #4caf50",cursor:"pointer",fontSize:13,fontWeight:800,background:"linear-gradient(135deg,#4caf50,#2E7D32)",color:"#fff"}}>📄 Generate Estimate PDF</button>
+                  <button onClick={generatePDF} style={{width:"100%",padding:"10px",borderRadius:8,border:"2px solid #10b981",cursor:"pointer",fontSize:13,fontWeight:800,background:"linear-gradient(135deg,#10b981,#059669)",color:"#fff"}}>📄 Generate Estimate PDF</button>
                 </div>
               </div>
             </div>
