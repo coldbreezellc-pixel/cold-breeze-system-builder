@@ -888,18 +888,6 @@
     "p": 2286.74
   },
   {
-    "n": "Gas Furnace 90K BTU 80% 4 Ton Upflow/Horizontal 2 Stage R-454B B Cabinet",
-    "m": "NF80U090V4BR",
-    "b": "GE",
-    "ton": 4,
-    "btu": 90,
-    "afue": 80,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 2,
-    "p": 2384.21
-  },
-  {
     "n": "Gas Furnace 90K BTU 80% 4 Ton Upflow/Horizontal 1 Stage R-454B B Cabinet",
     "m": "NF80U090S4BR",
     "b": "GE",
