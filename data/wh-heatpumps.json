@@ -22,7 +22,7 @@
     "m": "AR15CSDABWKNCV",
     "b": "Samsung",
     "ton": 1.3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 679.58
   },
@@ -31,7 +31,7 @@
     "m": "AR09CSDACWKXCV",
     "b": "Samsung",
     "ton": 0.8,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 997.39
   },
@@ -40,7 +40,7 @@
     "m": "AR15CSDACWKXCV",
     "b": "Samsung",
     "ton": 1.3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1545.62
   },
@@ -103,7 +103,7 @@
     "m": "AR12CSDABWKXCV",
     "b": "Samsung",
     "ton": 1,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 954.53
   },
@@ -130,7 +130,7 @@
     "m": "AR18CSDABWKXCV",
     "b": "Samsung",
     "ton": 1.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1449.32
   },
@@ -148,7 +148,7 @@
     "m": "RXS09ACC-RNS09ABC",
     "b": "Samsung",
     "ton": 0.8,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1368.26
   },
@@ -157,7 +157,7 @@
     "m": "AR09CSFCMWKXCV",
     "b": "Samsung",
     "ton": 0.8,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 530.42
   },
@@ -175,7 +175,7 @@
     "m": "",
     "b": "Bosch",
     "ton": 3,
-    "seer": 0,
+    "seer": 18,
     "stg": 1,
     "p": 4157.9
   },
@@ -193,7 +193,7 @@
     "m": "AR09CSDABWKXCV",
     "b": "Samsung",
     "ton": 0.8,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 819.28
   },
@@ -202,7 +202,7 @@
     "m": "AR24CSDABWKXCV",
     "b": "Samsung",
     "ton": 2,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1551.41
   },
@@ -220,7 +220,7 @@
     "m": "AR15CSFCMWKXCV",
     "b": "Samsung",
     "ton": 1.3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 707.41
   },
@@ -229,7 +229,7 @@
     "m": "RXS12ACC-RNS12ABC",
     "b": "Samsung",
     "ton": 1,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1673.77
   },
@@ -238,7 +238,7 @@
     "m": "RXS15ACC-RNS15ABC",
     "b": "Samsung",
     "ton": 1.3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 2087.9
   },
@@ -265,7 +265,7 @@
     "m": "",
     "b": "Bosch",
     "ton": 5,
-    "seer": 0,
+    "seer": 18,
     "stg": 1,
     "p": 5600
   },
@@ -301,7 +301,7 @@
     "m": "RP19AY36AJVCA",
     "b": "Rheem",
     "ton": 3,
-    "seer": 0,
+    "seer": 19.0,
     "stg": 3,
     "p": 4412.6
   },
@@ -319,7 +319,7 @@
     "m": "AM096BXVTFR/AA",
     "b": "Samsung",
     "ton": 8,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 12167.22
   },
@@ -328,7 +328,7 @@
     "m": "AM120BXVTFR/AA",
     "b": "Samsung",
     "ton": 10,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 13480.52
   },
@@ -346,7 +346,7 @@
     "m": "8733956175",
     "b": "Bosch",
     "ton": 0.8,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 502.59
   },
@@ -400,7 +400,7 @@
     "m": "AM072BXVTFR/AA",
     "b": "Samsung",
     "ton": 6,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 11211.38
   },
@@ -418,7 +418,7 @@
     "m": "RXS36UMB-RNS36UMB",
     "b": "Samsung",
     "ton": 3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 2762.08
   },
@@ -445,7 +445,7 @@
     "m": "8733956204",
     "b": "Bosch",
     "ton": 4,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 3802.07
   },
@@ -463,7 +463,7 @@
     "m": "8733953097",
     "b": "Bosch",
     "ton": 2,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 806.32
   },
@@ -480,8 +480,8 @@
     "n": "Minisplit Accessory 9k -18K Cassette Grille",
     "m": "8733953125",
     "b": "Bosch",
-    "ton": 0,
-    "seer": 0,
+    "ton": 1.5,
+    "seer": 20,
     "stg": 1,
     "p": 154.11
   },
@@ -499,7 +499,7 @@
     "m": "AM096BXVTFH/AA",
     "b": "Samsung",
     "ton": 8,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 10123.82
   },
@@ -508,7 +508,7 @@
     "m": "AM096BXVTJH/AA",
     "b": "Samsung",
     "ton": 8,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 10724.36
   },
@@ -517,7 +517,7 @@
     "m": "RP19AY48AJVCA",
     "b": "Rheem",
     "ton": 4,
-    "seer": 0,
+    "seer": 19.0,
     "stg": 3,
     "p": 4860.31
   },
@@ -535,7 +535,7 @@
     "m": "AM096BXVTJR/AA",
     "b": "Samsung",
     "ton": 8,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 12427.62
   },
@@ -544,7 +544,7 @@
     "m": "AM072BXVTJH/AA",
     "b": "Samsung",
     "ton": 6,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 9229.51
   },
@@ -589,7 +589,7 @@
     "m": "8733956203",
     "b": "Bosch",
     "ton": 2.3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 2435.59
   },
@@ -598,7 +598,7 @@
     "m": "8733956200",
     "b": "Bosch",
     "ton": 2.3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1370.49
   },
@@ -616,7 +616,7 @@
     "m": "AM120BXVTFH/AA",
     "b": "Samsung",
     "ton": 10,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 10893.34
   },
@@ -625,7 +625,7 @@
     "m": "RXS18ABC-RNS18ABC",
     "b": "Samsung",
     "ton": 1.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 2160.63
   },
@@ -634,7 +634,7 @@
     "m": "CXH36ADB-CNH36TDB",
     "b": "Samsung",
     "ton": 3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 3665.84
   },
@@ -652,7 +652,7 @@
     "m": "8733956191",
     "b": "Bosch",
     "ton": 1.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1106.83
   },
@@ -670,7 +670,7 @@
     "m": "8733956181",
     "b": "Bosch",
     "ton": 0.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 429.21
   },
@@ -679,7 +679,7 @@
     "m": "8733956192",
     "b": "Bosch",
     "ton": 2,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1294.65
   },
@@ -706,7 +706,7 @@
     "m": "AR15CSKCPWKNCV",
     "b": "Samsung",
     "ton": 1.3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 448.32
   },
@@ -715,7 +715,7 @@
     "m": "AM120BXVTJR/AA",
     "b": "Samsung",
     "ton": 10,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 14424.22
   },
@@ -724,7 +724,7 @@
     "m": "AM072BXVTFH/AA",
     "b": "Samsung",
     "ton": 6,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 8725.16
   },
@@ -733,7 +733,7 @@
     "m": "AM072BXVTJR/AA",
     "b": "Samsung",
     "ton": 6,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 11636
   },
@@ -742,7 +742,7 @@
     "m": "AM120BXVTJH/AA",
     "b": "Samsung",
     "ton": 10,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 11547.18
   },
@@ -751,7 +751,7 @@
     "m": "RXS24ABC-RNS24ABC",
     "b": "Samsung",
     "ton": 2,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 2511.33
   },
@@ -760,7 +760,7 @@
     "m": "RXS12ABC-RNS12ABC",
     "b": "Samsung",
     "ton": 1,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1512.01
   },
@@ -769,7 +769,7 @@
     "m": "CXH18ADB-CNH18NDB",
     "b": "Samsung",
     "ton": 1.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 2278.21
   },
@@ -778,7 +778,7 @@
     "m": "RP19AY24AJVCA",
     "b": "Rheem",
     "ton": 2,
-    "seer": 0,
+    "seer": 19.0,
     "stg": 3,
     "p": 4053.99
   },
@@ -832,7 +832,7 @@
     "m": "8733953110",
     "b": "Bosch",
     "ton": 1,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 777.11
   },
@@ -841,7 +841,7 @@
     "m": "8733956202",
     "b": "Bosch",
     "ton": 1.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 2104.1
   },
@@ -850,7 +850,7 @@
     "m": "8733953102",
     "b": "Bosch",
     "ton": 0.8,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 705.37
   },
@@ -859,7 +859,7 @@
     "m": "8733956199",
     "b": "Bosch",
     "ton": 1.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1156.99
   },
@@ -886,7 +886,7 @@
     "m": "8733956177",
     "b": "Bosch",
     "ton": 1.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 741.86
   },
@@ -895,7 +895,7 @@
     "m": "8733956176",
     "b": "Bosch",
     "ton": 1,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 575.96
   },
@@ -904,7 +904,7 @@
     "m": "8733956186",
     "b": "Bosch",
     "ton": 2,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1138.93
   },
@@ -958,7 +958,7 @@
     "m": "RXS09ABC-RNS09ABC",
     "b": "Samsung",
     "ton": 0.8,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1247.36
   },
@@ -967,7 +967,7 @@
     "m": "CXH18ADB-CNH18ADB",
     "b": "Samsung",
     "ton": 1.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 2117.14
   },
@@ -976,7 +976,7 @@
     "m": "CXH12ADB-CNH12NDB",
     "b": "Samsung",
     "ton": 1,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1532.91
   },
@@ -985,7 +985,7 @@
     "m": "CXH09ADB-CNH09NDB",
     "b": "Samsung",
     "ton": 0.8,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1485.38
   },
@@ -994,7 +994,7 @@
     "m": "CXH18ADB-CNH18HDB",
     "b": "Samsung",
     "ton": 1.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 2535.29
   },
@@ -1039,7 +1039,7 @@
     "m": "8733953109",
     "b": "Bosch",
     "ton": 0.8,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 684.75
   },
@@ -1048,7 +1048,7 @@
     "m": "8733953105",
     "b": "Bosch",
     "ton": 2,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1010.11
   },
@@ -1057,7 +1057,7 @@
     "m": "8733953104",
     "b": "Bosch",
     "ton": 1.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 923.59
   },
@@ -1066,7 +1066,7 @@
     "m": "8733956227",
     "b": "Bosch",
     "ton": 3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 3383.9
   },
@@ -1075,7 +1075,7 @@
     "m": "8733942706",
     "b": "Bosch",
     "ton": 4,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 2829.28
   },
@@ -1084,7 +1084,7 @@
     "m": "8733956189",
     "b": "Bosch",
     "ton": 0.8,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 766.8
   },
@@ -1111,7 +1111,7 @@
     "m": "",
     "b": "Other",
     "ton": 2.5,
-    "seer": 0,
+    "seer": 15,
     "stg": 1,
     "p": 1674.11
   },
@@ -1120,7 +1120,7 @@
     "m": "8733956195",
     "b": "Bosch",
     "ton": 1.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1503.73
   },
@@ -1156,7 +1156,7 @@
     "m": "CXH09ADB-CNH09LDB",
     "b": "Samsung",
     "ton": 0.8,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1572.12
   },
@@ -1165,7 +1165,7 @@
     "m": "CXH24ADJ-CNH24HDM",
     "b": "Samsung",
     "ton": 0,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 3784.37
   },
@@ -1219,7 +1219,7 @@
     "m": "RXS24ACC-RNS24ABC",
     "b": "Samsung",
     "ton": 2,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 2626.85
   },
@@ -1228,7 +1228,7 @@
     "m": "RXS15ABC-RNS15ABC",
     "b": "Samsung",
     "ton": 1.3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1925.81
   },
@@ -1237,7 +1237,7 @@
     "m": "RXS18ACC-RNS18ABC",
     "b": "Samsung",
     "ton": 1.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 2274.34
   },
@@ -1273,7 +1273,7 @@
     "m": "CXH48ADB-CNH484DB",
     "b": "Samsung",
     "ton": 4,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 5185.84
   },
@@ -1282,7 +1282,7 @@
     "m": "CXH48ADB-CNH48ZDK",
     "b": "Samsung",
     "ton": 4,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 5518.03
   },
@@ -1291,7 +1291,7 @@
     "m": "CXH36SCB-CNH36ZDK",
     "b": "Samsung",
     "ton": 3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 5875.33
   },
@@ -1300,7 +1300,7 @@
     "m": "CXH30SCB-CNH30ZDK",
     "b": "Samsung",
     "ton": 2.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 5358.33
   },
@@ -1309,7 +1309,7 @@
     "m": "CXH36ADB-CNH36ZDK",
     "b": "Samsung",
     "ton": 3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 4793.91
   },
@@ -1318,7 +1318,7 @@
     "m": "CXH24ADB-CNH244DB",
     "b": "Samsung",
     "ton": 2,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 3299.59
   },
@@ -1327,7 +1327,7 @@
     "m": "CXH24ADB-CNH24ZDK",
     "b": "Samsung",
     "ton": 2,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 4000.42
   },
@@ -1336,7 +1336,7 @@
     "m": "CXH18ADB-CNH18ZDK",
     "b": "Samsung",
     "ton": 1.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 3304.95
   },
@@ -1345,7 +1345,7 @@
     "m": "CXH36SCB-CNH36HDB",
     "b": "Samsung",
     "ton": 3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 5344.75
   },
@@ -1354,7 +1354,7 @@
     "m": "CXH24ADB-CNH24HDB",
     "b": "Samsung",
     "ton": 2,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 3689.7
   },
@@ -1363,7 +1363,7 @@
     "m": "RXS15ACB-RNS15ACB",
     "b": "Samsung",
     "ton": 1.3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 2034.57
   },
@@ -1372,7 +1372,7 @@
     "m": "CXH12ADB-CNH12HDB",
     "b": "Samsung",
     "ton": 1,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1799.07
   },
@@ -1381,7 +1381,7 @@
     "m": "CXH18ADB-CNH18LDB",
     "b": "Samsung",
     "ton": 1.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 2320.19
   },
@@ -1390,7 +1390,7 @@
     "m": "CXH09ADB-CNH09HDB",
     "b": "Samsung",
     "ton": 0.8,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1595.98
   },
@@ -1399,7 +1399,7 @@
     "m": "8733953116",
     "b": "Bosch",
     "ton": 1,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1049.04
   },
@@ -1408,7 +1408,7 @@
     "m": "8733953103",
     "b": "Bosch",
     "ton": 1,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 723.41
   },
@@ -1417,7 +1417,7 @@
     "m": "8733953100",
     "b": "Bosch",
     "ton": 3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 907.27
   },
@@ -1426,7 +1426,7 @@
     "m": "8733953098",
     "b": "Bosch",
     "ton": 2.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 858.3
   },
@@ -1435,7 +1435,7 @@
     "m": "8733956196",
     "b": "Bosch",
     "ton": 2,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1732.08
   },
@@ -1444,7 +1444,7 @@
     "m": "8733953115",
     "b": "Bosch",
     "ton": 0.8,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1043.44
   },
@@ -1489,7 +1489,7 @@
     "m": "8733942698",
     "b": "Bosch",
     "ton": 1,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 811.9
   },
@@ -1507,7 +1507,7 @@
     "m": "8733953107",
     "b": "Bosch",
     "ton": 4,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1344.41
   },
@@ -1516,7 +1516,7 @@
     "m": "8733953106",
     "b": "Bosch",
     "ton": 3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1243.68
   },
@@ -1525,7 +1525,7 @@
     "m": "8733953101",
     "b": "Bosch",
     "ton": 3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 2003.77
   },
@@ -1534,7 +1534,7 @@
     "m": "8733953124",
     "b": "Bosch",
     "ton": 5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 3618.67
   },
@@ -1543,7 +1543,7 @@
     "m": "8733953122",
     "b": "Bosch",
     "ton": 3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 2559.19
   },
@@ -1578,8 +1578,8 @@
     "n": "Minisplit Accessory Cassette Grille 24K to 48K",
     "m": "8733956205",
     "b": "Bosch",
-    "ton": 0,
-    "seer": 0,
+    "ton": 2.0,
+    "seer": 20,
     "stg": 1,
     "p": 217.79
   },
@@ -1597,7 +1597,7 @@
     "m": "AC060FCUPCG/AA",
     "b": "Samsung",
     "ton": 5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 4425.36
   },
@@ -1606,7 +1606,7 @@
     "m": "AC048FCUPCG/AA",
     "b": "Samsung",
     "ton": 4,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 4148.74
   },
@@ -1615,7 +1615,7 @@
     "m": "AC036FCUPCG/AA",
     "b": "Samsung",
     "ton": 3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 3411.27
   },
@@ -1624,7 +1624,7 @@
     "m": "AC024FCUPCG/AA",
     "b": "Samsung",
     "ton": 2,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 3227.05
   },
@@ -1651,7 +1651,7 @@
     "m": "CXH36SCJ-CNH36HDM",
     "b": "Samsung",
     "ton": 0,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 5472.65
   },
@@ -1678,7 +1678,7 @@
     "m": "CXH30SCJ-CNH30HDM",
     "b": "Samsung",
     "ton": 0,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 5063.2
   },
@@ -1696,7 +1696,7 @@
     "m": "CXH36ADJ-CNH36HDM",
     "b": "Samsung",
     "ton": 0,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 4337.48
   },
@@ -1714,7 +1714,7 @@
     "m": "CXH30ADJ-CNH30HDM",
     "b": "Samsung",
     "ton": 0,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 4001.75
   },
@@ -1768,7 +1768,7 @@
     "m": "CXH12ADB-CNH12LDB",
     "b": "Samsung",
     "ton": 1,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1632.51
   },
@@ -1777,7 +1777,7 @@
     "m": "CXH36SCB-CNH364DB",
     "b": "Samsung",
     "ton": 3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 5113.5
   },
@@ -1786,7 +1786,7 @@
     "m": "CXH42ADB-CNH424DB",
     "b": "Samsung",
     "ton": 3.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 4512.77
   },
@@ -1795,7 +1795,7 @@
     "m": "CXH30SCB-CNH304DB",
     "b": "Samsung",
     "ton": 2.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 4679.53
   },
@@ -1804,7 +1804,7 @@
     "m": "CXH36ADB-CNH364DB",
     "b": "Samsung",
     "ton": 3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 4032.08
   },
@@ -1813,7 +1813,7 @@
     "m": "CXH42ADB-CNH42ZDK",
     "b": "Samsung",
     "ton": 3.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 5214.69
   },
@@ -1822,7 +1822,7 @@
     "m": "CXH30ADB-CNH304DB",
     "b": "Samsung",
     "ton": 2.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 3668.76
   },
@@ -1831,7 +1831,7 @@
     "m": "CXH30ADB-CNH30ZDK",
     "b": "Samsung",
     "ton": 2.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 4347.56
   },
@@ -1840,7 +1840,7 @@
     "m": "CXH24ADB-CNH24ADB",
     "b": "Samsung",
     "ton": 2,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 2736.92
   },
@@ -1849,7 +1849,7 @@
     "m": "CXH18ADB-CNH184DB",
     "b": "Samsung",
     "ton": 1.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 2677.18
   },
@@ -1858,7 +1858,7 @@
     "m": "CXH36ADB-CNH36HDB",
     "b": "Samsung",
     "ton": 3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 4263.33
   },
@@ -1867,7 +1867,7 @@
     "m": "CXH36ADB-CNH366DB",
     "b": "Samsung",
     "ton": 3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 3885.97
   },
@@ -1876,7 +1876,7 @@
     "m": "CXH30ADB-CNH30HDB",
     "b": "Samsung",
     "ton": 2.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 3933.71
   },
@@ -1885,7 +1885,7 @@
     "m": "CXH30ADB-CNH306DB",
     "b": "Samsung",
     "ton": 2.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 3620.54
   },
@@ -1894,7 +1894,7 @@
     "m": "CXH24ADB-CNH246DB",
     "b": "Samsung",
     "ton": 2,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 3322.49
   },
@@ -1903,7 +1903,7 @@
     "m": "CXH18ADB-CNH186DB",
     "b": "Samsung",
     "ton": 1.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 2532.04
   },
@@ -1948,7 +1948,7 @@
     "m": "8733953111",
     "b": "Bosch",
     "ton": 1.5,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 951.09
   },
@@ -1957,7 +1957,7 @@
     "m": "8733953113",
     "b": "Bosch",
     "ton": 3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1344.41
   },
@@ -1984,7 +1984,7 @@
     "m": "",
     "b": "Bosch",
     "ton": 5,
-    "seer": 0,
+    "seer": 19,
     "stg": 1,
     "p": 4663.16
   },
@@ -1993,7 +1993,7 @@
     "m": "",
     "b": "Bosch",
     "ton": 3,
-    "seer": 0,
+    "seer": 18,
     "stg": 1,
     "p": 3106.58
   },
@@ -2002,7 +2002,7 @@
     "m": "BOHA-60MTB-M18S",
     "b": "Bosch",
     "ton": 5,
-    "seer": 0,
+    "seer": 19,
     "stg": 3,
     "p": 4060.07
   },
@@ -2011,7 +2011,7 @@
     "m": "RH436E2S11",
     "b": "York",
     "ton": 3,
-    "seer": 0,
+    "seer": 14.3,
     "stg": 1,
     "p": 1538.13
   },
@@ -2038,7 +2038,7 @@
     "m": "BOHA-60RTB-M18S",
     "b": "Bosch",
     "ton": 5,
-    "seer": 0,
+    "seer": 19,
     "stg": 3,
     "p": 3519.61
   },
@@ -2047,7 +2047,7 @@
     "m": "BOHA-36RTB-M18S",
     "b": "Bosch",
     "ton": 3,
-    "seer": 0,
+    "seer": 19,
     "stg": 3,
     "p": 2816.36
   },
@@ -2056,7 +2056,7 @@
     "m": "BOHA-36MTB-M18S",
     "b": "Bosch",
     "ton": 3,
-    "seer": 0,
+    "seer": 19,
     "stg": 3,
     "p": 3128.77
   },
@@ -2065,7 +2065,7 @@
     "m": "BOHA-24RTB-M18S",
     "b": "Bosch",
     "ton": 2,
-    "seer": 0,
+    "seer": 19,
     "stg": 3,
     "p": 2487.84
   },
@@ -2074,7 +2074,7 @@
     "m": "BOHA-24MTB-M18S",
     "b": "Bosch",
     "ton": 2,
-    "seer": 0,
+    "seer": 19,
     "stg": 3,
     "p": 2615.01
   },
@@ -2101,7 +2101,7 @@
     "m": "",
     "b": "Bosch",
     "ton": 3,
-    "seer": 0,
+    "seer": 19,
     "stg": 1,
     "p": 3463.16
   },
@@ -2110,7 +2110,7 @@
     "m": "",
     "b": "Bosch",
     "ton": 5,
-    "seer": 0,
+    "seer": 18,
     "stg": 1,
     "p": 4180.26
   },
@@ -2263,7 +2263,7 @@
     "m": "RH448E2S11",
     "b": "York",
     "ton": 4,
-    "seer": 0,
+    "seer": 14.3,
     "stg": 1,
     "p": 1786.94
   },
@@ -2272,7 +2272,7 @@
     "m": "RH460E2S11",
     "b": "York",
     "ton": 5,
-    "seer": 0,
+    "seer": 14.3,
     "stg": 1,
     "p": 1992.37
   },
@@ -2281,7 +2281,7 @@
     "m": "RH424E2S11",
     "b": "York",
     "ton": 2,
-    "seer": 0,
+    "seer": 14.3,
     "stg": 1,
     "p": 1217.35
   },
@@ -2299,7 +2299,7 @@
     "m": "",
     "b": "Other",
     "ton": 2,
-    "seer": 0,
+    "seer": 15,
     "stg": 1,
     "p": 1279.69
   },
@@ -2308,7 +2308,7 @@
     "m": "",
     "b": "Other",
     "ton": 3,
-    "seer": 0,
+    "seer": 15,
     "stg": 1,
     "p": 1728.9
   },
@@ -2326,7 +2326,7 @@
     "m": "8733953123",
     "b": "Bosch",
     "ton": 4,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 3308.85
   },
@@ -2335,7 +2335,7 @@
     "m": "8733942705",
     "b": "Bosch",
     "ton": 3,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 2176.34
   },
@@ -2344,7 +2344,7 @@
     "m": "8733953114",
     "b": "Bosch",
     "ton": 4,
-    "seer": 0,
+    "seer": 20,
     "stg": 1,
     "p": 1511.76
   }
