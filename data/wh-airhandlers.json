@@ -350,16 +350,6 @@
     "p": 2209.25
   },
   {
-    "n": "Air Handler 24/30 R-454B/R-32 Vertical",
-    "m": "45ESP2430KVZA",
-    "b": "Spacepak",
-    "ton": 2.2,
-    "btu": 26400,
-    "v": "208/230",
-    "stg": 1,
-    "p": 3794.84
-  },
-  {
     "n": "Air Handler 24K BTU 2 Ton R-410A Multi-Position 208/230 Volt 1 Phase ECM",
     "m": "EAHATN-24",
     "b": "Ecoer",
