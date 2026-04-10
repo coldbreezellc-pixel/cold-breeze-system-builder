@@ -21,7 +21,7 @@
     "n": "Indoor Unit WindFree 3.0 Hi Wall RAC 15K BTU 208/230 Volt 1 Phase R-410A RNS15ABC Wall",
     "m": "AR15CSDABWKNCV",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.3,
     "seer": 0,
     "stg": 1,
     "p": 679.58
@@ -30,7 +30,7 @@
     "n": "Outdoor Unit Heat Pump Max Heat 3.0 9K BTU 208/230 Volt 1 Phase R-410A RXS09ACC",
     "m": "AR09CSDACWKXCV",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 0.8,
     "seer": 0,
     "stg": 1,
     "p": 997.39
@@ -39,7 +39,7 @@
     "n": "Outdoor Unit Heat Pump Max Heat 3.0 15K BTU 208/230 Volt 1 Phase R-410A RXS15ACC",
     "m": "AR15CSDACWKXCV",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.3,
     "seer": 0,
     "stg": 1,
     "p": 1545.62
@@ -68,7 +68,7 @@
     "b": "Bosch",
     "ton": 5,
     "seer": 19,
-    "stg": 1,
+    "stg": 3,
     "p": 6376.36
   },
   {
@@ -102,7 +102,7 @@
     "n": "Outdoor Unit Heat Pump WindFree 3.0 12K BTU 208/230 Volt 1 Phase R-410A RXS12ABC",
     "m": "AR12CSDABWKXCV",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1,
     "seer": 0,
     "stg": 1,
     "p": 954.53
@@ -129,7 +129,7 @@
     "n": "Outdoor Unit Heat Pump WindFree 3.0 18K BTU 208/230 Volt 1 Phase R-410A RXS18ABC",
     "m": "AR18CSDABWKXCV",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 0,
     "stg": 1,
     "p": 1449.32
@@ -147,7 +147,7 @@
     "n": "Split System Kit Max Heat Wall Mount 1-1 9K BTU",
     "m": "RXS09ACC-RNS09ABC",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 0.8,
     "seer": 0,
     "stg": 1,
     "p": 1368.26
@@ -156,7 +156,7 @@
     "n": "Outdoor Unit Heat Pump WindFree 3.0E 9K BTU 208/230 Volt 1 Phase R-410A RXS09CMC",
     "m": "AR09CSFCMWKXCV",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 0.8,
     "seer": 0,
     "stg": 1,
     "p": 530.42
@@ -192,7 +192,7 @@
     "n": "Outdoor Unit Heat Pump WindFree 3.0 9K BTU 208/230 Volt 1 Phase R-410A RXS09ABC",
     "m": "AR09CSDABWKXCV",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 0.8,
     "seer": 0,
     "stg": 1,
     "p": 819.28
@@ -201,7 +201,7 @@
     "n": "Outdoor Unit Heat Pump WindFree 3.0 24K BTU 208/230 Volt 1 Phase R-410A RXS24ABC",
     "m": "AR24CSDABWKXCV",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 2,
     "seer": 0,
     "stg": 1,
     "p": 1551.41
@@ -219,7 +219,7 @@
     "n": "Outdoor Unit Heat Pump WindFree 3.0E 15K BTU 208/230 Volt 1 Phase R-410A RXS15CMC",
     "m": "AR15CSFCMWKXCV",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.3,
     "seer": 0,
     "stg": 1,
     "p": 707.41
@@ -228,7 +228,7 @@
     "n": "Split System Kit Max Heat Wall Mount 1-1 12K BTU",
     "m": "RXS12ACC-RNS12ABC",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1,
     "seer": 0,
     "stg": 1,
     "p": 1673.77
@@ -237,7 +237,7 @@
     "n": "Split System Kit Max Heat Wall Mount 1-1 15K BTU",
     "m": "RXS15ACC-RNS15ABC",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.3,
     "seer": 0,
     "stg": 1,
     "p": 2087.9
@@ -291,7 +291,7 @@
     "n": "5-Ton 17 SEER 208/230-Volt Single-Stage Single-Phase Heat Pump",
     "m": "NS17H60SA4",
     "b": "GE",
-    "ton": 0,
+    "ton": 5,
     "seer": 17,
     "stg": 1,
     "p": 2944.98
@@ -304,24 +304,6 @@
     "seer": 0,
     "stg": 3,
     "p": 4412.6
-  },
-  {
-    "n": "Thermostat SDI Series",
-    "m": "",
-    "b": "Bosch",
-    "ton": 0,
-    "seer": 0,
-    "stg": 1,
-    "p": 428.99
-  },
-  {
-    "n": "Electric Heater Resitance 8 KW SDI Series",
-    "m": "",
-    "b": "Bosch",
-    "ton": 0,
-    "seer": 0,
-    "stg": 1,
-    "p": 183.75
   },
   {
     "n": "Heat Pump 3 Ton R-454B 15.2 SEER 208/230 Volt 1 Phase 2 Stage",
@@ -363,7 +345,7 @@
     "n": "Minisplit 9kBTU Universal Wall Mounted 2",
     "m": "8733956175",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 0.8,
     "seer": 0,
     "stg": 1,
     "p": 502.59
@@ -390,9 +372,9 @@
     "n": "3-Ton 22 SEER 208/230-Volt Inverter Heat Pump",
     "m": "NS22H36MA4",
     "b": "GE",
-    "ton": 0,
+    "ton": 3,
     "seer": 22,
-    "stg": 1,
+    "stg": 3,
     "p": 7034.88
   },
   {
@@ -408,7 +390,7 @@
     "n": "Heat Pump 3.5T 14.3 SEER2 R410A",
     "m": "YH2E42TB21S",
     "b": "York",
-    "ton": 0,
+    "ton": 3.5,
     "seer": 14.3,
     "stg": 1,
     "p": 1700.59
@@ -427,7 +409,7 @@
     "m": "AC036FCUDCG/AA",
     "b": "Samsung",
     "ton": 3,
-    "seer": 0,
+    "seer": 9.5,
     "stg": 1,
     "p": 3220.89
   },
@@ -435,7 +417,7 @@
     "n": "Split System Kit High Wall 36K BTU",
     "m": "RXS36UMB-RNS36UMB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 3,
     "seer": 0,
     "stg": 1,
     "p": 2762.08
@@ -462,25 +444,16 @@
     "n": "Minisplit 48kBTU Multi Zone Condensing S",
     "m": "8733956204",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 4,
     "seer": 0,
     "stg": 1,
     "p": 3802.07
   },
   {
-    "n": "Thermostat MS Accessory Wall Mount",
-    "m": "8733956179",
-    "b": "Bosch",
-    "ton": 0,
-    "seer": 0,
-    "stg": 1,
-    "p": 233.04
-  },
-  {
     "n": "Heat Pump 2.5T 14.3 SEER2 R410A",
     "m": "YH2E30TB21S",
     "b": "York",
-    "ton": 0,
+    "ton": 2.5,
     "seer": 14.3,
     "stg": 1,
     "p": 1326.56
@@ -489,7 +462,7 @@
     "n": "Minisplit 24kBTU Universal Wall Mounted",
     "m": "8733953097",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 2,
     "seer": 0,
     "stg": 1,
     "p": 806.32
@@ -516,7 +489,7 @@
     "n": "Heat Pump 4T 14.3 SEER2 R410A",
     "m": "YH2E48TB21S",
     "b": "York",
-    "ton": 0,
+    "ton": 4,
     "seer": 14.3,
     "stg": 1,
     "p": 1846.63
@@ -552,7 +525,7 @@
     "n": "Heat Pump 5T 14.3 SEER2 R410A",
     "m": "YH2E60TB21S",
     "b": "York",
-    "ton": 0,
+    "ton": 5,
     "seer": 14.3,
     "stg": 1,
     "p": 2033.24
@@ -615,7 +588,7 @@
     "n": "Minisplit 27kBTU Multi Zone Condensing S",
     "m": "8733956203",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 2.3,
     "seer": 0,
     "stg": 1,
     "p": 2435.59
@@ -624,7 +597,7 @@
     "n": "Minisplit 27kBTU Multi Zone Condensing S",
     "m": "8733956200",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 2.3,
     "seer": 0,
     "stg": 1,
     "p": 1370.49
@@ -651,7 +624,7 @@
     "n": "Split System Kit Windfree Wall Mount 1-1 18K BTU",
     "m": "RXS18ABC-RNS18ABC",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 0,
     "stg": 1,
     "p": 2160.63
@@ -660,7 +633,7 @@
     "n": "Split System Kit High Wall CAC 36K BTU",
     "m": "CXH36ADB-CNH36TDB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 3,
     "seer": 0,
     "stg": 1,
     "p": 3665.84
@@ -678,19 +651,10 @@
     "n": "Minisplit 18kBTU Single Zone Condensing",
     "m": "8733956191",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 0,
     "stg": 1,
     "p": 1106.83
-  },
-  {
-    "n": "Electric Heater Resitance 15 KW SDI Series",
-    "m": "",
-    "b": "Bosch",
-    "ton": 0,
-    "seer": 0,
-    "stg": 1,
-    "p": 331.59
   },
   {
     "n": "Heat Pump 5 Ton R-454B 13.4 SEER 460 Volt 3 Phase",
@@ -705,7 +669,7 @@
     "n": "Minisplit 6kBTU Universal Wall Mounted 2",
     "m": "8733956181",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 0.5,
     "seer": 0,
     "stg": 1,
     "p": 429.21
@@ -714,26 +678,17 @@
     "n": "Minisplit 24kBTU Single Zone Condensing",
     "m": "8733956192",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 2,
     "seer": 0,
     "stg": 1,
     "p": 1294.65
-  },
-  {
-    "n": "Thermostat MS Accessory Duct Cassette",
-    "m": "8733956180",
-    "b": "Bosch",
-    "ton": 0,
-    "seer": 0,
-    "stg": 1,
-    "p": 176.33
   },
   {
     "n": "Heat Pump Hylex 46K BTU 4 Ton Standard Capacity 9.5 EER R-454B 48 K BTU 208/230 Volt 1 Phase",
     "m": "AC048FCUDCG/AA",
     "b": "Samsung",
     "ton": 4,
-    "seer": 0,
+    "seer": 9.5,
     "stg": 1,
     "p": 3917.24
   },
@@ -742,7 +697,7 @@
     "m": "AC024FCUDCG/AA",
     "b": "Samsung",
     "ton": 2,
-    "seer": 0,
+    "seer": 11,
     "stg": 1,
     "p": 3046.8
   },
@@ -750,7 +705,7 @@
     "n": "Indoor Unit WindFree 3.0I RAC/FJM 15K BTU 208/230 Volt 1 Phase R-410A RNS15CPC Wall",
     "m": "AR15CSKCPWKNCV",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.3,
     "seer": 0,
     "stg": 1,
     "p": 448.32
@@ -795,7 +750,7 @@
     "n": "Split System Kit Windfree Wall Mount 1-1 24K BTU",
     "m": "RXS24ABC-RNS24ABC",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 2,
     "seer": 0,
     "stg": 1,
     "p": 2511.33
@@ -804,7 +759,7 @@
     "n": "Split System Kit Windfree Wall Mount 1-1 12K BTU",
     "m": "RXS12ABC-RNS12ABC",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1,
     "seer": 0,
     "stg": 1,
     "p": 1512.01
@@ -813,7 +768,7 @@
     "n": "Split System Kit Mini 4 Way Cassette WindFree 18K BTU",
     "m": "CXH18ADB-CNH18NDB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 0,
     "stg": 1,
     "p": 2278.21
@@ -876,7 +831,7 @@
     "n": "Minisplit 12kBTU Universal Cassette 230V",
     "m": "8733953110",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 1,
     "seer": 0,
     "stg": 1,
     "p": 777.11
@@ -885,7 +840,7 @@
     "n": "Minisplit 18kBTU Multi Zone Condensing S",
     "m": "8733956202",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 0,
     "stg": 1,
     "p": 2104.1
@@ -894,7 +849,7 @@
     "n": "Minisplit 9kBTU Universal Ducted 230V",
     "m": "8733953102",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 0.8,
     "seer": 0,
     "stg": 1,
     "p": 705.37
@@ -903,7 +858,7 @@
     "n": "Minisplit 18kBTU Multi Zone Condensing S",
     "m": "8733956199",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 0,
     "stg": 1,
     "p": 1156.99
@@ -912,9 +867,9 @@
     "n": "5-Ton 22 SEER 208/230-Volt Inverter Heat Pump",
     "m": "NS22H60MA4",
     "b": "GE",
-    "ton": 0,
+    "ton": 5,
     "seer": 22,
-    "stg": 1,
+    "stg": 3,
     "p": 8051.59
   },
   {
@@ -930,7 +885,7 @@
     "n": "Minisplit 18kBTU Universal Wall Mounted",
     "m": "8733956177",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 0,
     "stg": 1,
     "p": 741.86
@@ -939,7 +894,7 @@
     "n": "Minisplit 12kBTU Universal Wall Mounted",
     "m": "8733956176",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 1,
     "seer": 0,
     "stg": 1,
     "p": 575.96
@@ -948,7 +903,7 @@
     "n": "Minisplit 24kBTU Universal Cassette 230V",
     "m": "8733956186",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 2,
     "seer": 0,
     "stg": 1,
     "p": 1138.93
@@ -957,7 +912,7 @@
     "n": "Heat Pump 2T 14.3 SEER2 R410A",
     "m": "YH2E24TB21S",
     "b": "York",
-    "ton": 0,
+    "ton": 2,
     "seer": 14.3,
     "stg": 1,
     "p": 1267.74
@@ -967,7 +922,7 @@
     "m": "AC060FCUDCG/AA",
     "b": "Samsung",
     "ton": 5,
-    "seer": 0,
+    "seer": 9.5,
     "stg": 1,
     "p": 4178.1
   },
@@ -975,7 +930,7 @@
     "n": "Hi-Wall Kit RXS24ABT and RNS24ABT 24K BTU 20 SEER WindFree",
     "m": "RXS24ABT-RNS24ABT",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 2,
     "seer": 20,
     "stg": 1,
     "p": 2425.1
@@ -984,7 +939,7 @@
     "n": "Hi-Wall Kit RXS18ACT and RNS18ABT 18K BTU 21 SEER MaxHeat",
     "m": "RXS18ACT-RNS18ABT",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 21,
     "stg": 1,
     "p": 2179.35
@@ -993,7 +948,7 @@
     "n": "Hi-Wall Kit RXS09ABT and RNS09ABT 9K BTU 24.5 SEER WindFree",
     "m": "RXS09ABT-RNS09ABT",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 0.8,
     "seer": 24.5,
     "stg": 1,
     "p": 1100.76
@@ -1002,7 +957,7 @@
     "n": "Split System Kit Windfree Wall Mount 1-1 9K BTU",
     "m": "RXS09ABC-RNS09ABC",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 0.8,
     "seer": 0,
     "stg": 1,
     "p": 1247.36
@@ -1011,7 +966,7 @@
     "n": "Split System Kit High Wall 18K BTU",
     "m": "CXH18ADB-CNH18ADB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 0,
     "stg": 1,
     "p": 2117.14
@@ -1020,7 +975,7 @@
     "n": "Split System Kit Mini 4 Way Cassette WindFree 12K BTU",
     "m": "CXH12ADB-CNH12NDB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1,
     "seer": 0,
     "stg": 1,
     "p": 1532.91
@@ -1029,7 +984,7 @@
     "n": "Split System Kit Mini 4 Way Cassette WindFree 9K BTU",
     "m": "CXH09ADB-CNH09NDB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 0.8,
     "seer": 0,
     "stg": 1,
     "p": 1485.38
@@ -1038,7 +993,7 @@
     "n": "Split System Kit Duct S 18K BTU",
     "m": "CXH18ADB-CNH18HDB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 0,
     "stg": 1,
     "p": 2535.29
@@ -1083,7 +1038,7 @@
     "n": "Minisplit 9kBTU Universal Cassette 230V",
     "m": "8733953109",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 0.8,
     "seer": 0,
     "stg": 1,
     "p": 684.75
@@ -1092,7 +1047,7 @@
     "n": "Minisplit 24kBTU Universal Ducted 230V",
     "m": "8733953105",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 2,
     "seer": 0,
     "stg": 1,
     "p": 1010.11
@@ -1101,7 +1056,7 @@
     "n": "Minisplit 18kBTU Universal Ducted 230V",
     "m": "8733953104",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 0,
     "stg": 1,
     "p": 923.59
@@ -1110,7 +1065,7 @@
     "n": "Minisplit 36kBTU Multi Zone Condensing S",
     "m": "8733956227",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 3,
     "seer": 0,
     "stg": 1,
     "p": 3383.9
@@ -1119,7 +1074,7 @@
     "n": "Minisplit 48kBTU Multi Zone Condensing S",
     "m": "8733942706",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 4,
     "seer": 0,
     "stg": 1,
     "p": 2829.28
@@ -1128,28 +1083,10 @@
     "n": "Minisplit 9kBTU Single Zone Condensing S",
     "m": "8733956189",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 0.8,
     "seer": 0,
     "stg": 1,
     "p": 766.8
-  },
-  {
-    "n": "Electric Heater Resitance 20 KW SDI Series",
-    "m": "",
-    "b": "Bosch",
-    "ton": 0,
-    "seer": 0,
-    "stg": 1,
-    "p": 373.33
-  },
-  {
-    "n": "Thermostat Accessory Wired Wall Mmt",
-    "m": "8733953127",
-    "b": "Bosch",
-    "ton": 0,
-    "seer": 0,
-    "stg": 1,
-    "p": 211.12
   },
   {
     "n": "Heat Pump 3 Ton 13.4 SEER R-454B 208/230 Volt 3 Phase",
@@ -1173,7 +1110,7 @@
     "n": "Heat Pump 30K BTU Regular Outdoor Ducted R-401A",
     "m": "",
     "b": "Other",
-    "ton": 0,
+    "ton": 2.5,
     "seer": 0,
     "stg": 1,
     "p": 1674.11
@@ -1182,7 +1119,7 @@
     "n": "Minisplit 18kBTU Single Zone Condensing",
     "m": "8733956195",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 0,
     "stg": 1,
     "p": 1503.73
@@ -1191,7 +1128,7 @@
     "n": "Heat Pump 3T 14.3 SEER2 R410A",
     "m": "YH2E36TB21S",
     "b": "York",
-    "ton": 0,
+    "ton": 3,
     "seer": 14.3,
     "stg": 1,
     "p": 1595.11
@@ -1200,7 +1137,7 @@
     "n": "Heat Pump 1.5T 14.3 SEER2 R410A",
     "m": "YH2E18SB21S",
     "b": "York",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 14.3,
     "stg": 1,
     "p": 1168.34
@@ -1211,14 +1148,14 @@
     "b": "York",
     "ton": 3,
     "seer": 17,
-    "stg": 1,
+    "stg": 3,
     "p": 1659.62
   },
   {
     "n": "Split System Kit Slim Duct 9K BTU",
     "m": "CXH09ADB-CNH09LDB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 0.8,
     "seer": 0,
     "stg": 1,
     "p": 1572.12
@@ -1236,7 +1173,7 @@
     "n": "Hi-Wall Kit RXS18ABT and RNS18ABT 18K BTU 21 SEER WindFree",
     "m": "RXS18ABT-RNS18ABT",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 21,
     "stg": 1,
     "p": 2206.92
@@ -1245,7 +1182,7 @@
     "n": "Hi-Wall Kit RXS24ACT and RNS24ABT 24K BTU 20 SEER MaxHeat",
     "m": "RXS24ACT-RNS24ABT",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 2,
     "seer": 20,
     "stg": 1,
     "p": 2390.87
@@ -1254,7 +1191,7 @@
     "n": "Hi-Wall Kit RXS12ABT and RNS12ABT 12K BTU 23 SEER WindFree",
     "m": "RXS12ABT-RNS12ABT",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1,
     "seer": 23,
     "stg": 1,
     "p": 1363.54
@@ -1263,7 +1200,7 @@
     "n": "Hi-Wall Kit RXS12ACT and RNS12ABT 12K BTU 23 SEER MaxHeat",
     "m": "RXS12ACT-RNS12ABT",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1,
     "seer": 23,
     "stg": 1,
     "p": 1412.93
@@ -1272,7 +1209,7 @@
     "n": "Hi-Wall Kit RXS09ACT and RNS09ABT 9K BTU 24.5 SEER MaxHeat",
     "m": "RXS09ACT-RNS09ABT",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 0.8,
     "seer": 24.5,
     "stg": 1,
     "p": 1207.74
@@ -1281,7 +1218,7 @@
     "n": "Split System Kit Max Heat Wall Mount 1-1 24K BTU",
     "m": "RXS24ACC-RNS24ABC",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 2,
     "seer": 0,
     "stg": 1,
     "p": 2626.85
@@ -1290,7 +1227,7 @@
     "n": "Split System Kit Windfree Wall Mount 1-1 15K BTU",
     "m": "RXS15ABC-RNS15ABC",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.3,
     "seer": 0,
     "stg": 1,
     "p": 1925.81
@@ -1299,7 +1236,7 @@
     "n": "Split System Kit Max Heat Wall Mount 1-1 18K BTU",
     "m": "RXS18ACC-RNS18ABC",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 0,
     "stg": 1,
     "p": 2274.34
@@ -1308,7 +1245,7 @@
     "n": "Hi-Wall Kit RXS18CMB and RNS18CMB 18K BTU 20 SEER",
     "m": "RXS18CMB-RNS18CMB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 20,
     "stg": 1,
     "p": 1318.94
@@ -1317,7 +1254,7 @@
     "n": "Hi-Wall Kit RXS12CMB and RNS12CMB 12K BTU 21.5 SEER",
     "m": "RXS12CMB-RNS12CMB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1,
     "seer": 21.5,
     "stg": 1,
     "p": 1013.61
@@ -1326,7 +1263,7 @@
     "n": "Hi-Wall Kit RXS09CMB and RNS09CMB 9K BTU 23.5 SEER",
     "m": "RXS09CMB-RNS09CMB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 0.8,
     "seer": 23.5,
     "stg": 1,
     "p": 970.23
@@ -1335,7 +1272,7 @@
     "n": "Split System Kit 4 Way Cassette WindFree 48K BTU",
     "m": "CXH48ADB-CNH484DB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 4,
     "seer": 0,
     "stg": 1,
     "p": 5185.84
@@ -1344,7 +1281,7 @@
     "n": "Split System Kit Multi A/H 48K BTU",
     "m": "CXH48ADB-CNH48ZDK",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 4,
     "seer": 0,
     "stg": 1,
     "p": 5518.03
@@ -1353,7 +1290,7 @@
     "n": "Split System Kit CAC Multi A/H 36K BTU",
     "m": "CXH36SCB-CNH36ZDK",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 3,
     "seer": 0,
     "stg": 1,
     "p": 5875.33
@@ -1362,7 +1299,7 @@
     "n": "Split System Kit Multi A/H 30K BTU",
     "m": "CXH30SCB-CNH30ZDK",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 2.5,
     "seer": 0,
     "stg": 1,
     "p": 5358.33
@@ -1371,7 +1308,7 @@
     "n": "Split System Kit Multi A/H 36K BTU",
     "m": "CXH36ADB-CNH36ZDK",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 3,
     "seer": 0,
     "stg": 1,
     "p": 4793.91
@@ -1380,7 +1317,7 @@
     "n": "Split System Kit 4 Way Cassette WindFree 24K BTU",
     "m": "CXH24ADB-CNH244DB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 2,
     "seer": 0,
     "stg": 1,
     "p": 3299.59
@@ -1389,7 +1326,7 @@
     "n": "Split System Kit Multi A/H 24K BTU",
     "m": "CXH24ADB-CNH24ZDK",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 2,
     "seer": 0,
     "stg": 1,
     "p": 4000.42
@@ -1398,7 +1335,7 @@
     "n": "Split System Kit Multi A/H 18K BTU",
     "m": "CXH18ADB-CNH18ZDK",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 0,
     "stg": 1,
     "p": 3304.95
@@ -1407,7 +1344,7 @@
     "n": "Split System Kit Duct S 36K BTU",
     "m": "CXH36SCB-CNH36HDB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 3,
     "seer": 0,
     "stg": 1,
     "p": 5344.75
@@ -1416,7 +1353,7 @@
     "n": "Split System Kit Duct S 24K BTU",
     "m": "CXH24ADB-CNH24HDB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 2,
     "seer": 0,
     "stg": 1,
     "p": 3689.7
@@ -1425,7 +1362,7 @@
     "n": "Split System Kit WindFree 2.0 High Wall 15K BTU",
     "m": "RXS15ACB-RNS15ACB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.3,
     "seer": 0,
     "stg": 1,
     "p": 2034.57
@@ -1434,7 +1371,7 @@
     "n": "Split System Kit Duct S 12K BTU",
     "m": "CXH12ADB-CNH12HDB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1,
     "seer": 0,
     "stg": 1,
     "p": 1799.07
@@ -1443,7 +1380,7 @@
     "n": "Split System Kit Slim Duct 18K BTU",
     "m": "CXH18ADB-CNH18LDB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 0,
     "stg": 1,
     "p": 2320.19
@@ -1452,7 +1389,7 @@
     "n": "Split System Kit Duct S 9K BTU",
     "m": "CXH09ADB-CNH09HDB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 0.8,
     "seer": 0,
     "stg": 1,
     "p": 1595.98
@@ -1461,7 +1398,7 @@
     "n": "Minisplit 12kBTU Single Zone Condensing",
     "m": "8733953116",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 1,
     "seer": 0,
     "stg": 1,
     "p": 1049.04
@@ -1470,7 +1407,7 @@
     "n": "Minisplit 12kBTU Universal Ducted 230V",
     "m": "8733953103",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 1,
     "seer": 0,
     "stg": 1,
     "p": 723.41
@@ -1479,7 +1416,7 @@
     "n": "Minisplit 36kBTU Single Zone Wall Mounted",
     "m": "8733953100",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 3,
     "seer": 0,
     "stg": 1,
     "p": 907.27
@@ -1488,7 +1425,7 @@
     "n": "Minisplit 30kBTU Single Zone Wall Mounted",
     "m": "8733953098",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 2.5,
     "seer": 0,
     "stg": 1,
     "p": 858.3
@@ -1497,7 +1434,7 @@
     "n": "Minisplit 24kBTU Single Zone Condensing",
     "m": "8733956196",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 2,
     "seer": 0,
     "stg": 1,
     "p": 1732.08
@@ -1506,7 +1443,7 @@
     "n": "Minisplit 9kBTU Single Zone Condensing S",
     "m": "8733953115",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 0.8,
     "seer": 0,
     "stg": 1,
     "p": 1043.44
@@ -1551,7 +1488,7 @@
     "n": "Split System Climate 5000 Single Condensing 12K BTU 208/230 Volt",
     "m": "8733942698",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 1,
     "seer": 0,
     "stg": 1,
     "p": 811.9
@@ -1562,14 +1499,14 @@
     "b": "York",
     "ton": 3,
     "seer": 20,
-    "stg": 1,
+    "stg": 3,
     "p": 3496.61
   },
   {
     "n": "Minisplit 48kBTU Universal Ducted 230V",
     "m": "8733953107",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 4,
     "seer": 0,
     "stg": 1,
     "p": 1344.41
@@ -1578,7 +1515,7 @@
     "n": "Minisplit 36kBTU Universal Ducted 230V",
     "m": "8733953106",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 3,
     "seer": 0,
     "stg": 1,
     "p": 1243.68
@@ -1587,7 +1524,7 @@
     "n": "Minisplit 36kBTU Single Zone Condensing",
     "m": "8733953101",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 3,
     "seer": 0,
     "stg": 1,
     "p": 2003.77
@@ -1596,7 +1533,7 @@
     "n": "Minisplit 60kBTU Single Zone Condensing",
     "m": "8733953124",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 5,
     "seer": 0,
     "stg": 1,
     "p": 3618.67
@@ -1605,7 +1542,7 @@
     "n": "Minisplit 36kBTU Single Zone Condensing",
     "m": "8733953122",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 3,
     "seer": 0,
     "stg": 1,
     "p": 2559.19
@@ -1616,7 +1553,7 @@
     "b": "York",
     "ton": 5,
     "seer": 17,
-    "stg": 1,
+    "stg": 3,
     "p": 2115.19
   },
   {
@@ -1625,7 +1562,7 @@
     "b": "York",
     "ton": 2,
     "seer": 17,
-    "stg": 1,
+    "stg": 3,
     "p": 1319.25
   },
   {
@@ -1634,7 +1571,7 @@
     "b": "York",
     "ton": 4,
     "seer": 17,
-    "stg": 1,
+    "stg": 3,
     "p": 1921.28
   },
   {
@@ -1650,7 +1587,7 @@
     "n": "Multipoise Kit CXH30SCJ and CNH30ZDK 30K BTU 20.3 SEER Air Handler Max",
     "m": "CXH30SCJ-CNH30ZDK",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 2.5,
     "seer": 20.3,
     "stg": 1,
     "p": 5521.52
@@ -1695,7 +1632,7 @@
     "n": "Cassette Kit CXH18ADJ and CNH184DN 18K BTU 20 SEER WindFree for Split System",
     "m": "CXH18ADJ-CNH184DN",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 20,
     "stg": 1,
     "p": 2487.72
@@ -1704,7 +1641,7 @@
     "n": "Hi-Wall Kit CXH18ADK and CNH18LDK 18K BTU 20 SEER Slimduct",
     "m": "CXH18ADK-CNH18LDK",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 20,
     "stg": 1,
     "p": 2201.35
@@ -1722,7 +1659,7 @@
     "n": "Multipoise Kit CXH36SCJ and CNH36ZDK 36K BTU 19 SEER Air Handler Max",
     "m": "CXH36SCJ-CNH36ZDK",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 3,
     "seer": 19,
     "stg": 1,
     "p": 6055.21
@@ -1731,7 +1668,7 @@
     "n": "Hi-Wall Kit CXH12ADK and CNH12LDK 12K BTU 20 SEER Slimduct",
     "m": "CXH12ADK-CNH12LDK",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1,
     "seer": 20,
     "stg": 1,
     "p": 1658.81
@@ -1749,7 +1686,7 @@
     "n": "Multipoise Kit CXH42ADJ and CNH42ZDK 42K BTU 18.4 SEER Air Handler",
     "m": "CXH42ADJ-CNH42ZDK",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 3.5,
     "seer": 18.4,
     "stg": 1,
     "p": 5356.41
@@ -1767,7 +1704,7 @@
     "n": "Multipoise Kit CXH36ADJ and CNH36ZDK 36K BTU 19 SEER Air Handler",
     "m": "CXH36ADJ-CNH36ZDK",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 3,
     "seer": 19,
     "stg": 1,
     "p": 4920.05
@@ -1785,7 +1722,7 @@
     "n": "Multipoise Kit CXH30ADJ and CNH30ZDK 30K BTU 19.6 SEER Air Handler",
     "m": "CXH30ADJ-CNH30ZDK",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 2.5,
     "seer": 19.6,
     "stg": 1,
     "p": 4460.06
@@ -1794,7 +1731,7 @@
     "n": "Multipoise Kit CXH24ADJ and CNH24ZDK 24K BTU 19.5 SEER Air Handler",
     "m": "CXH24ADJ-CNH24ZDK",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 2,
     "seer": 19.5,
     "stg": 1,
     "p": 4106.11
@@ -1803,7 +1740,7 @@
     "n": "Multipoise Kit CXH18ADJ and CNH18ZDK 18K BTU 20.1 SEER Air Handler",
     "m": "CXH18ADJ-CNH18ZDK",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 20.1,
     "stg": 1,
     "p": 3153.97
@@ -1812,7 +1749,7 @@
     "n": "Cassette Kit CXH36SCJ and CNH364DN 36K BTU 20 SEER Maxheat for Split System",
     "m": "CXH36SCJ-CNH364DN",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 3,
     "seer": 20,
     "stg": 1,
     "p": 5187.22
@@ -1821,7 +1758,7 @@
     "n": "Cassette Kit CXH30SCJ and CNH304DN 30K BTU 21 SEER Maxheat for Split System",
     "m": "CXH30SCJ-CNH304DN",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 2.5,
     "seer": 21,
     "stg": 1,
     "p": 4768.2
@@ -1830,7 +1767,7 @@
     "n": "Split System Kit Slim Duct 12K BTU",
     "m": "CXH12ADB-CNH12LDB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1,
     "seer": 0,
     "stg": 1,
     "p": 1632.51
@@ -1839,7 +1776,7 @@
     "n": "Split System Kit 4 Way Cassette WindFree 36K BTU",
     "m": "CXH36SCB-CNH364DB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 3,
     "seer": 0,
     "stg": 1,
     "p": 5113.5
@@ -1848,7 +1785,7 @@
     "n": "Split System Kit 4 Way Cassette WindFree 42K BTU",
     "m": "CXH42ADB-CNH424DB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 3.5,
     "seer": 0,
     "stg": 1,
     "p": 4512.77
@@ -1857,7 +1794,7 @@
     "n": "Split System Kit 4 Way Cassette WindFree 30K BTU",
     "m": "CXH30SCB-CNH304DB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 2.5,
     "seer": 0,
     "stg": 1,
     "p": 4679.53
@@ -1866,7 +1803,7 @@
     "n": "Split System Kit 4 Way Cassette WindFree CAC 36K BTU",
     "m": "CXH36ADB-CNH364DB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 3,
     "seer": 0,
     "stg": 1,
     "p": 4032.08
@@ -1875,7 +1812,7 @@
     "n": "Split System Kit Multi A/H 42K BTU",
     "m": "CXH42ADB-CNH42ZDK",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 3.5,
     "seer": 0,
     "stg": 1,
     "p": 5214.69
@@ -1884,7 +1821,7 @@
     "n": "Split System Kit 4 Way CAC Cassette WindFree 30K BTU",
     "m": "CXH30ADB-CNH304DB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 2.5,
     "seer": 0,
     "stg": 1,
     "p": 3668.76
@@ -1893,7 +1830,7 @@
     "n": "Split System Kit CAC Multi A/H 30K BTU",
     "m": "CXH30ADB-CNH30ZDK",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 2.5,
     "seer": 0,
     "stg": 1,
     "p": 4347.56
@@ -1902,7 +1839,7 @@
     "n": "Split System Kit High Wall 24K BTU",
     "m": "CXH24ADB-CNH24ADB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 2,
     "seer": 0,
     "stg": 1,
     "p": 2736.92
@@ -1911,7 +1848,7 @@
     "n": "Split System Kit 4 Way Cassette WindFree 18K BTU",
     "m": "CXH18ADB-CNH184DB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 0,
     "stg": 1,
     "p": 2677.18
@@ -1920,7 +1857,7 @@
     "n": "Split System Kit Duct S CAC 36K BTU",
     "m": "CXH36ADB-CNH36HDB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 3,
     "seer": 0,
     "stg": 1,
     "p": 4263.33
@@ -1929,7 +1866,7 @@
     "n": "Split System Kit 360 Degree Cassette 36K BTU",
     "m": "CXH36ADB-CNH366DB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 3,
     "seer": 0,
     "stg": 1,
     "p": 3885.97
@@ -1938,7 +1875,7 @@
     "n": "Split System Kit Duct S 30K BTU",
     "m": "CXH30ADB-CNH30HDB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 2.5,
     "seer": 0,
     "stg": 1,
     "p": 3933.71
@@ -1947,7 +1884,7 @@
     "n": "Split System Kit 360 Degree Cassette 30K BTU",
     "m": "CXH30ADB-CNH306DB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 2.5,
     "seer": 0,
     "stg": 1,
     "p": 3620.54
@@ -1956,7 +1893,7 @@
     "n": "Split System Kit 360 Degree Cassette 24K BTU",
     "m": "CXH24ADB-CNH246DB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 2,
     "seer": 0,
     "stg": 1,
     "p": 3322.49
@@ -1965,7 +1902,7 @@
     "n": "Split System Kit 360 Degree Cassette 18K BTU",
     "m": "CXH18ADB-CNH186DB",
     "b": "Samsung",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 0,
     "stg": 1,
     "p": 2532.04
@@ -2010,7 +1947,7 @@
     "n": "Minisplit 18kBTU Universal Cassette 230V",
     "m": "8733953111",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 0,
     "stg": 1,
     "p": 951.09
@@ -2019,7 +1956,7 @@
     "n": "Minisplit 36kBTU Universal Cassette 230V",
     "m": "8733953113",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 3,
     "seer": 0,
     "stg": 1,
     "p": 1344.41
@@ -2066,14 +2003,14 @@
     "b": "Bosch",
     "ton": 5,
     "seer": 0,
-    "stg": 1,
+    "stg": 3,
     "p": 4060.07
   },
   {
     "n": "Heat Pump Residential Split 14.3S2 3.0T R454B OTC",
     "m": "RH436E2S11",
     "b": "York",
-    "ton": 0,
+    "ton": 3,
     "seer": 0,
     "stg": 1,
     "p": 1538.13
@@ -2102,7 +2039,7 @@
     "b": "Bosch",
     "ton": 5,
     "seer": 0,
-    "stg": 1,
+    "stg": 3,
     "p": 3519.61
   },
   {
@@ -2111,7 +2048,7 @@
     "b": "Bosch",
     "ton": 3,
     "seer": 0,
-    "stg": 1,
+    "stg": 3,
     "p": 2816.36
   },
   {
@@ -2120,7 +2057,7 @@
     "b": "Bosch",
     "ton": 3,
     "seer": 0,
-    "stg": 1,
+    "stg": 3,
     "p": 3128.77
   },
   {
@@ -2129,7 +2066,7 @@
     "b": "Bosch",
     "ton": 2,
     "seer": 0,
-    "stg": 1,
+    "stg": 3,
     "p": 2487.84
   },
   {
@@ -2138,7 +2075,7 @@
     "b": "Bosch",
     "ton": 2,
     "seer": 0,
-    "stg": 1,
+    "stg": 3,
     "p": 2615.01
   },
   {
@@ -2183,7 +2120,7 @@
     "b": "GE",
     "ton": 5,
     "seer": 21,
-    "stg": 1,
+    "stg": 3,
     "p": 9284.21
   },
   {
@@ -2192,7 +2129,7 @@
     "b": "GE",
     "ton": 4,
     "seer": 21,
-    "stg": 1,
+    "stg": 3,
     "p": 8471.05
   },
   {
@@ -2201,7 +2138,7 @@
     "b": "GE",
     "ton": 3,
     "seer": 21,
-    "stg": 1,
+    "stg": 3,
     "p": 8111.84
   },
   {
@@ -2210,7 +2147,7 @@
     "b": "GE",
     "ton": 2,
     "seer": 21,
-    "stg": 1,
+    "stg": 3,
     "p": 7338.16
   },
   {
@@ -2219,7 +2156,7 @@
     "b": "GE",
     "ton": 5,
     "seer": 19,
-    "stg": 1,
+    "stg": 3,
     "p": 6407.9
   },
   {
@@ -2228,7 +2165,7 @@
     "b": "GE",
     "ton": 3,
     "seer": 19,
-    "stg": 1,
+    "stg": 3,
     "p": 4780.26
   },
   {
@@ -2325,7 +2262,7 @@
     "n": "Heat Pump Residential Split 14.3S2 4.0T R454B OTC",
     "m": "RH448E2S11",
     "b": "York",
-    "ton": 0,
+    "ton": 4,
     "seer": 0,
     "stg": 1,
     "p": 1786.94
@@ -2334,7 +2271,7 @@
     "n": "Heat Pump Residential Split 14.3S2 5.0T R454B OTC",
     "m": "RH460E2S11",
     "b": "York",
-    "ton": 0,
+    "ton": 5,
     "seer": 0,
     "stg": 1,
     "p": 1992.37
@@ -2343,7 +2280,7 @@
     "n": "Heat Pump Residential Split 14.3S2 2.0T R454B OTC",
     "m": "RH424E2S11",
     "b": "York",
-    "ton": 0,
+    "ton": 2,
     "seer": 0,
     "stg": 1,
     "p": 1217.35
@@ -2352,7 +2289,7 @@
     "n": "Heat Pump 18K BTU Regular Outdoor Ducted 17 SEER2 R-401A 208/230 Volt 1 Phase",
     "m": "",
     "b": "Other",
-    "ton": 0,
+    "ton": 1.5,
     "seer": 17,
     "stg": 1,
     "p": 1041.43
@@ -2361,7 +2298,7 @@
     "n": "Heat Pump 24K BTU Regular Outdoor Ducted 208/230 Volt 1 Phase",
     "m": "",
     "b": "Other",
-    "ton": 0,
+    "ton": 2,
     "seer": 0,
     "stg": 1,
     "p": 1279.69
@@ -2370,7 +2307,7 @@
     "n": "Heat Pump 36K BTU Regular Outdoor Ducted R-401A 208/230 Volt 1 Phase",
     "m": "",
     "b": "Other",
-    "ton": 0,
+    "ton": 3,
     "seer": 0,
     "stg": 1,
     "p": 1728.9
@@ -2388,7 +2325,7 @@
     "n": "Minisplit 48kBTU Single Zone Condensing",
     "m": "8733953123",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 4,
     "seer": 0,
     "stg": 1,
     "p": 3308.85
@@ -2397,7 +2334,7 @@
     "n": "Minisplit 36kBTU Multi Zone Condensing S",
     "m": "8733942705",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 3,
     "seer": 0,
     "stg": 1,
     "p": 2176.34
@@ -2406,7 +2343,7 @@
     "n": "Minisplit 48kBTU Universal Cassette 230V",
     "m": "8733953114",
     "b": "Bosch",
-    "ton": 0,
+    "ton": 4,
     "seer": 0,
     "stg": 1,
     "p": 1511.76
