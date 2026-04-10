@@ -936,18 +936,6 @@
     "p": 1161.4
   },
   {
-    "n": "Gas Furnace Natural Gas 72K BTU 95% 1 Stage PSC Downflow CMF95-072T-PG2",
-    "m": "Furnace 1041046",
-    "b": "Miller",
-    "ton": 3,
-    "btu": 72,
-    "afue": 95,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 1,
-    "p": 2982.2
-  },
-  {
     "n": "Guardian Single-Stage Multi-Position Natural Gas Residential Furnace",
     "m": "Single-Stage Multi-Position Natural Gas Residential Furnace",
     "b": "Guardian",
