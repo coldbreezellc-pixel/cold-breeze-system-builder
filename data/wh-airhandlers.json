@@ -220,16 +220,6 @@
     "p": 1572.69
   },
   {
-    "n": "Air Handler 3 Ton Multi R-410A 3 Row less Pump with Bleed Thermal Expansion Valve",
-    "m": "BVRMB9737S4N3",
-    "b": "ADP",
-    "ton": 3,
-    "btu": 36,
-    "v": "208/230",
-    "stg": 1,
-    "p": 1800.05
-  },
-  {
     "n": "Air Handler 4 Ton R-410A PSC 208/230 VAC 1 Phase",
     "m": "BVA-48WN1-M15",
     "b": "Bosch",
