@@ -600,16 +600,6 @@
     "p": 891.66
   },
   {
-    "n": "Air Handler VMB 2.5 to 3 Ton 2 Pipe Upflow 120/208/230 Volt Variable Speed",
-    "m": "12VMB",
-    "b": "First Co",
-    "ton": 3,
-    "btu": 36,
-    "v": "208/230",
-    "stg": 3,
-    "p": 3225.78
-  },
-  {
     "n": "Air Handler F Series 3.5 to 4 Ton Multi-Position R-454B Low Profile with RDS Non-Bleed Thermal Expansion Va...",
     "m": "FCMCC1A48S002R",
     "b": "ADP",
