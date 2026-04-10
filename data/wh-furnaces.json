@@ -948,30 +948,6 @@
     "p": 1278.98
   },
   {
-    "n": "Guardian Single-Stage Multi-Position Natural Gas Residential Furnace",
-    "m": "Single-Stage Multi-Position Natural Gas Residential Furnace",
-    "b": "Guardian",
-    "ton": 3,
-    "btu": 70,
-    "afue": 80,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 1,
-    "p": 1278.98
-  },
-  {
-    "n": "Guardian Single-Stage Multi-Position Natural Gas Residential Furnace",
-    "m": "Single-Stage Multi-Position Natural Gas Residential Furnace",
-    "b": "Guardian",
-    "ton": 3,
-    "btu": 70,
-    "afue": 80,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 1,
-    "p": 1278.98
-  },
-  {
     "n": "Gas Furnace Affinity Natural Gas 120K BTU 80% Modulating 5 Ton Variable-Speed Multi",
     "m": "YPLC120C20MP13C",
     "b": "York",
