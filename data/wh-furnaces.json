@@ -816,30 +816,6 @@
     "p": 1443.42
   },
   {
-    "n": "Gas Furnace Natural Gas 75K BTU 95% 1 Stage 3 Ton PSC Downflow 76-1/8x18-3/4x25-3/4 Inch Cabinet",
-    "m": "CMC1-75D36N",
-    "b": "Thermo Pride",
-    "ton": 3,
-    "btu": 75,
-    "afue": 95,
-    "cab": "D",
-    "w": "18.75",
-    "stg": 1,
-    "p": 2777.87
-  },
-  {
-    "n": "Gas Furnace Natural Gas 50K BTU 95% 1 Stage 3 Ton ECM Downflow 76-1/8x18-3/4x25-3/4 Inch Cabinet",
-    "m": "CMC1-50DV3N",
-    "b": "Thermo Pride",
-    "ton": 3,
-    "btu": 50,
-    "afue": 95,
-    "cab": "B",
-    "w": "18.75",
-    "stg": 1,
-    "p": 3038.41
-  },
-  {
     "n": "Gas Furnace Natural Gas 50K BTU 95% 1 Stage 3 Ton PSC Downflow 76-1/8x18-3/4x25-3/4 Inch Cabinet",
     "m": "CMC1-50D36N",
     "b": "Thermo Pride",
