@@ -936,18 +936,6 @@
     "p": 785.7
   },
   {
-    "n": "5-Ton 110K BTU 96% AFUE 2-Stage Variable Speed Upflow/Horizontal C Cabinet Natural Gas Furnace",
-    "m": "NF96U110V5C",
-    "b": "GE",
-    "ton": 5,
-    "btu": 110,
-    "afue": 96,
-    "cab": "C",
-    "w": "21",
-    "stg": 3,
-    "p": 1817.89
-  },
-  {
     "n": "3-Ton 70K BTU 80% AFUE 1-Stage Constant Torque Downflow B Cabinet Natural Gas Furnace",
     "m": "NF80D070S3B",
     "b": "GE",
