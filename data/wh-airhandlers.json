@@ -140,16 +140,6 @@
     "p": 1690.8
   },
   {
-    "n": "Air Handler TDI Pro 2 3 Ton R-410A/R-454B Multi-Position 208/230 Volt 1 Phase",
-    "m": "EAHDEN-36ABA",
-    "b": "Ecoer",
-    "ton": 3,
-    "btu": 36,
-    "v": "208/230",
-    "stg": 1,
-    "p": 2468.42
-  },
-  {
     "n": "Air Handler 2 Ton R-454B Multi-Position Less Pump with Thermal Expansion Valve with RDS 120 Volt",
     "m": "BCRMA4A24S3N3R",
     "b": "ADP",
@@ -228,16 +218,6 @@
     "v": "208/230",
     "stg": 3,
     "p": 1638.39
-  },
-  {
-    "n": "Air Handler TDI Pro 2 2 Ton R-410A/R-454B Multi-Position 208/230 Volt 1 Phase",
-    "m": "EAHDEN-24ABA",
-    "b": "Ecoer",
-    "ton": 2,
-    "btu": 24,
-    "v": "208/230",
-    "stg": 1,
-    "p": 2222.37
   },
   {
     "n": "Air Handler 5 Ton G.E.",
