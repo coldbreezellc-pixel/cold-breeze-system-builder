@@ -1,42 +1,59 @@
-# Cold Breeze LLC — HVAC System Builder & Project Quote
+# Cold Breeze LLC — HVAC System Builder
 
-Internal sales and quoting tool for Cold Breeze LLC HVAC technicians. Browser-based with **automatic GitHub database sync** — every change you make is saved to this repository instantly.
+Internal sales and quoting tool for Cold Breeze LLC HVAC technicians. Browser-based with **automatic GitHub database sync** and **installable as an app on Android/iOS**.
 
 ## Features
 
 - **Mini Split System Builder** — Samsung single-zone (RAC) and multi-zone (FJM), Fujitsu, full materials/labor catalog
 - **Whole House System Builder** — Rheem, Bosch, GE furnaces, heat pumps, AC condensers, air handlers, evaporator coils
-- **Auto-Save to GitHub** — Every add, edit, or remove auto-commits to this repo. Green dot = synced, orange = saving.
-- **Unified Project Quote** — Shared cart across both modes with 7% tax, 30% margin, labor tracking
-- **Estimate PDF Generator** — Customer-facing HTML estimates with print-to-PDF
-- **Database Export** — Download all equipment data as multi-sheet XLSX
-- **Edit/Remove/Restore** — Inline editing, soft-delete with restore panel
+- **Auto-Save to GitHub** — Every change auto-commits to this repo
+- **Unified Project Quote** — Shared cart with 7% tax, 30% margin, labor + deposit tracking
+- **Estimate PDF Generator** — Customer-facing HTML estimates
+- **Installable as App** — Add to home screen on phone/tablet for fullscreen native-app feel
+- **Works Offline** — App shell cached, only data sync needs internet
 
-## Quick Start
+## Install on Android (PWA)
 
-1. Open `index.html` in Chrome (locally or via GitHub Pages)
-2. First time: enter your GitHub username, repo name, and Personal Access Token
-3. The tool loads your equipment database from this repo
-4. Every change auto-saves — no manual saving needed
+1. Open the GitHub Pages URL in **Chrome** on your phone:  
+   `https://YOUR_USERNAME.github.io/cold-breeze-system-builder/`
+2. Tap the **three-dot menu** in the top right
+3. Tap **"Install app"** or **"Add to Home screen"**
+4. Confirm — the Cold Breeze icon appears on your home screen
+5. Tap it to launch — runs fullscreen, no browser bar, just like a native app
+
+## Install on iPhone/iPad
+
+1. Open the URL in **Safari**
+2. Tap the **share button** (square with arrow)
+3. Scroll down, tap **"Add to Home Screen"**
+4. Tap **Add**
 
 ## Setup: GitHub Personal Access Token
 
+First time you open the app, you'll see a setup screen. You need a token for the auto-save feature:
+
 1. Go to [github.com/settings/tokens](https://github.com/settings/tokens)
-2. Click **Generate new token (classic)**
-3. Give it a name like "Cold Breeze Tool"
-4. Check the **repo** scope (full control of private repositories)
-5. Click **Generate token**
-6. Copy the token (starts with `ghp_`) — you won't see it again
-7. Paste it into the tool's setup screen
+2. **Generate new token (classic)**
+3. Name: `Cold Breeze Tool`
+4. Check the **repo** scope
+5. Generate → copy the `ghp_...` token
+6. Paste it into the app's setup screen along with your username and repo name
+
+The token is stored locally on your device — never sent anywhere except directly to GitHub's API.
 
 ## File Structure
 
 ```
 index.html              # The application
+manifest.json           # PWA manifest (app metadata)
+sw.js                   # Service worker (offline support)
+icons/
+  icon-192.png          # PWA icon (192x192)
+  icon-512.png          # PWA icon (512x512)
 data/
   ms-outdoor.json       # Samsung outdoor units
-  ms-indoor.json        # Samsung indoor units  
-  ms-materials.json     # Materials, labor, fittings, line sets, etc.
+  ms-indoor.json        # Samsung indoor units
+  ms-materials.json     # Materials, labor, fittings, line sets
   wh-furnaces.json      # Rheem/Bosch furnaces
   wh-heatpumps.json     # Rheem/Bosch heat pumps
   wh-accondensers.json  # GE AC condensers
@@ -44,12 +61,15 @@ data/
   wh-coils.json         # Rheem/Bosch evaporator coils
 ```
 
-## Hosting on GitHub Pages (Optional)
+## Hosting on GitHub Pages
 
-1. Go to your repo **Settings** → **Pages**
+PWAs **require HTTPS**, which GitHub Pages provides for free:
+
+1. Repo **Settings** → **Pages**
 2. Source: **Deploy from a branch**
 3. Branch: **main**, folder: **/ (root)**
-4. Save — live at `https://YOUR_USERNAME.github.io/cold-breeze-system-builder/`
+4. Save
+5. Wait 1-2 minutes — live at `https://YOUR_USERNAME.github.io/cold-breeze-system-builder/`
 
 ---
 
