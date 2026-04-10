@@ -2041,30 +2041,6 @@
   },
   {
     "n": "Gas Furnace M7 72K BTU 90/95% Downflow R-454B for Manufactured Houses",
-    "m": "Furnace 1036495",
-    "b": "Miller",
-    "ton": 3,
-    "btu": 72,
-    "afue": 95,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 1,
-    "p": 1921.95
-  },
-  {
-    "n": "Gas Furnace M7 45K BTU 90/95% Downflow R-454B for Manufactured Houses",
-    "m": "Furnace 1036491",
-    "b": "Miller",
-    "ton": 3.8,
-    "btu": 45,
-    "afue": 95,
-    "cab": "C",
-    "w": "21",
-    "stg": 1,
-    "p": 1879.81
-  },
-  {
-    "n": "Gas Furnace M7 72K BTU 90/95% Downflow R-454B for Manufactured Houses",
     "m": "Furnace 1036489",
     "b": "Miller",
     "ton": 3,
