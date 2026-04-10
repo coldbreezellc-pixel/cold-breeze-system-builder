@@ -630,16 +630,6 @@
     "p": 901.17
   },
   {
-    "n": "Air Handler TDI Pro 2 5 Ton R-410A/R-454B Multi-Position 208/230 Volt 1 Phase",
-    "m": "EAHDEN-60ABA",
-    "b": "Ecoer",
-    "ton": 5,
-    "btu": 60,
-    "v": "208/230",
-    "stg": 1,
-    "p": 3210.53
-  },
-  {
     "n": "Air Handler 3 Ton R-410A/R-454B 1 Piece Convertible PSC Thermal Expansion Valve",
     "m": "NAM36P1TA5D",
     "b": "GE",
@@ -678,16 +668,6 @@
     "v": "208/230",
     "stg": 1,
     "p": 1049.69
-  },
-  {
-    "n": "Air Handler with Hydronic Heating Coil R454B 4 - 5 Ton Multiple Position",
-    "m": "EAHETN-60HB",
-    "b": "Ecoer",
-    "ton": 5,
-    "btu": 60,
-    "v": "208/230",
-    "stg": 1,
-    "p": 2713.16
   },
   {
     "n": "Air Handler Endeavor 36K BTU 3 Ton 727-1069 Cubic Feet per Minute R-454B Mid Multi Position Thermal Expansi...",
@@ -958,16 +938,6 @@
     "v": "208/230",
     "stg": 1,
     "p": 1203.53
-  },
-  {
-    "n": "Air Handler SDI Series R454B 4-5 Ton Multiple Position",
-    "m": "EAHDEC-60ABA",
-    "b": "Ecoer",
-    "ton": 5,
-    "btu": 60,
-    "v": "208/230",
-    "stg": 1,
-    "p": 2677.63
   },
   {
     "n": "Air Handler SDI Series R454B 3 Ton Multiple Position",
