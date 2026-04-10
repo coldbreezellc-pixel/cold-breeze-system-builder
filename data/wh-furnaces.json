@@ -240,30 +240,6 @@
     "p": 1004.03
   },
   {
-    "n": "Gas Furnace 70K BTU 97% 3 Ton Upflow/Horizontal 2 Stage R-454B B Cabinet",
-    "m": "NF97U070V3BR",
-    "b": "GE",
-    "ton": 3,
-    "btu": 70,
-    "afue": 97,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 2,
-    "p": 1628.6
-  },
-  {
-    "n": "Gas Furnace 70K BTU 96% 3 Ton Upflow/Horizontal 1 Stage R-454B B Cabinet",
-    "m": "NF96U070S3BR",
-    "b": "GE",
-    "ton": 3,
-    "btu": 70,
-    "afue": 96,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 1,
-    "p": 1360.74
-  },
-  {
     "n": "Gas Furnace 90K BTU 97% 5 Ton Upflow/Horizontal 2 Stage R-454B C Cabinet",
     "m": "NF97U090V5CR",
     "b": "GE",
