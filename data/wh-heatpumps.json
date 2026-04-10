@@ -1,15 +1,186 @@
 [
   {
-    "n": "HP 1.5T 14.3 SEER 1-Stg",
-    "m": "RP14AY18AJ1NA",
-    "b": "Rheem",
-    "ton": 1.5,
-    "seer": 14.3,
+    "n": "Heat Pump 3 Ton Condensing Premium IDS 20 SEER R-454B 220 Volt",
+    "m": "BOVA-36RTB-M20S",
+    "b": "Bosch",
+    "ton": 3,
+    "seer": 20,
     "stg": 1,
-    "p": 1662.36
+    "p": 4340.66
   },
   {
-    "n": "HP 2T 14.3 SEER 2-Stg",
+    "n": "Heat Pump IDS Premium 60K BTU 5 Ton Condenser 20 SEER R-454B",
+    "m": "BOVA-60RTB-M20S",
+    "b": "Bosch",
+    "ton": 5,
+    "seer": 20,
+    "stg": 1,
+    "p": 5598.82
+  },
+  {
+    "n": "Indoor Unit WindFree 3.0 Hi Wall RAC 15K BTU 208/230 Volt 1 Phase R-410A RNS15ABC Wall",
+    "m": "AR15CSDABWKNCV",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 679.58
+  },
+  {
+    "n": "Outdoor Unit Heat Pump Max Heat 3.0 9K BTU 208/230 Volt 1 Phase R-410A RXS09ACC",
+    "m": "AR09CSDACWKXCV",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 997.39
+  },
+  {
+    "n": "Outdoor Unit Heat Pump Max Heat 3.0 15K BTU 208/230 Volt 1 Phase R-410A RXS15ACC",
+    "m": "AR15CSDACWKXCV",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1545.62
+  },
+  {
+    "n": "Heat Pump IDS Light 3 Ton Condenser 15 SEER R-454B 208/230 Volt 1 Phase",
+    "m": "BOVA-36RXB-M15S",
+    "b": "Bosch",
+    "ton": 3,
+    "seer": 15,
+    "stg": 1,
+    "p": 3015.51
+  },
+  {
+    "n": "Heat Pump IDS Light 5 Ton Condenser 15 SEER R-454B 208/230 Volt 1 Phase",
+    "m": "BOVA-60RXB-M15S",
+    "b": "Bosch",
+    "ton": 5,
+    "seer": 15,
+    "stg": 1,
+    "p": 3768.42
+  },
+  {
+    "n": "Heat Pump IDS 3.0 Ultra 60K BTU 5 Ton Inverter Condenser 19 SEER R-454B 208/230 Volt 1 Phase",
+    "m": "BOVA-60MTB-M19E",
+    "b": "Bosch",
+    "ton": 5,
+    "seer": 19,
+    "stg": 1,
+    "p": 6376.36
+  },
+  {
+    "n": "Heat Pump IDS Light 2 Ton Condenser 15 SEER R-454B 208/230 Volt 1 Phase",
+    "m": "BOVA-24RXB-M15S",
+    "b": "Bosch",
+    "ton": 2,
+    "seer": 15,
+    "stg": 1,
+    "p": 2663.7
+  },
+  {
+    "n": "Heat Pump 36K BTU 3 Ton GE Connect Side Discharge 18 SEER R-454B 33.4 K BTU 208/230 Volt 2000-3500 Watt 1 P...",
+    "m": "General Electric NS18H36HA5",
+    "b": "General",
+    "ton": 3,
+    "seer": 18,
+    "stg": 1,
+    "p": 2502.07
+  },
+  {
+    "n": "Heat Pump 3 Ton Side Discharge Universal 19 SEER 208/230 Volt 1 Phase",
+    "m": "RD18AY36AJVCA",
+    "b": "Rheem",
+    "ton": 3,
+    "seer": 19,
+    "stg": 1,
+    "p": 2763.92
+  },
+  {
+    "n": "Outdoor Unit Heat Pump WindFree 3.0 12K BTU 208/230 Volt 1 Phase R-410A RXS12ABC",
+    "m": "AR12CSDABWKXCV",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 954.53
+  },
+  {
+    "n": "Heat Pump 60K BTU 4 to 5 Ton GE Connect Side Discharge 18 SEER R-454B 208/230 Volt 6000-7500 Watt 1 Phase F...",
+    "m": "General Electric NS18H60HA5",
+    "b": "General",
+    "ton": 5,
+    "seer": 18,
+    "stg": 1,
+    "p": 3257.75
+  },
+  {
+    "n": "Heat Pump 24K BTU 2 Ton GE Connect Side Discharge 18 SEER R-454B 17.9 To 24 K BTU 208/230 Volt 2000 Watt 1 ...",
+    "m": "General Electric NS18H24HA5",
+    "b": "General",
+    "ton": 2,
+    "seer": 18,
+    "stg": 1,
+    "p": 2128.97
+  },
+  {
+    "n": "Outdoor Unit Heat Pump WindFree 3.0 18K BTU 208/230 Volt 1 Phase R-410A RXS18ABC",
+    "m": "AR18CSDABWKXCV",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1449.32
+  },
+  {
+    "n": "Heat Pump 2 Ton Side Discharge Universal 19 SEER 208/230 Volt 1 Phase",
+    "m": "RD18AY24AJVCA",
+    "b": "Rheem",
+    "ton": 2,
+    "seer": 19,
+    "stg": 1,
+    "p": 2625.72
+  },
+  {
+    "n": "Split System Kit Max Heat Wall Mount 1-1 9K BTU",
+    "m": "RXS09ACC-RNS09ABC",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1368.26
+  },
+  {
+    "n": "Outdoor Unit Heat Pump WindFree 3.0E 9K BTU 208/230 Volt 1 Phase R-410A RXS09CMC",
+    "m": "AR09CSFCMWKXCV",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 530.42
+  },
+  {
+    "n": "Heat Pump 4 Ton Side Discharge Universal 19 SEER 208/230 Volt 1 Phase",
+    "m": "RD18AY48AJVCA",
+    "b": "Rheem",
+    "ton": 4,
+    "seer": 19,
+    "stg": 1,
+    "p": 3264.06
+  },
+  {
+    "n": "Heat Pump TDI Pro 2 3 Ton Top Discharge R-454B",
+    "m": "",
+    "b": "",
+    "ton": 3,
+    "seer": 0,
+    "stg": 1,
+    "p": 4157.9
+  },
+  {
+    "n": "Heat Pump 2 Ton R-454B 14.3 SEER 208/230 Volt 1 Phase 2 Stage",
     "m": "RP14AY24AJ2NA",
     "b": "Rheem",
     "ton": 2,
@@ -18,16 +189,25 @@
     "p": 1876.23
   },
   {
-    "n": "HP 2.5T 14.3 SEER 2-Stg",
-    "m": "RP14AY30AJ2NA",
-    "b": "Rheem",
-    "ton": 2.5,
-    "seer": 14.3,
-    "stg": 2,
-    "p": 2096.13
+    "n": "Outdoor Unit Heat Pump WindFree 3.0 9K BTU 208/230 Volt 1 Phase R-410A RXS09ABC",
+    "m": "AR09CSDABWKXCV",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 819.28
   },
   {
-    "n": "HP 3T 14.3 SEER 2-Stg",
+    "n": "Outdoor Unit Heat Pump WindFree 3.0 24K BTU 208/230 Volt 1 Phase R-410A RXS24ABC",
+    "m": "AR24CSDABWKXCV",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1551.41
+  },
+  {
+    "n": "Heat Pump 3 Ton R-454B 14.3 SEER 208/230 Volt 1 Phase 2 Stage",
     "m": "RP14AY36AJ2NA",
     "b": "Rheem",
     "ton": 3,
@@ -36,16 +216,70 @@
     "p": 2328.34
   },
   {
-    "n": "HP 3.5T 14.3 SEER 2-Stg",
-    "m": "RP14AY42AJ2NA",
-    "b": "Rheem",
-    "ton": 3.5,
-    "seer": 14.3,
-    "stg": 2,
-    "p": 2645.56
+    "n": "Outdoor Unit Heat Pump WindFree 3.0E 15K BTU 208/230 Volt 1 Phase R-410A RXS15CMC",
+    "m": "AR15CSFCMWKXCV",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 707.41
   },
   {
-    "n": "HP 4T 14.3 SEER 2-Stg",
+    "n": "Split System Kit Max Heat Wall Mount 1-1 12K BTU",
+    "m": "RXS12ACC-RNS12ABC",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1673.77
+  },
+  {
+    "n": "Split System Kit Max Heat Wall Mount 1-1 15K BTU",
+    "m": "RXS15ACC-RNS15ABC",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 2087.9
+  },
+  {
+    "n": "Heat Pump 2.5 Ton R-454B 14.3 SEER 208/230 Volt 1 Phase 2 Stage",
+    "m": "RP14AY30AJ2NA",
+    "b": "Rheem",
+    "ton": 2.5,
+    "seer": 14.3,
+    "stg": 2,
+    "p": 2096.13
+  },
+  {
+    "n": "Heat Pump 5 Ton Side Discharge Universal 19 SEER 208/230 Volt 1 Phase",
+    "m": "RD18AY60AJVCA",
+    "b": "Rheem",
+    "ton": 5,
+    "seer": 19,
+    "stg": 1,
+    "p": 3435.86
+  },
+  {
+    "n": "Heat Pump TDI Pro 2 5 Ton Top Discharge R-454B",
+    "m": "",
+    "b": "",
+    "ton": 5,
+    "seer": 0,
+    "stg": 1,
+    "p": 5600
+  },
+  {
+    "n": "Heat Pump 1.5 Ton R-454B 14.3 SEER 208/230 Volt 1 Phase 1 Stage",
+    "m": "RP14AY18AJ1NA",
+    "b": "Rheem",
+    "ton": 1.5,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 1662.36
+  },
+  {
+    "n": "Heat Pump 4 Ton R-454B 14.3 SEER 208/230 Volt 1 Phase 2 Stage",
     "m": "RP14AY48AJ2NA",
     "b": "Rheem",
     "ton": 4,
@@ -54,43 +288,43 @@
     "p": 2860.01
   },
   {
-    "n": "HP 5T 14.3 SEER 2-Stg",
-    "m": "RP14AY60AJ2NA",
-    "b": "Rheem",
-    "ton": 5,
-    "seer": 14.3,
-    "stg": 2,
-    "p": 3256.09
+    "n": "5-Ton 17 SEER 208/230-Volt Single-Stage Single-Phase Heat Pump",
+    "m": "General Electric NS17H60SA4",
+    "b": "General",
+    "ton": 0,
+    "seer": 17,
+    "stg": 1,
+    "p": 2944.98
   },
   {
-    "n": "HP 1.5T 15.2 SEER 2-Stg",
-    "m": "RP15AY18AJ2NA",
+    "n": "Heat Pump 3 Ton 19S Variable Speed Communicating R-454B 208 Volt 1 Phase",
+    "m": "RP19AY36AJVCA",
     "b": "Rheem",
-    "ton": 1.5,
-    "seer": 15.2,
-    "stg": 2,
-    "p": 2354.5
+    "ton": 3,
+    "seer": 0,
+    "stg": 3,
+    "p": 4412.6
   },
   {
-    "n": "HP 2T 15.2 SEER 2-Stg",
-    "m": "RP15AY24AJ2NA",
-    "b": "Rheem",
-    "ton": 2,
-    "seer": 15.2,
-    "stg": 2,
-    "p": 2499.19
+    "n": "Thermostat SDI Series",
+    "m": "",
+    "b": "",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 428.99
   },
   {
-    "n": "HP 2.5T 15.2 SEER 2-Stg",
-    "m": "RP15AY30AJ2NA",
-    "b": "Rheem",
-    "ton": 2.5,
-    "seer": 15.2,
-    "stg": 2,
-    "p": 2865.91
+    "n": "Electric Heater Resitance 8 KW SDI Series",
+    "m": "",
+    "b": "",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 183.75
   },
   {
-    "n": "HP 3T 15.2 SEER 2-Stg",
+    "n": "Heat Pump 3 Ton R-454B 15.2 SEER 208/230 Volt 1 Phase 2 Stage",
     "m": "RP15AY36AJ2NA",
     "b": "Rheem",
     "ton": 3,
@@ -99,16 +333,115 @@
     "p": 3193.44
   },
   {
-    "n": "HP 3.5T 15.2 SEER 2-Stg",
-    "m": "RP15AY42AJ2NA",
-    "b": "Rheem",
-    "ton": 3.5,
-    "seer": 15.2,
-    "stg": 2,
-    "p": 3592
+    "n": "Outdoor Unit DVM S2 Heat Recovery 8 Ton 208/230 Volt 3 Phase",
+    "m": "AM096BXVTFR/AA",
+    "b": "Samsung",
+    "ton": 8,
+    "seer": 0,
+    "stg": 1,
+    "p": 12167.22
   },
   {
-    "n": "HP 4T 15.2 SEER 2-Stg",
+    "n": "Outdoor Unit DVM S2 Heat Recovery 10 Ton 208/230 Volt 3 Phase",
+    "m": "AM120BXVTFR/AA",
+    "b": "Samsung",
+    "ton": 10,
+    "seer": 0,
+    "stg": 1,
+    "p": 13480.52
+  },
+  {
+    "n": "Heat Pump 3.5 Ton R-454B 14.3 SEER 208/230 Volt 1 Phase 2 Stage",
+    "m": "RP14AY42AJ2NA",
+    "b": "Rheem",
+    "ton": 3.5,
+    "seer": 14.3,
+    "stg": 2,
+    "p": 2645.56
+  },
+  {
+    "n": "Minisplit 9kBTU Universal Wall Mounted 2",
+    "m": "8733956175",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 502.59
+  },
+  {
+    "n": "Heat Pump 5 Ton R-454B 14.3 SEER 208/230 Volt 1 Phase 2 Stage",
+    "m": "RP14AY60AJ2NA",
+    "b": "Rheem",
+    "ton": 5,
+    "seer": 14.3,
+    "stg": 2,
+    "p": 3256.09
+  },
+  {
+    "n": "Heat Pump 2 Ton R-454B 15.2 SEER 208/230 Volt 1 Phase 2 Stage",
+    "m": "RP15AY24AJ2NA",
+    "b": "Rheem",
+    "ton": 2,
+    "seer": 15.2,
+    "stg": 2,
+    "p": 2499.19
+  },
+  {
+    "n": "3-Ton 22 SEER 208/230-Volt Inverter Heat Pump",
+    "m": "General Electric NS22H36MA4",
+    "b": "General",
+    "ton": 0,
+    "seer": 22,
+    "stg": 1,
+    "p": 7034.88
+  },
+  {
+    "n": "Heat Pump 2 Ton Split 1 Stage R-454B 16 SEER2",
+    "m": "General Electric NS16H24SA5",
+    "b": "General",
+    "ton": 2,
+    "seer": 16,
+    "stg": 1,
+    "p": 2165.47
+  },
+  {
+    "n": "Heat Pump 3.5T 14.3 SEER2 R410A",
+    "m": "YH2E42TB21S",
+    "b": "York",
+    "ton": 0,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 1700.59
+  },
+  {
+    "n": "Outdoor Unit DVM S2 Heat Recovery 6 Ton 208/230 Volt 3 Phase",
+    "m": "AM072BXVTFR/AA",
+    "b": "Samsung",
+    "ton": 6,
+    "seer": 0,
+    "stg": 1,
+    "p": 11211.38
+  },
+  {
+    "n": "Heat Pump Hylex 34K BTU 3 Ton Standard Capacity 9.5 EER R-454B 36 K BTU 208/230 Volt 1 Phase",
+    "m": "AC036FCUDCG/AA",
+    "b": "Samsung",
+    "ton": 3,
+    "seer": 0,
+    "stg": 1,
+    "p": 3220.89
+  },
+  {
+    "n": "Split System Kit High Wall 36K BTU",
+    "m": "RXS36UMB-RNS36UMB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 2762.08
+  },
+  {
+    "n": "Heat Pump 4 Ton R-454B 15.2 SEER 208/230 Volt 1 Phase 2 Stage",
     "m": "RP15AY48AJ2NA",
     "b": "Rheem",
     "ton": 4,
@@ -117,7 +450,223 @@
     "p": 3600.17
   },
   {
-    "n": "HP 5T 15.2 SEER 2-Stg",
+    "n": "Heat Pump 2.5 Ton R-454B 15.2 SEER 208/230 Volt 1 Phase 2 Stage",
+    "m": "RP15AY30AJ2NA",
+    "b": "Rheem",
+    "ton": 2.5,
+    "seer": 15.2,
+    "stg": 2,
+    "p": 2865.91
+  },
+  {
+    "n": "Minisplit 48kBTU Multi Zone Condensing S",
+    "m": "8733956204",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 3802.07
+  },
+  {
+    "n": "Thermostat MS Accessory Wall Mount",
+    "m": "8733956179",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 233.04
+  },
+  {
+    "n": "Heat Pump 2.5T 14.3 SEER2 R410A",
+    "m": "YH2E30TB21S",
+    "b": "York",
+    "ton": 0,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 1326.56
+  },
+  {
+    "n": "Minisplit 24kBTU Universal Wall Mounted",
+    "m": "8733953097",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 806.32
+  },
+  {
+    "n": "Heat Pump 3 Ton Split 1 Stage R-454B 16 SEER2",
+    "m": "General Electric NS16H36SA5",
+    "b": "General",
+    "ton": 3,
+    "seer": 16,
+    "stg": 1,
+    "p": 2703.95
+  },
+  {
+    "n": "Minisplit Accessory 9k -18K Cassette Grille",
+    "m": "8733953125",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 154.11
+  },
+  {
+    "n": "Heat Pump 4T 14.3 SEER2 R410A",
+    "m": "YH2E48TB21S",
+    "b": "York",
+    "ton": 0,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 1846.63
+  },
+  {
+    "n": "Outdoor Unit DVM S2 Heat Pump 8 Ton 208/230 Volt 3 Phase",
+    "m": "AM096BXVTFH/AA",
+    "b": "Samsung",
+    "ton": 8,
+    "seer": 0,
+    "stg": 1,
+    "p": 10123.82
+  },
+  {
+    "n": "Outdoor Unit DVM S2 Heat Pump 8 Ton 460 Volt 3 Phase",
+    "m": "AM096BXVTJH/AA",
+    "b": "Samsung",
+    "ton": 8,
+    "seer": 0,
+    "stg": 1,
+    "p": 10724.36
+  },
+  {
+    "n": "Heat Pump 4 Ton 19S Variable Speed Communicating R-454B 208 Volt 1 Phase",
+    "m": "RP19AY48AJVCA",
+    "b": "Rheem",
+    "ton": 4,
+    "seer": 0,
+    "stg": 3,
+    "p": 4860.31
+  },
+  {
+    "n": "Heat Pump 5T 14.3 SEER2 R410A",
+    "m": "YH2E60TB21S",
+    "b": "York",
+    "ton": 0,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 2033.24
+  },
+  {
+    "n": "Outdoor Unit Heat Recovery 8 Ton 460 Volt 3 Phase",
+    "m": "AM096BXVTJR/AA",
+    "b": "Samsung",
+    "ton": 8,
+    "seer": 0,
+    "stg": 1,
+    "p": 12427.62
+  },
+  {
+    "n": "Outdoor Unit DVM S2 Heat Pump 6 Ton 460 Volt 3 Phase",
+    "m": "AM072BXVTJH/AA",
+    "b": "Samsung",
+    "ton": 6,
+    "seer": 0,
+    "stg": 1,
+    "p": 9229.51
+  },
+  {
+    "n": "Heat Pump 5 Ton 19 SEER R-454B 208 Volt 1 Phase",
+    "m": "RP19AY60AJVCA",
+    "b": "Rheem",
+    "ton": 5,
+    "seer": 19,
+    "stg": 1,
+    "p": 5357.09
+  },
+  {
+    "n": "Heat Pump 3.5 Ton Split 1 Stage R-454B 16 SEER2",
+    "m": "General Electric NS16H42SA5",
+    "b": "General",
+    "ton": 3.5,
+    "seer": 16,
+    "stg": 1,
+    "p": 2988.58
+  },
+  {
+    "n": "Heat Pump 2.5 Ton Split 1 Stage R-454B 16 SEER2",
+    "m": "General Electric NS16H30SA5",
+    "b": "General",
+    "ton": 2.5,
+    "seer": 16,
+    "stg": 1,
+    "p": 2255.21
+  },
+  {
+    "n": "Heat Pump 5 Ton R-454B 13.4 SEER 208/230 Volt 3 Phase",
+    "m": "RP14AY60AC2NA",
+    "b": "Rheem",
+    "ton": 5,
+    "seer": 13.4,
+    "stg": 1,
+    "p": 4162.9
+  },
+  {
+    "n": "Minisplit 27kBTU Multi Zone Condensing S",
+    "m": "8733956203",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 2435.59
+  },
+  {
+    "n": "Minisplit 27kBTU Multi Zone Condensing S",
+    "m": "8733956200",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1370.49
+  },
+  {
+    "n": "Interface Board Accessory 24V",
+    "m": "8733953129",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 255.91
+  },
+  {
+    "n": "Outdoor Unit DVM S2 Heat Pump 10 Ton 208/230 Volt 3 Phase",
+    "m": "AM120BXVTFH/AA",
+    "b": "Samsung",
+    "ton": 10,
+    "seer": 0,
+    "stg": 1,
+    "p": 10893.34
+  },
+  {
+    "n": "Split System Kit Windfree Wall Mount 1-1 18K BTU",
+    "m": "RXS18ABC-RNS18ABC",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 2160.63
+  },
+  {
+    "n": "Split System Kit High Wall CAC 36K BTU",
+    "m": "CXH36ADB-CNH36TDB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 3665.84
+  },
+  {
+    "n": "Heat Pump 5 Ton R-454B 15.2 SEER 208/230 Volt 1 Phase 2 Stage",
     "m": "RP15AY60AJ2NA",
     "b": "Rheem",
     "ton": 5,
@@ -126,228 +675,1740 @@
     "p": 4124.56
   },
   {
-    "n": "HP Endeavor 2T 16 SEER Side",
-    "m": "RD16AY24AJVCA",
+    "n": "Minisplit 18kBTU Single Zone Condensing",
+    "m": "8733956191",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1106.83
+  },
+  {
+    "n": "Electric Heater Resitance 15 KW SDI Series",
+    "m": "",
+    "b": "",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 331.59
+  },
+  {
+    "n": "Heat Pump 5 Ton R-454B 13.4 SEER 460 Volt 3 Phase",
+    "m": "RP14AY60AD2NA",
+    "b": "Rheem",
+    "ton": 5,
+    "seer": 13.4,
+    "stg": 1,
+    "p": 4208.74
+  },
+  {
+    "n": "Minisplit 6kBTU Universal Wall Mounted 2",
+    "m": "8733956181",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 429.21
+  },
+  {
+    "n": "Minisplit 24kBTU Single Zone Condensing",
+    "m": "8733956192",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1294.65
+  },
+  {
+    "n": "Thermostat MS Accessory Duct Cassette",
+    "m": "8733956180",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 176.33
+  },
+  {
+    "n": "Heat Pump Hylex 46K BTU 4 Ton Standard Capacity 9.5 EER R-454B 48 K BTU 208/230 Volt 1 Phase",
+    "m": "AC048FCUDCG/AA",
+    "b": "Samsung",
+    "ton": 4,
+    "seer": 0,
+    "stg": 1,
+    "p": 3917.24
+  },
+  {
+    "n": "Heat Pump Hylex 24K BTU 2 Ton Standard Capacity 11.0 EER R-454B 25 K BTU 208/230 Volt 1 Phase",
+    "m": "AC024FCUDCG/AA",
+    "b": "Samsung",
+    "ton": 2,
+    "seer": 0,
+    "stg": 1,
+    "p": 3046.8
+  },
+  {
+    "n": "Indoor Unit WindFree 3.0I RAC/FJM 15K BTU 208/230 Volt 1 Phase R-410A RNS15CPC Wall",
+    "m": "AR15CSKCPWKNCV",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 448.32
+  },
+  {
+    "n": "Outdoor Unit DVM S2 Heat Recovery 10 Ton 460 Volt 3 Phase",
+    "m": "AM120BXVTJR/AA",
+    "b": "Samsung",
+    "ton": 10,
+    "seer": 0,
+    "stg": 1,
+    "p": 14424.22
+  },
+  {
+    "n": "Outdoor Unit DVM S2 Heat Pump 6 Ton 208/230 Volt 3 Phase",
+    "m": "AM072BXVTFH/AA",
+    "b": "Samsung",
+    "ton": 6,
+    "seer": 0,
+    "stg": 1,
+    "p": 8725.16
+  },
+  {
+    "n": "Outdoor Unit DVM S2 Heat Recovery 6 Ton 460 Volt 3 Phase",
+    "m": "AM072BXVTJR/AA",
+    "b": "Samsung",
+    "ton": 6,
+    "seer": 0,
+    "stg": 1,
+    "p": 11636
+  },
+  {
+    "n": "Outdoor Unit DVM S2 Heat Pump 10 Ton 460 Volt 3 Phase",
+    "m": "AM120BXVTJH/AA",
+    "b": "Samsung",
+    "ton": 10,
+    "seer": 0,
+    "stg": 1,
+    "p": 11547.18
+  },
+  {
+    "n": "Split System Kit Windfree Wall Mount 1-1 24K BTU",
+    "m": "RXS24ABC-RNS24ABC",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 2511.33
+  },
+  {
+    "n": "Split System Kit Windfree Wall Mount 1-1 12K BTU",
+    "m": "RXS12ABC-RNS12ABC",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1512.01
+  },
+  {
+    "n": "Split System Kit Mini 4 Way Cassette WindFree 18K BTU",
+    "m": "CXH18ADB-CNH18NDB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 2278.21
+  },
+  {
+    "n": "Heat Pump 2 Ton 19S Variable Speed Communicating R-454B 208 Volt 1 Phase",
+    "m": "RP19AY24AJVCA",
     "b": "Rheem",
     "ton": 2,
-    "seer": 16,
-    "stg": 2,
-    "p": 2273.34
+    "seer": 0,
+    "stg": 3,
+    "p": 4053.99
   },
   {
-    "n": "HP Endeavor 3T 16 SEER Side",
-    "m": "RD16AY36AJVCA",
+    "n": "Heat Pump 3.5 Ton R-454B 15.2 SEER 208/230 Volt 1 Phase 2 Stage",
+    "m": "RP15AY42AJ2NA",
     "b": "Rheem",
-    "ton": 3,
-    "seer": 16,
+    "ton": 3.5,
+    "seer": 15.2,
     "stg": 2,
-    "p": 2392.99
+    "p": 3592
   },
   {
-    "n": "HP Endeavor 4T 16 SEER Side",
+    "n": "Heat Pump 1.5 Ton 15.2 SEER R-454B 208/230 Volt 1 Phase 2 Stage",
+    "m": "RP15AY18AJ2NA",
+    "b": "Rheem",
+    "ton": 1.5,
+    "seer": 15.2,
+    "stg": 2,
+    "p": 2354.5
+  },
+  {
+    "n": "Heat Pump 36K BTU 3 Ton Cold Climate 17.4 Seer R-454B 3001 Cubic Feet per Minute 39 K BTU 10.2 HSPF2 208/23...",
+    "m": "",
+    "b": "",
+    "ton": 3,
+    "seer": 17.4,
+    "stg": 1,
+    "p": 4456.65
+  },
+  {
+    "n": "Heat Pump 5 Ton Split 1 Stage R-454B 16 SEER2",
+    "m": "General Electric NS16H60SA5",
+    "b": "General",
+    "ton": 5,
+    "seer": 16,
+    "stg": 1,
+    "p": 3309.1
+  },
+  {
+    "n": "Heat Pump 4 Ton Split 1 Stage R-454B 16 SEER2",
+    "m": "General Electric NS16H48SA5",
+    "b": "General",
+    "ton": 4,
+    "seer": 16,
+    "stg": 1,
+    "p": 3132.17
+  },
+  {
+    "n": "Minisplit 12kBTU Universal Cassette 230V",
+    "m": "8733953110",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 777.11
+  },
+  {
+    "n": "Minisplit 18kBTU Multi Zone Condensing S",
+    "m": "8733956202",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 2104.1
+  },
+  {
+    "n": "Minisplit 9kBTU Universal Ducted 230V",
+    "m": "8733953102",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 705.37
+  },
+  {
+    "n": "Minisplit 18kBTU Multi Zone Condensing S",
+    "m": "8733956199",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1156.99
+  },
+  {
+    "n": "5-Ton 22 SEER 208/230-Volt Inverter Heat Pump",
+    "m": "General Electric NS22H60MA4",
+    "b": "General",
+    "ton": 0,
+    "seer": 22,
+    "stg": 1,
+    "p": 8051.59
+  },
+  {
+    "n": "Heat Pump 4 Ton R-454B 13.4 SEER 208/230 Volt 3 Phase",
+    "m": "RP14AY48AC2NA",
+    "b": "Rheem",
+    "ton": 4,
+    "seer": 13.4,
+    "stg": 1,
+    "p": 3680.72
+  },
+  {
+    "n": "Minisplit 18kBTU Universal Wall Mounted",
+    "m": "8733956177",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 741.86
+  },
+  {
+    "n": "Minisplit 12kBTU Universal Wall Mounted",
+    "m": "8733956176",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 575.96
+  },
+  {
+    "n": "Minisplit 24kBTU Universal Cassette 230V",
+    "m": "8733956186",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1138.93
+  },
+  {
+    "n": "Heat Pump 2T 14.3 SEER2 R410A",
+    "m": "YH2E24TB21S",
+    "b": "York",
+    "ton": 0,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 1267.74
+  },
+  {
+    "n": "Heat Pump Hylex 54K BTU 5 Ton Standard Capacity 9.5 EER R-454B 56 K BTU 208/230 Volt 1 Phase",
+    "m": "AC060FCUDCG/AA",
+    "b": "Samsung",
+    "ton": 5,
+    "seer": 0,
+    "stg": 1,
+    "p": 4178.1
+  },
+  {
+    "n": "Hi-Wall Kit RXS24ABT and RNS24ABT 24K BTU 20 SEER WindFree",
+    "m": "RXS24ABT-RNS24ABT",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 20,
+    "stg": 1,
+    "p": 2425.1
+  },
+  {
+    "n": "Hi-Wall Kit RXS18ACT and RNS18ABT 18K BTU 21 SEER MaxHeat",
+    "m": "RXS18ACT-RNS18ABT",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 21,
+    "stg": 1,
+    "p": 2179.35
+  },
+  {
+    "n": "Hi-Wall Kit RXS09ABT and RNS09ABT 9K BTU 24.5 SEER WindFree",
+    "m": "RXS09ABT-RNS09ABT",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 24.5,
+    "stg": 1,
+    "p": 1100.76
+  },
+  {
+    "n": "Split System Kit Windfree Wall Mount 1-1 9K BTU",
+    "m": "RXS09ABC-RNS09ABC",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1247.36
+  },
+  {
+    "n": "Split System Kit High Wall 18K BTU",
+    "m": "CXH18ADB-CNH18ADB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 2117.14
+  },
+  {
+    "n": "Split System Kit Mini 4 Way Cassette WindFree 12K BTU",
+    "m": "CXH12ADB-CNH12NDB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1532.91
+  },
+  {
+    "n": "Split System Kit Mini 4 Way Cassette WindFree 9K BTU",
+    "m": "CXH09ADB-CNH09NDB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1485.38
+  },
+  {
+    "n": "Split System Kit Duct S 18K BTU",
+    "m": "CXH18ADB-CNH18HDB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 2535.29
+  },
+  {
+    "n": "Heat Pump Endeavor Side Discharge 16 SEER R-454B 4 Ton 208/230 Volt 1 Phase",
     "m": "RD16AY48AJVCA",
     "b": "Rheem",
     "ton": 4,
     "seer": 16,
-    "stg": 2,
+    "stg": 1,
     "p": 2826.03
   },
   {
-    "n": "HP Endeavor 5T 16 SEER Side",
+    "n": "Heat Pump Endeavor 3 Ton Side Discharge 16 SEER R-454B 36K BTU 208/230 Volt 1 Phase",
+    "m": "RD16AY36AJVCA",
+    "b": "Rheem",
+    "ton": 3,
+    "seer": 16,
+    "stg": 1,
+    "p": 2392.99
+  },
+  {
+    "n": "Heat Pump Endeavor 2 Ton Side Discharge 16 SEER R-454B 208/230 Volt 1 Phase",
+    "m": "RD16AY24AJVCA",
+    "b": "Rheem",
+    "ton": 2,
+    "seer": 16,
+    "stg": 1,
+    "p": 2273.34
+  },
+  {
+    "n": "Heat Pump 1.5 Ton Split 1 Stage R-454B 16 SEER2",
+    "m": "General Electric NS16H18SA5",
+    "b": "General",
+    "ton": 1.5,
+    "seer": 16,
+    "stg": 1,
+    "p": 2060.34
+  },
+  {
+    "n": "Minisplit 9kBTU Universal Cassette 230V",
+    "m": "8733953109",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 684.75
+  },
+  {
+    "n": "Minisplit 24kBTU Universal Ducted 230V",
+    "m": "8733953105",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1010.11
+  },
+  {
+    "n": "Minisplit 18kBTU Universal Ducted 230V",
+    "m": "8733953104",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 923.59
+  },
+  {
+    "n": "Minisplit 36kBTU Multi Zone Condensing S",
+    "m": "8733956227",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 3383.9
+  },
+  {
+    "n": "Minisplit 48kBTU Multi Zone Condensing S",
+    "m": "8733942706",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 2829.28
+  },
+  {
+    "n": "Minisplit 9kBTU Single Zone Condensing S",
+    "m": "8733956189",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 766.8
+  },
+  {
+    "n": "Electric Heater Resitance 20 KW SDI Series",
+    "m": "",
+    "b": "",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 373.33
+  },
+  {
+    "n": "Thermostat Accessory Wired Wall Mmt",
+    "m": "8733953127",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 211.12
+  },
+  {
+    "n": "Heat Pump 3 Ton 13.4 SEER R-454B 208/230 Volt 3 Phase",
+    "m": "RP14AY36AC2NA",
+    "b": "Rheem",
+    "ton": 3,
+    "seer": 13.4,
+    "stg": 1,
+    "p": 3033.46
+  },
+  {
+    "n": "Heat Pump 5 Ton Residential Split 14.3 SEER2 R-454B",
+    "m": "YH460E2S11",
+    "b": "York",
+    "ton": 5,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 2213.54
+  },
+  {
+    "n": "Heat Pump 30K BTU Regular Outdoor Ducted R-401A",
+    "m": "",
+    "b": "",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1674.11
+  },
+  {
+    "n": "Minisplit 18kBTU Single Zone Condensing",
+    "m": "8733956195",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1503.73
+  },
+  {
+    "n": "Heat Pump 3T 14.3 SEER2 R410A",
+    "m": "YH2E36TB21S",
+    "b": "York",
+    "ton": 0,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 1595.11
+  },
+  {
+    "n": "Heat Pump 1.5T 14.3 SEER2 R410A",
+    "m": "YH2E18SB21S",
+    "b": "York",
+    "ton": 0,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 1168.34
+  },
+  {
+    "n": "Heat Pump 3 Ton Inverter Horizontal Discharge 17 SEER",
+    "m": "HMH72B361S",
+    "b": "York",
+    "ton": 3,
+    "seer": 17,
+    "stg": 1,
+    "p": 1659.62
+  },
+  {
+    "n": "Split System Kit Slim Duct 9K BTU",
+    "m": "CXH09ADB-CNH09LDB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1572.12
+  },
+  {
+    "n": "S Duct Kit CXH24ADJ and CNH24HDM",
+    "m": "CXH24ADJ-CNH24HDM",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 3784.37
+  },
+  {
+    "n": "Hi-Wall Kit RXS18ABT and RNS18ABT 18K BTU 21 SEER WindFree",
+    "m": "RXS18ABT-RNS18ABT",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 21,
+    "stg": 1,
+    "p": 2206.92
+  },
+  {
+    "n": "Hi-Wall Kit RXS24ACT and RNS24ABT 24K BTU 20 SEER MaxHeat",
+    "m": "RXS24ACT-RNS24ABT",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 20,
+    "stg": 1,
+    "p": 2390.87
+  },
+  {
+    "n": "Hi-Wall Kit RXS12ABT and RNS12ABT 12K BTU 23 SEER WindFree",
+    "m": "RXS12ABT-RNS12ABT",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 23,
+    "stg": 1,
+    "p": 1363.54
+  },
+  {
+    "n": "Hi-Wall Kit RXS12ACT and RNS12ABT 12K BTU 23 SEER MaxHeat",
+    "m": "RXS12ACT-RNS12ABT",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 23,
+    "stg": 1,
+    "p": 1412.93
+  },
+  {
+    "n": "Hi-Wall Kit RXS09ACT and RNS09ABT 9K BTU 24.5 SEER MaxHeat",
+    "m": "RXS09ACT-RNS09ABT",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 24.5,
+    "stg": 1,
+    "p": 1207.74
+  },
+  {
+    "n": "Split System Kit Max Heat Wall Mount 1-1 24K BTU",
+    "m": "RXS24ACC-RNS24ABC",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 2626.85
+  },
+  {
+    "n": "Split System Kit Windfree Wall Mount 1-1 15K BTU",
+    "m": "RXS15ABC-RNS15ABC",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1925.81
+  },
+  {
+    "n": "Split System Kit Max Heat Wall Mount 1-1 18K BTU",
+    "m": "RXS18ACC-RNS18ABC",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 2274.34
+  },
+  {
+    "n": "Hi-Wall Kit RXS18CMB and RNS18CMB 18K BTU 20 SEER",
+    "m": "RXS18CMB-RNS18CMB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 20,
+    "stg": 1,
+    "p": 1318.94
+  },
+  {
+    "n": "Hi-Wall Kit RXS12CMB and RNS12CMB 12K BTU 21.5 SEER",
+    "m": "RXS12CMB-RNS12CMB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 21.5,
+    "stg": 1,
+    "p": 1013.61
+  },
+  {
+    "n": "Hi-Wall Kit RXS09CMB and RNS09CMB 9K BTU 23.5 SEER",
+    "m": "RXS09CMB-RNS09CMB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 23.5,
+    "stg": 1,
+    "p": 970.23
+  },
+  {
+    "n": "Split System Kit 4 Way Cassette WindFree 48K BTU",
+    "m": "CXH48ADB-CNH484DB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 5185.84
+  },
+  {
+    "n": "Split System Kit Multi A/H 48K BTU",
+    "m": "CXH48ADB-CNH48ZDK",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 5518.03
+  },
+  {
+    "n": "Split System Kit CAC Multi A/H 36K BTU",
+    "m": "CXH36SCB-CNH36ZDK",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 5875.33
+  },
+  {
+    "n": "Split System Kit Multi A/H 30K BTU",
+    "m": "CXH30SCB-CNH30ZDK",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 5358.33
+  },
+  {
+    "n": "Split System Kit Multi A/H 36K BTU",
+    "m": "CXH36ADB-CNH36ZDK",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 4793.91
+  },
+  {
+    "n": "Split System Kit 4 Way Cassette WindFree 24K BTU",
+    "m": "CXH24ADB-CNH244DB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 3299.59
+  },
+  {
+    "n": "Split System Kit Multi A/H 24K BTU",
+    "m": "CXH24ADB-CNH24ZDK",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 4000.42
+  },
+  {
+    "n": "Split System Kit Multi A/H 18K BTU",
+    "m": "CXH18ADB-CNH18ZDK",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 3304.95
+  },
+  {
+    "n": "Split System Kit Duct S 36K BTU",
+    "m": "CXH36SCB-CNH36HDB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 5344.75
+  },
+  {
+    "n": "Split System Kit Duct S 24K BTU",
+    "m": "CXH24ADB-CNH24HDB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 3689.7
+  },
+  {
+    "n": "Split System Kit WindFree 2.0 High Wall 15K BTU",
+    "m": "RXS15ACB-RNS15ACB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 2034.57
+  },
+  {
+    "n": "Split System Kit Duct S 12K BTU",
+    "m": "CXH12ADB-CNH12HDB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1799.07
+  },
+  {
+    "n": "Split System Kit Slim Duct 18K BTU",
+    "m": "CXH18ADB-CNH18LDB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 2320.19
+  },
+  {
+    "n": "Split System Kit Duct S 9K BTU",
+    "m": "CXH09ADB-CNH09HDB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1595.98
+  },
+  {
+    "n": "Minisplit 12kBTU Single Zone Condensing",
+    "m": "8733953116",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1049.04
+  },
+  {
+    "n": "Minisplit 12kBTU Universal Ducted 230V",
+    "m": "8733953103",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 723.41
+  },
+  {
+    "n": "Minisplit 36kBTU Single Zone Wall Mounted",
+    "m": "8733953100",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 907.27
+  },
+  {
+    "n": "Minisplit 30kBTU Single Zone Wall Mounted",
+    "m": "8733953098",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 858.3
+  },
+  {
+    "n": "Minisplit 24kBTU Single Zone Condensing",
+    "m": "8733956196",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1732.08
+  },
+  {
+    "n": "Minisplit 9kBTU Single Zone Condensing S",
+    "m": "8733953115",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1043.44
+  },
+  {
+    "n": "Heat Pump Affinity 5 Ton 19 SEER",
+    "m": "YZT60B21S",
+    "b": "York",
+    "ton": 5,
+    "seer": 19,
+    "stg": 1,
+    "p": 2984.14
+  },
+  {
+    "n": "Heat Pump Affinity 4 Ton 19 SEER",
+    "m": "YZT48B21S",
+    "b": "York",
+    "ton": 4,
+    "seer": 19,
+    "stg": 1,
+    "p": 2819.04
+  },
+  {
+    "n": "Heat Pump Affinity 3 Ton 19 SEER",
+    "m": "YZT36B21S",
+    "b": "York",
+    "ton": 3,
+    "seer": 19,
+    "stg": 1,
+    "p": 2591.86
+  },
+  {
+    "n": "Heat Pump Affinity 2 Ton 19 SEER",
+    "m": "YZT24B21S",
+    "b": "York",
+    "ton": 2,
+    "seer": 19,
+    "stg": 1,
+    "p": 2435.67
+  },
+  {
+    "n": "Split System Climate 5000 Single Condensing 12K BTU 208/230 Volt",
+    "m": "8733942698",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 811.9
+  },
+  {
+    "n": "Heat Pump Affinity YZV 3 Ton Split System Inverter 20 SEER R-410A 208/230 Volt 1 Phase",
+    "m": "YZV36B21S",
+    "b": "York",
+    "ton": 3,
+    "seer": 20,
+    "stg": 1,
+    "p": 3496.61
+  },
+  {
+    "n": "Minisplit 48kBTU Universal Ducted 230V",
+    "m": "8733953107",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1344.41
+  },
+  {
+    "n": "Minisplit 36kBTU Universal Ducted 230V",
+    "m": "8733953106",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1243.68
+  },
+  {
+    "n": "Minisplit 36kBTU Single Zone Condensing",
+    "m": "8733953101",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 2003.77
+  },
+  {
+    "n": "Minisplit 60kBTU Single Zone Condensing",
+    "m": "8733953124",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 3618.67
+  },
+  {
+    "n": "Minisplit 36kBTU Single Zone Condensing",
+    "m": "8733953122",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 2559.19
+  },
+  {
+    "n": "Heat Pump 5 Ton Inverter Horizontal Discharge 17 SEER",
+    "m": "HMH72B601S",
+    "b": "York",
+    "ton": 5,
+    "seer": 17,
+    "stg": 1,
+    "p": 2115.19
+  },
+  {
+    "n": "Heat Pump 2 Ton Inverter Horizontal Discharge 17 SEER",
+    "m": "HMH72B241S",
+    "b": "York",
+    "ton": 2,
+    "seer": 17,
+    "stg": 1,
+    "p": 1319.25
+  },
+  {
+    "n": "Heat Pump 4 Ton Inverter Horizontal Discharge 17 SEER",
+    "m": "HMH72B481S",
+    "b": "York",
+    "ton": 4,
+    "seer": 17,
+    "stg": 1,
+    "p": 1921.28
+  },
+  {
+    "n": "Minisplit Accessory Cassette Grille 24K to 48K",
+    "m": "8733956205",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 217.79
+  },
+  {
+    "n": "Multipoise Kit CXH30SCJ and CNH30ZDK 30K BTU 20.3 SEER Air Handler Max",
+    "m": "CXH30SCJ-CNH30ZDK",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 20.3,
+    "stg": 1,
+    "p": 5521.52
+  },
+  {
+    "n": "Heat Pump Hylex Unitary Premium Outdoor Unit 5 Ton 208/230 Volt 1 Phase R454B",
+    "m": "AC060FCUPCG/AA",
+    "b": "Samsung",
+    "ton": 5,
+    "seer": 0,
+    "stg": 1,
+    "p": 4425.36
+  },
+  {
+    "n": "Heat Pump Hylex Unitary Premium Outdoor Unit 4 Ton 208/230 Volt 1 Phase R454B",
+    "m": "AC048FCUPCG/AA",
+    "b": "Samsung",
+    "ton": 4,
+    "seer": 0,
+    "stg": 1,
+    "p": 4148.74
+  },
+  {
+    "n": "Heat Pump Hylex Unitary Premium Outdoor Unit 3 Ton 208/230 Volt 1 Phase R454B",
+    "m": "AC036FCUPCG/AA",
+    "b": "Samsung",
+    "ton": 3,
+    "seer": 0,
+    "stg": 1,
+    "p": 3411.27
+  },
+  {
+    "n": "Heat Pump Hylex Unitary Premium Outdoor Unit 2 Ton 208/230 Volt 1 Phase R454B",
+    "m": "AC024FCUPCG/AA",
+    "b": "Samsung",
+    "ton": 2,
+    "seer": 0,
+    "stg": 1,
+    "p": 3227.05
+  },
+  {
+    "n": "Cassette Kit CXH18ADJ and CNH184DN 18K BTU 20 SEER WindFree for Split System",
+    "m": "CXH18ADJ-CNH184DN",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 20,
+    "stg": 1,
+    "p": 2487.72
+  },
+  {
+    "n": "Hi-Wall Kit CXH18ADK and CNH18LDK 18K BTU 20 SEER Slimduct",
+    "m": "CXH18ADK-CNH18LDK",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 20,
+    "stg": 1,
+    "p": 2201.35
+  },
+  {
+    "n": "S Duct Kit CXH36SCJ and CNH36HDM Maxheat",
+    "m": "CXH36SCJ-CNH36HDM",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 5472.65
+  },
+  {
+    "n": "Multipoise Kit CXH36SCJ and CNH36ZDK 36K BTU 19 SEER Air Handler Max",
+    "m": "CXH36SCJ-CNH36ZDK",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 19,
+    "stg": 1,
+    "p": 6055.21
+  },
+  {
+    "n": "Hi-Wall Kit CXH12ADK and CNH12LDK 12K BTU 20 SEER Slimduct",
+    "m": "CXH12ADK-CNH12LDK",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 20,
+    "stg": 1,
+    "p": 1658.81
+  },
+  {
+    "n": "S Duct Kit CXH30SCJ and CNH30HDM Maxheat",
+    "m": "CXH30SCJ-CNH30HDM",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 5063.2
+  },
+  {
+    "n": "Multipoise Kit CXH42ADJ and CNH42ZDK 42K BTU 18.4 SEER Air Handler",
+    "m": "CXH42ADJ-CNH42ZDK",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 18.4,
+    "stg": 1,
+    "p": 5356.41
+  },
+  {
+    "n": "S Duct Kit CXH36ADJ and CNH36HDM",
+    "m": "CXH36ADJ-CNH36HDM",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 4337.48
+  },
+  {
+    "n": "Multipoise Kit CXH36ADJ and CNH36ZDK 36K BTU 19 SEER Air Handler",
+    "m": "CXH36ADJ-CNH36ZDK",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 19,
+    "stg": 1,
+    "p": 4920.05
+  },
+  {
+    "n": "S Duct Kit CXH30ADJ and CNH30HDM",
+    "m": "CXH30ADJ-CNH30HDM",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 4001.75
+  },
+  {
+    "n": "Multipoise Kit CXH30ADJ and CNH30ZDK 30K BTU 19.6 SEER Air Handler",
+    "m": "CXH30ADJ-CNH30ZDK",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 19.6,
+    "stg": 1,
+    "p": 4460.06
+  },
+  {
+    "n": "Multipoise Kit CXH24ADJ and CNH24ZDK 24K BTU 19.5 SEER Air Handler",
+    "m": "CXH24ADJ-CNH24ZDK",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 19.5,
+    "stg": 1,
+    "p": 4106.11
+  },
+  {
+    "n": "Multipoise Kit CXH18ADJ and CNH18ZDK 18K BTU 20.1 SEER Air Handler",
+    "m": "CXH18ADJ-CNH18ZDK",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 20.1,
+    "stg": 1,
+    "p": 3153.97
+  },
+  {
+    "n": "Cassette Kit CXH36SCJ and CNH364DN 36K BTU 20 SEER Maxheat for Split System",
+    "m": "CXH36SCJ-CNH364DN",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 20,
+    "stg": 1,
+    "p": 5187.22
+  },
+  {
+    "n": "Cassette Kit CXH30SCJ and CNH304DN 30K BTU 21 SEER Maxheat for Split System",
+    "m": "CXH30SCJ-CNH304DN",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 21,
+    "stg": 1,
+    "p": 4768.2
+  },
+  {
+    "n": "Split System Kit Slim Duct 12K BTU",
+    "m": "CXH12ADB-CNH12LDB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1632.51
+  },
+  {
+    "n": "Split System Kit 4 Way Cassette WindFree 36K BTU",
+    "m": "CXH36SCB-CNH364DB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 5113.5
+  },
+  {
+    "n": "Split System Kit 4 Way Cassette WindFree 42K BTU",
+    "m": "CXH42ADB-CNH424DB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 4512.77
+  },
+  {
+    "n": "Split System Kit 4 Way Cassette WindFree 30K BTU",
+    "m": "CXH30SCB-CNH304DB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 4679.53
+  },
+  {
+    "n": "Split System Kit 4 Way Cassette WindFree CAC 36K BTU",
+    "m": "CXH36ADB-CNH364DB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 4032.08
+  },
+  {
+    "n": "Split System Kit Multi A/H 42K BTU",
+    "m": "CXH42ADB-CNH42ZDK",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 5214.69
+  },
+  {
+    "n": "Split System Kit 4 Way CAC Cassette WindFree 30K BTU",
+    "m": "CXH30ADB-CNH304DB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 3668.76
+  },
+  {
+    "n": "Split System Kit CAC Multi A/H 30K BTU",
+    "m": "CXH30ADB-CNH30ZDK",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 4347.56
+  },
+  {
+    "n": "Split System Kit High Wall 24K BTU",
+    "m": "CXH24ADB-CNH24ADB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 2736.92
+  },
+  {
+    "n": "Split System Kit 4 Way Cassette WindFree 18K BTU",
+    "m": "CXH18ADB-CNH184DB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 2677.18
+  },
+  {
+    "n": "Split System Kit Duct S CAC 36K BTU",
+    "m": "CXH36ADB-CNH36HDB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 4263.33
+  },
+  {
+    "n": "Split System Kit 360 Degree Cassette 36K BTU",
+    "m": "CXH36ADB-CNH366DB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 3885.97
+  },
+  {
+    "n": "Split System Kit Duct S 30K BTU",
+    "m": "CXH30ADB-CNH30HDB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 3933.71
+  },
+  {
+    "n": "Split System Kit 360 Degree Cassette 30K BTU",
+    "m": "CXH30ADB-CNH306DB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 3620.54
+  },
+  {
+    "n": "Split System Kit 360 Degree Cassette 24K BTU",
+    "m": "CXH24ADB-CNH246DB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 3322.49
+  },
+  {
+    "n": "Split System Kit 360 Degree Cassette 18K BTU",
+    "m": "CXH18ADB-CNH186DB",
+    "b": "Samsung",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 2532.04
+  },
+  {
+    "n": "Heat Pump Endeavor Side Discharge 16 SEER 5 Ton 208/230 Volt 1 Phase",
     "m": "RD16AY60AJVCA",
     "b": "Rheem",
     "ton": 5,
     "seer": 16,
-    "stg": 2,
+    "stg": 1,
     "p": 2974.75
   },
   {
-    "n": "HP 2T 19 SEER Side",
-    "m": "RD18AY24AJVCA",
-    "b": "Rheem",
+    "n": "Heat Pump 56K BTU 5 Ton Cold Climate 16.0 Seer R-454B 2645 Cubic Feet per Minute 54 K BTU 9.0 HSPF2 208/230...",
+    "m": "",
+    "b": "",
+    "ton": 5,
+    "seer": 16,
+    "stg": 1,
+    "p": 5515.07
+  },
+  {
+    "n": "Heat Pump 48K BTU 4 Ton Cold Climate 16.5 Seer R-454B 3037 Cubic Feet per Minute 46 K BTU 9.5 HSPF2 208/230...",
+    "m": "",
+    "b": "",
+    "ton": 4,
+    "seer": 16.5,
+    "stg": 1,
+    "p": 5065.93
+  },
+  {
+    "n": "Heat Pump 24K BTU 2 Ton Cold Climate 18.3 Seer R-454B 1765 Cubic Feet per Minute 23 K BTU 10.0 HSPF2 208/23...",
+    "m": "",
+    "b": "",
     "ton": 2,
-    "seer": 19,
-    "stg": 2,
-    "p": 2625.72
+    "seer": 18.3,
+    "stg": 1,
+    "p": 2404.02
   },
   {
-    "n": "HP 3T 19 SEER Side",
-    "m": "RD18AY36AJVCA",
-    "b": "Rheem",
-    "ton": 3,
-    "seer": 19,
-    "stg": 2,
-    "p": 2763.92
+    "n": "Minisplit 18kBTU Universal Cassette 230V",
+    "m": "8733953111",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 951.09
   },
   {
-    "n": "HP 4T 19 SEER Side",
-    "m": "RD18AY48AJVCA",
+    "n": "Minisplit 36kBTU Universal Cassette 230V",
+    "m": "8733953113",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1344.41
+  },
+  {
+    "n": "Heat Pump 4 Ton R-454B 13.4 SEER 460 Volt 3 Phase",
+    "m": "RP14AY48AD2NA",
     "b": "Rheem",
     "ton": 4,
-    "seer": 19,
-    "stg": 2,
-    "p": 3264.06
+    "seer": 13.4,
+    "stg": 1,
+    "p": 3747.04
   },
   {
-    "n": "HP 5T 19 SEER Side",
-    "m": "RD18AY60AJVCA",
-    "b": "Rheem",
-    "ton": 5,
-    "seer": 19,
-    "stg": 2,
-    "p": 3435.86
-  },
-  {
-    "n": "HP 2T 19S VS Comm",
-    "m": "RP19AY24AJVCA",
-    "b": "Rheem",
-    "ton": 2,
-    "seer": 19,
-    "stg": 2,
-    "p": 4053.99
-  },
-  {
-    "n": "HP 3T 19S VS Comm",
-    "m": "RP19AY36AJVCA",
+    "n": "Heat Pump 3 Ton 13.4 SEER R-454B 460 Volt 3 Phase",
+    "m": "RP14AY36AD2NA",
     "b": "Rheem",
     "ton": 3,
-    "seer": 19,
-    "stg": 2,
-    "p": 4412.6
+    "seer": 13.4,
+    "stg": 1,
+    "p": 3099.82
   },
   {
-    "n": "HP 4T 19S VS Comm",
-    "m": "RP19AY48AJVCA",
-    "b": "Rheem",
-    "ton": 4,
-    "seer": 19,
-    "stg": 2,
-    "p": 4860.31
-  },
-  {
-    "n": "HP 5T 19S VS Comm",
-    "m": "RP19AY60AJVCA",
-    "b": "Rheem",
+    "n": "Heat Pump SDI Extreme 2 4 to 5 Ton Top Discharge R-454B",
+    "m": "",
+    "b": "",
     "ton": 5,
-    "seer": 19,
-    "stg": 2,
-    "p": 5357.09
+    "seer": 0,
+    "stg": 1,
+    "p": 4663.16
   },
   {
-    "n": "Bosch IDS Premium 3T 20 SEER",
-    "m": "BOVA-36RTB-M20S",
-    "b": "Bosch",
+    "n": "Heat Pump SDI Pro 2 3 Ton Top Discharge R-454B",
+    "m": "",
+    "b": "",
     "ton": 3,
-    "seer": 20,
-    "stg": 2,
-    "p": 4215.45
+    "seer": 0,
+    "stg": 1,
+    "p": 3106.58
   },
   {
-    "n": "Bosch IDS Premium 5T 20 SEER",
-    "m": "BOVA-60RTB-M20S",
+    "n": "Heat Pump IDS Edge Inverter 5 Ton Max ODU R454B Max Output -22",
+    "m": "BOHA-60MTB-M18S",
     "b": "Bosch",
     "ton": 5,
-    "seer": 20,
-    "stg": 2,
-    "p": 5598.82
+    "seer": 0,
+    "stg": 1,
+    "p": 4060.07
   },
   {
-    "n": "Bosch IDS Ultra 5T 19 SEER Inv",
-    "m": "BOVA-60MTB-M19E",
-    "b": "Bosch",
-    "ton": 5,
-    "seer": 19,
-    "stg": 2,
-    "p": 5610
+    "n": "Heat Pump Residential Split 14.3S2 3.0T R454B OTC",
+    "m": "RH436E2S11",
+    "b": "York",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1538.13
   },
   {
-    "n": "Bosch IDS Light 2T 15 SEER",
-    "m": "BOVA-24RXB-M15S",
-    "b": "Bosch",
-    "ton": 2,
-    "seer": 15,
-    "stg": 2,
-    "p": 2586.86
-  },
-  {
-    "n": "Bosch IDS Light 3T 15 SEER",
-    "m": "BOVA-36RXB-M15S",
-    "b": "Bosch",
-    "ton": 3,
-    "seer": 15,
-    "stg": 2,
-    "p": 2928.53
-  },
-  {
-    "n": "Bosch IDS Light 5T 15 SEER",
-    "m": "BOVA-60RXB-M15S",
-    "b": "Bosch",
-    "ton": 5,
-    "seer": 15,
-    "stg": 2,
-    "p": 3659.72
-  },
-  {
-    "n": "Bosch IDS Ultra 3T 19 SEER2",
+    "n": "Heat Pump IDS Ultra 3 Ton Condenser 19SEER2",
     "m": "BOVB-36MTB-M19E",
     "b": "Bosch",
     "ton": 3,
     "seer": 19,
-    "stg": 2,
-    "p": 5106.14
+    "stg": 1,
+    "p": 5257.81
   },
   {
-    "n": "Bosch IDS Edge 2T Max",
-    "m": "BOHA-24MTB-M18S",
-    "b": "Bosch",
-    "ton": 2,
-    "seer": 18,
-    "stg": 2,
-    "p": 2563.74
-  },
-  {
-    "n": "Bosch IDS Edge 2T Reg",
-    "m": "BOHA-24RTB-M18S",
-    "b": "Bosch",
-    "ton": 2,
-    "seer": 18,
-    "stg": 2,
-    "p": 2439.06
-  },
-  {
-    "n": "Bosch IDS Edge 3T Reg",
-    "m": "BOHA-36RTB-M18S",
+    "n": "Air Handler IDS Ultr Unit 3 Tons 19SEER2 DR",
+    "m": "BIVB-36MCB-M19X",
     "b": "Bosch",
     "ton": 3,
-    "seer": 18,
-    "stg": 2,
-    "p": 2761.14
+    "seer": 19,
+    "stg": 1,
+    "p": 2881.1
   },
   {
-    "n": "Bosch IDS Edge 3T Max",
-    "m": "BOHA-36MTB-M18S",
-    "b": "Bosch",
-    "ton": 3,
-    "seer": 18,
-    "stg": 2,
-    "p": 3067.43
-  },
-  {
-    "n": "Bosch IDS Edge 5T Max",
-    "m": "BOHA-60MTB-M18S",
-    "b": "Bosch",
-    "ton": 5,
-    "seer": 18,
-    "stg": 2,
-    "p": 3980.46
-  },
-  {
-    "n": "Bosch IDS Edge 5T Reg",
+    "n": "Heat Pump IDS Edge Inverter 5 Ton ODU R454B Regular Output -13",
     "m": "BOHA-60RTB-M18S",
     "b": "Bosch",
     "ton": 5,
+    "seer": 0,
+    "stg": 1,
+    "p": 3519.61
+  },
+  {
+    "n": "Heat Pump IDS Edge Inverter 3 Ton ODU R454B Regular Output -13",
+    "m": "BOHA-36RTB-M18S",
+    "b": "Bosch",
+    "ton": 3,
+    "seer": 0,
+    "stg": 1,
+    "p": 2816.36
+  },
+  {
+    "n": "Heat Pump IDS Edge Inverter 3 Ton Max ODU R454B Max Output -22",
+    "m": "BOHA-36MTB-M18S",
+    "b": "Bosch",
+    "ton": 3,
+    "seer": 0,
+    "stg": 1,
+    "p": 3128.77
+  },
+  {
+    "n": "Heat Pump IDS Edge Inverter 2 Ton ODU R454B Regular Output -13",
+    "m": "BOHA-24RTB-M18S",
+    "b": "Bosch",
+    "ton": 2,
+    "seer": 0,
+    "stg": 1,
+    "p": 2487.84
+  },
+  {
+    "n": "Heat Pump IDS Edge Inverter 2 Ton Max ODU R454B Max Output -22",
+    "m": "BOHA-24MTB-M18S",
+    "b": "Bosch",
+    "ton": 2,
+    "seer": 0,
+    "stg": 1,
+    "p": 2615.01
+  },
+  {
+    "n": "Heat Pump 33K BTU 2.5 Ton Cold Climate 17.0 Seer R-454B 3001 Cubic Feet per Minute 33 K BTU 10.0 HSPF2 208/...",
+    "m": "",
+    "b": "",
+    "ton": 2.5,
+    "seer": 17,
+    "stg": 1,
+    "p": 3267.65
+  },
+  {
+    "n": "Heat Pump 18K BTU 1.5 Ton Cold Climate 19.0 Seer R-454B 1765 Cubic Feet per Minute 19 K BTU 9.7 HSPF2 208/2...",
+    "m": "",
+    "b": "",
+    "ton": 1.5,
+    "seer": 19,
+    "stg": 1,
+    "p": 2004.25
+  },
+  {
+    "n": "Heat Pump SDI Extreme 2 to 3 Ton Top Discharge",
+    "m": "",
+    "b": "",
+    "ton": 3,
+    "seer": 0,
+    "stg": 1,
+    "p": 3463.16
+  },
+  {
+    "n": "Heat Pump Pro 2 SDI 4 to 5 Ton R-454B",
+    "m": "",
+    "b": "",
+    "ton": 5,
+    "seer": 0,
+    "stg": 1,
+    "p": 4180.26
+  },
+  {
+    "n": "Heat Pump 5 Ton Inverter Split R-454B 21 SEER2",
+    "m": "General Electric NS21H60MA5",
+    "b": "General",
+    "ton": 5,
+    "seer": 21,
+    "stg": 1,
+    "p": 9284.21
+  },
+  {
+    "n": "Heat Pump 4 Ton Inverter Split R-454B 21 SEER2",
+    "m": "General Electric NS21H48MA5",
+    "b": "General",
+    "ton": 4,
+    "seer": 21,
+    "stg": 1,
+    "p": 8471.05
+  },
+  {
+    "n": "Heat Pump 3 Ton Inverter Split R-454B 21 SEER2",
+    "m": "General Electric NS21H36MA5",
+    "b": "General",
+    "ton": 3,
+    "seer": 21,
+    "stg": 1,
+    "p": 8111.84
+  },
+  {
+    "n": "Heat Pump 2 Ton Inverter Split R-454B 21 SEER2",
+    "m": "General Electric NS21H24MA5",
+    "b": "General",
+    "ton": 2,
+    "seer": 21,
+    "stg": 1,
+    "p": 7338.16
+  },
+  {
+    "n": "Heat Pump 4 to 5 Ton Inverter Split R-454B 19 SEER2",
+    "m": "General Electric NS19H60MA5",
+    "b": "General",
+    "ton": 5,
+    "seer": 19,
+    "stg": 1,
+    "p": 6407.9
+  },
+  {
+    "n": "Heat Pump 2 to 3 Ton Inverter Split R-454B 19 SEER2",
+    "m": "General Electric NS19H36MA5",
+    "b": "General",
+    "ton": 3,
+    "seer": 19,
+    "stg": 1,
+    "p": 4780.26
+  },
+  {
+    "n": "Heat Pump 5 Ton Residential Split 15.2 SEER2 R-454B",
+    "m": "YH560E2S11",
+    "b": "York",
+    "ton": 5,
+    "seer": 15.2,
+    "stg": 1,
+    "p": 2483.32
+  },
+  {
+    "n": "Heat Pump 4 Ton Residential Split 15.2 SEER2 R-454B",
+    "m": "YH548E2S11",
+    "b": "York",
+    "ton": 4,
+    "seer": 15.2,
+    "stg": 1,
+    "p": 2254.53
+  },
+  {
+    "n": "Heat Pump 3 Ton Residential Split 15.2 SEER2 R-454B",
+    "m": "YH536E2S11",
+    "b": "York",
+    "ton": 3,
+    "seer": 15.2,
+    "stg": 1,
+    "p": 1946.62
+  },
+  {
+    "n": "Heat Pump 2 Ton Residential Split 15.2 SEER2 R-454B",
+    "m": "YH524E2S11",
+    "b": "York",
+    "ton": 2,
+    "seer": 15.2,
+    "stg": 1,
+    "p": 1519.54
+  },
+  {
+    "n": "Heat Pump 4 Ton Residential Split 14.3 SEER2 R-454B",
+    "m": "YH448E2S11",
+    "b": "York",
+    "ton": 4,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 1985.7
+  },
+  {
+    "n": "Heat Pump 3 Ton Residential Split 14.3 SEER2 R-454B",
+    "m": "YH436E2S11",
+    "b": "York",
+    "ton": 3,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 1709.25
+  },
+  {
+    "n": "Heat Pump 2 Ton Residential Split 14.3 SEER2 R-454B",
+    "m": "YH424E2S11",
+    "b": "York",
+    "ton": 2,
+    "seer": 14.3,
+    "stg": 1,
+    "p": 1352.72
+  },
+  {
+    "n": "Heat Pump 5 Ton Residential Split 18 SEER2 R-454B",
+    "m": "HH860E2S11",
+    "b": "York",
+    "ton": 5,
     "seer": 18,
-    "stg": 2,
-    "p": 3450.59
+    "stg": 1,
+    "p": 2430.89
+  },
+  {
+    "n": "Heat Pump 3 Ton Residential Split 18 SEER2 R-454B",
+    "m": "HH836E2S11",
+    "b": "York",
+    "ton": 3,
+    "seer": 18,
+    "stg": 1,
+    "p": 2049.57
+  },
+  {
+    "n": "Heat Pump 2 Ton Residential Split 18 SEER2 R-454B",
+    "m": "HH824E2S11",
+    "b": "York",
+    "ton": 2,
+    "seer": 18,
+    "stg": 1,
+    "p": 1630.13
+  },
+  {
+    "n": "Heat Pump Residential Split 14.3S2 4.0T R454B OTC",
+    "m": "RH448E2S11",
+    "b": "York",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1786.94
+  },
+  {
+    "n": "Heat Pump Residential Split 14.3S2 5.0T R454B OTC",
+    "m": "RH460E2S11",
+    "b": "York",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1992.37
+  },
+  {
+    "n": "Heat Pump Residential Split 14.3S2 2.0T R454B OTC",
+    "m": "RH424E2S11",
+    "b": "York",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1217.35
+  },
+  {
+    "n": "Heat Pump 18K BTU Regular Outdoor Ducted 17 SEER2 R-401A 208/230 Volt 1 Phase",
+    "m": "",
+    "b": "",
+    "ton": 0,
+    "seer": 17,
+    "stg": 1,
+    "p": 1041.43
+  },
+  {
+    "n": "Heat Pump 24K BTU Regular Outdoor Ducted 208/230 Volt 1 Phase",
+    "m": "",
+    "b": "",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1279.69
+  },
+  {
+    "n": "Heat Pump 36K BTU Regular Outdoor Ducted R-401A 208/230 Volt 1 Phase",
+    "m": "",
+    "b": "",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1728.9
+  },
+  {
+    "n": "Heat Pump 48K BTU 4 Ton Regular Outdoor Ducted R-401A 15.8 SEER2",
+    "m": "",
+    "b": "",
+    "ton": 4,
+    "seer": 15.8,
+    "stg": 1,
+    "p": 2725.9
+  },
+  {
+    "n": "Minisplit 48kBTU Single Zone Condensing",
+    "m": "8733953123",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 3308.85
+  },
+  {
+    "n": "Minisplit 36kBTU Multi Zone Condensing S",
+    "m": "8733942705",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 2176.34
+  },
+  {
+    "n": "Minisplit 48kBTU Universal Cassette 230V",
+    "m": "8733953114",
+    "b": "Bosch",
+    "ton": 0,
+    "seer": 0,
+    "stg": 1,
+    "p": 1511.76
   }
 ]
