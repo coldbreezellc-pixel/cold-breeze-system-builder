@@ -600,16 +600,6 @@
     "p": 3294.59
   },
   {
-    "n": "Air Handler FWA-HW Less Pump Heat Only 120 Volt 8.1 Amps 52.8K BTU",
-    "m": "FWA50HW",
-    "b": "First Co",
-    "ton": 0.7,
-    "btu": 8,
-    "v": "120",
-    "stg": 1,
-    "p": 1585.21
-  },
-  {
     "n": "Air Handler 4 Ton R-454B Variable Speed 1 Piece Thermal Expansion Valve",
     "m": "NAM48V1TA5S",
     "b": "GE",
