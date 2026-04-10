@@ -908,7 +908,7 @@ ${notesHtml}
   const saveToDrive = async () => {
     const clientId = getGoogleClientId();
     if (!clientId) {
-      alert('Google Drive not configured.\n\nGo to the setup screen and enter your Google OAuth Client ID to enable this feature.');
+      alert('Google Drive not configured yet.\n\nTo enable this feature:\n1. Click the ⚙️ Settings gear icon (top-right)\n2. Enter your Google OAuth Client ID\n3. Instructions for creating one are shown in the settings panel\n\nOnce configured, this button will save your estimate directly to Google Drive!');
       return;
     }
 
@@ -1776,13 +1776,11 @@ ${notesHtml2}
                 </div>
                 <div style={{marginTop:12,display:"flex",flexDirection:"column",gap:6}}>
                   <button onClick={generatePDF} style={{width:"100%",padding:"10px",borderRadius:8,border:"2px solid #10b981",cursor:"pointer",fontSize:13,fontWeight:800,background:"linear-gradient(135deg,#10b981,#059669)",color:"#fff"}}>📄 Generate Estimate PDF</button>
-                  {getGoogleClientId() && (
-                    <button onClick={saveToDrive} disabled={gDriveSaving}
-                      style={{width:"100%",padding:"10px",borderRadius:8,border:"2px solid #4285f4",cursor:gDriveSaving?"wait":"pointer",fontSize:13,fontWeight:800,
-                        background:gDriveSaving?"#94a3b8":"linear-gradient(135deg,#4285f4,#2563eb)",color:"#fff",transition:"all .2s"}}>
-                      {gDriveSaving ? "☁️ Saving..." : "☁️ Save to Google Drive"}
-                    </button>
-                  )}
+                  <button onClick={saveToDrive} disabled={gDriveSaving}
+                    style={{width:"100%",padding:"10px",borderRadius:8,border:"2px solid #4285f4",cursor:gDriveSaving?"wait":"pointer",fontSize:13,fontWeight:800,
+                      background:gDriveSaving?"#94a3b8":"linear-gradient(135deg,#4285f4,#2563eb)",color:"#fff",transition:"all .2s"}}>
+                    {gDriveSaving ? "☁️ Saving..." : "☁️ Save to Google Drive"}
+                  </button>
                   {gDriveMsg && (
                     <div style={{padding:"6px 10px",borderRadius:6,fontSize:11,fontWeight:600,textAlign:"center",
                       background:gDriveStatus==="success"?"#d1fae5":gDriveStatus==="error"?"#fee2e2":"#dbeafe",
