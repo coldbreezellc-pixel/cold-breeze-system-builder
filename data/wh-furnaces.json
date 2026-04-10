@@ -888,18 +888,6 @@
     "p": 2286.74
   },
   {
-    "n": "Gas Furnace 45K BTU 96% 3 Ton Upflow/Horizontal 1 Stage R-454B B Cabinet",
-    "m": "NF96U045S3BR",
-    "b": "GE",
-    "ton": 3,
-    "btu": 45,
-    "afue": 96,
-    "cab": "B",
-    "w": "17.5",
-    "stg": 1,
-    "p": 1297.65
-  },
-  {
     "n": "Gas Furnace 110K BTU 80% 5 Ton Upflow/Horizontal 2 Stage R-454B C Cabinet",
     "m": "NF80U110V5CR",
     "b": "GE",
